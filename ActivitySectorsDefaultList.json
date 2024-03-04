@@ -1,0 +1,54 @@
+[
+  {
+    "id": "01",
+    "label": "Retail"
+  },
+  {
+    "id": "02",
+    "label": "Technology"
+  },
+  {
+    "id": "03",
+    "label": "Manufacturing"
+  },
+  {
+    "id": "04",
+    "label": "Pharmaceuticals"
+  },
+  {
+    "id": "05",
+    "label": "Food & Beverages"
+  },
+  {
+    "id": "06",
+    "label": "Fashion"
+  },
+  {
+    "id": "07",
+    "label": "Arts and Crafts"
+  },
+  {
+    "id": "08",
+    "label": "Healthcare Products"
+  },
+  {
+    "id": "09",
+    "label": "Consumer Electronics"
+  },
+  {
+    "id": "10",
+    "label": "Automotive Parts"
+  },
+  {
+    "id": "11",
+    "label": "Home & Garden"
+  },
+  {
+    "id": "12",
+    "label": "Sports & Recreation"
+  },
+  {
+    "id": "13",
+    "label": "Beauty & Personal Care"
+  }
+]
