@@ -5,7 +5,7 @@
         "components": [
             {
                 "label": "Open Documentation",
-                "action": "external_browser",
+                "action": "browser",
                 "url": "https://drive.google.com/file/d/1u_HBg_loC6veqnRrkxR7Sza8WmS01_T9/view?usp=sharing"
             }
         ]
@@ -17,14 +17,87 @@
             {
                 "label": "Fill Simple Data",
                 "action": "generate_data",
-                "data": {
-                    "key": "value",
-                    "key2": "value2"
-                }
+                "data": [
+                    {
+                        "template_label": "Company Info",
+                        "template_data": [
+                            {
+                                "font_name": "headline",
+                                "value": "Name:"
+                            },
+                            {
+                                "font_name": "largeTitle",
+                                "value": "Company Name"
+                            },
+                            {
+                                "font_name": "headline",
+                                "value": "Short Description:"
+                            },
+                            {
+                                "font_name": "subheadline",
+                                "value": "A brief introduction to your company."
+                            },
+                            {
+                                "font_name": "headline",
+                                "value": "Detailed Description:"
+                            },
+                            {
+                                "font_name": "caption",
+                                "value": "An extensive narrative about your company, covering key aspects such as the history, mission, values, and distinctive features of your company. Highlight your company's achievements and the value it brings to customers."
+                            }
+                        ]
+                    },
+                    {
+                        "template_label": "Product Info",
+                        "template_data": [
+                            {
+                                "font_name": "headline",
+                                "value": "Name:"
+                            },
+                            {
+                                "font_name": "largeTitle",
+                                "value": "Product Name"
+                            },
+                            {
+                                "font_name": "headline",
+                                "value": "Short Description:"
+                            },
+                            {
+                                "font_name": "subheadline",
+                                "value": "A concise overview of your product."
+                            },
+                            {
+                                "font_name": "headline",
+                                "value": "Detailed Description:"
+                            },
+                            {
+                                "font_name": "caption",
+                                "value": "An in-depth exploration of your product's features, composition, and benefits. Detail the product's creation process and its source of supply."
+                            },
+                            {
+                                "font_name": "headline",
+                                "value": "Composition :"
+                            },
+                            {
+                                "font_name": "caption",
+                                "value": "An in-depth exploration of your product composition."
+                            },
+                            {
+                                "font_name": "headline",
+                                "value": "Creation Process :"
+                            },
+                            {
+                                "font_name": "caption",
+                                "value": "An in-depth exploration of your product creation process."
+                            }
+
+                        ]
+                    }
+                ]
             },
             {
                 "label": "Open Documentation",
-                "action": "external_browser",
+                "action": "browser",
                 "url": "https://drive.google.com/file/d/1u_HBg_loC6veqnRrkxR7Sza8WmS01_T9/view?usp=sharing"
             }
         ]
