@@ -1,0 +1,176 @@
+[
+    {
+        "company_id": "331230AZE",
+        "company_name": "Cafe-Resterant-002",
+        "company_data": {
+            "collectionSupportedLanguage": [
+                {
+                    "id": "en",
+                    "label": "English"
+                },
+                {
+                    "id": "fr",
+                    "label": "French"
+                }
+            ],
+            "collectionTVA": [
+                {
+                    "id": "standard",
+                    "label": "Standard Rate",
+                    "value": "20%"
+                }
+            ],
+            "isVariantManagementActivated": true,
+            "shortDescription": "Tech Innovations Company",
+            "activitySectorID": "IT001",
+            "activitySectorLabel": "Information Technology"
+        },
+        "localizable_company_info": [
+            {
+                "local_id": "fr-FR",
+                "data": [
+                    {
+                        "font_name": "headline",
+                        "value": "Nom :"
+                    },
+                    {
+                        "font_name": "largeTitle",
+                        "value": "La Grotte du Corsaire"
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "Emplacement :"
+                    },
+                    {
+                        "font_name": "subheadline",
+                        "value": "Skanes, Monastir, Tunisie."
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "Qui sommes-nous ?"
+                    },
+                    {
+                        "font_name": "caption",
+                        "value": "Nous sommes une équipe passionnée par l'univers du café et de la restauration. Notre charmant établissement, créé en 2010, est un véritable petit paradis."
+                    }
+                ]
+            },
+            {
+                "local_id": "en-EN",
+                "data": [
+                    {
+                        "font_name": "headline",
+                        "value": "Name:"
+                    },
+                    {
+                        "font_name": "largeTitle",
+                        "value": "The Corsair's Cave"
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "Location:"
+                    },
+                    {
+                        "font_name": "subheadline",
+                        "value": "Skanes, Monastir, Tunisia."
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "Who are we?"
+                    },
+                    {
+                        "font_name": "caption",
+                        "value": "We are a team passionate about the world of coffee and dining. Our charming establishment, created in 2010, is a true little paradise."
+                    }
+                ]
+            },
+            {
+                "local_id": "it-IT",
+                "data": [
+                    {
+                        "font_name": "headline",
+                        "value": "Nome:"
+                    },
+                    {
+                        "font_name": "largeTitle",
+                        "value": "La Grotta del Corsaro"
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "Posizione:"
+                    },
+                    {
+                        "font_name": "subheadline",
+                        "value": "Skanes, Monastir, Tunisia."
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "Chi siamo?"
+                    },
+                    {
+                        "font_name": "caption",
+                        "value": "Siamo un team appassionato del mondo del caffè e della ristorazione. Il nostro incantevole stabilimento, creato nel 2010, è un vero piccolo paradiso."
+                    }
+                ]
+            },
+            {
+                "local_id": "ar-AR",
+                "data": [
+                    {
+                        "font_name": "headline",
+                        "value": "الاسم:"
+                    },
+                    {
+                        "font_name": "largeTitle",
+                        "value": "كهف القرصان"
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "الموقع:"
+                    },
+                    {
+                        "font_name": "subheadline",
+                        "value": "سكانس، المنستير، تونس."
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "من نحن؟"
+                    },
+                    {
+                        "font_name": "caption",
+                        "value": "نحن فريق متحمس لعالم المقاهي والمطاعم. مؤسستنا الساحرة، التي تأسست في عام 2010، هي جنة صغيرة حقيقية."
+                    }
+                ]
+            },
+            {
+                "local_id": "de-DE",
+                "data": [
+                    {
+                        "font_name": "headline",
+                        "value": "Name:"
+                    },
+                    {
+                        "font_name": "largeTitle",
+                        "value": "Die Höhle des Korsaren"
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "Standort:"
+                    },
+                    {
+                        "font_name": "subheadline",
+                        "value": "Skanes, Monastir, Tunesien."
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "Wer sind wir?"
+                    },
+                    {
+                        "font_name": "caption",
+                        "value": "Wir sind ein Team, das leidenschaftlich über die Welt von Kaffee und Gastronomie ist. Unsere charmante Einrichtung, die 2010 gegründet wurde, ist ein wahres kleines Paradies."
+                    }
+                ]
+            }
+        ]
+    }
+]
