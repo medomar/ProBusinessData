@@ -1,7 +1,7 @@
 [
     {
-        "company_id": "331230AZE",
-        "company_name": "Cafe-Resterant-002",
+        "company_id": "442210BZD",
+        "company_name": "TechSolutions-101",
         "company_data": {
             "collectionSupportedLanguage": [
                 {
@@ -9,52 +9,17 @@
                     "label": "English"
                 },
                 {
-                    "id": "fr",
-                    "label": "French"
+                    "id": "de",
+                    "label": "German"
                 }
             ],
-            "collectionTVA": [
-                {
-                    "id": "standard",
-                    "label": "Standard Rate",
-                    "value": "20%"
-                }
-            ],
-            "isVariantManagementActivated": true,
-            "shortDescription": "Tech Innovations Company",
-            "activitySectorID": "IT001",
-            "activitySectorLabel": "Information Technology"
+            "collectionTVA": [{}],
+            "isVariantManagementActivated": false,
+            "shortDescription": "Leading Tech Consulting Firm",
+            "activitySectorID": "CONS001",
+            "activitySectorLabel": "Consulting"
         },
         "localizable_company_info": [
-            {
-                "local_id": "fr-FR",
-                "data": [
-                    {
-                        "font_name": "headline",
-                        "value": "Nom :"
-                    },
-                    {
-                        "font_name": "largeTitle",
-                        "value": "La Grotte du Corsaire"
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "Emplacement :"
-                    },
-                    {
-                        "font_name": "subheadline",
-                        "value": "Skanes, Monastir, Tunisie."
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "Qui sommes-nous ?"
-                    },
-                    {
-                        "font_name": "caption",
-                        "value": "Nous sommes une équipe passionnée par l'univers du café et de la restauration. Notre charmant établissement, créé en 2010, est un véritable petit paradis."
-                    }
-                ]
-            },
             {
                 "local_id": "en-EN",
                 "data": [
@@ -64,7 +29,7 @@
                     },
                     {
                         "font_name": "largeTitle",
-                        "value": "The Corsair's Cave"
+                        "value": "Innovative Tech Solutions"
                     },
                     {
                         "font_name": "headline",
@@ -72,7 +37,7 @@
                     },
                     {
                         "font_name": "subheadline",
-                        "value": "Skanes, Monastir, Tunisia."
+                        "value": "Berlin, Germany."
                     },
                     {
                         "font_name": "headline",
@@ -80,65 +45,7 @@
                     },
                     {
                         "font_name": "caption",
-                        "value": "We are a team passionate about the world of coffee and dining. Our charming establishment, created in 2010, is a true little paradise."
-                    }
-                ]
-            },
-            {
-                "local_id": "it-IT",
-                "data": [
-                    {
-                        "font_name": "headline",
-                        "value": "Nome:"
-                    },
-                    {
-                        "font_name": "largeTitle",
-                        "value": "La Grotta del Corsaro"
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "Posizione:"
-                    },
-                    {
-                        "font_name": "subheadline",
-                        "value": "Skanes, Monastir, Tunisia."
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "Chi siamo?"
-                    },
-                    {
-                        "font_name": "caption",
-                        "value": "Siamo un team appassionato del mondo del caffè e della ristorazione. Il nostro incantevole stabilimento, creato nel 2010, è un vero piccolo paradiso."
-                    }
-                ]
-            },
-            {
-                "local_id": "ar-AR",
-                "data": [
-                    {
-                        "font_name": "headline",
-                        "value": "الاسم:"
-                    },
-                    {
-                        "font_name": "largeTitle",
-                        "value": "كهف القرصان"
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "الموقع:"
-                    },
-                    {
-                        "font_name": "subheadline",
-                        "value": "سكانس، المنستير، تونس."
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "من نحن؟"
-                    },
-                    {
-                        "font_name": "caption",
-                        "value": "نحن فريق متحمس لعالم المقاهي والمطاعم. مؤسستنا الساحرة، التي تأسست في عام 2010، هي جنة صغيرة حقيقية."
+                        "value": "A leading firm in tech consulting, offering cutting-edge solutions since 2015."
                     }
                 ]
             },
@@ -151,7 +58,7 @@
                     },
                     {
                         "font_name": "largeTitle",
-                        "value": "Die Höhle des Korsaren"
+                        "value": "Innovative Tech-Lösungen"
                     },
                     {
                         "font_name": "headline",
@@ -159,7 +66,7 @@
                     },
                     {
                         "font_name": "subheadline",
-                        "value": "Skanes, Monastir, Tunesien."
+                        "value": "Berlin, Deutschland."
                     },
                     {
                         "font_name": "headline",
@@ -167,7 +74,88 @@
                     },
                     {
                         "font_name": "caption",
-                        "value": "Wir sind ein Team, das leidenschaftlich über die Welt von Kaffee und Gastronomie ist. Unsere charmante Einrichtung, die 2010 gegründet wurde, ist ein wahres kleines Paradies."
+                        "value": "Ein führendes Unternehmen in der Technologieberatung, das seit 2015 innovative Lösungen anbietet."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "company_id": "553320CDE",
+        "company_name": "EcoGreen-204",
+        "company_data": {
+            "collectionSupportedLanguage": [
+                {
+                    "id": "en",
+                    "label": "English"
+                },
+                {
+                    "id": "fr",
+                    "label": "French"
+                }
+            ],
+            "collectionTVA": [{}],
+            "isVariantManagementActivated": true,
+            "shortDescription": "Sustainable Energy Solutions",
+            "activitySectorID": "ENRG002",
+            "activitySectorLabel": "Energy"
+        },
+        "localizable_company_info": [
+            {
+                "local_id": "en-EN",
+                "data": [
+                    {
+                        "font_name": "headline",
+                        "value": "Name:"
+                    },
+                    {
+                        "font_name": "largeTitle",
+                        "value": "EcoGreen Solutions"
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "Location:"
+                    },
+                    {
+                        "font_name": "subheadline",
+                        "value": "San Francisco, USA."
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "Who are we?"
+                    },
+                    {
+                        "font_name": "caption",
+                        "value": "Pioneers in sustainable energy, committed to green solutions since 2012."
+                    }
+                ]
+            },
+            {
+                "local_id": "fr-FR",
+                "data": [
+                    {
+                        "font_name": "headline",
+                        "value": "Nom :"
+                    },
+                    {
+                        "font_name": "largeTitle",
+                        "value": "Solutions EcoGreen"
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "Emplacement :"
+                    },
+                    {
+                        "font_name": "subheadline",
+                        "value": "San Francisco, États-Unis."
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "Qui sommes-nous ?"
+                    },
+                    {
+                        "font_name": "caption",
+                        "value": "Pionniers dans l'énergie durable, engagés envers les solutions vertes depuis 2012."
                     }
                 ]
             }
