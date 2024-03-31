@@ -6,11 +6,11 @@
             "name": "TechSolutions-101",
             "collectionSupportedLanguage": [
                 {
-                    "id": "en",
+                    "id": "en-EN",
                     "label": "English"
                 },
                 {
-                    "id": "de",
+                    "id": "de-DE",
                     "label": "German"
                 }
             ],
@@ -20,66 +20,7 @@
             "activitySectorID": "CONS001",
             "activitySectorLabel": "Consulting"
         },
-        "localizable_company_info": [
-            {
-                "local_id": "en-EN",
-                "data": [
-                    {
-                        "font_name": "headline",
-                        "value": "Name:"
-                    },
-                    {
-                        "font_name": "largeTitle",
-                        "value": "Innovative Tech Solutions"
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "Location:"
-                    },
-                    {
-                        "font_name": "subheadline",
-                        "value": "Berlin, Germany."
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "Who are we?"
-                    },
-                    {
-                        "font_name": "caption",
-                        "value": "A leading firm in tech consulting, offering cutting-edge solutions since 2015."
-                    }
-                ]
-            },
-            {
-                "local_id": "de-DE",
-                "data": [
-                    {
-                        "font_name": "headline",
-                        "value": "Name:"
-                    },
-                    {
-                        "font_name": "largeTitle",
-                        "value": "Innovative Tech-Lösungen"
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "Standort:"
-                    },
-                    {
-                        "font_name": "subheadline",
-                        "value": "Berlin, Deutschland."
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "Wer sind wir?"
-                    },
-                    {
-                        "font_name": "caption",
-                        "value": "Ein führendes Unternehmen in der Technologieberatung, das seit 2015 innovative Lösungen anbietet."
-                    }
-                ]
-            }
-        ]
+        "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/TechSolution/techSolutionData.json",
     },
     {
         "company_id": "553320CDE",
@@ -88,11 +29,11 @@
             "name": "EcoGreen-204",
             "collectionSupportedLanguage": [
                 {
-                    "id": "en",
+                    "id": "en-EN",
                     "label": "English"
                 },
                 {
-                    "id": "fr",
+                    "id": "fr-FR",
                     "label": "French"
                 }
             ],
@@ -108,65 +49,6 @@
             "activitySectorID": "ENRG002",
             "activitySectorLabel": "Energy"
         },
-        "localizable_company_info": [
-            {
-                "local_id": "en-EN",
-                "data": [
-                    {
-                        "font_name": "headline",
-                        "value": "Name:"
-                    },
-                    {
-                        "font_name": "largeTitle",
-                        "value": "EcoGreen Solutions"
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "Location:"
-                    },
-                    {
-                        "font_name": "subheadline",
-                        "value": "San Francisco, USA."
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "Who are we?"
-                    },
-                    {
-                        "font_name": "caption",
-                        "value": "Pioneers in sustainable energy, committed to green solutions since 2012."
-                    }
-                ]
-            },
-            {
-                "local_id": "fr-FR",
-                "data": [
-                    {
-                        "font_name": "headline",
-                        "value": "Nom :"
-                    },
-                    {
-                        "font_name": "largeTitle",
-                        "value": "Solutions EcoGreen"
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "Emplacement :"
-                    },
-                    {
-                        "font_name": "subheadline",
-                        "value": "San Francisco, États-Unis."
-                    },
-                    {
-                        "font_name": "headline",
-                        "value": "Qui sommes-nous ?"
-                    },
-                    {
-                        "font_name": "caption",
-                        "value": "Pionniers dans l'énergie durable, engagés envers les solutions vertes depuis 2012."
-                    }
-                ]
-            }
-        ]
+        "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/EcoGreen-204/ecoGreenData.json",
     }
 ]
