@@ -19,6 +19,7 @@
         "activitySectorID": "CONS001",
         "activitySectorLabel": "Consulting"
     },
+    "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/TechSolution/techSolutionData.json",
     "localizable_company_info": [
         {
             "local_id": "en-EN",

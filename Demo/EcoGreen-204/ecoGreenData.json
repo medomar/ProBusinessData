@@ -25,6 +25,7 @@
         "activitySectorID": "ENRG002",
         "activitySectorLabel": "Energy"
     },
+    "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/EcoGreen-204/ecoGreenData.json",
     "localizable_company_info": [
         {
             "local_id": "en-EN",
