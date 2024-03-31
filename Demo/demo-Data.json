@@ -3,6 +3,7 @@
         "company_id": "442210BZD",
         "company_name": "TechSolutions-101",
         "company_data": {
+            "name": "TechSolutions-101",
             "collectionSupportedLanguage": [
                 {
                     "id": "en",
@@ -13,7 +14,7 @@
                     "label": "German"
                 }
             ],
-            "collectionTVA": [{}],
+            "collectionTVA": [],
             "isVariantManagementActivated": false,
             "shortDescription": "Leading Tech Consulting Firm",
             "activitySectorID": "CONS001",
@@ -84,6 +85,7 @@
         "company_id": "553320CDE",
         "company_name": "EcoGreen-204",
         "company_data": {
+            "name": "EcoGreen-204",
             "collectionSupportedLanguage": [
                 {
                     "id": "en",
@@ -94,7 +96,13 @@
                     "label": "French"
                 }
             ],
-            "collectionTVA": [{}],
+            "collectionTVA": [
+                {
+                    "id": "standard",
+                    "label": "Standard Rate",
+                    "value": "20%"
+                }
+            ],
             "isVariantManagementActivated": true,
             "shortDescription": "Sustainable Energy Solutions",
             "activitySectorID": "ENRG002",
