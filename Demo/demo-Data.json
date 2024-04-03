@@ -1,5 +1,28 @@
 [
     {
+        "company_id": "030420241755",
+        "company_name": "Restaurant Example",
+        "company_data": {
+            "name": "Restaurant Example",
+            "collectionSupportedLanguage": [
+                {
+                    "id": "en-EN",
+                    "label": "English"
+                },
+                {
+                    "id": "fr-FR",
+                    "label": "French"
+                }
+            ],
+            "collectionTVA": [],
+            "isVariantManagementActivated": false,
+            "shortDescription": "A variety of delicious cultural foods.",
+            "activitySectorID": "REST001",
+            "activitySectorLabel": "Restauration"
+        },
+        "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/firstGPTGenerated/firstGPTGenerated.json",
+    },
+    {
         "company_id": "442210BZD",
         "company_name": "TechSolutions-101",
         "company_data": {

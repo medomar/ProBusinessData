@@ -1,0 +1,91 @@
+{
+    "company_id": "030420241755",
+    "company_name": "Restaurant Example",
+    "company_data": {
+        "name": "Restaurant Example",
+        "collectionSupportedLanguage": [
+            {
+                "id": "en-EN",
+                "label": "English"
+            },
+            {
+                "id": "fr-FR",
+                "label": "French"
+            }
+        ],
+        "collectionTVA": [],
+        "isVariantManagementActivated": false,
+        "shortDescription": "A variety of delicious cultural foods.",
+        "activitySectorID": "REST001",
+        "activitySectorLabel": "Restauration"
+    },
+    "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/firstGPTGenerated/firstGPTGenerated.json",
+    "tags": [
+        {
+            "identifier": "pizza",
+            "name": "Pizza",
+            "shortDescription": "Classic Italian dish with various toppings.",
+            "isProduct": true,
+            "isVariant": false,
+            "localizable": [
+                {
+                    "local_id": "en-EN",
+                    "data": [
+                        {
+                            "font_name": "headline",
+                            "value": "Pizza"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "fr-FR",
+                    "data": [
+                        {
+                            "font_name": "headline",
+                            "value": "Pizza"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "products": [
+        {
+            "identifier": "napolitana",
+            "name": "Napolitana Pizza",
+            "shortDescription": "Tomato sauce, mozzarella, and oregano.",
+            "price": "$100.00",
+            "tags": [
+                "pizza"
+            ],
+            "localizable": [
+                {
+                    "local_id": "en-EN",
+                    "data": [
+                        {
+                            "font_name": "headline",
+                            "value": "Napolitana Pizza"
+                        },
+                        {
+                            "font_name": "caption",
+                            "value": "Tomato sauce, mozzarella, and oregano."
+                        }
+                    ]
+                },
+                {
+                    "local_id": "fr-FR",
+                    "data": [
+                        {
+                            "font_name": "headline",
+                            "value": "Pizza Napolitaine"
+                        },
+                        {
+                            "font_name": "caption",
+                            "value": "Sauce tomate, mozzarella et origan."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
