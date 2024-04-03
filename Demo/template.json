@@ -1,0 +1,80 @@
+{
+  "company_id": "Unique_Company_ID",
+  "company_name": "Company_Name",
+  "company_data": {
+    "name": "Company_Name",
+    "collectionSupportedLanguage": [
+      {
+        "id": "Language_ID",
+        "label": "Language_Label"
+      }
+      // Add more languages as needed
+    ],
+    "collectionTVA": [
+      // Define TVA collection items here
+    ],
+    "isVariantManagementActivated": false, // or true based on requirement
+    "shortDescription": "Short_Description_of_the_Company",
+    "activitySectorID": "Sector_ID",
+    "activitySectorLabel": "Sector_Label"
+  },
+  "company_data_url": "URL_to_Company_Data",
+  "tags": [
+    {
+      "identifier": "Tag_Identifier",
+      "name": "Tag_Name",
+      "shortDescription": "Tag_Short_Description",
+      "isProduct": true, // or false
+      "isVariant": true, // or false
+      "localizable": [
+        {
+          "local_id": "en-EN",
+          "data": [
+            {
+              "font_name": "Font_Style",
+              "value": "Localized_Value"
+            }
+            // Add more data as needed
+          ]
+        }
+        // Add more localizations as needed
+      ]
+    }
+    // Add more tags as needed
+  ],
+  "products": [
+    {
+      "identifier": "Product_Identifier",
+      "name": "Product_Name",
+      "shortDescription": "Product_Short_Description",
+      "tags": ["Associated_Tag_Identifiers"],
+      "localizable": [
+        {
+          "local_id": "Language_ID",
+          "data": [
+            {
+              "font_name": "Font_Style",
+              "value": "Localized_Value"
+            }
+            // Add more data as needed
+          ]
+        }
+        // Add more localizations as needed
+      ]
+    }
+    // Add more products as needed
+  ],
+  "localizable": [
+    {
+      "local_id": "Language_ID",
+      "data": [
+        {
+          "font_name": "Font_Style",
+          "value": "Localized_Value"
+        }
+        // Add more data as needed
+      ]
+    }
+    // Add more localizations as needed
+  ]
+}

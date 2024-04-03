@@ -22,53 +22,163 @@
     "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/firstGPTGenerated/firstGPTGenerated.json",
     "tags": [
         {
-            "identifier": "pizza",
-            "name": "Pizza",
-            "shortDescription": "Classic Italian dish with various toppings.",
-            "isProduct": true,
-            "isVariant": false,
-            "localizable": [
+          "identifier": "pizza_love",
+          "name": "Pizza Love",
+          "shortDescription": "Our selection of classic and inventive pizzas.",
+          "isProduct": true,
+          "isVariant": false,
+          "localizable": [
+            {
+              "local_id": "en-US",
+              "data": [
                 {
-                    "local_id": "en-EN",
-                    "data": [
-                        {
-                            "font_name": "headline",
-                            "value": "Pizza"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "fr-FR",
-                    "data": [
-                        {
-                            "font_name": "headline",
-                            "value": "Pizza"
-                        }
-                    ]
+                  "font_name": "Regular",
+                  "value": "Pizza Love"
                 }
-            ]
+              ]
+            },
+            {
+              "local_id": "fr-FR",
+              "data": [
+                {
+                  "font_name": "Regular",
+                  "value": "Amour de Pizza"
+                }
+              ]
+            },
+            {
+              "local_id": "it-IT",
+              "data": [
+                {
+                  "font_name": "Regular",
+                  "value": "Amore di Pizza"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "identifier": "the_best_burger_in_town",
+          "name": "The Best Burger in Town",
+          "shortDescription": "Indulge in our mouthwatering burgers, voted the best in town.",
+          "isProduct": true,
+          "isVariant": false,
+          "localizable": [
+            {
+              "local_id": "en-US",
+              "data": [
+                {
+                  "font_name": "Regular",
+                  "value": "The Best Burger in Town"
+                }
+              ]
+            },
+            {
+              "local_id": "fr-FR",
+              "data": [
+                {
+                  "font_name": "Regular",
+                  "value": "Le Meilleur Burger de la Ville"
+                }
+              ]
+            },
+            {
+              "local_id": "it-IT",
+              "data": [
+                {
+                  "font_name": "Regular",
+                  "value": "Il Miglior Burger della Città"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "identifier": "special_burritos",
+          "name": "Special Burritos",
+          "shortDescription": "Experience our special burritos with a blend of flavors.",
+          "isProduct": true,
+          "isVariant": false,
+          "localizable": [
+            {
+              "local_id": "en-US",
+              "data": [
+                {
+                  "font_name": "Regular",
+                  "value": "Special Burritos"
+                }
+              ]
+            },
+            {
+              "local_id": "fr-FR",
+              "data": [
+                {
+                  "font_name": "Regular",
+                  "value": "Burritos Spéciaux"
+                }
+              ]
+            },
+            {
+              "local_id": "it-IT",
+              "data": [
+                {
+                  "font_name": "Regular",
+                  "value": "Burritos Speciali"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "identifier": "drinks",
+          "name": "Drinks",
+          "shortDescription": "Quench your thirst with our wide range of beverages.",
+          "isProduct": true,
+          "isVariant": false,
+          "localizable": [
+            {
+              "local_id": "en-US",
+              "data": [
+                {
+                  "font_name": "Regular",
+                  "value": "Drinks"
+                }
+              ]
+            },
+            {
+              "local_id": "fr-FR",
+              "data": [
+                {
+                  "font_name": "Regular",
+                  "value": "Boissons"
+                }
+              ]
+            },
+            {
+              "local_id": "it-IT",
+              "data": [
+                {
+                  "font_name": "Regular",
+                  "value": "Bevande"
+                }
+              ]
+            }
+          ]
         }
-    ],
+      ],
     "products": [
         {
-            "identifier": "napolitana",
-            "name": "Napolitana Pizza",
+            "identifier": "napolitana_pizza",
+            "name": "Napolitana",
             "shortDescription": "Tomato sauce, mozzarella, and oregano.",
-            "price": "$100.00",
-            "tags": [
-                "pizza"
-            ],
+            "tags": ["pizza_love"],
             "localizable": [
                 {
-                    "local_id": "en-EN",
+                    "local_id": "en-US",
                     "data": [
                         {
-                            "font_name": "headline",
+                            "font_name": "Regular",
                             "value": "Napolitana Pizza"
-                        },
-                        {
-                            "font_name": "caption",
-                            "value": "Tomato sauce, mozzarella, and oregano."
                         }
                     ]
                 },
@@ -76,16 +186,238 @@
                     "local_id": "fr-FR",
                     "data": [
                         {
-                            "font_name": "headline",
+                            "font_name": "Regular",
                             "value": "Pizza Napolitaine"
-                        },
+                        }
+                    ]
+                },
+                {
+                    "local_id": "it-IT",
+                    "data": [
                         {
-                            "font_name": "caption",
-                            "value": "Sauce tomate, mozzarella et origan."
+                            "font_name": "Regular",
+                            "value": "Pizza Napoletana"
                         }
                     ]
                 }
-            ]
+            ],
+            "price": 100.00
+        },
+        {
+            "identifier": "pepperoni_pizza",
+            "name": "Pepperoni",
+            "shortDescription": "Tomato sauce, mozzarella, and pepperoni.",
+            "tags": ["pizza_love"],
+            "localizable": [
+                {
+                    "local_id": "en-US",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Pepperoni Pizza"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "fr-FR",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Pizza au Pepperoni"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "it-IT",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Pizza al Pepperoni"
+                        }
+                    ]
+                }
+            ],
+            "price": 130.00
+        },
+        {
+            "identifier": "veggie_pizza",
+            "name": "Veggie",
+            "shortDescription": "Tomato sauce, mozzarella, and various vegetables.",
+            "tags": ["pizza_love"],
+            "localizable": [
+                {
+                    "local_id": "en-US",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Veggie Pizza"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "fr-FR",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Pizza Végétarienne"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "it-IT",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Pizza Vegetariana"
+                        }
+                    ]
+                }
+            ],
+            "price": 60.00
+        },
+        {
+            "identifier": "four_cheese_pizza",
+            "name": "4 Cheese",
+            "shortDescription": "A mix of four delicious cheeses on tomato sauce.",
+            "tags": ["pizza_love"],
+            "localizable": [
+                {
+                    "local_id": "en-US",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Four Cheese Pizza"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "fr-FR",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Pizza Quatre Fromages"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "it-IT",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Pizza Quattro Formaggi"
+                        }
+                    ]
+                }
+            ],
+            "price": 30.00
+        },
+        {
+            "identifier": "simple_burger_1",
+            "name": "Simple Burger",
+            "shortDescription": "A classic burger with lettuce, tomato, and cheese.",
+            "tags": ["the_best_burger_in_town"],
+            "localizable": [
+                {
+                    "local_id": "en-US",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Simple Burger"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "fr-FR",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Burger Simple"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "it-IT",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Burger Semplice"
+                        }
+                    ]
+                }
+            ],
+            "price": 20.00
+        },
+        {
+            "identifier": "simple_burger_2",
+            "name": "Simple Burger",
+            "shortDescription": "A classic burger with lettuce, tomato, and cheese.",
+            "tags": ["the_best_burger_in_town"],
+            "localizable": [
+                {
+                    "local_id": "en-US",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Simple Burger"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "fr-FR",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Burger Simple"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "it-IT",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Burger Semplice"
+                        }
+                    ]
+                }
+            ],
+            "price": 20.00
+        },
+        {
+            "identifier": "simple_burger_3",
+            "name": "Simple Burger",
+            "shortDescription": "A classic burger with lettuce, tomato, and cheese.",
+            "tags": ["the_best_burger_in_town"],
+            "localizable": [
+                {
+                    "local_id": "en-US",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Simple Burger"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "fr-FR",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Burger Simple"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "it-IT",
+                    "data": [
+                        {
+                            "font_name": "Regular",
+                            "value": "Burger Semplice"
+                        }
+                    ]
+                }
+            ],
+            "price": 20.00
         }
     ]
 }
