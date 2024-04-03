@@ -11,6 +11,17 @@
         ]
     },
     {
+        "title": "Product Variant Management",
+        "screen_name": "AppVariantRelationListView",
+        "components": [
+            {
+                "label": "Open Documentation",
+                "action": "browser",
+                "url": "https://drive.google.com/file/d/1rmT0wP7X9dYcBY2pIpT3LRcCkh-b5lCr/view"
+            }
+        ]
+    },
+    {
         "title": "Configure All Related Labels",
         "screen_name": "AppLabelsView",
         "components": [
