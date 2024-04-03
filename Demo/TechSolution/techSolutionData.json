@@ -20,7 +20,79 @@
         "activitySectorLabel": "Consulting"
     },
     "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/TechSolution/techSolutionData.json",
-    "localizable_company_info": [
+    "tags": [
+        {
+            "identifier": "001",
+            "name": "tag_001_name",
+            "shortDescription": "tag_001_shortDescription",
+            "isProduct": true,
+            "isVariant": true,
+            "localizable": [
+                {
+                    "local_id": "en-EN",
+                    "data": [
+                        {
+                            "font_name": "headline",
+                            "value": "Name:"
+                        },
+                        {
+                            "font_name": "largeTitle",
+                            "value": "tag_001_name En Name"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "de-DE",
+                    "data": [
+                        {
+                            "font_name": "headline",
+                            "value": "Name:"
+                        },
+                        {
+                            "font_name": "largeTitle",
+                            "value": "tag_001_name DE Name"
+                        }
+                    ]
+                },
+            ]
+        },
+        {
+            "identifier": "002",
+            "name": "tag_002_name",
+            "shortDescription": "tag_002_shortDescription",
+            "isProduct": true,
+            "isVariant": true,
+            "localizable": [
+                {
+                    "local_id": "en-EN",
+                    "data": [
+                        {
+                            "font_name": "headline",
+                            "value": "Name:"
+                        },
+                        {
+                            "font_name": "largeTitle",
+                            "value": "tag_002_name En Name"
+                        }
+                    ]
+                },
+                {
+                    "local_id": "de-DE",
+                    "data": [
+                        {
+                            "font_name": "headline",
+                            "value": "Name:"
+                        },
+                        {
+                            "font_name": "largeTitle",
+                            "value": "tag_002_name DE Name"
+                        }
+                    ]
+                },
+            ]
+        }
+    ],
+    "localizable": [
         {
             "local_id": "en-EN",
             "data": [
