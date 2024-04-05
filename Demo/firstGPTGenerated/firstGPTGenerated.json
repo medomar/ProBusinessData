@@ -1,423 +1,118 @@
 {
-    "company_id": "030420241755",
-    "company_name": "Restaurant Example",
+    "company_id": "ElGrotte_ID",
+    "company_name": "ElGrotte",
     "company_data": {
-        "name": "Restaurant Example",
+        "name": "ElGrotte",
         "collectionSupportedLanguage": [
-            {
-                "id": "en-EN",
-                "label": "English"
-            },
-            {
-                "id": "fr-FR",
-                "label": "French"
-            }
+            {"id": "en", "label": "English"},
+            {"id": "fr", "label": "French"},
+            {"id": "ar", "label": "Arabic"},
+            {"id": "it", "label": "Italian"},
+            {"id": "es", "label": "Spanish"},
+            {"id": "nl", "label": "Dutch"},
+            {"id": "ru", "label": "Russian"}
         ],
         "collectionTVA": [],
-        "isVariantManagementActivated": false,
-        "shortDescription": "A variety of delicious cultural foods.",
-        "activitySectorID": "REST001",
-        "activitySectorLabel": "Restauration"
+        "isVariantManagementActivated": true,
+        "shortDescription": "Discover unique culinary experiences with ElGrotte, your gateway to the world's finest cuisines.",
+        "activitySectorID": "Hospitality",
+        "activitySectorLabel": "Culinary Experiences",
+        "localizable": [
+            {
+                "local_id": "en",
+                "data": [
+                    {
+                        "font_name": "largeTitle",
+                        "value": "ElGrotte"
+                    },
+                    {
+                        "font_name": "body",
+                        "value": "Discover unique culinary experiences with ElGrotte, your gateway to the world's finest cuisines."
+                    }
+                ]
+            },
+            {
+                "local_id": "fr",
+                "data": [
+                    {
+                        "font_name": "largeTitle",
+                        "value": "ElGrotte"
+                    },
+                    {
+                        "font_name": "body",
+                        "value": "Découvrez des expériences culinaires uniques avec ElGrotte, votre porte d'entrée vers les meilleures cuisines du monde."
+                    }
+                ]
+            },
+            {
+                "local_id": "ar",
+                "data": [
+                    {
+                        "font_name": "largeTitle",
+                        "value": "إلغروت"
+                    },
+                    {
+                        "font_name": "body",
+                        "value": "اكتشف تجارب طعام فريدة مع إلغروت، بوابتك إلى أرقى المطابخ في العالم."
+                    }
+                ]
+            },
+            {
+                "local_id": "it",
+                "data": [
+                    {
+                        "font_name": "largeTitle",
+                        "value": "ElGrotte"
+                    },
+                    {
+                        "font_name": "body",
+                        "value": "Scopri esperienze culinarie uniche con ElGrotte, il tuo accesso alle cucine più raffinate del mondo."
+                    }
+                ]
+            },
+            {
+                "local_id": "es",
+                "data": [
+                    {
+                        "font_name": "largeTitle",
+                        "value": "ElGrotte"
+                    },
+                    {
+                        "font_name": "body",
+                        "value": "Descubre experiencias culinarias únicas con ElGrotte, tu puerta de acceso a las cocinas más exquisitas del mundo."
+                    }
+                ]
+            },
+            {
+                "local_id": "nl",
+                "data": [
+                    {
+                        "font_name": "largeTitle",
+                        "value": "ElGrotte"
+                    },
+                    {
+                        "font_name": "body",
+                        "value": "Ontdek unieke culinaire ervaringen met ElGrotte, jouw toegang tot de beste keukens van de wereld."
+                    }
+                ]
+            },
+            {
+                "local_id": "ru",
+                "data": [
+                    {
+                        "font_name": "largeTitle",
+                        "value": "ЭльГротте"
+                    },
+                    {
+                        "font_name": "body",
+                        "value": "Откройте для себя уникальные кулинарные впечатления с ЭльГротте, вашим путеводителем по лучшим кухням мира."
+                    }
+                ]
+            }
+        ]
     },
     "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/firstGPTGenerated/firstGPTGenerated.json",
-    "tags": [
-        {
-          "identifier": "pizza_love",
-          "name": "Pizza Love",
-          "shortDescription": "Our selection of classic and inventive pizzas.",
-          "isProduct": true,
-          "isVariant": false,
-          "localizable": [
-            {
-              "local_id": "en-US",
-              "data": [
-                {
-                  "font_name": "Regular",
-                  "value": "Pizza Love"
-                }
-              ]
-            },
-            {
-              "local_id": "fr-FR",
-              "data": [
-                {
-                  "font_name": "Regular",
-                  "value": "Amour de Pizza"
-                }
-              ]
-            },
-            {
-              "local_id": "it-IT",
-              "data": [
-                {
-                  "font_name": "Regular",
-                  "value": "Amore di Pizza"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "identifier": "the_best_burger_in_town",
-          "name": "The Best Burger in Town",
-          "shortDescription": "Indulge in our mouthwatering burgers, voted the best in town.",
-          "isProduct": true,
-          "isVariant": false,
-          "localizable": [
-            {
-              "local_id": "en-US",
-              "data": [
-                {
-                  "font_name": "Regular",
-                  "value": "The Best Burger in Town"
-                }
-              ]
-            },
-            {
-              "local_id": "fr-FR",
-              "data": [
-                {
-                  "font_name": "Regular",
-                  "value": "Le Meilleur Burger de la Ville"
-                }
-              ]
-            },
-            {
-              "local_id": "it-IT",
-              "data": [
-                {
-                  "font_name": "Regular",
-                  "value": "Il Miglior Burger della Città"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "identifier": "special_burritos",
-          "name": "Special Burritos",
-          "shortDescription": "Experience our special burritos with a blend of flavors.",
-          "isProduct": true,
-          "isVariant": false,
-          "localizable": [
-            {
-              "local_id": "en-US",
-              "data": [
-                {
-                  "font_name": "Regular",
-                  "value": "Special Burritos"
-                }
-              ]
-            },
-            {
-              "local_id": "fr-FR",
-              "data": [
-                {
-                  "font_name": "Regular",
-                  "value": "Burritos Spéciaux"
-                }
-              ]
-            },
-            {
-              "local_id": "it-IT",
-              "data": [
-                {
-                  "font_name": "Regular",
-                  "value": "Burritos Speciali"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "identifier": "drinks",
-          "name": "Drinks",
-          "shortDescription": "Quench your thirst with our wide range of beverages.",
-          "isProduct": true,
-          "isVariant": false,
-          "localizable": [
-            {
-              "local_id": "en-US",
-              "data": [
-                {
-                  "font_name": "Regular",
-                  "value": "Drinks"
-                }
-              ]
-            },
-            {
-              "local_id": "fr-FR",
-              "data": [
-                {
-                  "font_name": "Regular",
-                  "value": "Boissons"
-                }
-              ]
-            },
-            {
-              "local_id": "it-IT",
-              "data": [
-                {
-                  "font_name": "Regular",
-                  "value": "Bevande"
-                }
-              ]
-            }
-          ]
-        }
-      ],
-    "products": [
-        {
-            "identifier": "napolitana_pizza",
-            "name": "Napolitana",
-            "shortDescription": "Tomato sauce, mozzarella, and oregano.",
-            "tags": ["pizza_love"],
-            "localizable": [
-                {
-                    "local_id": "en-US",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Napolitana Pizza"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "fr-FR",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Pizza Napolitaine"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "it-IT",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Pizza Napoletana"
-                        }
-                    ]
-                }
-            ],
-            "price": 100.00
-        },
-        {
-            "identifier": "pepperoni_pizza",
-            "name": "Pepperoni",
-            "shortDescription": "Tomato sauce, mozzarella, and pepperoni.",
-            "tags": ["pizza_love"],
-            "localizable": [
-                {
-                    "local_id": "en-US",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Pepperoni Pizza"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "fr-FR",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Pizza au Pepperoni"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "it-IT",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Pizza al Pepperoni"
-                        }
-                    ]
-                }
-            ],
-            "price": 130.00
-        },
-        {
-            "identifier": "veggie_pizza",
-            "name": "Veggie",
-            "shortDescription": "Tomato sauce, mozzarella, and various vegetables.",
-            "tags": ["pizza_love"],
-            "localizable": [
-                {
-                    "local_id": "en-US",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Veggie Pizza"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "fr-FR",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Pizza Végétarienne"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "it-IT",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Pizza Vegetariana"
-                        }
-                    ]
-                }
-            ],
-            "price": 60.00
-        },
-        {
-            "identifier": "four_cheese_pizza",
-            "name": "4 Cheese",
-            "shortDescription": "A mix of four delicious cheeses on tomato sauce.",
-            "tags": ["pizza_love"],
-            "localizable": [
-                {
-                    "local_id": "en-US",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Four Cheese Pizza"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "fr-FR",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Pizza Quatre Fromages"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "it-IT",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Pizza Quattro Formaggi"
-                        }
-                    ]
-                }
-            ],
-            "price": 30.00
-        },
-        {
-            "identifier": "simple_burger_1",
-            "name": "Simple Burger",
-            "shortDescription": "A classic burger with lettuce, tomato, and cheese.",
-            "tags": ["the_best_burger_in_town"],
-            "localizable": [
-                {
-                    "local_id": "en-US",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Simple Burger"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "fr-FR",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Burger Simple"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "it-IT",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Burger Semplice"
-                        }
-                    ]
-                }
-            ],
-            "price": 20.00
-        },
-        {
-            "identifier": "simple_burger_2",
-            "name": "Simple Burger",
-            "shortDescription": "A classic burger with lettuce, tomato, and cheese.",
-            "tags": ["the_best_burger_in_town"],
-            "localizable": [
-                {
-                    "local_id": "en-US",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Simple Burger"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "fr-FR",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Burger Simple"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "it-IT",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Burger Semplice"
-                        }
-                    ]
-                }
-            ],
-            "price": 20.00
-        },
-        {
-            "identifier": "simple_burger_3",
-            "name": "Simple Burger",
-            "shortDescription": "A classic burger with lettuce, tomato, and cheese.",
-            "tags": ["the_best_burger_in_town"],
-            "localizable": [
-                {
-                    "local_id": "en-US",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Simple Burger"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "fr-FR",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Burger Simple"
-                        }
-                    ]
-                },
-                {
-                    "local_id": "it-IT",
-                    "data": [
-                        {
-                            "font_name": "Regular",
-                            "value": "Burger Semplice"
-                        }
-                    ]
-                }
-            ],
-            "price": 20.00
-        }
-    ]
+    "tags": [],
+    "variants": [],
+    "products": []
 }
