@@ -14,7 +14,46 @@
         "isVariantManagementActivated": true,
         "shortDescription": "Short_Description_of_the_Company",
         "activitySectorID": "Sector_ID",
-        "activitySectorLabel": "Sector_Label"
+        "activitySectorLabel": "Sector_Label",
+        "localizable": [
+            {
+                "local_id": "Language_ID",
+                "data": [
+                    {
+                        "font_name": "largeTitle",
+                        "value": "Localized_Value_largeTitle"
+                    },
+                    {
+                        "font_name": "title",
+                        "value": "Localized_Value_title"
+                    },
+                    {
+                        "font_name": "headline",
+                        "value": "Localized_Value_headline"
+                    },
+                    {
+                        "font_name": "subheadline",
+                        "value": "Localized_Value_subheadline"
+                    },
+                    {
+                        "font_name": "body",
+                        "value": "Localized_Value_body"
+                    },
+                    {
+                        "font_name": "callout",
+                        "value": "Localized_Value_callout"
+                    },
+                    {
+                        "font_name": "caption",
+                        "value": "Localized_Value_caption"
+                    },
+                    {
+                        "font_name": "footnote",
+                        "value": "Localized_Value_footnote"
+                    }
+                ]
+            }
+        ]
     },
     "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/template.json",
     "tags": [
@@ -277,43 +316,4 @@
             ]
         }
     ],
-    "localizable": [
-        {
-            "local_id": "Language_ID",
-            "data": [
-                {
-                    "font_name": "largeTitle",
-                    "value": "Localized_Value_largeTitle"
-                },
-                {
-                    "font_name": "title",
-                    "value": "Localized_Value_title"
-                },
-                {
-                    "font_name": "headline",
-                    "value": "Localized_Value_headline"
-                },
-                {
-                    "font_name": "subheadline",
-                    "value": "Localized_Value_subheadline"
-                },
-                {
-                    "font_name": "body",
-                    "value": "Localized_Value_body"
-                },
-                {
-                    "font_name": "callout",
-                    "value": "Localized_Value_callout"
-                },
-                {
-                    "font_name": "caption",
-                    "value": "Localized_Value_caption"
-                },
-                {
-                    "font_name": "footnote",
-                    "value": "Localized_Value_footnote"
-                }
-            ]
-        }
-    ]
 }
