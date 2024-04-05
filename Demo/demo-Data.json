@@ -1,5 +1,25 @@
 [
     {
+        "company_id": "Unique_Company_ID",
+        "company_name": "Company_Name",
+        "company_data": {
+            "name": "Company_Name",
+            "collectionSupportedLanguage": [
+                {
+                    "id": "language_ID",
+                    "label": "Language_Label"
+                }
+            ],
+            "collectionTVA": [
+            ],
+            "isVariantManagementActivated": true,
+            "shortDescription": "Short_Description_of_the_Company",
+            "activitySectorID": "Sector_ID",
+            "activitySectorLabel": "Sector_Label"
+        },
+        "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/template.json",
+    },
+    {
         "company_id": "030420241755",
         "company_name": "Restaurant Example",
         "company_data": {
