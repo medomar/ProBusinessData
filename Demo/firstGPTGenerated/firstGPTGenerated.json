@@ -4,13 +4,34 @@
     "company_data": {
         "name": "Cafe-Restaurant",
         "collectionSupportedLanguage": [
-            {"id": "en", "label": "English"},
-            {"id": "fr", "label": "French"},
-            {"id": "ar", "label": "Arabic"},
-            {"id": "it", "label": "Italian"},
-            {"id": "es", "label": "Spanish"},
-            {"id": "nl", "label": "Dutch"},
-            {"id": "ru", "label": "Russian"}
+            {
+                "id": "en",
+                "label": "English"
+            },
+            {
+                "id": "fr",
+                "label": "French"
+            },
+            {
+                "id": "ar",
+                "label": "Arabic"
+            },
+            {
+                "id": "it",
+                "label": "Italian"
+            },
+            {
+                "id": "es",
+                "label": "Spanish"
+            },
+            {
+                "id": "nl",
+                "label": "Dutch"
+            },
+            {
+                "id": "ru",
+                "label": "Russian"
+            }
         ],
         "collectionTVA": [],
         "isVariantManagementActivated": true,
@@ -23,7 +44,7 @@
                 "data": [
                     {
                         "font_name": "body",
-                        "value": "A cozy café and restaurant where each visit becomes a delightful escape. Enjoy our exclusive selection of coffees, freshly baked pastries, and gourmet dishes in a warm, inviting atmosphere."
+                        "value": "A cozy caf\u00e9 and restaurant where each visit becomes a delightful escape. Enjoy our exclusive selection of coffees, freshly baked pastries, and gourmet dishes in a warm, inviting atmosphere."
                     }
                 ]
             },
@@ -32,52 +53,7 @@
                 "data": [
                     {
                         "font_name": "body",
-                        "value": "Un café-restaurant accueillant où chaque visite devient une échappée belle. Profitez de notre sélection exclusive de cafés, de pâtisseries fraîches et de plats gastronomiques dans une atmosphère chaleureuse et invitante."
-                    }
-                ]
-            },
-            {
-                "local_id": "ar",
-                "data": [
-                    {
-                        "font_name": "body",
-                        "value": "مقهى ومطعم مريح حيث تصبح كل زيارة هروبًا سعيدًا. استمتع بمجموعتنا الحصرية من القهوة، والمعجنات الطازجة، والأطباق الذواقة في جو دافئ ومرحب."
-                    }
-                ]
-            },
-            {
-                "local_id": "it",
-                "data": [
-                    {
-                        "font_name": "body",
-                        "value": "Un caffè e ristorante accogliente dove ogni visita diventa una piacevole fuga. Goditi la nostra selezione esclusiva di caffè, pasticceria fresca e piatti gourmet in un'atmosfera calda e accogliente."
-                    }
-                ]
-            },
-            {
-                "local_id": "es",
-                "data": [
-                    {
-                        "font_name": "body",
-                        "value": "Un café y restaurante acogedor donde cada visita se convierte en un delicioso escape. Disfruta de nuestra selección exclusiva de cafés, pastelería fresca y platos gourmet en un ambiente cálido y acogedor."
-                    }
-                ]
-            },
-            {
-                "local_id": "nl",
-                "data": [
-                    {
-                        "font_name": "body",
-                        "value": "Een gezellig café en restaurant waar elk bezoek een heerlijke ontsnapping wordt. Geniet van onze exclusieve selectie koffie, versgebakken gebak en gastronomische gerechten in een warme, uitnodigende sfeer."
-                    }
-                ]
-            },
-            {
-                "local_id": "ru",
-                "data": [
-                    {
-                        "font_name": "body",
-                        "value": "Уютное кафе и ресторан, где каждый визит превращается в приятное убежище. Насладитесь нашим эксклюзивным ассортиментом кофе, свежей выпечкой и гурманскими блюдами в теплой и приглашающей атмосфере."
+                        "value": "Un caf\u00e9-restaurant accueillant o\u00f9 chaque visite devient une \u00e9chapp\u00e9e belle. Profitez de notre s\u00e9lection exclusive de caf\u00e9s, de p\u00e2tisseries fra\u00eeches et de plats gastronomiques dans une atmosph\u00e8re chaleureuse et invitante."
                     }
                 ]
             }
@@ -87,40 +63,128 @@
     "tags": [
         {
             "identifier": "Tag.001",
-            "name": "Café",
-            "shortDescription": "Café",
+            "name": "Caf\u00e9",
+            "shortDescription": "Caf\u00e9",
             "isProduct": true,
             "isVariant": true,
             "localizable": []
         },
         {
             "identifier": "Tag.002",
-            "name": "Tacos",
-            "shortDescription": "Café",
+            "name": "Pizza",
+            "shortDescription": "Pizza",
             "isProduct": true,
             "isVariant": false,
             "localizable": []
         },
         {
             "identifier": "Tag.003",
-            "name": "Sauces",
-            "shortDescription": "Sauces",
-            "isProduct": false,
-            "isVariant": true,
+            "name": "Burger",
+            "shortDescription": "Burger",
+            "isProduct": true,
+            "isVariant": false,
             "localizable": []
         },
         {
             "identifier": "Tag.004",
-            "name": "Viandes",
-            "shortDescription": "",
+            "name": "Jus",
+            "shortDescription": "Jus",
             "isProduct": false,
             "isVariant": true,
             "localizable": []
         },
         {
             "identifier": "Tag.005",
+            "name": "Boisson Gazeuse",
+            "shortDescription": "Boisson Gazeuse",
+            "isProduct": false,
+            "isVariant": true,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.006",
+            "name": "Dessert",
+            "shortDescription": "Dessert",
+            "isProduct": true,
+            "isVariant": true,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.007",
+            "name": "Salade",
+            "shortDescription": "Salade",
+            "isProduct": true,
+            "isVariant": false,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.008",
+            "name": "Viande",
+            "shortDescription": "Viande",
+            "isProduct": false,
+            "isVariant": true,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.009",
+            "name": "Poisson",
+            "shortDescription": "Poisson",
+            "isProduct": false,
+            "isVariant": true,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.010",
             "name": "Fromage",
-            "shortDescription": "",
+            "shortDescription": "Fromage",
+            "isProduct": false,
+            "isVariant": true,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.011",
+            "name": "P\u00e2tes",
+            "shortDescription": "P\u00e2tes",
+            "isProduct": true,
+            "isVariant": false,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.012",
+            "name": "Soupe",
+            "shortDescription": "Soupe",
+            "isProduct": true,
+            "isVariant": false,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.013",
+            "name": "Tacos",
+            "shortDescription": "Tacos",
+            "isProduct": true,
+            "isVariant": false,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.014",
+            "name": "Sandwich",
+            "shortDescription": "Sandwich",
+            "isProduct": true,
+            "isVariant": false,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.015",
+            "name": "Th\u00e9",
+            "shortDescription": "Th\u00e9",
+            "isProduct": false,
+            "isVariant": true,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.016",
+            "name": "Milkshake",
+            "shortDescription": "Milkshake",
             "isProduct": false,
             "isVariant": true,
             "localizable": []
@@ -129,77 +193,206 @@
     "variants": [
         {
             "identifier": "Variant.001",
-            "name": "Expresso",
-            "shortDescription": "",
-            "tags": ["Tag.001"],
-            "localizable": []
-        },
-        {
-            "identifier": "Variant.0012",
-            "name": "Mousse",
-            "shortDescription": "",
-            "tags": ["Tag.001"],
-            "localizable": []
-        },
-        {
-            "identifier": "Variant.0013",
-            "name": "Lait",
-            "shortDescription": "",
-            "tags": ["Tag.001"],
+            "name": "Cheddar",
+            "shortDescription": "Description for Cheddar",
+            "tags": [
+                "Tag.010"
+            ],
             "localizable": []
         },
         {
             "identifier": "Variant.002",
-            "name": "Mayonaise",
-            "shortDescription": "",
-            "tags": ["Tag.003"],
+            "name": "Emental",
+            "shortDescription": "Description for Emental",
+            "tags": [
+                "Tag.006"
+            ],
             "localizable": []
         },
         {
             "identifier": "Variant.003",
-            "name": "Ketchup",
-            "shortDescription": "",
-            "tags": ["Tag.003"],
+            "name": "Gouda",
+            "shortDescription": "Description for Gouda",
+            "tags": [
+                "Tag.009"
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.004",
+            "name": "Mozzarella",
+            "shortDescription": "Description for Mozzarella",
+            "tags": [
+                "Tag.010"
+            ],
             "localizable": []
         },
         {
             "identifier": "Variant.005",
-            "name": "Cheddar",
-            "shortDescription": "",
-            "tags": ["Tag.005"],
+            "name": "Parmesan",
+            "shortDescription": "Description for Parmesan",
+            "tags": [
+                "Tag.016"
+            ],
             "localizable": []
         },
         {
             "identifier": "Variant.006",
-            "name": "Ementale",
-            "shortDescription": "",
-            "tags": ["Tag.005"],
+            "name": "Expresso",
+            "shortDescription": "Description for Expresso",
+            "tags": [
+                "Tag.013"
+            ],
             "localizable": []
         },
         {
             "identifier": "Variant.007",
-            "name": "Escalope",
-            "shortDescription": "",
-            "tags": ["Tag.004"],
+            "name": "Americano",
+            "shortDescription": "Description for Americano",
+            "tags": [
+                "Tag.016"
+            ],
             "localizable": []
         },
         {
             "identifier": "Variant.008",
-            "name": "Kebeb",
-            "shortDescription": "",
-            "tags": ["Tag.004"],
+            "name": "Cappuccino",
+            "shortDescription": "Description for Cappuccino",
+            "tags": [
+                "Tag.011"
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.009",
+            "name": "Latte",
+            "shortDescription": "Description for Latte",
+            "tags": [
+                "Tag.010"
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.010",
+            "name": "Mocha",
+            "shortDescription": "Description for Mocha",
+            "tags": [
+                "Tag.014"
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.011",
+            "name": "Lemonade",
+            "shortDescription": "Description for Lemonade",
+            "tags": [
+                "Tag.007"
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.012",
+            "name": "Orange Juice",
+            "shortDescription": "Description for Orange Juice",
+            "tags": [
+                "Tag.016"
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.013",
+            "name": "Apple Juice",
+            "shortDescription": "Description for Apple Juice",
+            "tags": [
+                "Tag.001"
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.014",
+            "name": "Soda",
+            "shortDescription": "Description for Soda",
+            "tags": [
+                "Tag.003"
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.015",
+            "name": "Water",
+            "shortDescription": "Description for Water",
+            "tags": [
+                "Tag.002"
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.016",
+            "name": "French Fries",
+            "shortDescription": "Description for French Fries",
+            "tags": [
+                "Tag.002"
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.017",
+            "name": "Onion Rings",
+            "shortDescription": "Description for Onion Rings",
+            "tags": [
+                "Tag.012"
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.018",
+            "name": "Salad",
+            "shortDescription": "Description for Salad",
+            "tags": [
+                "Tag.007"
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.019",
+            "name": "Coleslaw",
+            "shortDescription": "Description for Coleslaw",
+            "tags": [
+                "Tag.009"
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.020",
+            "name": "Pickles",
+            "shortDescription": "Description for Pickles",
+            "tags": [
+                "Tag.008"
+            ],
             "localizable": []
         }
     ],
     "products": [
         {
             "identifier": "Product.001",
-            "name": "Capucin",
-            "shortDescription": "",
-            "tags": ["Tag.001"],
+            "name": "Pizza Margherita",
+            "shortDescription": "Description for Pizza Margherita",
+            "tags": [
+                "Tag.007",
+                "Tag.014"
+            ],
             "variants": [
                 {
-                    "identifier": "Variant.001",
+                    "identifier": "Variant.003",
+                    "name": "Gouda",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.006",
                     "name": "Expresso",
                     "entityTypeString": "appVariant",
                     "isIncluded": true,
@@ -208,8 +401,47 @@
                     "quantity": 0
                 },
                 {
-                    "identifier":"Variant.0012",
-                    "name": "Mousse",
+                    "identifier": "Variant.019",
+                    "name": "Coleslaw",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.018",
+                    "name": "Salad",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.001",
+                    "name": "Cheddar",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.002",
+            "name": "Pizza Four Cheeses",
+            "shortDescription": "Description for Pizza Four Cheeses",
+            "tags": [
+                "Tag.014",
+                "Tag.007"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.018",
+                    "name": "Salad",
                     "entityTypeString": "appVariant",
                     "isIncluded": true,
                     "isRequired": false,
@@ -217,8 +449,35 @@
                     "quantity": 0
                 },
                 {
-                    "identifier":"Variant.0013",
-                    "name": "Lait",
+                    "identifier": "Variant.016",
+                    "name": "French Fries",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.011",
+                    "name": "Lemonade",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.009",
+                    "name": "Latte",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.008",
+                    "name": "Cappuccino",
                     "entityTypeString": "appVariant",
                     "isIncluded": true,
                     "isRequired": false,
@@ -229,37 +488,1027 @@
             "localizable": []
         },
         {
-            "identifier": "Product.002",
-            "name": "Tacos 2 Viandes",
-            "shortDescription": "",
-            "tags": ["Tag.002"],
+            "identifier": "Product.003",
+            "name": "Pizza Pepperoni",
+            "shortDescription": "Description for Pizza Pepperoni",
+            "tags": [
+                "Tag.004",
+                "Tag.016"
+            ],
             "variants": [
                 {
-                    "identifier": "Tag.003",
-                    "name": "Sauces",
-                    "entityTypeString": "appTag",
+                    "identifier": "Variant.018",
+                    "name": "Salad",
+                    "entityTypeString": "appVariant",
                     "isIncluded": true,
-                    "isRequired": true,
-                    "canAddMore": true,
-                    "quantity": 2
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
                 },
                 {
-                    "identifier": "Tag.004",
-                    "name": "Viandes",
-                    "entityTypeString": "appTag",
+                    "identifier": "Variant.012",
+                    "name": "Orange Juice",
+                    "entityTypeString": "appVariant",
                     "isIncluded": true,
-                    "isRequired": true,
-                    "canAddMore": true,
-                    "quantity": 2
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
                 },
                 {
-                    "identifier":"Tag.005",
-                    "name": "Fromage",
-                    "entityTypeString": "appTag",
+                    "identifier": "Variant.006",
+                    "name": "Expresso",
+                    "entityTypeString": "appVariant",
                     "isIncluded": true,
-                    "isRequired": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.014",
+                    "name": "Soda",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.003",
+                    "name": "Gouda",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.004",
+            "name": "Pizza Veggie",
+            "shortDescription": "Description for Pizza Veggie",
+            "tags": [
+                "Tag.006",
+                "Tag.005"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.017",
+                    "name": "Onion Rings",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
                     "canAddMore": true,
-                    "quantity": 2
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.001",
+                    "name": "Cheddar",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.004",
+                    "name": "Mozzarella",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.011",
+                    "name": "Lemonade",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.006",
+                    "name": "Expresso",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.005",
+            "name": "Burger Classic",
+            "shortDescription": "Description for Burger Classic",
+            "tags": [
+                "Tag.003",
+                "Tag.013"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.010",
+                    "name": "Mocha",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.012",
+                    "name": "Orange Juice",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.020",
+                    "name": "Pickles",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.017",
+                    "name": "Onion Rings",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.015",
+                    "name": "Water",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.006",
+            "name": "Burger Cheese",
+            "shortDescription": "Description for Burger Cheese",
+            "tags": [
+                "Tag.002",
+                "Tag.008"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.002",
+                    "name": "Emental",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.009",
+                    "name": "Latte",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.015",
+                    "name": "Water",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.006",
+                    "name": "Expresso",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.020",
+                    "name": "Pickles",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.007",
+            "name": "Burger Veggie",
+            "shortDescription": "Description for Burger Veggie",
+            "tags": [
+                "Tag.011",
+                "Tag.003"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.020",
+                    "name": "Pickles",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.018",
+                    "name": "Salad",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.001",
+                    "name": "Cheddar",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.006",
+                    "name": "Expresso",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.013",
+                    "name": "Apple Juice",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.008",
+            "name": "Burger Bacon",
+            "shortDescription": "Description for Burger Bacon",
+            "tags": [
+                "Tag.016",
+                "Tag.008"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.005",
+                    "name": "Parmesan",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.017",
+                    "name": "Onion Rings",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.018",
+                    "name": "Salad",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.015",
+                    "name": "Water",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.009",
+                    "name": "Latte",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.009",
+            "name": "Tacos Chicken",
+            "shortDescription": "Description for Tacos Chicken",
+            "tags": [
+                "Tag.002",
+                "Tag.003"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.020",
+                    "name": "Pickles",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.016",
+                    "name": "French Fries",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.019",
+                    "name": "Coleslaw",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.002",
+                    "name": "Emental",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.005",
+                    "name": "Parmesan",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.010",
+            "name": "Tacos Beef",
+            "shortDescription": "Description for Tacos Beef",
+            "tags": [
+                "Tag.014",
+                "Tag.009"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.016",
+                    "name": "French Fries",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.019",
+                    "name": "Coleslaw",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.004",
+                    "name": "Mozzarella",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.006",
+                    "name": "Expresso",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.008",
+                    "name": "Cappuccino",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.011",
+            "name": "Tacos Veggie",
+            "shortDescription": "Description for Tacos Veggie",
+            "tags": [
+                "Tag.016",
+                "Tag.002"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.020",
+                    "name": "Pickles",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.004",
+                    "name": "Mozzarella",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.006",
+                    "name": "Expresso",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.009",
+                    "name": "Latte",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.018",
+                    "name": "Salad",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.012",
+            "name": "Sandwich Club",
+            "shortDescription": "Description for Sandwich Club",
+            "tags": [
+                "Tag.009",
+                "Tag.008"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.018",
+                    "name": "Salad",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.005",
+                    "name": "Parmesan",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.014",
+                    "name": "Soda",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.008",
+                    "name": "Cappuccino",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.006",
+                    "name": "Expresso",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.013",
+            "name": "Sandwich Ham & Cheese",
+            "shortDescription": "Description for Sandwich Ham & Cheese",
+            "tags": [
+                "Tag.003",
+                "Tag.007"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.013",
+                    "name": "Apple Juice",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.010",
+                    "name": "Mocha",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.003",
+                    "name": "Gouda",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.009",
+                    "name": "Latte",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.005",
+                    "name": "Parmesan",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.014",
+            "name": "Sandwich Veggie",
+            "shortDescription": "Description for Sandwich Veggie",
+            "tags": [
+                "Tag.013",
+                "Tag.016"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.012",
+                    "name": "Orange Juice",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.004",
+                    "name": "Mozzarella",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.003",
+                    "name": "Gouda",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.018",
+                    "name": "Salad",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.020",
+                    "name": "Pickles",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.015",
+            "name": "Salad Caesar",
+            "shortDescription": "Description for Salad Caesar",
+            "tags": [
+                "Tag.012",
+                "Tag.007"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.019",
+                    "name": "Coleslaw",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.018",
+                    "name": "Salad",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.005",
+                    "name": "Parmesan",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.011",
+                    "name": "Lemonade",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.014",
+                    "name": "Soda",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.016",
+            "name": "Salad Greek",
+            "shortDescription": "Description for Salad Greek",
+            "tags": [
+                "Tag.003",
+                "Tag.001"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.001",
+                    "name": "Cheddar",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.013",
+                    "name": "Apple Juice",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.005",
+                    "name": "Parmesan",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.019",
+                    "name": "Coleslaw",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.020",
+                    "name": "Pickles",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.017",
+            "name": "Salad Garden",
+            "shortDescription": "Description for Salad Garden",
+            "tags": [
+                "Tag.002",
+                "Tag.016"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.011",
+                    "name": "Lemonade",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.018",
+                    "name": "Salad",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.008",
+                    "name": "Cappuccino",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.005",
+                    "name": "Parmesan",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.014",
+                    "name": "Soda",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.018",
+            "name": "Pasta Carbonara",
+            "shortDescription": "Description for Pasta Carbonara",
+            "tags": [
+                "Tag.013",
+                "Tag.014"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.008",
+                    "name": "Cappuccino",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.003",
+                    "name": "Gouda",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.009",
+                    "name": "Latte",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.002",
+                    "name": "Emental",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.016",
+                    "name": "French Fries",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.019",
+            "name": "Pasta Bolognese",
+            "shortDescription": "Description for Pasta Bolognese",
+            "tags": [
+                "Tag.004",
+                "Tag.003"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.017",
+                    "name": "Onion Rings",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.009",
+                    "name": "Latte",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.003",
+                    "name": "Gouda",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.016",
+                    "name": "French Fries",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.006",
+                    "name": "Expresso",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.020",
+            "name": "Pasta Alfredo",
+            "shortDescription": "Description for Pasta Alfredo",
+            "tags": [
+                "Tag.014",
+                "Tag.011"
+            ],
+            "variants": [
+                {
+                    "identifier": "Variant.003",
+                    "name": "Gouda",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.002",
+                    "name": "Emental",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.010",
+                    "name": "Mocha",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.017",
+                    "name": "Onion Rings",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier": "Variant.009",
+                    "name": "Latte",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
                 }
             ],
             "localizable": []
