@@ -5,7 +5,7 @@
         "name": "Company_Name",
         "collectionSupportedLanguage": [
             {
-                "id": "language_ID",
+                "id": "Language_ID",
                 "label": "Language_Label"
             }
         ],

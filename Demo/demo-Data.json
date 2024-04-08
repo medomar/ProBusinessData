@@ -20,29 +20,14 @@
         "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/template.json",
     },
     {
-        "company_id": "El.Grotte.Unique.Company.ID",
-        "company_name": "El Grotte Café & Restaurant",
+        "company_id": "Cafe-Restaurant-ID",
+        "company_name": "Cafe-Restaurant-Name",
         "company_data": {
-            "name": "El Grotte Café & Restaurant",
-            "collectionSupportedLanguage": [
-                {
-                    "id": "en",
-                    "label": "English"
-                },
-                {
-                    "id": "fr",
-                    "label": "French"
-                },
-                {
-                    "id": "ar",
-                    "label": "Arabic"
-                }
-            ],
-            "collectionTVA": [],
+            "name": "Cafe-Restaurant-Name",
             "isVariantManagementActivated": true,
             "shortDescription": "A serene coastal dining experience offering a blend of international cuisines and local flavors.",
-            "activitySectorID": "hospitality",
-            "activitySectorLabel": "Hospitality and Dining Services"
+            "activitySectorID": "Cafe-Restaurant",
+            "activitySectorLabel": "Cafe-Restaurant"
         },
         "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/firstGPTGenerated/firstGPTGenerated.json"
     }

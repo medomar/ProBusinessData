@@ -1,8 +1,8 @@
 {
-    "company_id": "ElGrotte_ID",
-    "company_name": "ElGrotte",
+    "company_id": "Cafe-Restaurant-ID",
+    "company_name": "Cafe-Restaurant-Name",
     "company_data": {
-        "name": "ElGrotte",
+        "name": "Cafe-Restaurant",
         "collectionSupportedLanguage": [
             {"id": "en", "label": "English"},
             {"id": "fr", "label": "French"},
@@ -14,20 +14,16 @@
         ],
         "collectionTVA": [],
         "isVariantManagementActivated": true,
-        "shortDescription": "Discover unique culinary experiences with ElGrotte, your gateway to the world's finest cuisines.",
-        "activitySectorID": "Hospitality",
-        "activitySectorLabel": "Culinary Experiences",
+        "shortDescription": "A cozy place for your coffee and dining experience.",
+        "activitySectorID": "Cafe-Restaurant",
+        "activitySectorLabel": "Cafe-Restaurant",
         "localizable": [
             {
                 "local_id": "en",
                 "data": [
                     {
-                        "font_name": "largeTitle",
-                        "value": "ElGrotte"
-                    },
-                    {
                         "font_name": "body",
-                        "value": "Discover unique culinary experiences with ElGrotte, your gateway to the world's finest cuisines."
+                        "value": "A cozy café and restaurant where each visit becomes a delightful escape. Enjoy our exclusive selection of coffees, freshly baked pastries, and gourmet dishes in a warm, inviting atmosphere."
                     }
                 ]
             },
@@ -35,12 +31,8 @@
                 "local_id": "fr",
                 "data": [
                     {
-                        "font_name": "largeTitle",
-                        "value": "ElGrotte"
-                    },
-                    {
                         "font_name": "body",
-                        "value": "Découvrez des expériences culinaires uniques avec ElGrotte, votre porte d'entrée vers les meilleures cuisines du monde."
+                        "value": "Un café-restaurant accueillant où chaque visite devient une échappée belle. Profitez de notre sélection exclusive de cafés, de pâtisseries fraîches et de plats gastronomiques dans une atmosphère chaleureuse et invitante."
                     }
                 ]
             },
@@ -48,12 +40,8 @@
                 "local_id": "ar",
                 "data": [
                     {
-                        "font_name": "largeTitle",
-                        "value": "إلغروت"
-                    },
-                    {
                         "font_name": "body",
-                        "value": "اكتشف تجارب طعام فريدة مع إلغروت، بوابتك إلى أرقى المطابخ في العالم."
+                        "value": "مقهى ومطعم مريح حيث تصبح كل زيارة هروبًا سعيدًا. استمتع بمجموعتنا الحصرية من القهوة، والمعجنات الطازجة، والأطباق الذواقة في جو دافئ ومرحب."
                     }
                 ]
             },
@@ -61,12 +49,8 @@
                 "local_id": "it",
                 "data": [
                     {
-                        "font_name": "largeTitle",
-                        "value": "ElGrotte"
-                    },
-                    {
                         "font_name": "body",
-                        "value": "Scopri esperienze culinarie uniche con ElGrotte, il tuo accesso alle cucine più raffinate del mondo."
+                        "value": "Un caffè e ristorante accogliente dove ogni visita diventa una piacevole fuga. Goditi la nostra selezione esclusiva di caffè, pasticceria fresca e piatti gourmet in un'atmosfera calda e accogliente."
                     }
                 ]
             },
@@ -74,12 +58,8 @@
                 "local_id": "es",
                 "data": [
                     {
-                        "font_name": "largeTitle",
-                        "value": "ElGrotte"
-                    },
-                    {
                         "font_name": "body",
-                        "value": "Descubre experiencias culinarias únicas con ElGrotte, tu puerta de acceso a las cocinas más exquisitas del mundo."
+                        "value": "Un café y restaurante acogedor donde cada visita se convierte en un delicioso escape. Disfruta de nuestra selección exclusiva de cafés, pastelería fresca y platos gourmet en un ambiente cálido y acogedor."
                     }
                 ]
             },
@@ -87,12 +67,8 @@
                 "local_id": "nl",
                 "data": [
                     {
-                        "font_name": "largeTitle",
-                        "value": "ElGrotte"
-                    },
-                    {
                         "font_name": "body",
-                        "value": "Ontdek unieke culinaire ervaringen met ElGrotte, jouw toegang tot de beste keukens van de wereld."
+                        "value": "Een gezellig café en restaurant waar elk bezoek een heerlijke ontsnapping wordt. Geniet van onze exclusieve selectie koffie, versgebakken gebak en gastronomische gerechten in een warme, uitnodigende sfeer."
                     }
                 ]
             },
@@ -100,19 +76,193 @@
                 "local_id": "ru",
                 "data": [
                     {
-                        "font_name": "largeTitle",
-                        "value": "ЭльГротте"
-                    },
-                    {
                         "font_name": "body",
-                        "value": "Откройте для себя уникальные кулинарные впечатления с ЭльГротте, вашим путеводителем по лучшим кухням мира."
+                        "value": "Уютное кафе и ресторан, где каждый визит превращается в приятное убежище. Насладитесь нашим эксклюзивным ассортиментом кофе, свежей выпечкой и гурманскими блюдами в теплой и приглашающей атмосфере."
                     }
                 ]
             }
         ]
     },
     "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/firstGPTGenerated/firstGPTGenerated.json",
-    "tags": [],
-    "variants": [],
-    "products": []
+    "tags": [
+        {
+            "identifier": "Tag.001",
+            "name": "Café",
+            "shortDescription": "Café",
+            "isProduct": true,
+            "isVariant": true,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.002",
+            "name": "Tacos",
+            "shortDescription": "Café",
+            "isProduct": true,
+            "isVariant": false,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.003",
+            "name": "Sauces",
+            "shortDescription": "Sauces",
+            "isProduct": false,
+            "isVariant": true,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.004",
+            "name": "Viandes",
+            "shortDescription": "",
+            "isProduct": false,
+            "isVariant": true,
+            "localizable": []
+        },
+        {
+            "identifier": "Tag.005",
+            "name": "Fromage",
+            "shortDescription": "",
+            "isProduct": false,
+            "isVariant": true,
+            "localizable": []
+        }
+    ],
+    "variants": [
+        {
+            "identifier": "Variant.001",
+            "name": "Expresso",
+            "shortDescription": "",
+            "tags": ["Tag.001"],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.0012",
+            "name": "Mousse",
+            "shortDescription": "",
+            "tags": ["Tag.001"],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.0013",
+            "name": "Lait",
+            "shortDescription": "",
+            "tags": ["Tag.001"],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.002",
+            "name": "Mayonaise",
+            "shortDescription": "",
+            "tags": ["Tag.003"],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.003",
+            "name": "Ketchup",
+            "shortDescription": "",
+            "tags": ["Tag.003"],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.005",
+            "name": "Cheddar",
+            "shortDescription": "",
+            "tags": ["Tag.005"],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.006",
+            "name": "Ementale",
+            "shortDescription": "",
+            "tags": ["Tag.005"],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.007",
+            "name": "Escalope",
+            "shortDescription": "",
+            "tags": ["Tag.004"],
+            "localizable": []
+        },
+        {
+            "identifier": "Variant.008",
+            "name": "Kebeb",
+            "shortDescription": "",
+            "tags": ["Tag.004"],
+            "localizable": []
+        }
+    ],
+    "products": [
+        {
+            "identifier": "Product.001",
+            "name": "Capucin",
+            "shortDescription": "",
+            "tags": ["Tag.001"],
+            "variants": [
+                {
+                    "identifier": "Variant.001",
+                    "name": "Expresso",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": false,
+                    "quantity": 0
+                },
+                {
+                    "identifier":"Variant.0012",
+                    "name": "Mousse",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                },
+                {
+                    "identifier":"Variant.0013",
+                    "name": "Lait",
+                    "entityTypeString": "appVariant",
+                    "isIncluded": true,
+                    "isRequired": false,
+                    "canAddMore": true,
+                    "quantity": 0
+                }
+            ],
+            "localizable": []
+        },
+        {
+            "identifier": "Product.002",
+            "name": "Tacos 2 Viandes",
+            "shortDescription": "",
+            "tags": ["Tag.002"],
+            "variants": [
+                {
+                    "identifier": "Tag.003",
+                    "name": "Sauces",
+                    "entityTypeString": "appTag",
+                    "isIncluded": true,
+                    "isRequired": true,
+                    "canAddMore": true,
+                    "quantity": 2
+                },
+                {
+                    "identifier": "Tag.004",
+                    "name": "Viandes",
+                    "entityTypeString": "appTag",
+                    "isIncluded": true,
+                    "isRequired": true,
+                    "canAddMore": true,
+                    "quantity": 2
+                },
+                {
+                    "identifier":"Tag.005",
+                    "name": "Fromage",
+                    "entityTypeString": "appTag",
+                    "isIncluded": true,
+                    "isRequired": true,
+                    "canAddMore": true,
+                    "quantity": 2
+                }
+            ],
+            "localizable": []
+        }
+    ]
 }
