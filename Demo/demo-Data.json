@@ -20,15 +20,27 @@
         "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/template.json",
     },
     {
-        "company_id": "Cafe-Restaurant-ID",
-        "company_name": "Cafe-Restaurant-Name",
+        "company_id": "Aubureau_Unique_Company_ID",
+        "company_name": "Aubureau",
         "company_data": {
-            "name": "Cafe-Restaurant-Name",
+            "name": "Aubureau",
+            "collectionSupportedLanguage": [
+                {
+                    "id": "fr-FR",
+                    "label": "Francais"
+                },
+                {
+                    "id": "en-US",
+                    "label": "Anglais"
+                }
+            ],
+            "collectionTVA": [],
             "isVariantManagementActivated": true,
-            "shortDescription": "A serene coastal dining experience offering a blend of international cuisines and local flavors.",
-            "activitySectorID": "Cafe-Restaurant",
-            "activitySectorLabel": "Cafe-Restaurant"
+            "shortDescription": "Rendez-vous dans nos pubs authentiques et uniques… Véritables lieux de vie aux décors anglo-saxons, Au Bureau rythme votre journée du matin jusqu’au soir : repas entre amis, apéro, sport, musique, danse… vous allez aimer passer du temps Au Bureau !",
+            "activitySectorID": "Sector_ID",
+            "activitySectorLabel": "Sector_Label",
+            "localizable": []
         },
-        "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/firstGPTGenerated/firstGPTGenerated.json"
+        "company_data_url": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/aubureau/aubureau_template.json"
     }
 ]
