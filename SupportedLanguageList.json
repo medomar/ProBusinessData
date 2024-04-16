@@ -1,0 +1,46 @@
+[
+    {
+        "id": "en-US",
+        "label": "English (United States)"
+    },
+    {
+        "id": "en-GB",
+        "label": "English (United Kingdom)"
+    },
+    {
+        "id": "es-ES",
+        "label": "Español (España)"
+    },
+    {
+        "id": "fr-FR",
+        "label": "Français (France)"
+    },
+    {
+        "id": "de-DE",
+        "label": "Deutsch (Deutschland)"
+    },
+    {
+        "id": "it-IT",
+        "label": "Italiano (Italia)"
+    },
+    {
+        "id": "pt-BR",
+        "label": "Português (Brasil)"
+    },
+    {
+        "id": "zh-CN",
+        "label": "中文 (中国)"
+    },
+    {
+        "id": "ja-JP",
+        "label": "日本語 (日本)"
+    },
+    {
+        "id": "ko-KR",
+        "label": "한국어 (대한민국)"
+    },
+    {
+        "id": "ar-SA",
+        "label": "العربية (السعودية)"
+    }
+]
