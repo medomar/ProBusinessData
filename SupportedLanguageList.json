@@ -1,290 +1,290 @@
 [
     {
-        "id": "af-ZA",
+        "id": "af_ZA",
         "label": "Afrikaans (South Africa)"
     },
     {
-        "id": "am-ET",
+        "id": "am_ET",
         "label": "አማርኛ (Ethiopia)"
     },
     {
-        "id": "ar-SA",
+        "id": "ar_SA",
         "label": "العربية (السعودية)"
     },
     {
-        "id": "az-AZ",
+        "id": "az_AZ",
         "label": "Azərbaycan (Azərbaycan)"
     },
     {
-        "id": "be-BY",
+        "id": "be_BY",
         "label": "Беларуская (Беларусь)"
     },
     {
-        "id": "bg-BG",
+        "id": "bg_BG",
         "label": "Български (България)"
     },
     {
-        "id": "bn-BD",
+        "id": "bn_BD",
         "label": "বাংলা (বাংলাদেশ)"
     },
     {
-        "id": "bs-BA",
+        "id": "bs_BA",
         "label": "Bosanski (Bosna i Hercegovina)"
     },
     {
-        "id": "ca-ES",
+        "id": "ca_ES",
         "label": "Català (Espanya)"
     },
     {
-        "id": "cs-CZ",
+        "id": "cs_CZ",
         "label": "Čeština (Česká republika)"
     },
     {
-        "id": "cy-GB",
+        "id": "cy_GB",
         "label": "Cymraeg (Y Deyrnas Unedig)"
     },
     {
-        "id": "da-DK",
+        "id": "da_DK",
         "label": "Dansk (Danmark)"
     },
     {
-        "id": "de-DE",
+        "id": "de_DE",
         "label": "Deutsch (Deutschland)"
     },
     {
-        "id": "el-GR",
+        "id": "el_GR",
         "label": "Ελληνικά (Ελλάδα)"
     },
     {
-        "id": "en-US",
+        "id": "en_US",
         "label": "English (United States)"
     },
     {
-        "id": "es-ES",
+        "id": "es_ES",
         "label": "Español (España)"
     },
     {
-        "id": "et-EE",
+        "id": "et_EE",
         "label": "Eesti (Eesti)"
     },
     {
-        "id": "eu-ES",
+        "id": "eu_ES",
         "label": "Euskara (Espainia)"
     },
     {
-        "id": "fa-IR",
+        "id": "fa_IR",
         "label": "فارسی (ایران)"
     },
     {
-        "id": "fi-FI",
+        "id": "fi_FI",
         "label": "Suomi (Suomi)"
     },
     {
-        "id": "fil-PH",
+        "id": "fil_PH",
         "label": "Filipino (Pilipinas)"
     },
     {
-        "id": "fr-FR",
+        "id": "fr_FR",
         "label": "Français (France)"
     },
     {
-        "id": "ga-IE",
+        "id": "ga_IE",
         "label": "Gaeilge (Éire)"
     },
     {
-        "id": "gl-ES",
+        "id": "gl_ES",
         "label": "Galego (España)"
     },
     {
-        "id": "gu-IN",
+        "id": "gu_IN",
         "label": "ગુજરાતી (ભારત)"
     },
     {
-        "id": "he-IL",
+        "id": "he_IL",
         "label": "עברית (ישראל)"
     },
     {
-        "id": "hi-IN",
+        "id": "hi_IN",
         "label": "हिन्दी (भारत)"
     },
     {
-        "id": "hr-HR",
+        "id": "hr_HR",
         "label": "Hrvatski (Hrvatska)"
     },
     {
-        "id": "hu-HU",
+        "id": "hu_HU",
         "label": "Magyar (Magyarország)"
     },
     {
-        "id": "hy-AM",
+        "id": "hy_AM",
         "label": "Հայերեն (Հայաստան)"
     },
     {
-        "id": "id-ID",
+        "id": "id_ID",
         "label": "Bahasa Indonesia (Indonesia)"
     },
     {
-        "id": "is-IS",
+        "id": "is_IS",
         "label": "Íslenska (Ísland)"
     },
     {
-        "id": "it-IT",
+        "id": "it_IT",
         "label": "Italiano (Italia)"
     },
     {
-        "id": "ja-JP",
+        "id": "ja_JP",
         "label": "日本語 (日本)"
     },
     {
-        "id": "ka-GE",
+        "id": "ka_GE",
         "label": "ქართული (საქართველო)"
     },
     {
-        "id": "kk-KZ",
+        "id": "kk_KZ",
         "label": "Қазақ (Қазақстан)"
     },
     {
-        "id": "km-KH",
+        "id": "km_KH",
         "label": "ខ្មែរ (កម្ពុជា)"
     },
     {
-        "id": "kn-IN",
+        "id": "kn_IN",
         "label": "ಕನ್ನಡ (ಭಾರತ)"
     },
     {
-        "id": "ko-KR",
+        "id": "ko_KR",
         "label": "한국어 (대한민국)"
     },
     {
-        "id": "lt-LT",
+        "id": "lt_LT",
         "label": "Lietuvių (Lietuva)"
     },
     {
-        "id": "lv-LV",
+        "id": "lv_LV",
         "label": "Latviešu (Latvija)"
     },
     {
-        "id": "mk-MK",
+        "id": "mk_MK",
         "label": "Македонски (Македонија)"
     },
     {
-        "id": "ml-IN",
+        "id": "ml_IN",
         "label": "മലയാളം (ഇന്ത്യ)"
     },
     {
-        "id": "mn-MN",
+        "id": "mn_MN",
         "label": "Монгол (Монгол)"
     },
     {
-        "id": "mr-IN",
+        "id": "mr_IN",
         "label": "मराठी (भारत)"
     },
     {
-        "id": "ms-MY",
+        "id": "ms_MY",
         "label": "Bahasa Melayu (Malaysia)"
     },
     {
-        "id": "my-MM",
+        "id": "my_MM",
         "label": "မြန်မာ (မြန်မာ)"
     },
     {
-        "id": "ne-NP",
+        "id": "ne_NP",
         "label": "नेपाली (नेपाल)"
     },
     {
-        "id": "nl-NL",
+        "id": "nl_NL",
         "label": "Nederlands (Nederland)"
     },
     {
-        "id": "no-NO",
+        "id": "no_NO",
         "label": "Norsk (Norge)"
     },
     {
-        "id": "pl-PL",
+        "id": "pl_PL",
         "label": "Polski (Polska)"
     },
     {
-        "id": "pt-BR",
+        "id": "pt_BR",
         "label": "Português (Brasil)"
     },
     {
-        "id": "ro-RO",
+        "id": "ro_RO",
         "label": "Română (România)"
     },
     {
-        "id": "ru-RU",
+        "id": "ru_RU",
         "label": "Русский (Россия)"
     },
     {
-        "id": "si-LK",
+        "id": "si_LK",
         "label": "සිංහල (ශ්‍රී ලංකාව)"
     },
     {
-        "id": "sk-SK",
+        "id": "sk_SK",
         "label": "Slovenčina (Slovensko)"
     },
     {
-        "id": "sl-SI",
+        "id": "sl_SI",
         "label": "Slovenščina (Slovenija)"
     },
     {
-        "id": "sq-AL",
+        "id": "sq_AL",
         "label": "Shqip (Shqipëri)"
     },
     {
-        "id": "sr-RS",
+        "id": "sr_RS",
         "label": "Српски (Србија)"
     },
     {
-        "id": "sv-SE",
+        "id": "sv_SE",
         "label": "Svenska (Sverige)"
     },
     {
-        "id": "sw-KE",
+        "id": "sw_KE",
         "label": "Kiswahili (Kenya)"
     },
     {
-        "id": "ta-IN",
+        "id": "ta_IN",
         "label": "தமிழ் (இந்தியா)"
     },
     {
-        "id": "te-IN",
+        "id": "te_IN",
         "label": "తెలుగు (భారతదేశం)"
     },
     {
-        "id": "th-TH",
+        "id": "th_TH",
         "label": "ไทย (ไทย)"
     },
     {
-        "id": "tr-TR",
+        "id": "tr_TR",
         "label": "Türkçe (Türkiye)"
     },
     {
-        "id": "uk-UA",
+        "id": "uk_UA",
         "label": "Українська (Україна)"
     },
     {
-        "id": "ur-PK",
+        "id": "ur_PK",
         "label": "اردو (پاکستان)"
     },
     {
-        "id": "uz-UZ",
+        "id": "uz_UZ",
         "label": "O‘zbek (O‘zbekiston)"
     },
     {
-        "id": "vi-VN",
+        "id": "vi_VN",
         "label": "Tiếng Việt (Việt Nam)"
     },
     {
-        "id": "zh-CN",
+        "id": "zh_CN",
         "label": "中文 (中国)"
     },
     {
-        "id": "zh-TW",
+        "id": "zh_TW",
         "label": "中文 (台灣)"
     },
     {
-        "id": "zu-ZA",
+        "id": "zu_ZA",
         "label": "IsiZulu (South Africa)"
     }
 ]
