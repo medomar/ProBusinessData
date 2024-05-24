@@ -4,111 +4,32 @@
         "screen_name": "ConfigurationView",
         "components": [
             {
-                "label": "Open Documentation",
-                "action": "browser",
-                "url": "https://drive.google.com/file/d/1u_HBg_loC6veqnRrkxR7Sza8WmS01_T9/view?usp=sharing"
-            }
-        ]
-    },
-    {
-        "title": "Product Variant Management",
-        "screen_name": "AppVariantRelationListView",
-        "components": [
-            {
-                "label": "Open Documentation",
-                "action": "browser",
-                "url": "https://drive.google.com/file/d/1rmT0wP7X9dYcBY2pIpT3LRcCkh-b5lCr/view"
-            }
-        ]
-    },
-    {
-        "title": "Configure All Related Labels",
-        "screen_name": "AppLabelsView",
-        "components": [
-            {
-                "label": "Fill Simple Data",
-                "action": "generate_data",
-                "data": [
-                    {
-                        "template_label": "Company Info",
-                        "template_data": [
-                            {
-                                "font_name": "headline",
-                                "value": "Name:"
-                            },
-                            {
-                                "font_name": "largeTitle",
-                                "value": "Company Name"
-                            },
-                            {
-                                "font_name": "headline",
-                                "value": "Short Description:"
-                            },
-                            {
-                                "font_name": "subheadline",
-                                "value": "A brief introduction to your company."
-                            },
-                            {
-                                "font_name": "headline",
-                                "value": "Detailed Description:"
-                            },
-                            {
-                                "font_name": "caption",
-                                "value": "An extensive narrative about your company, covering key aspects such as the history, mission, values, and distinctive features of your company. Highlight your company's achievements and the value it brings to customers."
-                            }
-                        ]
-                    },
-                    {
-                        "template_label": "Product Info",
-                        "template_data": [
-                            {
-                                "font_name": "headline",
-                                "value": "Name:"
-                            },
-                            {
-                                "font_name": "largeTitle",
-                                "value": "Product Name"
-                            },
-                            {
-                                "font_name": "headline",
-                                "value": "Short Description:"
-                            },
-                            {
-                                "font_name": "subheadline",
-                                "value": "A concise overview of your product."
-                            },
-                            {
-                                "font_name": "headline",
-                                "value": "Detailed Description:"
-                            },
-                            {
-                                "font_name": "caption",
-                                "value": "An in-depth exploration of your product's features, composition, and benefits. Detail the product's creation process and its source of supply."
-                            },
-                            {
-                                "font_name": "headline",
-                                "value": "Composition :"
-                            },
-                            {
-                                "font_name": "caption",
-                                "value": "An in-depth exploration of your product composition."
-                            },
-                            {
-                                "font_name": "headline",
-                                "value": "Creation Process :"
-                            },
-                            {
-                                "font_name": "caption",
-                                "value": "An in-depth exploration of your product creation process."
-                            }
-
-                        ]
-                    }
-                ]
+                "value": "<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>App Configuration</title>\n</head>\n<body>\n    <h1>App Configuration</h1>\n    <p>This screen is used so you can configure our app data with your company info. From this screen, as you can see, you can:</p>\n    <ul>\n        <li>Generate your catalog by clicking on \"Export Catalog\".</li>\n        <li>Preview your catalog links.</li>\n        <li>Consult your generated QR Code.</li>\n    </ul>\n</body>\n</html>",
+                "type": "html"
             },
             {
-                "label": "Open Documentation",
-                "action": "browser",
+                "value": "This is regular text.",
+                "type": "text"
+            },
+            {
+               "value": "* This is **bold** text, this is *italic* text, and this is ***bold, italic*** text.",
+               "type": "text"
+            },
+            {
+               "value": "~~A strikethrough example~~",
+               "type": "text"
+            },
+            {
+               "value": "`Monospaced works too`",
+               "type": "text"
+            },
+            {
+               "value": "Visit Apple: [click here](https://apple.com)",
+               "type": "text"
+            },
+            {
+                "value": "Open Documentation",
+                "type": "browser",
                 "url": "https://drive.google.com/file/d/1u_HBg_loC6veqnRrkxR7Sza8WmS01_T9/view?usp=sharing"
             }
         ]
