@@ -4,33 +4,94 @@
         "screen_name": "ConfigurationView",
         "components": [
             {
-                "value": "<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>App Configuration</title>\n</head>\n<body>\n    <h1>App Configuration</h1>\n    <p>This screen is used so you can configure our app data with your company info. From this screen, as you can see, you can:</p>\n    <ul>\n        <li>Generate your catalog by clicking on \"Export Catalog\".</li>\n        <li>Preview your catalog links.</li>\n        <li>Consult your generated QR Code.</li>\n    </ul>\n</body>\n</html>",
-                "type": "html"
+                "section": [
+                    {
+                        "value": "<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>App Configuration</title>\n</head>\n<body>\n    <h1>App Configuration</h1>\n    <p>This screen is used so you can configure our app data with your company info. From this screen, as you can see, you can:</p>\n    <ul>\n        <li>Generate your catalog by clicking on \"Export Catalog\".</li>\n        <li>Preview your catalog links.</li>\n        <li>Consult your generated QR Code.</li>\n    </ul>\n</body>\n</html>",
+                        "type": "html"
+                    },
+                    {
+                        "value": "This is regular text.",
+                        "type": "text"
+                    },
+                    {
+                        "value": "* This is **bold** text, this is *italic* text, and this is ***bold, italic*** text.",
+                        "type": "text"
+                    },
+                    {
+                        "value": "~~A strikethrough example~~",
+                        "type": "text"
+                    },
+                    {
+                        "value": "`Monospaced works too`",
+                        "type": "text"
+                    },
+                    {
+                        "value": "Visit Apple: [click here](https://apple.com)",
+                        "type": "text"
+                    },
+                    {
+                        "value": "Open Documentation",
+                        "type": "browser",
+                        "url": "https://drive.google.com/file/d/1u_HBg_loC6veqnRrkxR7Sza8WmS01_T9/view?usp=sharing"
+                    }
+                ],
+                "header": [
+                    {
+                        "value": "Section header",
+                        "type": "text"
+                    }
+                ],
+                "footer": [
+                    {
+                        "value": "Section footer",
+                        "type": "text"
+                    }
+                ]
             },
             {
-                "value": "This is regular text.",
-                "type": "text"
-            },
-            {
-               "value": "* This is **bold** text, this is *italic* text, and this is ***bold, italic*** text.",
-               "type": "text"
-            },
-            {
-               "value": "~~A strikethrough example~~",
-               "type": "text"
-            },
-            {
-               "value": "`Monospaced works too`",
-               "type": "text"
-            },
-            {
-               "value": "Visit Apple: [click here](https://apple.com)",
-               "type": "text"
-            },
-            {
-                "value": "Open Documentation",
-                "type": "browser",
-                "url": "https://drive.google.com/file/d/1u_HBg_loC6veqnRrkxR7Sza8WmS01_T9/view?usp=sharing"
+                "section": [
+                    {
+                        "value": "<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>App Configuration</title>\n</head>\n<body>\n    <h1>App Configuration</h1>\n    <p>This screen is used so you can configure our app data with your company info. From this screen, as you can see, you can:</p>\n    <ul>\n        <li>Generate your catalog by clicking on \"Export Catalog\".</li>\n        <li>Preview your catalog links.</li>\n        <li>Consult your generated QR Code.</li>\n    </ul>\n</body>\n</html>",
+                        "type": "html"
+                    },
+                    {
+                        "value": "This is regular text.",
+                        "type": "text"
+                    },
+                    {
+                        "value": "* This is **bold** text, this is *italic* text, and this is ***bold, italic*** text.",
+                        "type": "text"
+                    },
+                    {
+                        "value": "~~A strikethrough example~~",
+                        "type": "text"
+                    },
+                    {
+                        "value": "`Monospaced works too`",
+                        "type": "text"
+                    },
+                    {
+                        "value": "Visit Apple: [click here](https://apple.com)",
+                        "type": "text"
+                    },
+                    {
+                        "value": "Open Documentation",
+                        "type": "browser",
+                        "url": "https://drive.google.com/file/d/1u_HBg_loC6veqnRrkxR7Sza8WmS01_T9/view?usp=sharing"
+                    }
+                ],
+                "header": [
+                    {
+                        "value": "Section header",
+                        "type": "text"
+                    }
+                ],
+                "footer": [
+                    {
+                        "value": "Section footer",
+                        "type": "text"
+                    }
+                ]
             }
         ]
     }
