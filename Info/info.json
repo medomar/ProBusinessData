@@ -47,49 +47,18 @@
                         "type": "text"
                     }
                 ]
-            },
+            }
+        ]
+    },
+    {
+        "title": "Terms and Conditions for Pro Business Platform (CGU)",
+        "screen_name": "CGUView",
+        "components": [
             {
                 "section": [
                     {
-                        "value": "<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>App Configuration</title>\n</head>\n<body>\n    <h1>App Configuration</h1>\n    <p>This screen is used so you can configure our app data with your company info. From this screen, as you can see, you can:</p>\n    <ul>\n        <li>Generate your catalog by clicking on \"Export Catalog\".</li>\n        <li>Preview your catalog links.</li>\n        <li>Consult your generated QR Code.</li>\n    </ul>\n</body>\n</html>",
+                        "value": "<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Terms and Conditions</title>\n    <style>\n        body {\n            line-height: 1.6;\n            font-family: Arial, sans-serif;\n        }\n        h1, h2 {\n            margin-top: 1.5em;\n            margin-bottom: 0.5em;\n        }\n        p, ul, li {\n            margin-bottom: 1em;\n        }\n    </style>\n</head>\n<body>\n    <h1>Terms and Conditions for Pro Business Platform (CGU)</h1>\n    <h2>1. Introduction</h2>\n    <p>Welcome to Pro Business. By accessing and using our platform, you agree to comply with and be bound by the following terms and conditions (CGU). Please review them carefully. If you do not agree with these terms, you should not use our services.</p>\n    <h2>2. Data Privacy and Security</h2>\n    <ul>\n        <li><strong>User Data:</strong> All personal information, including user authentication details and company information, is securely stored in the user's iCloud Core Data.</li>\n        <li><strong>Shared Data:</strong> The only data shared with our platform is the HTML data of the shared menu. Other communications with our AI partner involve shared product and company information necessary for service functionality.</li>\n        <li><strong>AI Integration:</strong> Users provide text or image descriptions for AI-assisted setup and data configuration. This data is used to generate products, product groups, and translations.</li>\n    </ul>\n    <h2>3. User Authentication</h2>\n    <ul>\n        <li><strong>Sign-In Process:</strong> Users can sign in using their Apple ID. They can choose to remain logged in or require sign-in each time the app is opened.</li>\n        <li><strong>Personal Information:</strong> Users can edit their personal information, which is securely stored in their iCloud Core Data database.</li>\n    </ul>\n    <h2>4. Company and Product Management</h2>\n    <ul>\n        <li><strong>Company Profile:</strong> Users can create and manage their company profile, including name, description, activity sector, and language preferences.</li>\n        <li><strong>Product and Variant Management:</strong> Users can create product groups, products, and variants with multilingual support. They can organize products and variants into groups for better management.</li>\n    </ul>\n    <h2>5. AI Integration</h2>\n    <ul>\n        <li><strong>Data Configuration:</strong> Users can provide images or text descriptions for AI-assisted setup. Our AI partner will extract and reformulate the data into structured company components.</li>\n        <li><strong>Translation Generation:</strong> AI-driven translations are available for all company components in the selected languages.</li>\n    </ul>\n    <h2>6. Catalog Sharing</h2>\n    <ul>\n        <li><strong>Public Catalog Generation:</strong> Users can generate a shared catalog hosted on our server, accessible via a link or QR code. The catalog supports multilingual display.</li>\n        <li><strong>Catalog Availability:</strong> Generated catalogs remain available as long as the app exists, even if the user deactivates their account or stops their subscription. To update or edit the catalog, users need to reactivate their account.</li>\n    </ul>\n    <h2>7. Monetization</h2>\n    <ul>\n        <li><strong>Subscription Plans:</strong>\n            <ul>\n                <li>€24.99/month: Manage 1 catalog.</li>\n                <li>€44.99/month: Manage 3 catalogs.</li>\n                <li>€69.99/month: Manage 5 catalogs.</li>\n                <li>€89.99/month: Manage 10 catalogs.</li>\n            </ul>\n        </li>\n        <li><strong>In-App Purchases for AI Features:</strong>\n            <ul>\n                <li>€9.99 for 10,000 tokens.</li>\n                <li>€49.99 for 50,000 tokens.</li>\n                <li>€99.99 for 100,000 tokens.</li>\n            </ul>\n        </li>\n    </ul>\n    <h2>8. Service Availability</h2>\n    <ul>\n        <li><strong>Conditions:</strong> The catalog remains available as long as the app exists. If the account is deactivated or the subscription is not maintained, access to update or edit the catalog will require account reactivation.</li>\n        <li><strong>Reactivation Process:</strong> Users can reactivate their account to regain access to catalog management features.</li>\n    </ul>\n    <h2>9. Limitations and Responsibilities</h2>\n    <ul>\n        <li><strong>User Responsibilities:</strong> Users are responsible for maintaining the confidentiality of their login credentials and for all activities that occur under their account.</li>\n        <li><strong>Platform Limitations:</strong> Pro Business is not responsible for any data loss or breach resulting from unauthorized access to the user's iCloud Core Data.</li>\n    </ul>\n    <h2>10. Changes to Terms</h2>\n    <p>Pro Business reserves the right to modify these terms and conditions at any time. Users will be notified of any changes, and continued use of the platform constitutes acceptance of the new terms.</p>\n    <h2>11. Contact Information</h2>\n    <p>For any questions or concerns regarding these terms and conditions, please contact our support team at <a href=\"mailto:support@probusiness.com\">support@probusiness.com</a>.</p>\n    <p>By using Pro Business, you acknowledge that you have read, understood, and agree to be bound by these terms and conditions.</p>\n</body>\n</html>",
                         "type": "html"
-                    },
-                    {
-                        "value": "This is regular text.",
-                        "type": "text"
-                    },
-                    {
-                        "value": "* This is **bold** text, this is *italic* text, and this is ***bold, italic*** text.",
-                        "type": "text"
-                    },
-                    {
-                        "value": "~~A strikethrough example~~",
-                        "type": "text"
-                    },
-                    {
-                        "value": "`Monospaced works too`",
-                        "type": "text"
-                    },
-                    {
-                        "value": "Visit Apple: [click here](https://apple.com)",
-                        "type": "text"
-                    },
-                    {
-                        "value": "Open Documentation",
-                        "type": "browser",
-                        "url": "https://drive.google.com/file/d/1u_HBg_loC6veqnRrkxR7Sza8WmS01_T9/view?usp=sharing"
-                    }
-                ],
-                "header": [
-                    {
-                        "value": "Section header",
-                        "type": "text"
-                    }
-                ],
-                "footer": [
-                    {
-                        "value": "Section footer",
-                        "type": "text"
                     }
                 ]
             }
