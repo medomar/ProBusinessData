@@ -51,7 +51,7 @@
         ]
     },
     {
-        "title": "Terms and Conditions for Pro Business Platform (CGU)",
+        "title": "CGU",
         "screen_name": "CGUView",
         "components": [
             {
@@ -63,5 +63,197 @@
                 ]
             }
         ]
+    },
+    {
+        "title": "FAQ",
+        "screen_name": "FAQView",
+        "components": [
+            {
+                "section": [
+                    {
+                        "value": "How do I sign in using my Apple account?",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Response:",
+                        "type": "text",
+                        "fontName": "title3"
+                    },
+                    {
+                        "value": "To sign in using your Apple account, follow these steps:",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "1. Open the Pro Business app.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "2. On the login screen, select 'Sign in with Apple.'",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "3. Follow the prompts to authenticate using your Apple ID credentials.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "4. Once signed in, you can choose to stay logged in or require sign-in each time you open the app.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "How can I configure my company information using an image?",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Response:",
+                        "type": "text",
+                        "fontName": "title3"
+                    },
+                    {
+                        "value": "To configure your company information using an image:",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "1. Navigate to the 'Company Management' section in the app.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "2. Select 'Configure with Image.'",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "3. Upload an image containing your company details.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "4. Our AI will automatically extract and structure the information for you. Review the extracted data and make any necessary adjustments before saving.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "How do I generate translations for my product catalog?",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Response:",
+                        "type": "text",
+                        "fontName": "title3"
+                    },
+                    {
+                        "value": "Generating translations for your product catalog is easy:",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "1. Go to the 'Product Management' section.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "2. Select the catalog or product group you want to translate.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "3. Click on 'Generate Translations.'",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "4. Choose the languages you want from the list of supported languages.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "5. The AI will automatically generate the translations. Review and confirm the translations before publishing.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "What happens to my catalog if I deactivate my account or stop my subscription?",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Response:",
+                        "type": "text",
+                        "fontName": "title3"
+                    },
+                    {
+                        "value": "If you deactivate your account or stop your subscription, your catalog will remain available for viewing. However, you will not be able to make updates or edits until you reactivate your account or renew your subscription. The catalogs will continue to be hosted on our server and accessible via the shared link or QR code.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "What are the different subscription plans available, and what do they include?",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Response:",
+                        "type": "text",
+                        "fontName": "title3"
+                    },
+                    {
+                        "value": "Pro Business offers flexible monthly subscription plans:",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "€24.99/month: Manage 1 catalog.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "€44.99/month: Manage 3 catalogs.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "€69.99/month: Manage 5 catalogs.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "€89.99/month: Manage 10 catalogs.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "Each plan includes access to all core features, including user authentication, company and product management, variant management, AI integration, and catalog sharing. In addition, you can purchase AI tokens for enhanced features such as AI-driven translations and data configuration.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            }
+        ]
+
     }
 ]
