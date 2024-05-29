@@ -65,6 +65,20 @@
         ]
     },
     {
+        "title": "Privacy Policy",
+        "screen_name": "PrivacyPolicyView",
+        "components": [
+            {
+                "section": [
+                    {
+                        "value": "https://storage.googleapis.com/application_infos/PrivacyPolicy.html",
+                        "type": "browser"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "title": "FAQ",
         "screen_name": "FAQView",
         "components": [
