@@ -269,5 +269,55 @@
             }
         ]
 
+    },
+    {
+        "title": "Sign In & Sign Up",
+        "screen_name": "SignInView",
+        "components": [
+            {
+                "section": [
+                    {
+                        "value": "Welcome to Our App",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Sign in or sign up to get full access, or explore our demo.",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "Sign in with Apple",
+                        "type": "button",
+                        "fontName": "button"
+                    },
+                    {
+                        "value": "By signing in, you agree to our Terms of Service and Privacy Policy.",
+                        "type": "text",
+                        "fontName": "footnote"
+                    },
+                    {
+                        "value": "Frequently asked questions",
+                        "type": "link",
+                        "fontName": "link"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "User Authentication Information",
+                        "type": "text",
+                        "fontName": "title3"
+                    },
+                    {
+                        "value": "Users will sign in using their Apple iCloud identifier. This identifier will be used solely for app management purposes. All user data will be stored securely in their iCloud database, ensuring that we do not have access to this personal data.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            }
+        ]
     }
+
 ]
