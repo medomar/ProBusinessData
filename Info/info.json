@@ -1,50 +1,97 @@
 [
     {
-        "title": "Configure",
+        "title": "My Company",
         "screen_name": "ConfigurationView",
         "components": [
             {
                 "section": [
                     {
-                        "value": "<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>App Configuration</title>\n</head>\n<body>\n    <h1>App Configuration</h1>\n    <p>This screen is used so you can configure our app data with your company info. From this screen, as you can see, you can:</p>\n    <ul>\n        <li>Generate your catalog by clicking on \"Export Catalog\".</li>\n        <li>Preview your catalog links.</li>\n        <li>Consult your generated QR Code.</li>\n    </ul>\n</body>\n</html>",
-                        "type": "html"
+                        "value": "Company Management",
+                        "type": "text",
+                        "fontName": "title"
                     },
                     {
-                        "value": "This is regular text.",
-                        "type": "text"
+                        "value": "Company Name: Test Company 5",
+                        "type": "text",
+                        "fontName": "headline"
                     },
                     {
-                        "value": "* This is **bold** text, this is *italic* text, and this is ***bold, italic*** text.",
-                        "type": "text"
+                        "value": "Activity Sector: Food & Beverages",
+                        "type": "text",
+                        "fontName": "body"
                     },
                     {
-                        "value": "~~A strikethrough example~~",
-                        "type": "text"
-                    },
-                    {
-                        "value": "`Monospaced works too`",
-                        "type": "text"
-                    },
-                    {
-                        "value": "Visit Apple: [click here](https://apple.com)",
-                        "type": "text"
-                    },
-                    {
-                        "value": "Open Documentation",
-                        "type": "browser",
-                        "url": "https://drive.google.com/file/d/1u_HBg_loC6veqnRrkxR7Sza8WmS01_T9/view?usp=sharing"
+                        "value": "This section displays the basic information about the currently selected company, including its name and activity sector.",
+                        "type": "text",
+                        "fontName": "footnote"
                     }
-                ],
-                "header": [
+                ]
+            },
+            {
+                "section": [
                     {
-                        "value": "Section header",
-                        "type": "text"
+                        "value": "Product Catalogue",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Manage Tags",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "Use this option to manage the tags associated with your company's products. Tags help categorize products for better organization and searchability.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "Manage Products",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "This option allows you to manage your company's products, including adding new products, editing existing ones, and organizing them within the catalog.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "Manage Variants",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "Use this feature to manage product variants, such as different sizes, colors, or other attributes that distinguish variations of a single product.",
+                        "type": "text",
+                        "fontName": "body"
                     }
-                ],
-                "footer": [
+                ]
+            },
+            {
+                "section": [
                     {
-                        "value": "Section footer",
-                        "type": "text"
+                        "value": "Quick Action",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Export Catalogue",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "Use this option to export your company's product catalog. This can be useful for sharing the catalog with others or for backup purposes.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "My Company's Permanent Catalog",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "Access your company's permanent catalog, which provides a stable reference for your product offerings.",
+                        "type": "text",
+                        "fontName": "body"
                     }
                 ]
             }
@@ -282,7 +329,7 @@
                         "fontName": "title"
                     },
                     {
-                        "value": "Sign in or sign up to get full access, or explore our demo.",
+                        "value": "Sign in or sign up to get full access",
                         "type": "text",
                         "fontName": "headline"
                     },
@@ -295,11 +342,6 @@
                         "value": "By signing in, you agree to our Terms of Service and Privacy Policy.",
                         "type": "text",
                         "fontName": "footnote"
-                    },
-                    {
-                        "value": "Frequently asked questions",
-                        "type": "link",
-                        "fontName": "link"
                     }
                 ]
             },
@@ -318,6 +360,489 @@
                 ]
             }
         ]
+    },
+    {
+        "title": "My Companies",
+        "screen_name": "AllCompanySelectionListView",
+        "components": [
+            {
+                "section": [
+                    {
+                        "value": "+",
+                        "type": "button",
+                        "fontName": "button"
+                    },
+                    {
+                        "value": "Selecting a company will adjust the app to display relevant sections and manage its data.",
+                        "type": "text",
+                        "fontName": "footnote"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Managing Companies",
+                        "type": "text",
+                        "fontName": "title3"
+                    },
+                    {
+                        "value": "This screen displays all your companies. When you select a company from this list, the app will reconfigure with the corresponding data of that company.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "To create a new company and manage its catalog or information, tap the + button at the top of this screen. Your subscription level determines how many companies you can manage. If you need to create more companies and do not have access, you can either change your subscription or contact us for a solution that fits your needs.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "All data related to your company is stored in your iCloud, ensuring that we do not have access to any of it.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Profile",
+        "screen_name": "ProfileView",
+        "components": [
+            {
+                "section": [
+                    {
+                        "value": "Profile Information",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Your profile information is confidential and not shared with external companies.",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "We use your profile details solely to enhance your experience on our platform. Currently, sign-in is supported via Apple ID, with potential to add other providers in future versions.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Manage Monthly Subscription",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Your monthly subscription grants access to create and manage company catalogs and generate websites to enhance visibility to your customers.",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "By subscribing, you'll leverage our platform's solutions to improve your project's performance through various features available as soon as you enroll.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Manage AI Tokens",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Use AI Tokens to interact with our AI services.",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "This section allows you to manage your AI Tokens. Pricing depends on our partners' rates. We strive to offer the best AI solutions while maintaining your privacy. Details on data usage by AI services are governed by partner policies; we prioritize your data protection.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Terms and Conditions",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Privacy Policy",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Frequently asked questions",
+                        "type": "text",
+                        "fontName": "title"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "App Version",
+                        "type": "text",
+                        "fontName": "footnote"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "AI Configuration",
+        "screen_name": "AIMainView",
+        "components": [
+            {
+                "section": [
+                    {
+                        "value": "Generate Trad",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Leverage advanced AI to automate the generation of your catalog. Select your desired language, and our AI will do the rest.",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "This tool allows you to automatically populate your catalog with translations. You can review and manually adjust the translations before saving them or modify specific entries directly from each component's detail view.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Import Image Data",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Utilize advanced AI to import data.",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "Select images from your device to process with AI. Extract and configure app data automatically.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Import Text Data",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Utilize advanced AI to generate company data.",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "Provide text descriptions or documents about your company. Our AI will configure the app to suit your business needs.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Review AI Activity",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Review AI Integration History",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "Examine how AI has processed your data over time. Update or modify your company's catalog as needed.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "AI Text Import",
+        "screen_name": "GenerateTradView",
+        "components": [
+            {
+                "section": [
+                    {
+                        "value": "Generate Trad",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Generate trad using AI",
+                        "type": "button",
+                        "fontName": "button"
+                    },
+                    {
+                        "value": "Leverage advanced AI to automate the generation of your catalog. Select your desired language, and our AI will do the rest.",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "This tool allows you to automatically populate your catalog with translations. You can review and manually adjust the translations before saving them or modify specific entries directly from each component's detail view.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Additional Information",
+                        "type": "text",
+                        "fontName": "title3"
+                    },
+                    {
+                        "value": "If there is a language you can't see in this screen, don't worry. You can manage that by adding a new supported language to your current company from the screen of the company details. After that, let our AI do its magic, and it will generate all the possible translations. If our AI didn't achieve 100% translations of your catalog, you can redo this step and choose to either update all translations or only generate non-translated objects. After the AI finishes, you can access the details of generated translations, consult, validate, or edit them.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Company Info Translation",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Company Info",
+                        "type": "toggle",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "Consider updating or improving translations for your company info. If there are untranslated entries, our AI can generate them automatically.",
+                        "type": "text",
+                        "fontName": "footnote"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Product Groupings Translation",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Update Translations for Product Groupings",
+                        "type": "toggle",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "No existing translations for your company's product groupings in this language. You can update all translations or generate translations for only untranslated entries.",
+                        "type": "text",
+                        "fontName": "footnote"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Products Translation",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Update Translations for Products",
+                        "type": "toggle",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "No existing translations for your company's products in this language. Choose to update all translations or generate translations for only untranslated entries.",
+                        "type": "text",
+                        "fontName": "footnote"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Variants Translation",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Update Translations for Variants",
+                        "type": "toggle",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "No existing translations for your company's variants in this language. You can update all translations or focus on generating translations for only untranslated entries.",
+                        "type": "text",
+                        "fontName": "footnote"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "AI Images Import",
+        "screen_name": "AIImageImportView",
+        "components": [
+            {
+                "section": [
+                    {
+                        "value": "Select Images to Provide to the IA",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Use this screen to configure app data by extracting text from your company's images. You can select multiple images or just one image to start the process.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "After selecting the images, you can extract the text from them. This step is crucial as it helps reduce the cost of communication by using your device's AI to handle the text extraction process.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "Once the text is extracted, it will be sent to our AI partner to analyze and configure the app data based on the extracted information.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "AI Text Import",
+        "screen_name": "AITextImportView",
+        "components": [
+            {
+                "section": [
+                    {
+                        "value": "Text to Provide to the IA",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "Use this screen to configure app data by extracting information from your company's text descriptions. You can select a text file to start the process.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "After selecting the text file, you can extract the data from it. This step is crucial as it helps reduce the cost of communication by using your device's AI to handle the text extraction process.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "Once the data is extracted, it will be sent to our AI partner to analyze and configure the app data based on the extracted information.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "AI History",
+        "screen_name": "AIHistoryView",
+        "components": [
+            {
+                "section": [
+                    {
+                        "value": "AI Session Token Usage",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "This screen displays the usage history of AI session tokens. It helps users track how many tokens have been used and for what purposes.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Total Used Tokens: 456 PBAT",
+                        "type": "text",
+                        "fontName": "headline"
+                    },
+                    {
+                        "value": "This section shows the total number of tokens used so far.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Usage Details",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "For each entry, the following information is displayed:",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "1. The specific purpose for which the tokens were used (e.g., translations).",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "2. The language code associated with the translation or task.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "3. The date and time when the tokens were used.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "4. The number of tokens used for that specific task.",
+                        "type": "text",
+                        "fontName": "body"
+                    },
+                    {
+                        "value": "5. The status of the task (e.g., Injected), indicating whether the AI operation was successfully completed.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            },
+            {
+                "section": [
+                    {
+                        "value": "Understanding Token Usage",
+                        "type": "text",
+                        "fontName": "title"
+                    },
+                    {
+                        "value": "This history helps users understand their token consumption patterns and manage their AI token usage more effectively. Users can see which operations consume the most tokens and plan accordingly.",
+                        "type": "text",
+                        "fontName": "body"
+                    }
+                ]
+            }
+        ]
     }
-
 ]
