@@ -1,0 +1,93 @@
+[
+	{
+		"content": [
+			{
+	            "name": "BackgroundColor",
+	            "type": "color",
+	            "id": "backgroundColor"
+			},
+			{
+	            "name": "TextColor",
+	            "type": "color",
+	            "id": "textColor"
+			},
+			{
+	            "name": "Headline",
+	            "type": "colored_string",
+	            "required": true,
+	            "id": "headline"
+			},
+			{
+	            "name": "Subheadline",
+	            "type": "colored_string",
+	            "id": "subheadline"
+			},
+			{
+	            "name": "Action",
+	            "type": "action",
+	            "id": "callToAction"
+			},
+		    {
+				"name": "Media",
+				"type": "media",
+				"id": "mediaSrc"
+	        }
+		],
+		"id": "hero",
+		"title":"Hero Card",
+		"description": "Large Card with title sub title and image with action that can be used to display contnet in the header of your web page",
+		"frame": {
+			"width": null,
+			"heigth": null
+		},
+		"link": "https://staging.hope-probusiness.com/preview?previewId=rfwe5f"
+	},
+	{
+		"content": [
+			{
+	            "name": "BackgroundColor",
+	            "type": "color",
+	            "id": "backgroundColor"
+			},
+			{
+	            "name": "TextColor",
+	            "type": "color",
+	            "id": "textColor"
+			},
+			{
+	            "name": "Headline",
+	            "type": "colored_string",
+	            "required": true,
+	            "id": "headline"
+			},
+			{
+	            "name": "Subheadline",
+	            "type": "colored_string",
+	            "id": "subheadline"
+			},
+			{
+	            "name": "Description",
+	            "type": "colored_string",
+	            "id": "description"
+			},
+			{
+	            "name": "Action",
+	            "type": "action",
+	            "id": "callToAction"
+			},
+		    {
+				"name": "Media",
+				"type": "media",
+				"id": "mediaSrc"
+	        }
+		],
+		"id": "mediaCards",
+		"title":"Media Card",
+		"description": "Card with headline & subheadline & description it can be with image or video with action",
+		"frame": {
+			"width": null,
+			"heigth": null
+		},
+		"link": "https://staging.hope-probusiness.com/preview?previewId=6b5py"
+	}
+]
