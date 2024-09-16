@@ -1,5 +1,5 @@
 [
-		{
+	{
 		"content": [
 			{
 	            "name": "Color",
@@ -76,7 +76,27 @@
 			{
 	            "name": "collection",
 	            "type": "collection",
-	            "id": "collection"
+	            "id": "collection",
+	            "min": 0,
+	            "max": 3,
+	            "content": [
+	            	{
+			            "name": "colored_string",
+			            "type": "colored_string",
+			            "required": true,
+			            "id": "colored_string"
+					},
+	            	{
+			            "name": "icon_action",
+			            "type": "icon_action",
+			            "id": "icon_action"
+					},
+					{
+			            "name": "colored_large_string",
+			            "type": "colored_large_string",
+			            "id": "colored_large_string"
+					}
+	            ]
 			}
 		],
 		"id": "allFileds",
@@ -102,24 +122,24 @@
 			},
 			{
 	            "name": "Headline",
-	            "type": "colored_string",
+	            "type": "string",
 	            "required": true,
-	            "id": "headline"
+	            "id": "content.headline"
 			},
 			{
 	            "name": "Subheadline",
-	            "type": "colored_string",
-	            "id": "subheadline"
+	            "type": "string",
+	            "id": "content.subheadline"
 			},
 			{
 	            "name": "Action",
-	            "type": "colored_string_action",
-	            "id": "callToAction"
+	            "type": "string_action",
+	            "id": "content.callToAction"
 			},
 		    {
 				"name": "Media",
 				"type": "media",
-				"id": "mediaSrc"
+				"id": "content.mediaSrc"
 	        }
 		],
 		"id": "hero",
@@ -145,38 +165,150 @@
 			},
 			{
 	            "name": "Headline",
-	            "type": "colored_string",
+	            "type": "string",
 	            "required": true,
-	            "id": "headline"
+	            "id": "content.headline"
 			},
 			{
 	            "name": "Subheadline",
-	            "type": "colored_string",
-	            "id": "subheadline"
+	            "type": "string",
+	            "id": "content.subheadline"
 			},
 			{
 	            "name": "Description",
-	            "type": "colored_string",
-	            "id": "description"
+	            "type": "large_string",
+	            "id": "content.description"
 			},
 			{
 	            "name": "Action",
-	            "type": "action",
-	            "id": "callToAction"
+	            "type": "string_action",
+	            "id": "content.callToAction"
 			},
 		    {
 				"name": "Media",
 				"type": "media",
-				"id": "mediaSrc"
+				"id": "content.mediaSrc"
 	        }
 		],
-		"id": "mediaCards",
+		"id": "MediaCard",
 		"title":"Media Card",
-		"description": "Card with headline & subheadline & description it can be with image or video with action",
+		"description": "",
 		"frame": {
 			"width": null,
 			"heigth": null
 		},
-		"link": "https://staging.hope-probusiness.com/preview?previewId=6b5py"
+		"link": ""
+	},
+	{
+		"content": [
+			{
+	            "name": "BackgroundColor",
+	            "type": "color",
+	            "id": "backgroundColor"
+			},
+			{
+	            "name": "TextColor",
+	            "type": "color",
+	            "id": "textColor"
+			},
+			{
+	            "name": "Headline",
+	            "type": "string",
+	            "required": true,
+	            "id": "content.headline"
+			},
+			{
+	            "name": "Subheadline",
+	            "type": "string",
+	            "id": "content.subheadline"
+			},
+			{
+	            "name": "Description",
+	            "type": "large_string",
+	            "id": "content.description"
+			},
+			{
+	            "name": "Action",
+	            "type": "string_action",
+	            "id": "content.callToAction"
+			},
+		    {
+				"name": "Media",
+				"type": "media",
+				"id": "content.mediaSrc"
+	        }
+		],
+		"id": "largeMediaCard",
+		"title":"Large MediaCard",
+		"description": "",
+		"frame": {
+			"width": null,
+			"heigth": null
+		},
+		"link": ""
+	},
+	{
+		"content": [
+			{
+	            "name": "BackgroundColor",
+	            "type": "color",
+	            "id": "backgroundColor"
+			},
+			{
+	            "name": "TextColor",
+	            "type": "color",
+	            "id": "textColor"
+			},
+			{
+	            "name": "Headline",
+	            "type": "string",
+	            "required": true,
+	            "id": "content.headline"
+			},
+			{
+	            "name": "Subheadline",
+	            "type": "string",
+	            "id": "content.subheadline"
+			},
+			{
+	            "name": "collection",
+	            "type": "collection",
+	            "id": "content.features",
+	            "min": 0,
+	            "max": 3,
+	            "content": [
+	            	{
+			            "name": "Title",
+			            "type": "string",
+			            "required": true,
+			            "id": "title"
+					},
+	            	{
+			            "name": "Icon",
+			            "type": "icon",
+			            "id": "icon"
+					},
+					{
+			            "name": "Description",
+			            "type": "string",
+			            "required": true,
+			            "id": "description"
+					},
+					{
+			            "name": "Action",
+			            "type": "action",
+			            "id": "action"
+					}
+	            ]
+			}
+		],
+		"id": "FeatureGrid",
+		"title":"Feature Grid",
+		"description": "",
+		"frame": {
+			"width": null,
+			"heigth": null
+		},
+		"link": ""
 	}
 ]
