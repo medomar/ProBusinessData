@@ -1,114 +1,5 @@
 [
    {
-      "content":[
-         {
-            "name":"Color",
-            "type":"color",
-            "id":"color"
-         },
-         {
-            "name":"string",
-            "type":"string",
-            "required":true,
-            "id":"string"
-         },
-         {
-            "name":"colored_string",
-            "type":"colored_string",
-            "required":true,
-            "id":"colored_string"
-         },
-         {
-            "name":"large_string",
-            "type":"large_string",
-            "id":"large_string"
-         },
-         {
-            "name":"colored_large_string",
-            "type":"colored_large_string",
-            "id":"colored_large_string"
-         },
-         {
-            "name":"action",
-            "type":"action",
-            "id":"action"
-         },
-         {
-            "name":"colored_action",
-            "type":"colored_action",
-            "id":"colored_action"
-         },
-         {
-            "name":"string_action",
-            "type":"string_action",
-            "id":"string_action"
-         },
-         {
-            "name":"colored_string_action",
-            "type":"colored_string_action",
-            "id":"colored_string_action"
-         },
-         {
-            "name":"colored_icon_string_action",
-            "type":"colored_icon_string_action",
-            "id":"colored_icon_string_action"
-         },
-         {
-            "name":"icon_string_action",
-            "type":"icon_string_action",
-            "id":"icon_string_action"
-         },
-         {
-            "name":"icon_action",
-            "type":"icon_action",
-            "id":"icon_action"
-         },
-         {
-            "name":"media",
-            "type":"media",
-            "id":"media"
-         },
-         {
-            "name":"custom_position_media",
-            "type":"custom_position_media",
-            "id":"custom_position_media"
-         },
-         {
-            "name":"collection",
-            "type":"collection",
-            "id":"collection",
-            "min":0,
-            "max":3,
-            "content":[
-               {
-                  "name":"colored_string",
-                  "type":"colored_string",
-                  "required":true,
-                  "id":"colored_string"
-               },
-               {
-                  "name":"icon_action",
-                  "type":"icon_action",
-                  "id":"icon_action"
-               },
-               {
-                  "name":"colored_large_string",
-                  "type":"colored_large_string",
-                  "id":"colored_large_string"
-               }
-            ]
-         }
-      ],
-      "id":"allFileds",
-      "title":"All Filed Types Components",
-      "description":"This Components is to display all the all Fileds that our App support",
-      "frame":{
-         "width":null,
-         "heigth":null
-      },
-      "link":null
-   },
-   {
   "content": [
     {
       "name": "BackgroundColor",
@@ -152,7 +43,7 @@
       "id": "content.subheadline"
     }
   ],
-  "id": "header7Section",
+  "id": "header_7",
   "title": "Header 7 Section",
   "description": "A header section with headline, description, media, two action buttons, and a subheadline",
   "frame": {
@@ -214,7 +105,7 @@
       ]
     }
   ],
-  "id": "feature_4",
+  "id": "Feature_4",
   "title": "Feature 4",
   "description": "A feature section with headline, subheadline, and a collection of features with icons, titles, descriptions, and actions",
   "frame": {
@@ -295,7 +186,7 @@
       ]
     }
   ],
-  "id": "feature_22",
+  "id": "Feature_22",
   "title": "Feature 22",
   "description": "A feature section with headline, subheadline, main action, features, and additional action links",
   "frame": {
@@ -471,7 +362,7 @@
       ]
     }
   ],
-  "id": "feature16",
+  "id": "BetterDesign",
   "title": "Better Design",
   "description": "A feature section highlighting better design with headline, description, media, and a list of features",
   "frame": {
@@ -661,7 +552,7 @@
       "id": "content.media"
     }
   ],
-  "id": "mediaCard_1",
+  "id": "mediaCard",
   "title": "Media Card",
   "description": "A media card with headline, subheadline, description, action button, and customizable media position",
   "frame": {
@@ -821,7 +712,7 @@
       ]
     }
   ],
-  "id": "featureGrid1",
+  "id": "FeatureGrid",
   "title": "Feature Grid",
   "description": "A feature grid with headline, subheadline, and customizable features including titles, descriptions, icons, and actions",
   "frame": {
