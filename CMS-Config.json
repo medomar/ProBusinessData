@@ -1,724 +1,585 @@
 [
-   {
-  "content": [
     {
-      "name": "BackgroundColor",
-      "type": "color",
-      "id": "backgroundColor"
+        "content": [
+            {
+                "name": "Headline",
+                "type": "string",
+                "required": true,
+                "id": "content.headline"
+            },
+            {
+                "name": "Description",
+                "type": "string",
+                "id": "content.description"
+            },
+            {
+                "name": "Media",
+                "type": "media",
+                "id": "content.media"
+            },
+            {
+                "name": "Action 1",
+                "type": "string_action",
+                "id": "content.action1"
+            },
+            {
+                "name": "Action 2",
+                "type": "string_action",
+                "id": "content.action2"
+            },
+            {
+                "name": "Subheadline",
+                "type": "string",
+                "id": "content.subheadline"
+            }
+        ],
+        "id": "header_7",
+        "title": "Header 7 Section",
+        "description": "A header section with headline, description, media, two action buttons, and a subheadline",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "link": null
     },
     {
-      "name": "TextColor",
-      "type": "color",
-      "id": "textColor"
+        "content": [
+            {
+                "name": "Headline",
+                "type": "string",
+                "required": true,
+                "id": "content.headline"
+            },
+            {
+                "name": "Subheadline",
+                "type": "string",
+                "id": "content.subheadline"
+            },
+            {
+                "name": "Features",
+                "type": "collection",
+                "id": "content.features",
+                "min": 1,
+                "max": 3,
+                "content": [
+                    {
+                        "name": "Icon",
+                        "type": "icon",
+                        "id": "icon"
+                    },
+                    {
+                        "name": "Title",
+                        "type": "string",
+                        "id": "title"
+                    },
+                    {
+                        "name": "Description",
+                        "type": "string",
+                        "id": "description"
+                    },
+                    {
+                        "name": "Action",
+                        "type": "string_action",
+                        "id": "action"
+                    }
+                ]
+            }
+        ],
+        "id": "Feature_4",
+        "title": "Feature 4",
+        "description": "A feature section with headline, subheadline, and a collection of features with icons, titles, descriptions, and actions",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "link": null
     },
     {
-      "name": "Headline",
-      "type": "colored_string",
-      "required": true,
-      "id": "content.headline"
+        "content": [
+            {
+                "name": "Headline",
+                "type": "string",
+                "required": true,
+                "id": "content.headline"
+            },
+            {
+                "name": "Subheadline",
+                "type": "string",
+                "id": "content.subheadline"
+            },
+            {
+                "name": "Action",
+                "type": "string_action",
+                "id": "content.action"
+            },
+            {
+                "name": "Features",
+                "type": "collection",
+                "id": "content.features",
+                "min": 1,
+                "max": 2,
+                "content": [
+                    {
+                        "name": "Icon",
+                        "type": "icon",
+                        "id": "icon"
+                    },
+                    {
+                        "name": "Title",
+                        "type": "string",
+                        "id": "title"
+                    },
+                    {
+                        "name": "Description",
+                        "type": "string",
+                        "id": "description"
+                    }
+                ]
+            },
+            {
+                "name": "Additional Actions",
+                "description": "A List Of Actions with only an icon",
+                "type": "collection",
+                "id": "content.actions",
+                "min": 1,
+                "max": 3,
+                "content": [
+                    {
+                        "name": "Action",
+                        "type": "icon_action",
+                        "id": "content.action"
+                    }
+                ]
+            }
+        ],
+        "id": "Feature_22",
+        "title": "Feature 22",
+        "description": "A feature section with headline, subheadline, main action, features, and additional action links",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "link": null
     },
     {
-      "name": "Description",
-      "type": "colored_string",
-      "id": "content.description"
+        "content": [
+            {
+                "name": "Headline",
+                "type": "string",
+                "required": true,
+                "id": "content.headline"
+            },
+            {
+                "name": "Subheadline",
+                "type": "string",
+                "id": "content.subheadline"
+            },
+            {
+                "name": "Media",
+                "type": "media",
+                "id": "content.media"
+            },
+            {
+                "name": "Social Actions",
+                "type": "collection",
+                "id": "content.actions",
+                "min": 1,
+                "max": 5,
+                "content": [
+                    {
+                        "name":"icon_action",
+                        "type":"icon_action",
+                        "id":"icon_action"
+                    }
+                ]
+            }
+        ],
+        "id": "contact_10",
+        "title": "Contact 10",
+        "description": "A contact section with headline, subheadline, media, and social media links",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "link": null
     },
     {
-      "name": "Media",
-      "type": "media",
-      "id": "content.media"
+        "content": [
+            {
+                "name": "Headline",
+                "type": "string",
+                "required": true,
+                "id": "content.headline"
+            },
+            {
+                "name": "Media",
+                "type": "media",
+                "id": "content.media"
+            },
+            {
+                "name": "Description",
+                "type": "string",
+                "id": "content.description"
+            },
+            {
+                "name": "Features",
+                "type": "collection",
+                "id": "content.features",
+                "min": 1,
+                "max": 3,
+                "content": [
+                    {
+                        "name": "Title",
+                        "type": "string",
+                        "id": "title"
+                    },
+                    {
+                        "name": "Description",
+                        "type": "string",
+                        "id": "description"
+                    }
+                ]
+            }
+        ],
+        "id": "MultiUsefulComponents",
+        "title": "Multi Useful Components",
+        "description": "A section showcasing multiple useful components with headline, media, description, and features",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "link": null
     },
     {
-      "name": "Action 1",
-      "type": "colored_string_action",
-      "id": "content.action1"
+        "content": [
+            {
+                "name": "Headline",
+                "type": "string",
+                "required": true,
+                "id": "content.headline"
+            },
+            {
+                "name": "Description",
+                "type": "string",
+                "id": "content.description"
+            },
+            {
+                "name": "Media",
+                "type": "media",
+                "id": "content.media"
+            },
+            {
+                "name": "Features",
+                "type": "collection",
+                "id": "content.features",
+                "min": 1,
+                "max": 4,
+                "content": [
+                    {
+                        "name": "Icon",
+                        "type": "icon",
+                        "id": "icon"
+                    },
+                    {
+                        "name": "Title",
+                        "type": "string",
+                        "id": "title"
+                    },
+                    {
+                        "name": "Description",
+                        "type": "string",
+                        "id": "description"
+                    }
+                ]
+            }
+        ],
+        "id": "BetterDesign",
+        "title": "Better Design",
+        "description": "A feature section highlighting better design with headline, description, media, and a list of features",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "link": null
     },
     {
-      "name": "Action 2",
-      "type": "colored_string_action",
-      "id": "content.action2"
+        "content": [
+            {
+                "name": "Headline",
+                "type": "string",
+                "required": true,
+                "id": "content.headline"
+            },
+            {
+                "name": "Subheadline",
+                "type": "string",
+                "id": "content.subheadline"
+            },
+            {
+                "name": "Action",
+                "type": "string_action",
+                "id": "content.action"
+            }
+        ],
+        "id": "header_15",
+        "title": "Header 15",
+        "description": "A header section with headline, subheadline, and action button",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "link": null
     },
     {
-      "name": "Subheadline",
-      "type": "colored_string",
-      "id": "content.subheadline"
+        "content": [
+            {
+                "name": "Headline",
+                "type": "string",
+                "required": true,
+                "id": "content.headline"
+            },
+            {
+                "name": "Subheadline",
+                "type": "string",
+                "id": "content.subheadline"
+            },
+            {
+                "name": "Action",
+                "type": "string_action",
+                "id": "content.action"
+            },
+            {
+                "name": "Features",
+                "type": "collection",
+                "id": "content.features",
+                "min": 1,
+                "max": 3,
+                "content": [
+                    {
+                        "name": "Title",
+                        "type": "string",
+                        "id": "title"
+                    },
+                    {
+                        "name": "Description",
+                        "type": "string",
+                        "id": "description"
+                    }
+                ]
+            }
+        ],
+        "id": "content_18",
+        "title": "Content 18",
+        "description": "A content section with headline, subheadline, action button, and feature list",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "link": null
+    },
+    {
+        "content": [
+            {
+                "name": "Headline",
+                "type": "string",
+                "required": true,
+                "id": "content.headline"
+            },
+            {
+                "name": "Social Actions",
+                "type": "collection",
+                "id": "content.actions",
+                "min": 1,
+                "max": 6,
+                "content": [
+                    {
+                        "name": "Icon",
+                        "type": "icon",
+                        "id": "icon"
+                    },
+                    {
+                        "name": "URL",
+                        "type": "string",
+                        "id": "url"
+                    }
+                ]
+            }
+        ],
+        "id": "callToAction",
+        "title": "Call to Action",
+        "description": "A call-to-action section with headline and social media links",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "link": null
+    },
+    {
+        "content": [
+            {
+                "name": "Headline",
+                "type": "string",
+                "required": true,
+                "id": "content.headline"
+            },
+            {
+                "name": "Subheadline",
+                "type": "string",
+                "id": "content.subheadline"
+            },
+            {
+                "name": "Description",
+                "type": "string",
+                "id": "content.description"
+            },
+            {
+                "name": "Action",
+                "type": "string_action",
+                "id": "content.action"
+            },
+            {
+                "name": "Media",
+                "type": "custom_position_media",
+                "id": "content.media"
+            }
+        ],
+        "id": "mediaCard",
+        "title": "Media Card",
+        "description": "A media card with headline, subheadline, description, action button, and customizable media position",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "link": null
+    },
+    {
+        "content": [
+            {
+                "name": "Headline",
+                "type": "string",
+                "required": true,
+                "id": "content.headline"
+            },
+            {
+                "name": "Subheadline",
+                "type": "string",
+                "id": "content.subheadline"
+            },
+            {
+                "name": "Media",
+                "type": "media",
+                "id": "content.media"
+            },
+            {
+                "name": "Action",
+                "type": "string_action",
+                "id": "content.action"
+            }
+        ],
+        "id": "hero",
+        "title": "Hero",
+        "description": "A hero section with headline, subheadline, media, and action button",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "link": null
+    },
+    {
+        "content": [
+            {
+                "name": "Columns",
+                "type": "number",
+                "id": "content.columns",
+                "min": 1,
+                "max": 3
+            },
+            {
+                "name": "Features",
+                "type": "collection",
+                "id": "content.features",
+                "min": 1,
+                "max": 5,
+                "content": [
+                    {
+                        "name": "Description",
+                        "type": "string",
+                        "id": "description"
+                    },
+                    {
+                        "name": "Media",
+                        "type": "media",
+                        "id": "media"
+                    }
+                ]
+            }
+        ],
+        "id": "featureGrid_1",
+        "title": "Feature Grid 1",
+        "description": "A feature grid with customizable columns and features including descriptions and media",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "link": null
+    },
+    {
+        "content": [
+            {
+                "name": "Headline",
+                "type": "string",
+                "required": true,
+                "id": "content.headline"
+            },
+            {
+                "name": "Subheadline",
+                "type": "string",
+                "id": "content.subheadline"
+            },
+            {
+                "name": "Columns",
+                "type": "number",
+                "id": "content.columns",
+                "min": 1,
+                "max": 3
+            },
+            {
+                "name": "Features",
+                "type": "collection",
+                "id": "content.features",
+                "min": 1,
+                "max": 6,
+                "content": [
+                    {
+                        "name": "Title",
+                        "type": "string",
+                        "id": "title"
+                    },
+                    {
+                        "name": "Description",
+                        "type": "string",
+                        "id": "description"
+                    },
+                    {
+                        "name": "Icon",
+                        "type": "icon",
+                        "id": "icon"
+                    },
+                    {
+                        "name": "Action",
+                        "type": "string_action",
+                        "id": "action"
+                    }
+                ]
+            }
+        ],
+        "id": "FeatureGrid",
+        "title": "Feature Grid",
+        "description": "A feature grid with headline, subheadline, and customizable features including titles, descriptions, icons, and actions",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "link": null
     }
-  ],
-  "id": "header_7",
-  "title": "Header 7 Section",
-  "description": "A header section with headline, description, media, two action buttons, and a subheadline",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "link": null
-},
-{
-  "content": [
-    {
-      "name": "BackgroundColor",
-      "type": "color",
-      "id": "backgroundColor"
-    },
-    {
-      "name": "TextColor",
-      "type": "color",
-      "id": "textColor"
-    },
-    {
-      "name": "Headline",
-      "type": "colored_string",
-      "required": true,
-      "id": "content.headline"
-    },
-    {
-      "name": "Subheadline",
-      "type": "colored_string",
-      "id": "content.subheadline"
-    },
-    {
-      "name": "Features",
-      "type": "collection",
-      "id": "content.features",
-      "min": 1,
-      "max": 3,
-      "content": [
-        {
-          "name": "Icon",
-          "type": "icon",
-          "id": "icon"
-        },
-        {
-          "name": "Title",
-          "type": "colored_string",
-          "id": "title"
-        },
-        {
-          "name": "Description",
-          "type": "colored_string",
-          "id": "description"
-        },
-        {
-          "name": "Action",
-          "type": "colored_string_action",
-          "id": "action"
-        }
-      ]
-    }
-  ],
-  "id": "Feature_4",
-  "title": "Feature 4",
-  "description": "A feature section with headline, subheadline, and a collection of features with icons, titles, descriptions, and actions",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "link": null
-},
-{
-  "content": [
-    {
-      "name": "BackgroundColor",
-      "type": "color",
-      "id": "backgroundColor"
-    },
-    {
-      "name": "TextColor",
-      "type": "color",
-      "id": "textColor"
-    },
-    {
-      "name": "Headline",
-      "type": "colored_string",
-      "required": true,
-      "id": "content.headline"
-    },
-    {
-      "name": "Subheadline",
-      "type": "colored_string",
-      "id": "content.subheadline"
-    },
-    {
-      "name": "Action",
-      "type": "colored_string_action",
-      "id": "content.action"
-    },
-    {
-      "name": "Features",
-      "type": "collection",
-      "id": "content.features",
-      "min": 1,
-      "max": 2,
-      "content": [
-        {
-          "name": "Icon",
-          "type": "icon",
-          "id": "icon"
-        },
-        {
-          "name": "Title",
-          "type": "colored_string",
-          "id": "title"
-        },
-        {
-          "name": "Description",
-          "type": "colored_string",
-          "id": "description"
-        }
-      ]
-    },
-    {
-      "name": "Additional Actions",
-      "type": "collection",
-      "id": "content.actions",
-      "min": 1,
-      "max": 3,
-      "content": [
-        {
-          "name": "Icon",
-          "type": "icon",
-          "id": "icon"
-        },
-        {
-          "name": "URL",
-          "type": "string",
-          "id": "url"
-        }
-      ]
-    }
-  ],
-  "id": "Feature_22",
-  "title": "Feature 22",
-  "description": "A feature section with headline, subheadline, main action, features, and additional action links",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "link": null
-},
-{
-  "content": [
-    {
-      "name": "BackgroundColor",
-      "type": "color",
-      "id": "backgroundColor"
-    },
-    {
-      "name": "TextColor",
-      "type": "color",
-      "id": "textColor"
-    },
-    {
-      "name": "Headline",
-      "type": "colored_string",
-      "required": true,
-      "id": "content.headline"
-    },
-    {
-      "name": "Subheadline",
-      "type": "colored_string",
-      "id": "content.subheadline"
-    },
-    {
-      "name": "Media",
-      "type": "media",
-      "id": "content.media"
-    },
-    {
-      "name": "Social Actions",
-      "type": "collection",
-      "id": "content.actions",
-      "min": 1,
-      "max": 5,
-      "content": [
-        {
-          "name": "Icon",
-          "type": "icon",
-          "id": "icon"
-        },
-        {
-          "name": "URL",
-          "type": "string",
-          "id": "url"
-        }
-      ]
-    }
-  ],
-  "id": "contact_10",
-  "title": "Contact 10",
-  "description": "A contact section with headline, subheadline, media, and social media links",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "link": null
-},
-{
-  "content": [
-    {
-      "name": "BackgroundColor",
-      "type": "color",
-      "id": "backgroundColor"
-    },
-    {
-      "name": "TextColor",
-      "type": "color",
-      "id": "textColor"
-    },
-    {
-      "name": "Headline",
-      "type": "colored_string",
-      "required": true,
-      "id": "content.headline"
-    },
-    {
-      "name": "Media",
-      "type": "media",
-      "id": "content.media"
-    },
-    {
-      "name": "Description",
-      "type": "colored_string",
-      "id": "content.description"
-    },
-    {
-      "name": "Features",
-      "type": "collection",
-      "id": "content.features",
-      "min": 1,
-      "max": 3,
-      "content": [
-        {
-          "name": "Title",
-          "type": "colored_string",
-          "id": "title"
-        },
-        {
-          "name": "Description",
-          "type": "colored_string",
-          "id": "description"
-        }
-      ]
-    }
-  ],
-  "id": "MultiUsefulComponents",
-  "title": "Multi Useful Components",
-  "description": "A section showcasing multiple useful components with headline, media, description, and features",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "link": null
-},
-{
-  "content": [
-    {
-      "name": "BackgroundColor",
-      "type": "color",
-      "id": "backgroundColor"
-    },
-    {
-      "name": "TextColor",
-      "type": "color",
-      "id": "textColor"
-    },
-    {
-      "name": "Headline",
-      "type": "colored_string",
-      "required": true,
-      "id": "content.headline"
-    },
-    {
-      "name": "Description",
-      "type": "colored_string",
-      "id": "content.description"
-    },
-    {
-      "name": "Media",
-      "type": "media",
-      "id": "content.media"
-    },
-    {
-      "name": "Features",
-      "type": "collection",
-      "id": "content.features",
-      "min": 1,
-      "max": 4,
-      "content": [
-        {
-          "name": "Icon",
-          "type": "icon",
-          "id": "icon"
-        },
-        {
-          "name": "Title",
-          "type": "colored_string",
-          "id": "title"
-        },
-        {
-          "name": "Description",
-          "type": "colored_string",
-          "id": "description"
-        }
-      ]
-    }
-  ],
-  "id": "BetterDesign",
-  "title": "Better Design",
-  "description": "A feature section highlighting better design with headline, description, media, and a list of features",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "link": null
-},
-{
-  "content": [
-    {
-      "name": "BackgroundColor",
-      "type": "color",
-      "id": "backgroundColor"
-    },
-    {
-      "name": "TextColor",
-      "type": "color",
-      "id": "textColor"
-    },
-    {
-      "name": "Headline",
-      "type": "colored_string",
-      "required": true,
-      "id": "content.headline"
-    },
-    {
-      "name": "Subheadline",
-      "type": "colored_string",
-      "id": "content.subheadline"
-    },
-    {
-      "name": "Action",
-      "type": "colored_string_action",
-      "id": "content.action"
-    }
-  ],
-  "id": "header_15",
-  "title": "Header 15",
-  "description": "A header section with headline, subheadline, and action button",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "link": null
-},
-{
-  "content": [
-    {
-      "name": "BackgroundColor",
-      "type": "color",
-      "id": "backgroundColor"
-    },
-    {
-      "name": "TextColor",
-      "type": "color",
-      "id": "textColor"
-    },
-    {
-      "name": "Headline",
-      "type": "colored_string",
-      "required": true,
-      "id": "content.headline"
-    },
-    {
-      "name": "Subheadline",
-      "type": "colored_string",
-      "id": "content.subheadline"
-    },
-    {
-      "name": "Action",
-      "type": "colored_string_action",
-      "id": "content.action"
-    },
-    {
-      "name": "Features",
-      "type": "collection",
-      "id": "content.features",
-      "min": 1,
-      "max": 3,
-      "content": [
-        {
-          "name": "Title",
-          "type": "colored_string",
-          "id": "title"
-        },
-        {
-          "name": "Description",
-          "type": "colored_string",
-          "id": "description"
-        }
-      ]
-    }
-  ],
-  "id": "content_18",
-  "title": "Content 18",
-  "description": "A content section with headline, subheadline, action button, and feature list",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "link": null
-},
-{
-  "content": [
-    {
-      "name": "BackgroundColor",
-      "type": "color",
-      "id": "backgroundColor"
-    },
-    {
-      "name": "TextColor",
-      "type": "color",
-      "id": "textColor"
-    },
-    {
-      "name": "Headline",
-      "type": "colored_string",
-      "required": true,
-      "id": "content.headline"
-    },
-    {
-      "name": "Social Actions",
-      "type": "collection",
-      "id": "content.actions",
-      "min": 1,
-      "max": 6,
-      "content": [
-        {
-          "name": "Icon",
-          "type": "icon",
-          "id": "icon"
-        },
-        {
-          "name": "URL",
-          "type": "string",
-          "id": "url"
-        }
-      ]
-    }
-  ],
-  "id": "callToAction",
-  "title": "Call to Action",
-  "description": "A call-to-action section with headline and social media links",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "link": null
-},
-{
-  "content": [
-    {
-      "name": "BackgroundColor",
-      "type": "color",
-      "id": "backgroundColor"
-    },
-    {
-      "name": "TextColor",
-      "type": "color",
-      "id": "textColor"
-    },
-    {
-      "name": "Headline",
-      "type": "colored_string",
-      "required": true,
-      "id": "content.headline"
-    },
-    {
-      "name": "Subheadline",
-      "type": "colored_string",
-      "id": "content.subheadline"
-    },
-    {
-      "name": "Description",
-      "type": "colored_string",
-      "id": "content.description"
-    },
-    {
-      "name": "Action",
-      "type": "colored_string_action",
-      "id": "content.action"
-    },
-    {
-      "name": "Media",
-      "type": "custom_position_media",
-      "id": "content.media"
-    }
-  ],
-  "id": "mediaCard",
-  "title": "Media Card",
-  "description": "A media card with headline, subheadline, description, action button, and customizable media position",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "link": null
-},
-{
-  "content": [
-    {
-      "name": "BackgroundColor",
-      "type": "color",
-      "id": "backgroundColor"
-    },
-    {
-      "name": "TextColor",
-      "type": "color",
-      "id": "textColor"
-    },
-    {
-      "name": "Headline",
-      "type": "colored_string",
-      "required": true,
-      "id": "content.headline"
-    },
-    {
-      "name": "Subheadline",
-      "type": "colored_string",
-      "id": "content.subheadline"
-    },
-    {
-      "name": "Media",
-      "type": "media",
-      "id": "content.media"
-    },
-    {
-      "name": "Action",
-      "type": "colored_string_action",
-      "id": "content.action"
-    }
-  ],
-  "id": "hero",
-  "title": "Hero",
-  "description": "A hero section with headline, subheadline, media, and action button",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "link": null
-},
-{
-  "content": [
-    {
-      "name": "BackgroundColor",
-      "type": "color",
-      "id": "backgroundColor"
-    },
-    {
-      "name": "TextColor",
-      "type": "color",
-      "id": "textColor"
-    },
-    {
-      "name": "Columns",
-      "type": "number",
-      "id": "content.columns",
-      "min": 1,
-      "max": 3
-    },
-    {
-      "name": "Features",
-      "type": "collection",
-      "id": "content.features",
-      "min": 1,
-      "max": 5,
-      "content": [
-        {
-          "name": "Description",
-          "type": "colored_string",
-          "id": "description"
-        },
-        {
-          "name": "Media",
-          "type": "media",
-          "id": "media"
-        }
-      ]
-    }
-  ],
-  "id": "featureGrid_1",
-  "title": "Feature Grid 1",
-  "description": "A feature grid with customizable columns and features including descriptions and media",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "link": null
-},
-{
-  "content": [
-    {
-      "name": "BackgroundColor",
-      "type": "color",
-      "id": "backgroundColor"
-    },
-    {
-      "name": "TextColor",
-      "type": "color",
-      "id": "textColor"
-    },
-    {
-      "name": "Headline",
-      "type": "colored_string",
-      "required": true,
-      "id": "content.headline"
-    },
-    {
-      "name": "Subheadline",
-      "type": "colored_string",
-      "id": "content.subheadline"
-    },
-    {
-      "name": "Columns",
-      "type": "number",
-      "id": "content.columns",
-      "min": 1,
-      "max": 3
-    },
-    {
-      "name": "Features",
-      "type": "collection",
-      "id": "content.features",
-      "min": 1,
-      "max": 6,
-      "content": [
-        {
-          "name": "Title",
-          "type": "colored_string",
-          "id": "title"
-        },
-        {
-          "name": "Description",
-          "type": "colored_string",
-          "id": "description"
-        },
-        {
-          "name": "Icon",
-          "type": "icon",
-          "id": "icon"
-        },
-        {
-          "name": "Action",
-          "type": "string_action",
-          "id": "action"
-        }
-      ]
-    }
-  ],
-  "id": "FeatureGrid",
-  "title": "Feature Grid",
-  "description": "A feature grid with headline, subheadline, and customizable features including titles, descriptions, icons, and actions",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "link": null
-}
 ]
