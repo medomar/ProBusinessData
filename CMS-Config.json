@@ -59,7 +59,7 @@
                 "name": "Features",
                 "type": "collection",
                 "id": "content.features",
-                "min": 1,
+                "min": 3,
                 "max": 3,
                 "content": [
                     {
@@ -498,8 +498,8 @@
                 "name": "Features",
                 "type": "collection",
                 "id": "content.features",
-                "min": 1,
-                "max": 5,
+                "min": 3,
+                "max": 3,
                 "content": [
                     {
                         "name": "Description",
