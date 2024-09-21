@@ -1,5 +1,58 @@
 [
     {
+        "id": "header_7",
+        "title": "Header 7 Section",
+        "description": "A header section with headline, description, media, two action buttons, and a subheadline",
+        "frame": {
+            "width": null,
+            "height": null
+        },
+        "default_data": {
+            "id": "header7Section",
+            "type": "Header_7",
+            "properties": {
+                "textColor": "#333333",
+                "backgroundColor": "#ffffff",
+                "content": {
+                    "headline": {
+                        "text": "Great tool to boost your startup",
+                        "color": "#1E0E62"
+                    },
+                    "description": {
+                        "text": "We made it so beautiful and simple. It combines landings, pages, blogs, and shop screens. It is definitely the tool you need in your collection!",
+                        "color": "rgba(21, 20, 57, 0.4)"
+                    },
+                    "media": {
+                        "link": "https://github.com/user-attachments/assets/38c4fdf6-f002-48de-baec-793fa2b9898e",
+                        "type": "image"
+                    },
+                    "action1": {
+                        "text": {
+                            "text": "Get Started",
+                            "color": "white"
+                        },
+                        "link": {
+                            "url": "#",
+                            "isExternal": false
+                        }
+                    },
+                    "action2": {
+                        "text": {
+                            "text": "Learn More",
+                            "color": "#1E0E62"
+                        },
+                        "link": {
+                            "url": "#",
+                            "isExternal": false
+                        }
+                    },
+                    "subheadline": {
+                        "text": "By signing up, you agree to the Terms of Service",
+                        "color": "rgba(21, 20, 57, 0.4)"
+                    }
+                }
+            }
+        },
         "content": [
             {
                 "name": "Headline",
@@ -33,16 +86,108 @@
                 "id": "content.subheadline"
             }
         ],
-        "id": "header_7",
-        "title": "Header 7 Section",
-        "description": "A header section with headline, description, media, two action buttons, and a subheadline",
+        "link": null
+    },
+    {
+        "id": "Feature_4",
+        "title": "Feature 4",
+        "description": "A feature section with headline, subheadline, and a collection of features with icons, titles, descriptions, and actions",
         "frame": {
             "width": null,
             "height": null
         },
-        "link": null
-    },
-    {
+        "default_data":{
+            "id": "feature_4",
+            "type": "Feature_4",
+            "properties": {
+                "backgroundColor": "#33102",
+                "textColor": "#333333",
+                "content": {
+                    "headline": {
+                        "text": "Features",
+                        "color": ""
+                    },
+                    "subheadline": {
+                        "text": "We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
+                        "color": ""
+                    },
+                    "features": [
+                        {
+                            "icon": {
+                                "name": "Bolt",
+                                "color": ""
+                            },
+                            "title": {
+                                "text": "Easy to Use",
+                                "color": ""
+                            },
+                            "description": {
+                                "text": "To get started, you select the desired sample and base the entire website on it. It’s that simple!",
+                                "color": ""
+                            },
+                            "action": {
+                                "text": {
+                                    "text": "Learn More",
+                                    "color": "#FFFFFF"
+                                },
+                                "link": {
+                                    "url": "#",
+                                    "isExternal": false
+                                }
+                            }
+                        },
+                        {
+                            "icon": {
+                                "name": "random",
+                                "color": ""
+                            },
+                            "title": {
+                                "text": "Variety of Designs",
+                                "color": ""
+                            },
+                            "description": {
+                                "text": "You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.",
+                                "color": ""
+                            },
+                            "action": {
+                                "text": {
+                                    "text": "Learn More",
+                                    "color": "#FFFFFF"
+                                },
+                                "link": {
+                                    "url": "#",
+                                    "isExternal": false
+                                }
+                            }
+                        },
+                        {
+                            "icon": {
+                                "name": "playCircle",
+                                "color": ""
+                            },
+                            "title": {
+                                "text": "Feel Our Design",
+                                "color": ""
+                            },
+                            "description": {
+                                "text": "Samples will show you the feeling on how to play around using the components in the website building process.",
+                                "color": ""
+                            },
+                            "action": {
+                                "text": {
+                                    "text": "Learn More",
+                                    "color": ""
+                                },
+                                "link": {
+                                    "url": "#",
+                                    "isExternal": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
         "content": [
             {
                 "name": "Headline",
@@ -85,16 +230,94 @@
                 ]
             }
         ],
-        "id": "Feature_4",
-        "title": "Feature 4",
-        "description": "A feature section with headline, subheadline, and a collection of features with icons, titles, descriptions, and actions",
+        "link": null
+    },
+    {
+        "id": "Feature_22",
+        "title": "Feature 22",
+        "description": "A feature section with headline, subheadline, main action, features, and additional action links",
         "frame": {
             "width": null,
             "height": null
         },
-        "link": null
-    },
-    {
+        "default_data": {
+            "id": "feature_22",
+            "type": "Feature_22",
+            "properties": {
+                "backgroundColor": "#ffffff",
+                "textColor": "#333333",
+                "content": {
+                    "headline": {
+                        "text": "Many carefully crafted components for your business.",
+                        "color": "#1E0E62"
+                    },
+                    "subheadline": {
+                        "text": "We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.",
+                        "color": "#15143966"
+                    },
+                    "action": {
+                        "text": {
+                            "text": "Get Started",
+                            "color": "#ffffff"
+                        },
+                        "link": "#"
+                    },
+                    "features": [
+                        {
+                            "icon": {
+                                "name": "commenting",
+                                "color": "#EBEAED"
+                            },
+                            "title": {
+                                "text": "Based on Bootstrap 4",
+                                "color": "#1E0E62"
+                            },
+                            "description": {
+                                "text": "HTML layout is based on one of the most common and reliable frameworks – Bootstrap.",
+                                "color":  "#15143966"
+                            }
+                        },
+                        {
+                            "icon": {
+                                "name": "html5",
+                                "color": "#EBEAED"
+                            },
+                            "title": {
+                                "text": "HTML5 & CSS3",
+                                "color": "#1E0E62"
+                            },
+                            "description": {
+                                "text": "We used only time-tested technologies for the best results.",
+                                "color": "#15143966"
+                            }
+                        }
+                    ],
+                    "actions": [
+                        {
+                            "icon": {
+                                "name": "slack",
+                                "color": "#EBEAED"
+                            },
+                            "url": "https://www.slack.com/"
+                        },
+                        {
+                            "icon": {
+                                "name": "windows",
+                                "color": "#EBEAED"
+                            },
+                            "url": "https://www.windows.com/"
+                        },
+                        {
+                            "icon": {
+                                "name": "android",
+                                "color": "#EBEAED"
+                            },
+                            "url": "https://www.android.com/"
+                        }
+                    ]
+                }
+            }
+        },
         "content": [
             {
                 "name": "Headline",
@@ -152,16 +375,75 @@
                 ]
             }
         ],
-        "id": "Feature_22",
-        "title": "Feature 22",
-        "description": "A feature section with headline, subheadline, main action, features, and additional action links",
+        "link": null
+    },
+    {
+        "id": "contact_10",
+        "title": "Contact 10",
+        "description": "A contact section with headline, subheadline, media, and social media links",
         "frame": {
             "width": null,
             "height": null
         },
-        "link": null
-    },
-    {
+        "default_data": {
+            "id": "contact_10",
+            "type": "Contact_10",
+            "properties": {
+                "backgroundColor": "#ffffff",
+                "textColor": "#1E0E62",
+                "content": {
+                    "headline": {
+                        "text": "For any questions please mail us:",
+                        "color": "#1E0E62"
+                    },
+                    "subheadline": {
+                        "text": "info@designmodo.com",
+                        "color": "#482BE7"
+                    },
+                    "media": {
+                        "link": "https://github.com/user-attachments/assets/0008355a-1e8a-4d74-a484-6585068904a3",
+                        "type": "image"
+                    },
+                    "actions": [
+                        {
+                            "icon": {
+                                "name": "twitter",
+                                "color": "#EBEAED"
+                            },
+                            "url": "https://twitter.com/"
+                        },
+                        {
+                            "icon": {
+                                "name": "facebookSquare",
+                                "color": "#EBEAED"
+                            },
+                            "url": "https://www.facebook.com/"
+                        },
+                        {
+                            "icon": {
+                                "name": "pinterest",
+                                "color": "#EBEAED"
+                            },
+                            "url": "https://www.pinterest.com/"
+                        },
+                        {
+                            "icon": {
+                                "name": "behance",
+                                "color": "#EBEAED"
+                            },
+                            "url": "https://www.behance.com/"
+                        },
+                        {
+                            "icon": {
+                                "name": "dribbble",
+                                "color": "#EBEAED"
+                            },
+                            "url": "https://www.dribbble.com/"
+                        }
+                    ]
+                }
+            }
+        },
         "content": [
             {
                 "name": "Headline",
@@ -194,16 +476,16 @@
                 ]
             }
         ],
-        "id": "contact_10",
-        "title": "Contact 10",
-        "description": "A contact section with headline, subheadline, media, and social media links",
+        "link": null
+    },
+    {
+        "id": "MultiUsefulComponents",
+        "title": "Multi Useful Components",
+        "description": "A section showcasing multiple useful components with headline, media, description, and features",
         "frame": {
             "width": null,
             "height": null
         },
-        "link": null
-    },
-    {
         "content": [
             {
                 "name": "Headline",
@@ -241,16 +523,17 @@
                 ]
             }
         ],
-        "id": "MultiUsefulComponents",
-        "title": "Multi Useful Components",
-        "description": "A section showcasing multiple useful components with headline, media, description, and features",
+        "link": null
+    },
+    {
+        "id": "BetterDesign",
+        "title": "Better Design",
+        "description": "A feature section highlighting better design with headline, description, media, and a list of features",
         "frame": {
             "width": null,
             "height": null
         },
-        "link": null
-    },
-    {
+        "default_data": {},
         "content": [
             {
                 "name": "Headline",
@@ -293,16 +576,17 @@
                 ]
             }
         ],
-        "id": "BetterDesign",
-        "title": "Better Design",
-        "description": "A feature section highlighting better design with headline, description, media, and a list of features",
+        "link": null
+    },
+    {
+        "id": "header_15",
+        "title": "Header 15",
+        "description": "A header section with headline, subheadline, and action button",
         "frame": {
             "width": null,
             "height": null
         },
-        "link": null
-    },
-    {
+        "default_data": {},
         "content": [
             {
                 "name": "Headline",
@@ -321,16 +605,17 @@
                 "id": "content.action"
             }
         ],
-        "id": "header_15",
-        "title": "Header 15",
-        "description": "A header section with headline, subheadline, and action button",
+        "link": null
+    },
+    {
+        "id": "content_18",
+        "title": "Content 18",
+        "description": "A content section with headline, subheadline, action button, and feature list",
         "frame": {
             "width": null,
             "height": null
         },
-        "link": null
-    },
-    {
+        "default_data": {},
         "content": [
             {
                 "name": "Headline",
@@ -368,16 +653,17 @@
                 ]
             }
         ],
-        "id": "content_18",
-        "title": "Content 18",
-        "description": "A content section with headline, subheadline, action button, and feature list",
+        "link": null
+    },
+    {
+        "id": "callToAction",
+        "title": "Call to Action",
+        "description": "A call-to-action section with headline and social media links",
         "frame": {
             "width": null,
             "height": null
         },
-        "link": null
-    },
-    {
+        "default_data": {},
         "content": [
             {
                 "name": "Headline",
@@ -405,16 +691,17 @@
                 ]
             }
         ],
-        "id": "callToAction",
-        "title": "Call to Action",
-        "description": "A call-to-action section with headline and social media links",
+        "link": null
+    },
+    {
+        "id": "mediaCard",
+        "title": "Media Card",
+        "description": "A media card with headline, subheadline, description, action button, and customizable media position",
         "frame": {
             "width": null,
             "height": null
         },
-        "link": null
-    },
-    {
+        "default_data": {},
         "content": [
             {
                 "name": "Headline",
@@ -443,16 +730,17 @@
                 "id": "content.media"
             }
         ],
-        "id": "mediaCard",
-        "title": "Media Card",
-        "description": "A media card with headline, subheadline, description, action button, and customizable media position",
+        "link": null
+    },
+    {
+        "id": "hero",
+        "title": "Hero",
+        "description": "A hero section with headline, subheadline, media, and action button",
         "frame": {
             "width": null,
             "height": null
         },
-        "link": null
-    },
-    {
+        "default_data": {},
         "content": [
             {
                 "name": "Headline",
@@ -476,16 +764,17 @@
                 "id": "content.action"
             }
         ],
-        "id": "hero",
-        "title": "Hero",
-        "description": "A hero section with headline, subheadline, media, and action button",
+        "link": null
+    },
+    {
+        "id": "featureGrid_1",
+        "title": "Feature Grid 1",
+        "description": "A feature grid with customizable columns and features including descriptions and media",
         "frame": {
             "width": null,
             "height": null
         },
-        "link": null
-    },
-    {
+        "default_data": {},
         "content": [
             {
                 "name": "Columns",
@@ -514,16 +803,17 @@
                 ]
             }
         ],
-        "id": "featureGrid_1",
-        "title": "Feature Grid 1",
-        "description": "A feature grid with customizable columns and features including descriptions and media",
+        "link": null
+    },
+    {
+        "id": "FeatureGrid",
+        "title": "Feature Grid",
+        "description": "A feature grid with headline, subheadline, and customizable features including titles, descriptions, icons, and actions",
         "frame": {
             "width": null,
             "height": null
         },
-        "link": null
-    },
-    {
+        "default_data": {},
         "content": [
             {
                 "name": "Headline",
@@ -573,13 +863,6 @@
                 ]
             }
         ],
-        "id": "FeatureGrid",
-        "title": "Feature Grid",
-        "description": "A feature grid with headline, subheadline, and customizable features including titles, descriptions, icons, and actions",
-        "frame": {
-            "width": null,
-            "height": null
-        },
         "link": null
     }
 ]
