@@ -472,12 +472,18 @@
       "id": "content.actions",
       "min": 1,
       "max": 5,
-      "content": [
+      "content":
+      [
+       {
+          "name": "Social Media Icon",
+          "type": "icon",
+          "id": "icon"
+        },
         {
           "name": "Social Media Icon and URL",
-          "type": "icon_action",
-          "id": "icon_action"
-        }
+          "type": "string",
+          "id": "url"
+        },
       ]
     }
   ],
