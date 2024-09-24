@@ -23,7 +23,7 @@
           "color": "rgba(21, 20, 57, 0.4)"
         },
         "media": {
-          "link": "https://picsum.photos/1200/600",
+          "link": "https://picsum.photos/1200/605",
           "type": "image"
         },
         "action1": {
@@ -509,7 +509,7 @@
           "color": "#1E0E62"
         },
         "media": {
-          "link": "https://picsum.photos/1200/600",
+          "link": "https://picsum.photos/1200/602",
           "type": "image"
         },
         "description": {
@@ -614,7 +614,7 @@
           "color": "#555555"
         },
         "media": {
-          "link": "https://picsum.photos/1200/600",
+          "link": "https://picsum.photos/1200/611",
           "type": "image"
         },
         "features": [
@@ -1009,7 +1009,7 @@
           "link": "/careers"
         },
         "media": {
-          "link": "https://picsum.photos/1200/600",
+          "link": "https://picsum.photos/1200/603",
           "type": "image",
           "size": "large",
           "mediaPosition": "right"
@@ -1072,7 +1072,7 @@
           "color": "#000000"
         },
         "media": {
-          "link": "https://picsum.photos/1200/600",
+          "link": "https://picsum.photos/1200/604",
           "type": "image"
         },
         "action": {
