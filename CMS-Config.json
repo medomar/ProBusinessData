@@ -1012,7 +1012,7 @@
           "link": "https://picsum.photos/1200/600",
           "type": "image",
           "size": "large",
-          "mediaPosition": "left"
+          "mediaPosition": "right"
         }
       }
     }
@@ -1042,7 +1042,8 @@
     {
       "name": "Image with Custom Position",
       "type": "custom_position_media",
-      "id": "content.media"
+      "id": "content.media",
+      "positions": ["right", "left"]
     }
   ],
   "link": null
