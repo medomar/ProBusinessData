@@ -1,14 +1,14 @@
 [
 {
   "id": "header_7",
-  "title": "Hero Section with Image and Two Call-to-Action Buttons",
+  "category": "fullScreen",
+  "title": "Large Media and Two Call-to-Action Buttons",
   "description": "A prominent header section featuring a headline, description, background image, two action buttons, and a subheadline.",
   "frame": {
     "width": null,
     "height": null
   },
   "default_data": {
-    "id": "header7Section",
     "type": "Header_7",
     "properties": {
       "textColor": "#333333",
@@ -16,33 +16,35 @@
       "content": {
         "headline": {
           "text": "Boost Your Startup with Our Tools",
-          "color": "#1E0E62"
+          "color": "#1E0EE8"
         },
         "description": {
           "text": "Our platform combines landing pages, blogs, and shop screens to provide a comprehensive solution for your startup.",
-          "color": "#1E0E62"
+          "color": "#1E0EE8"
         },
         "media": {
-          "link": "https://picsum.photos/1200/605",
+          "link": "https://github.com/user-attachments/assets/38c4fdf6-f002-48de-baec-793fa2b9898e",
           "type": "image"
         },
         "action1": {
           "text": {
             "text": "Get Started",
-            "color": "#ffffff"
+            "color": "#1E0EE8"
           },
-          "link": "wwww.google.fr"
+          "url": "wwww.google.fr",
+          "color": "#1E0EE8"
         },
         "action2": {
           "text": {
             "text": "Learn More",
-            "color": "#1E0E62"
+            "color": "#1E0EE8"
           },
-          "link": "wwww.google.fr"
+          "url": "wwww.google.fr",
+          "color": "#1E0EE8"
         },
         "subheadline": {
           "text": "By signing up, you agree to our Terms of Service",
-          "color": "#ffffff"
+          "color": "#1E0EE8"
         }
       }
     }
