@@ -20,7 +20,7 @@
         },
         "description": {
           "text": "Our platform combines landing pages, blogs, and shop screens to provide a comprehensive solution for your startup.",
-          "color": "rgba(21, 20, 57, 0.4)"
+          "color": "#1E0E62"
         },
         "media": {
           "link": "https://picsum.photos/1200/605",
@@ -31,24 +31,18 @@
             "text": "Get Started",
             "color": "#ffffff"
           },
-          "link": {
-            "url": "#",
-            "isExternal": false
-          }
+          "link": "wwww.google.fr"
         },
         "action2": {
           "text": {
             "text": "Learn More",
             "color": "#1E0E62"
           },
-          "link": {
-            "url": "#",
-            "isExternal": false
-          }
+          "link": "wwww.google.fr"
         },
         "subheadline": {
           "text": "By signing up, you agree to our Terms of Service",
-          "color": "rgba(21, 20, 57, 0.4)"
+          "color": "#ffffff"
         }
       }
     }
@@ -56,13 +50,13 @@
   "content": [
     {
       "name": "Headline Text",
-      "type": "string",
+      "type": "colored_string",
       "required": true,
       "id": "content.headline"
     },
     {
       "name": "Description Text",
-      "type": "string",
+      "type": "colored_string",
       "id": "content.description"
     },
     {
@@ -72,17 +66,17 @@
     },
     {
       "name": "Primary Action Button",
-      "type": "string_action",
+      "type": "colored_string_action",
       "id": "content.action1"
     },
     {
       "name": "Secondary Action Button",
-      "type": "string_action",
+      "type": "colored_string_action",
       "id": "content.action2"
     },
     {
       "name": "Subheadline Text",
-      "type": "string",
+      "type": "colored_string",
       "id": "content.subheadline"
     }
   ],
@@ -131,8 +125,7 @@
                 "color": "#FFFFFF"
               },
               "link": {
-                "url": "#",
-                "isExternal": false
+                "url": "#"
               }
             }
           },
