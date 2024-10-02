@@ -1036,6 +1036,11 @@
             }
           },
   "content": [
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
     {
       "name": "Headline Text",
       "type": "colored_string",
