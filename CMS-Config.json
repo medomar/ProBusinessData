@@ -222,5 +222,103 @@
          }
       ],
       "link":null
+   },
+   {
+      "id":"MultiUsefulComponents",
+      "title":"MultiUsefulComponents",
+      "description":"MultiUsefulComponents",
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+  "type": "MultiUsefulComponents",
+  "properties": {
+    "backgroundColor": "#ffffff",
+    "content": {
+      "headline": {
+        "text": "Multi Useful Components",
+        "color": "#1E0E62" 
+      },
+      "media": {
+        "link": "https://github.com/user-attachments/assets/a68ecbee-c388-4834-b1cc-635cade21901",
+        "type": "image"
+      }, 
+      "description": {
+        "text": "We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
+        "color": "#15143966" 
+      },
+      "features": [
+        {
+          "title": {
+            "text": "Retina Ready",
+            "color": "#1e0d62" 
+          },
+          "description": {
+            "text": "Description of Retina Ready.",
+            "color": "#15143966" 
+          }
+        },
+        {
+          "title": {
+            "text": "Responsive Layout",
+            "color": "#1e0d62"
+          },
+          "description": {
+            "text": "Of course we haven't forgotten about the responsive layout. Full mobile support for Startup Framework works fine on devices supporting Retina Display.",
+            "color": "#15143966"
+          }
+        },
+        {
+          "title": {
+            "text": "Full Control",
+            "color": "#1e0d62"
+          },
+          "description": {
+            "text": "Easily change and tweak your content when you need to, however you want. No more third-party vendor lock-in. Startup Framework works fine on devices supporting Retina Display.",
+            "color": "#15143966"
+          }
+        }
+      ]
+    }
+  }
+},
+      "content":[
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Description Text",
+            "type":"colored_string",
+            "id":"content.description"
+         },
+         {
+            "name":"Image",
+            "type":"media",
+            "id":"content.media"
+         },
+         {
+            "name":"Features List",
+            "type":"collection",
+            "id":"content.features",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Feature Title",
+                  "type":"colored_string",
+                  "id":"title"
+               },
+               {
+                  "name":"Feature Description",
+                  "type":"colored_string",
+                  "id":"description"
+               }
+            ]
+         }
+      ],
+      "link":null
    }
 ]
