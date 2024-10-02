@@ -320,5 +320,139 @@
          }
       ],
       "link":null
+   },
+   {
+      "id":"BetterDesign",
+      "title":"BetterDesign",
+      "description":"BetterDesign",
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+  "type": "BetterDesign",
+  "properties": {
+    "backgroundColor": "#ffffff",
+    "content": {
+      "headline": {
+        "text": "Better design for your content",
+        "color": "#1E0E62"
+      },
+      "description": {
+        "text": "Startup Framework contains components and complex blocks which can easily be integrated into almost any design. All of the components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions.",
+        "color": "#555555"
+      },
+      "media": {
+        "link": "https://github.com/user-attachments/assets/23eebc90-9657-4c67-bb9c-b1880097d9b3",
+        "type": "image"
+      },
+      "features": [
+        {
+          "icon": {
+            "name": "code",
+            "color": ""
+          },
+          "title": {
+            "text": "Retina Ready",
+            "color": ""
+          },
+          "description": {
+            "text": "Startup Framework works fine on devices supporting Retina Display. Feel the clarity!",
+            "color": ""
+          }
+        },
+        {
+          "icon": {
+            "name": "star",
+            "color": ""
+          },
+          "title": {
+            "text": "Happy Customers",
+            "color": ""
+          },
+          "description": {
+            "text": "We're super proud to share the fact that Startup has a whopping 97% customer satisfaction rate.",
+            "color": ""
+          }
+        },
+        {
+          "icon": {
+            "name": "keyboard",
+            "color": ""
+          },
+          "title": {
+            "text": "Feel Our Design",
+            "color": ""
+          },
+          "description": {
+            "text": "Samples will show you the feeling on how to play around using the components in the website building process.",
+            "color": ""
+          }
+        },
+        {
+          "icon": {
+            "name": "link",
+            "color": ""
+          },
+          "title": {
+            "text": "Variety of Designs",
+            "color": ""
+          },
+          "description": {
+            "text": "You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge in various combinations.",
+            "color": ""
+          }
+        }
+      ]
+    }
+  }
+},
+      "content":[
+      	{
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Description Text",
+            "type":"colored_string",
+            "id":"content.description"
+         },
+         {
+            "name":"Image",
+            "type":"media",
+            "id":"content.media"
+         },
+         {
+            "name":"Features List",
+            "type":"collection",
+            "id":"content.features",
+            "min":4,
+            "max":4,
+            "content":[
+            	{
+                  "name":"Icon",
+                  "type":"colored_icon",
+                  "id":"icon"
+               },
+               {
+                  "name":"Title",
+                  "type":"colored_string",
+                  "id":"title"
+               },
+               {
+                  "name":"Description",
+                  "type":"colored_string",
+                  "id":"description"
+               }
+            ]
+         }
+      ],
+      "link":null
    }
 ]
