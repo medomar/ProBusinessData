@@ -454,5 +454,62 @@
          }
       ],
       "link":null
+   },
+   {
+      "id":"Header_15",
+      "title":"Header_15",
+      "description":"Header_15",
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+            "type": "Header_15",
+            "properties": {
+              "backgroundColor": "#ffffff",
+              "content": {
+                "headline": {
+                  "text": "Build Your Own Site like a Lego Constructor",
+                  "color": "#1E0E62"
+                },
+                "subheadline": {
+                  "text": "We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.",
+                  "color": "#15143966"
+                },
+                "action": {
+                  "url": "#",
+                  "color":"#e8397d",
+                  "text": {
+                    "text": "Create an Account",
+                    "color": "#ffffff"
+                  }
+                }
+              }
+            }
+          },
+      "content":[
+      	{
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_string",
+            "id":"content.subheadline"
+         },
+
+               {
+                  "name":"Action Button",
+                  "type":"colored_string_action",
+                  "id":"action"
+               }
+      ],
+      "link":null
    }
 ]
