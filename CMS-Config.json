@@ -520,88 +520,91 @@
          "height":null
       },
       "default_data":{
-         "type":"Feature_22",
-         "properties":{
-            "backgroundColor":"#ffffff",
-            "content":{
-               "headline":{
-                  "text":"Many carefully crafted components for your business.",
-                  "color":"#1E0E62"
-               },
-               "subheadline":{
-                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
-                  "color":"#15143966"
-               },
-               "action":{
-                  "text":{
-                     "text":"Get Started",
-                     "color":"#ffffff"
-                  },
-                  "url":"#",
-                  "color":"#25dac4"
-               },
-               "features":[
-                  {
-                     "icon":{
-                        "name":"commenting",
-                        "color":"#EBEAED"
-                     },
-                     "title":{
-                        "text":"Based on Bootstrap 4",
-                        "color":"#1E0E62"
-                     },
-                     "description":{
-                        "text":"HTML layout is based on one of the most common and reliable frameworks – Bootstrap.",
-                        "color":"#15143966"
-                     }
-                  },
-                  {
-                     "icon":{
-                        "name":"html5",
-                        "color":"#EBEAED"
-                     },
-                     "title":{
-                        "text":"HTML5 & CSS3",
-                        "color":"#1E0E62"
-                     },
-                     "description":{
-                        "text":"We used only time-tested technologies for the best results.",
-                        "color":"#15143966"
-                     }
-                  }
-               ],
-               "actions":[
-                  {
-                     "action":{
-                        "icon":{
-                           "name":"slack",
-                           "color":"#EBEAED"
-                        },
-                        "url":"https://www.slack.com/"
-                     }
-                  },
-                  {
-                     "action":{
-                        "icon":{
-                           "name":"android",
-                           "color":"#EBEAED"
-                        },
-                        "url":"https://www.android.com/"
-                     }
-                  },
-                  {
-                     "action":{
-                        "icon":{
-                           "name":"windows",
-                           "color":"#EBEAED"
-                        },
-                        "url":"https://www.windows.com/"
-                     }
-                  }
-               ]
-            }
-         }
+  "type": "Feature_22",
+  "properties": {
+    "backgroundColor": "#ffffff",
+    "content": {
+      "headline": {
+        "text": "Many carefully crafted components for your business.",
+        "color": "#1E0E62"
       },
+      "subheadline": {
+        "text": "We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
+        "color": "#15143966"
+      },
+      "action": {
+        "text": {
+          "text": "Get Started",
+          "color": "#ffffff"
+        },
+        "url": "#",
+        "color": "#25dac4"
+      },
+      "features": [
+        {
+          "icon": {
+            "name": "commenting",
+            "color": "#EBEAED"
+          },
+          "title": {
+            "text": "Based on Bootstrap 4",
+            "color": "#1E0E62"
+          },
+          "description": {
+            "text": "HTML layout is based on one of the most common and reliable frameworks – Bootstrap.",
+            "color": "#15143966"
+          }
+        },
+        {
+          "icon": {
+            "name": "html5",
+            "color": "#EBEAED"
+          },
+          "title": {
+            "text": "HTML5 & CSS3",
+            "color": "#1E0E62"
+          },
+          "description": {
+            "text": "We used only time-tested technologies for the best results.",
+            "color": "#15143966"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "action": {
+          "icon": {
+            "name": "slack",
+            "color": "#EBEAED"
+          },
+          "color": "#15143966",
+          "url": "https://www.slack.com/"
+        },
+      },
+         {
+          "action": {
+          "icon": {
+            "name": "android",
+            "color": "#EBEAED"
+          },
+          "color": "#15143966",
+          "url": "https://www.android.com/"
+        },
+      },
+       {
+          "action": {
+          "icon": {
+            "name": "windows",
+            "color": "#EBEAED"
+          },
+          "color": "#15143966",
+          "url": "https://www.windows.com/"
+        },
+      }
+      ]
+    }
+  }
+},
       "content":[
          {
             "name":"Background Color",
