@@ -906,5 +906,171 @@
     }
   ],
   "link": null
+},
+   {
+  "id": "FeatureGrid",
+  "title": "Feature Grid with Images and Descriptions",
+  "description": "A grid layout displaying features with images and optional descriptions, customizable number of columns.",
+  "frame": {
+    "width": null,
+    "height": null
+  },
+  "default_data": {
+            "type": "FeatureGrid",
+            "properties": {
+              "backgroundColor": "#ffffff",
+              "content": {
+                "headline": {
+                  "text": "Our Key Features",
+                  "color": "#333333"
+                },
+                "subheadline": {
+                  "text": "Discover what makes us unique",
+                  "color": "#777777"
+                },
+                "features": [
+                  {
+                    "title": {
+                      "text": "Innovative Solutions",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "text": "We provide cutting-edge solutions to meet your needs.",
+                      "color": "#666666"
+                    },
+                    "icon": {
+                      "name": "lightbulb",
+                      "color": "#606be0"
+                    }
+                  },
+                  {
+                    "title": {
+                      "text": "Time-Saving Tools",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "text": "Our tools help you save time and focus on what matters.",
+                      "color": "#666666"
+                    },
+                    "icon": {
+                      "name": "clock",
+                      "color": "#606be0"
+                    }
+                  },
+                  {
+                    "title": {
+                      "text": "Team Collaboration",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "text": "Enhance teamwork with our collaboration features.",
+                      "color": "#666666"
+                    },
+                    "icon": {
+                      "name": "users",
+                      "color": "#606be0"
+                    }
+                  },
+                  {
+                    "title": {
+                      "text": "Secure Platform",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "text": "Your data is safe with our advanced security measures.",
+                      "color": "#666666"
+                    },
+                    "icon": {
+                      "name": "shieldAlt",
+                      "color": "#606be0"
+                    }
+                  },
+                  {
+                    "title": {
+                      "text": "Performance Tracking",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "text": "Monitor and improve your performance with ease.",
+                      "color": "#666666"
+                    },
+                    "icon": {
+                      "name": "chartLine",
+                      "color": "#606be0"
+                    },
+                    "action": {
+                      "text": {
+                        "text": "Learn More",
+                        "color": "#FFFFFF"
+                      },
+                      "url": "http://localhost:3000/test2",
+                       "color": ""
+
+                    }
+                  },
+                  {
+                    "title": {
+                      "text": "24/7 Support",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "text": "Our support team is always ready to assist you.",
+                      "color": "#666666"
+                    },
+                    "icon": {
+                      "name": "headset",
+                      "color": "#606be0"
+                    },
+                    "action": {
+                      "text": {
+                        "text": "Get Support",
+                        "color": "#FFFFFF"
+                      },
+                      "url": "https://staging.hope-probusiness.com/defaultCompany",
+                      "color": ""
+
+                    }
+                  }
+                ]
+              }
+            }
+          },
+  "content": [
+    {
+      "name": "Headline Text",
+      "type": "colored_string",
+      "id": "content.headline"
+    },
+    {
+      "name": "Subheadline Text",
+      "type": "colored_string",
+      "id": "content.subheadline"
+    },
+    {
+      "name": "Features List",
+      "type": "collection",
+      "id": "content.features",
+      "min": 3,
+      "max": 3,
+      "content": [
+        {
+          "name": "Feature Title",
+          "type": "colored_string",
+          "id": "title"
+        },
+        {
+          "name": "Feature Description",
+          "type": "colored_string",
+          "id": "description"
+        },
+        {
+          "name": "Icon",
+          "type": "colored_icon",
+          "id": "icon"
+        }
+      ]
+    }
+  ],
+  "link": null
 }
 ]
