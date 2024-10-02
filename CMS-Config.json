@@ -738,12 +738,12 @@
          },
     {
       "name": "Headline Text",
-      "type": "string",
+      "type": "colored_string",
       "id": "content.headline"
     },
     {
       "name": "Subheadline Text",
-      "type": "string",
+      "type": "colored_string",
       "id": "content.subheadline"
     },
     {
