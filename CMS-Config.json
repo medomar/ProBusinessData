@@ -232,57 +232,57 @@
          "height":null
       },
       "default_data":{
-  "type": "MultiUsefulComponents",
-  "properties": {
-    "backgroundColor": "#ffffff",
-    "content": {
-      "headline": {
-        "text": "Multi Useful Components",
-        "color": "#1E0E62" 
+         "type":"MultiUsefulComponents",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Multi Useful Components",
+                  "color":"#1E0E62"
+               },
+               "media":{
+                  "link":"https://github.com/user-attachments/assets/a68ecbee-c388-4834-b1cc-635cade21901",
+                  "type":"image"
+               },
+               "description":{
+                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
+                  "color":"#15143966"
+               },
+               "features":[
+                  {
+                     "title":{
+                        "text":"Retina Ready",
+                        "color":"#1e0d62"
+                     },
+                     "description":{
+                        "text":"Description of Retina Ready.",
+                        "color":"#15143966"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Responsive Layout",
+                        "color":"#1e0d62"
+                     },
+                     "description":{
+                        "text":"Of course we haven't forgotten about the responsive layout. Full mobile support for Startup Framework works fine on devices supporting Retina Display.",
+                        "color":"#15143966"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Full Control",
+                        "color":"#1e0d62"
+                     },
+                     "description":{
+                        "text":"Easily change and tweak your content when you need to, however you want. No more third-party vendor lock-in. Startup Framework works fine on devices supporting Retina Display.",
+                        "color":"#15143966"
+                     }
+                  }
+               ]
+            }
+         }
       },
-      "media": {
-        "link": "https://github.com/user-attachments/assets/a68ecbee-c388-4834-b1cc-635cade21901",
-        "type": "image"
-      }, 
-      "description": {
-        "text": "We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
-        "color": "#15143966" 
-      },
-      "features": [
-        {
-          "title": {
-            "text": "Retina Ready",
-            "color": "#1e0d62" 
-          },
-          "description": {
-            "text": "Description of Retina Ready.",
-            "color": "#15143966" 
-          }
-        },
-        {
-          "title": {
-            "text": "Responsive Layout",
-            "color": "#1e0d62"
-          },
-          "description": {
-            "text": "Of course we haven't forgotten about the responsive layout. Full mobile support for Startup Framework works fine on devices supporting Retina Display.",
-            "color": "#15143966"
-          }
-        },
-        {
-          "title": {
-            "text": "Full Control",
-            "color": "#1e0d62"
-          },
-          "description": {
-            "text": "Easily change and tweak your content when you need to, however you want. No more third-party vendor lock-in. Startup Framework works fine on devices supporting Retina Display.",
-            "color": "#15143966"
-          }
-        }
-      ]
-    }
-  }
-},
       "content":[
          {
             "name":"Headline Text",
@@ -330,85 +330,85 @@
          "height":null
       },
       "default_data":{
-  "type": "BetterDesign",
-  "properties": {
-    "backgroundColor": "#ffffff",
-    "content": {
-      "headline": {
-        "text": "Better design for your content",
-        "color": "#1E0E62"
+         "type":"BetterDesign",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Better design for your content",
+                  "color":"#1E0E62"
+               },
+               "description":{
+                  "text":"Startup Framework contains components and complex blocks which can easily be integrated into almost any design. All of the components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions.",
+                  "color":"#555555"
+               },
+               "media":{
+                  "link":"https://github.com/user-attachments/assets/23eebc90-9657-4c67-bb9c-b1880097d9b3",
+                  "type":"image"
+               },
+               "features":[
+                  {
+                     "icon":{
+                        "name":"code",
+                        "color":""
+                     },
+                     "title":{
+                        "text":"Retina Ready",
+                        "color":""
+                     },
+                     "description":{
+                        "text":"Startup Framework works fine on devices supporting Retina Display. Feel the clarity!",
+                        "color":""
+                     }
+                  },
+                  {
+                     "icon":{
+                        "name":"star",
+                        "color":""
+                     },
+                     "title":{
+                        "text":"Happy Customers",
+                        "color":""
+                     },
+                     "description":{
+                        "text":"We're super proud to share the fact that Startup has a whopping 97% customer satisfaction rate.",
+                        "color":""
+                     }
+                  },
+                  {
+                     "icon":{
+                        "name":"keyboard",
+                        "color":""
+                     },
+                     "title":{
+                        "text":"Feel Our Design",
+                        "color":""
+                     },
+                     "description":{
+                        "text":"Samples will show you the feeling on how to play around using the components in the website building process.",
+                        "color":""
+                     }
+                  },
+                  {
+                     "icon":{
+                        "name":"link",
+                        "color":""
+                     },
+                     "title":{
+                        "text":"Variety of Designs",
+                        "color":""
+                     },
+                     "description":{
+                        "text":"You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge in various combinations.",
+                        "color":""
+                     }
+                  }
+               ]
+            }
+         }
       },
-      "description": {
-        "text": "Startup Framework contains components and complex blocks which can easily be integrated into almost any design. All of the components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions.",
-        "color": "#555555"
-      },
-      "media": {
-        "link": "https://github.com/user-attachments/assets/23eebc90-9657-4c67-bb9c-b1880097d9b3",
-        "type": "image"
-      },
-      "features": [
-        {
-          "icon": {
-            "name": "code",
-            "color": ""
-          },
-          "title": {
-            "text": "Retina Ready",
-            "color": ""
-          },
-          "description": {
-            "text": "Startup Framework works fine on devices supporting Retina Display. Feel the clarity!",
-            "color": ""
-          }
-        },
-        {
-          "icon": {
-            "name": "star",
-            "color": ""
-          },
-          "title": {
-            "text": "Happy Customers",
-            "color": ""
-          },
-          "description": {
-            "text": "We're super proud to share the fact that Startup has a whopping 97% customer satisfaction rate.",
-            "color": ""
-          }
-        },
-        {
-          "icon": {
-            "name": "keyboard",
-            "color": ""
-          },
-          "title": {
-            "text": "Feel Our Design",
-            "color": ""
-          },
-          "description": {
-            "text": "Samples will show you the feeling on how to play around using the components in the website building process.",
-            "color": ""
-          }
-        },
-        {
-          "icon": {
-            "name": "link",
-            "color": ""
-          },
-          "title": {
-            "text": "Variety of Designs",
-            "color": ""
-          },
-          "description": {
-            "text": "You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge in various combinations.",
-            "color": ""
-          }
-        }
-      ]
-    }
-  }
-},
       "content":[
-      	{
+         {
             "name":"Background Color",
             "type":"color",
             "id":"backgroundColor"
@@ -435,7 +435,7 @@
             "min":4,
             "max":4,
             "content":[
-            	{
+               {
                   "name":"Icon",
                   "type":"colored_icon",
                   "id":"icon"
@@ -464,31 +464,31 @@
          "height":null
       },
       "default_data":{
-            "type": "Header_15",
-            "properties": {
-              "backgroundColor": "#ffffff",
-              "content": {
-                "headline": {
-                  "text": "Build Your Own Site like a Lego Constructor",
-                  "color": "#1E0E62"
-                },
-                "subheadline": {
-                  "text": "We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.",
-                  "color": "#15143966"
-                },
-                "action": {
-                  "url": "#",
+         "type":"Header_15",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Build Your Own Site like a Lego Constructor",
+                  "color":"#1E0E62"
+               },
+               "subheadline":{
+                  "text":"We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.",
+                  "color":"#15143966"
+               },
+               "action":{
+                  "url":"#",
                   "color":"#e8397d",
-                  "text": {
-                    "text": "Create an Account",
-                    "color": "#ffffff"
+                  "text":{
+                     "text":"Create an Account",
+                     "color":"#ffffff"
                   }
-                }
-              }
+               }
             }
-          },
+         }
+      },
       "content":[
-      	{
+         {
             "name":"Background Color",
             "type":"color",
             "id":"backgroundColor"
@@ -503,11 +503,11 @@
             "type":"colored_string",
             "id":"content.subheadline"
          },
-       {
-          "name":"Action Button",
-          "type":"colored_string_action",
-          "id":"content.action"
-       }
+         {
+            "name":"Action Button",
+            "type":"colored_string_action",
+            "id":"content.action"
+         }
       ],
       "link":null
    },
@@ -519,85 +519,91 @@
          "width":null,
          "height":null
       },
-      "default_data":       {
-  "type": "Feature_22",
-  "properties": {
-    "backgroundColor": "#ffffff",
-    "content": {
-      "headline": {
-        "text": "Many carefully crafted components for your business.",
-        "color": "#1E0E62"
+      "default_data":{
+         "type":"Feature_22",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Many carefully crafted components for your business.",
+                  "color":"#1E0E62"
+               },
+               "subheadline":{
+                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
+                  "color":"#15143966"
+               },
+               "action":{
+                  "text":{
+                     "text":"Get Started",
+                     "color":"#ffffff"
+                  },
+                  "url":"#",
+                  "color":"#25dac4"
+               },
+               "features":[
+                  {
+                     "icon":{
+                        "name":"commenting",
+                        "color":"#EBEAED"
+                     },
+                     "title":{
+                        "text":"Based on Bootstrap 4",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"HTML layout is based on one of the most common and reliable frameworks – Bootstrap.",
+                        "color":"#15143966"
+                     }
+                  },
+                  {
+                     "icon":{
+                        "name":"html5",
+                        "color":"#EBEAED"
+                     },
+                     "title":{
+                        "text":"HTML5 & CSS3",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"We used only time-tested technologies for the best results.",
+                        "color":"#15143966"
+                     }
+                  }
+               ],
+               "actions":[
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"slack",
+                           "color":"#EBEAED"
+                        },
+                        "url":"https://www.slack.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"android",
+                           "color":"#EBEAED"
+                        },
+                        "url":"https://www.android.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"windows",
+                           "color":"#EBEAED"
+                        },
+                        "url":"https://www.windows.com/"
+                     }
+                  }
+               ]
+            }
+         }
       },
-      "subheadline": {
-        "text": "We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
-        "color": "#15143966"
-      },
-      "action": {
-        "text": {
-          "text": "Get Started",
-          "color": "#ffffff"
-        },
-        "url": "#",
-        "color": "#25dac4"
-      },
-      "features": [
-        {
-          "icon": {
-            "name": "commenting",
-            "color": "#EBEAED"
-          },
-          "title": {
-            "text": "Based on Bootstrap 4",
-            "color": "#1E0E62"
-          },
-          "description": {
-            "text": "HTML layout is based on one of the most common and reliable frameworks – Bootstrap.",
-            "color": "#15143966"
-          }
-        },
-        {
-          "icon": {
-            "name": "html5",
-            "color": "#EBEAED"
-          },
-          "title": {
-            "text": "HTML5 & CSS3",
-            "color": "#1E0E62"
-          },
-          "description": {
-            "text": "We used only time-tested technologies for the best results.",
-            "color": "#15143966"
-          }
-        }
-      ],
-      "actions": [
-        {
-          "icon": {
-            "name": "slack",
-            "color": "#EBEAED"
-          },
-          "url": "https://www.slack.com/"
-        },
-        {
-          "icon": {
-            "name": "windows",
-            "color": "#EBEAED"
-          },
-          "url": "https://www.windows.com/"
-        },
-        {
-          "icon": {
-            "name": "android",
-            "color": "#EBEAED"
-          },
-          "url": "https://www.android.com/"
-        }
-      ]
-    }
-  }
-},
       "content":[
-      	{
+         {
             "name":"Background Color",
             "type":"color",
             "id":"backgroundColor"
@@ -612,11 +618,11 @@
             "type":"colored_string",
             "id":"content.subheadline"
          },
-       {
-          "name":"Action Button",
-          "type":"colored_string_action",
-          "id":"content.action"
-       },
+         {
+            "name":"Action Button",
+            "type":"colored_string_action",
+            "id":"content.action"
+         },
          {
             "name":"Features List",
             "type":"collection",
@@ -624,7 +630,7 @@
             "min":2,
             "max":2,
             "content":[
-            	{
+               {
                   "name":"Icon",
                   "type":"colored_icon",
                   "id":"icon"
@@ -641,7 +647,6 @@
                }
             ]
          },
-
          {
             "name":"Action List",
             "type":"collection",
@@ -649,9 +654,10 @@
             "min":3,
             "max":3,
             "content":[
-            	{
+               {
                   "name":"Icon",
-                  "type":"colored_icon_action"
+                  "type":"colored_icon_action",
+                  "id":"action"
                }
             ]
          }
