@@ -187,6 +187,11 @@
             "id":"content.subheadline"
          },
          {
+            "name":"Background Image",
+            "type":"media",
+            "id":"content.media"
+         },
+         {
             "name":"Features List",
             "type":"collection",
             "id":"content.features",
@@ -200,12 +205,12 @@
                },
                {
                   "name":"Feature Title",
-                  "type":"string",
+                  "type":"colored_string",
                   "id":"title"
                },
                {
                   "name":"Feature Description",
-                  "type":"string",
+                  "type":"colored_string",
                   "id":"description"
                },
                {
