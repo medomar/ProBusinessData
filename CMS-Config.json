@@ -1,8 +1,8 @@
 [
    {
       "id":"header_7",
-      "title":"Large Media and Two Call-to-Action Buttons",
-      "description":"A prominent header section featuring a headline, description, background image, two action buttons, and a subheadline.",
+  "title": "Large Media and Two Call-to-Action Buttons",
+  "description": "A prominent header section featuring a headline, description, background image, two action buttons, and a subheadline.",
       "frame":{
          "width":null,
          "height":null
@@ -89,8 +89,8 @@
    },
    {
       "id":"feature_4",
-      "title":"feature_4",
-      "description":"feature_4",
+  "title": "Feature Section with Icons and Descriptions",
+  "description": "A section highlighting key features with a headline, subheadline, and a list of features, each with an icon, title, description, and action button.",
       "frame":{
          "width":null,
          "height":null
@@ -225,8 +225,8 @@
    },
    {
       "id":"MultiUsefulComponents",
-      "title":"MultiUsefulComponents",
-      "description":"MultiUsefulComponents",
+  "title": "Multi-Purpose Components Section",
+  "description": "A section showcasing multiple useful components with a headline, image, description, and a list of features.",
       "frame":{
          "width":null,
          "height":null
@@ -604,7 +604,7 @@
       ]
     }
   }
-},
+	},
       "content":[
          {
             "name":"Background Color",
@@ -666,5 +666,245 @@
          }
       ],
       "link":null
-   }
+   },
+   {
+  "id": "content_18",
+  "title": "Content Section with Features and Action Button",
+  "description": "A content section with a headline, subheadline, primary action button, and a list of features with titles and descriptions.",
+  "frame": {
+    "width": null,
+    "height": null
+  },
+  "default_data": {
+    "id": "content_18",
+    "type": "Content_18",
+    "properties": {
+      "backgroundColor": "#ffffff",
+      "content": {
+        "headline": {
+          "text": "Have Questions?",
+          "color": "#1E0E62"
+        },
+        "subheadline": {
+          "text": "We include great form options for your startup projects.",
+          "color": "#1E0E62"
+        },
+        "action": {
+          "text": {
+            "text": "Get Help",
+            "color": "#ffffff"
+          },
+          "link": "#"
+        },
+        "features": [
+          {
+            "title": {
+              "text": "Easy to Use",
+              "color": "#1E0E62"
+            },
+            "description": {
+              "text": "Our components and blocks integrate easily into any design, allowing you to create numerous solutions.",
+              "color": "#15143866"
+            }
+          },
+          {
+            "title": {
+              "text": "Variety of Designs",
+              "color": "#1E0E62"
+            },
+            "description": {
+              "text": "Choose from a wide range of designs to suit your needs.",
+              "color": "#15143866"
+            }
+          },
+          {
+            "title": {
+              "text": "Feel Our Design",
+              "color": "#1E0E62"
+            },
+            "description": {
+              "text": "Experience the seamless integration of our components during the website building process.",
+              "color": "#15143866"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "content": [
+    {
+      "name": "Headline Text",
+      "type": "string",
+      "required": true,
+      "id": "content.headline"
+    },
+    {
+      "name": "Subheadline Text",
+      "type": "string",
+      "id": "content.subheadline"
+    },
+    {
+      "name": "Primary Action Button",
+      "type": "string_action",
+      "id": "content.action"
+    },
+    {
+      "name": "Features List",
+      "type": "collection",
+      "id": "content.features",
+      "min": 1,
+      "max": 3,
+      "content": [
+        {
+          "name": "Feature Title",
+          "type": "string",
+          "id": "title"
+        },
+        {
+          "name": "Feature Description",
+          "type": "string",
+          "id": "description"
+        }
+      ]
+    }
+  ],
+  "link": null
+},
+   {
+  "id": "mediaCard",
+  "title": "Media Card with Customizable Layout",
+  "description": "A media card component featuring a headline, subheadline, description, action button, and an image with customizable position and size.",
+  "frame": {
+    "width": null,
+    "height": null
+  },
+  "default_data":{
+    "type": "MediaCard",
+    "properties": {
+      "backgroundColor": "#ffffff",
+      "content": {
+        "headline": {
+          "text": "Our Vision",
+          "color": "#707070"
+        },
+        "subheadline": {
+          "text": "Transforming the Future",
+          "color": "#4a7c81"
+        },
+        "description": {
+          "text": "We're committed to creating innovative solutions that shape the future of technology and business.",
+          "color": "#a08e8e"
+        },
+        "action": {
+          "text": {
+            "text": "Join Our Mission",
+            "color": "#4a7c81"
+          },
+          "color": "#707070",
+          "link": "/careers"
+        },
+        "media": {
+          "link": "https://picsum.photos/1200/603",
+          "type": "image",
+          "size": "large",
+          "mediaPosition": "right"
+        }
+      }
+    }
+  },
+  "content": [
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+    {
+      "name": "Headline Text",
+      "type": "colored_string",
+      "id": "content.headline"
+    },
+    {
+      "name": "Subheadline Text",
+      "type": "colored_string",
+      "id": "content.subheadline"
+    },
+    {
+      "name": "Description Text",
+      "type": "colored_string",
+      "id": "content.description"
+    },
+    {
+      "name": "Action Button",
+      "type": "colored_string_action",
+      "id": "content.action"
+    },
+    {
+      "name": "Image with Custom Position",
+      "type": "custom_position_media",
+      "id": "content.media",
+      "positions": ["right", "left"]
+    }
+  ],
+  "link": null
+},
+   {
+  "id": "hero",
+  "title": "Hero Section with Background Image and Action Button",
+  "description": "A prominent hero section featuring a headline, subheadline, background image, and a primary action button.",
+  "frame": {
+    "width": null,
+    "height": null
+  },
+  "default_data": {
+    "type": "hero",
+    "properties": {
+      "backgroundColor": "#ffffff",
+      "content": {
+        "headline": {
+          "text": "Welcome to Our Platform",
+          "color": "#1E0EE8"
+        },
+        "subheadline": {
+          "text": "Discover amazing features and boost your productivity",
+          "color": "#1E0EE8"
+        },
+        "media": {
+          "link": "https://picsum.photos/1200/604",
+          "type": "image"
+        },
+        "action": {
+          "text": {
+            "text": "Get Started",
+            "color": "#ffffff"
+          },
+          "color": "",
+          "link": "/signup"
+        }
+      }
+    }
+  },
+  "content": [
+    {
+      "name": "Headline Text",
+      "type": "colored_string",
+      "id": "content.headline"
+    },
+    {
+      "name": "Subheadline Text",
+      "type": "colored_string",
+      "id": "content.subheadline"
+    },
+    {
+      "name": "Background Image",
+      "type": "media",
+      "id": "content.media"
+    },
+    {
+      "name": "Action Button",
+      "type": "colored_string_action",
+      "id": "content.action"
+    }
+  ],
+  "link": null
+}
 ]
