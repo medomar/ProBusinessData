@@ -676,7 +676,6 @@
     "height": null
   },
   "default_data": {
-    "id": "content_18",
     "type": "Content_18",
     "properties": {
       "backgroundColor": "#ffffff",
@@ -732,10 +731,14 @@
     }
   },
   "content": [
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
     {
       "name": "Headline Text",
       "type": "string",
-      "required": true,
       "id": "content.headline"
     },
     {
@@ -744,8 +747,8 @@
       "id": "content.subheadline"
     },
     {
-      "name": "Primary Action Button",
-      "type": "string_action",
+      "name": "Action Button",
+      "type": "colored_string_action",
       "id": "content.action"
     },
     {
@@ -757,12 +760,12 @@
       "content": [
         {
           "name": "Feature Title",
-          "type": "string",
+          "type": "colored_string",
           "id": "title"
         },
         {
           "name": "Feature Description",
-          "type": "string",
+          "type": "colored_string",
           "id": "description"
         }
       ]
