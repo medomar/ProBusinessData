@@ -651,8 +651,7 @@
             "content":[
             	{
                   "name":"Icon",
-                  "type":"colored_icon_action",
-                  "id":"icon"
+                  "type":"colored_icon_action"
                }
             ]
          }
