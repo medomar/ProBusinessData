@@ -503,12 +503,11 @@
             "type":"colored_string",
             "id":"content.subheadline"
          },
-
-               {
-                  "name":"Action Button",
-                  "type":"colored_string_action",
-                  "id":"action"
-               }
+       {
+          "name":"Action Button",
+          "type":"colored_string_action",
+          "id":"content.action"
+       }
       ],
       "link":null
    }
