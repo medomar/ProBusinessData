@@ -1,90 +1,221 @@
 [
-{
-  "id": "header_7",
-  "title": "Large Media and Two Call-to-Action Buttons",
-  "description": "A prominent header section featuring a headline, description, background image, two action buttons, and a subheadline.",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "default_data": {
-    "type": "Header_7",
-    "properties": {
-      "textColor": "#333333",
-      "backgroundColor": "#ffffff",
-      "content": {
-        "headline": {
-          "text": "Boost Your Startup with Our Tools",
-          "color": "#1E0EE8"
-        },
-        "description": {
-          "text": "Our platform combines landing pages, blogs, and shop screens to provide a comprehensive solution for your startup.",
-          "color": "#1E0EE8"
-        },
-        "media": {
-          "link": "https://github.com/user-attachments/assets/38c4fdf6-f002-48de-baec-793fa2b9898e",
-          "type": "image"
-        },
-        "action1": {
-          "text": {
-            "text": "Get Started",
-            "color": "#1E0EE8"
-          },
-          "url": "wwww.google.fr",
-          "color": "#1E0EE8"
-        },
-        "action2": {
-          "text": {
-            "text": "Learn More",
-            "color": "#1E0EE8"
-          },
-          "url": "wwww.google.fr",
-          "color": "#1E0EE8"
-        },
-        "subheadline": {
-          "text": "By signing up, you agree to our Terms of Service",
-          "color": "#1E0EE8"
-        }
-      }
-    }
-  },
-  "content": [
-    {
-      "name": "Background Color",
-      "type": "color",
-      "id": "backgroundColor"
-    },
-    {
-      "name": "Headline Text",
-      "type": "colored_string",
-      "id": "content.headline"
-    },
-    {
-      "name": "Description Text",
-      "type": "colored_string",
-      "id": "content.description"
-    },
-    {
-      "name": "Background Image",
-      "type": "media",
-      "id": "content.media"
-    },
-    {
-      "name": "Primary Action Button",
-      "type": "colored_string_action",
-      "id": "content.action1"
-    },
-    {
-      "name": "Secondary Action Button",
-      "type": "colored_string_action",
-      "id": "content.action2"
-    },
-    {
-      "name": "Subheadline Text",
-      "type": "colored_string",
-      "id": "content.subheadline"
-    }
-  ],
-  "link": null
-}
+   {
+      "id":"header_7",
+      "title":"Large Media and Two Call-to-Action Buttons",
+      "description":"A prominent header section featuring a headline, description, background image, two action buttons, and a subheadline.",
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"Header_7",
+         "properties":{
+            "textColor":"#333333",
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Boost Your Startup with Our Tools",
+                  "color":"#1E0EE8"
+               },
+               "description":{
+                  "text":"Our platform combines landing pages, blogs, and shop screens to provide a comprehensive solution for your startup.",
+                  "color":"#1E0EE8"
+               },
+               "media":{
+                  "link":"https://github.com/user-attachments/assets/38c4fdf6-f002-48de-baec-793fa2b9898e",
+                  "type":"image"
+               },
+               "action1":{
+                  "text":{
+                     "text":"Get Started",
+                     "color":"#1E0EE8"
+                  },
+                  "url":"wwww.google.fr",
+                  "color":"#1E0EE8"
+               },
+               "action2":{
+                  "text":{
+                     "text":"Learn More",
+                     "color":"#1E0EE8"
+                  },
+                  "url":"wwww.google.fr",
+                  "color":"#1E0EE8"
+               },
+               "subheadline":{
+                  "text":"By signing up, you agree to our Terms of Service",
+                  "color":"#1E0EE8"
+               }
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Description Text",
+            "type":"colored_string",
+            "id":"content.description"
+         },
+         {
+            "name":"Background Image",
+            "type":"media",
+            "id":"content.media"
+         },
+         {
+            "name":"Primary Action Button",
+            "type":"colored_string_action",
+            "id":"content.action1"
+         },
+         {
+            "name":"Secondary Action Button",
+            "type":"colored_string_action",
+            "id":"content.action2"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_string",
+            "id":"content.subheadline"
+         }
+      ],
+      "link":null
+   },
+   {
+      "id":"feature_4",
+      "title":"feature_4",
+      "description":"feature_4",
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"Feature_4",
+         "properties":{
+            "content":{
+               "headline":{
+                  "text":"Features",
+                  "color":"#1E0EE8"
+               },
+               "subheadline":{
+                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
+                  "color":"#333333"
+               },
+               "features":[
+                  {
+                     "icon":{
+                        "name":"Bolt",
+                        "color":"#333333"
+                     },
+                     "title":{
+                        "text":"Easy to Use",
+                        "color":"#333333"
+                     },
+                     "description":{
+                        "text":"To get started, you select the desired sample and base the entire website on it. It’s that simple!",
+                        "color":"#333333"
+                     },
+                     "action":{
+                        "text":{
+                           "text":"Learn More",
+                           "color":"#1E0EE8"
+                        },
+                        "url":"www.google.fr"
+                     }
+                  },
+                  {
+                     "icon":{
+                        "name":"Random",
+                        "color":"#333333"
+                     },
+                     "title":{
+                        "text":"Variety of Designs",
+                        "color":"#333333"
+                     },
+                     "description":{
+                        "text":"You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.",
+                        "color":"#333333"
+                     },
+                     "action":{
+                        "text":{
+                           "text":"Learn More",
+                           "color":"#FFFFFF"
+                        },
+                        "url":"#"
+                     }
+                  },
+                  {
+                     "icon":{
+                        "name":"PlayCircle",
+                        "color":"#333333"
+                     },
+                     "title":{
+                        "text":"Feel Our Design",
+                        "color":"#333333"
+                     },
+                     "description":{
+                        "text":"Samples will show you the feeling on how to play around using the components in the website building process.",
+                        "color":"#333333"
+                     },
+                     "action":{
+                        "text":{
+                           "text":"Learn More",
+                           "color":"#FFFFFF"
+                        },
+                        "url":"#"
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Features List",
+            "type":"collection",
+            "id":"content.features",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Feature Icon",
+                  "type":"colored_icon",
+                  "id":"icon"
+               },
+               {
+                  "name":"Feature Title",
+                  "type":"string",
+                  "id":"title"
+               },
+               {
+                  "name":"Feature Description",
+                  "type":"string",
+                  "id":"description"
+               },
+               {
+                  "name":"Feature Action Button",
+                  "type":"colored_string_action",
+                  "id":"action"
+               }
+            ]
+         }
+      ],
+      "link":null
+   }
 ]
