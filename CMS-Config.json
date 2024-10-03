@@ -7,46 +7,46 @@
          "width":null,
          "height":null
       },
-      "default_data":{
-         "type":"Header_7",
-         "properties":{
-            "backgroundColor":"#ffffff",
-            "content":{
-               "headline":{
-                  "text":"Boost Your Startup with Our Tools",
-                  "color":"#1E0EE8"
-               },
-               "description":{
-                  "text":"Our platform combines landing pages, blogs, and shop screens to provide a comprehensive solution for your startup.",
-                  "color":"#1E0EE8"
-               },
-               "media":{
-                  "link":"https://github.com/user-attachments/assets/38c4fdf6-f002-48de-baec-793fa2b9898e",
-                  "type":"image"
-               },
-               "action1":{
-                  "text":{
-                     "text":"Get Started",
-                     "color":"#1E0EE8"
+      "default_data":    {
+            "type": "Header_7",
+            "properties": {
+              "backgroundColor": "#ffffff",
+              "content": {
+                "headline": {
+                  "text": "Great tool to boost your startup",
+                  "color": "#1E0E62"
+                },
+                "description": {
+                  "text": "We made it so beautiful and simple. It combines landings, pages, blogs, and shop screens. It is definitely the tool you need in your collection!",
+                  "color": "#15143966"
+                },
+                "media": {
+                  "link": "https://github.com/user-attachments/assets/38c4fdf6-f002-48de-baec-793fa2b9898e",
+                  "type": "image"
+                },
+                "action1": {
+                  "text": {
+                    "text": "Get Started",
+                    "color": "#ffffff"
                   },
-                  "url":"wwww.google.fr",
-                  "color":"#1E0EE8"
-               },
-               "action2":{
-                  "text":{
-                     "text":"Learn More",
-                     "color":"#1E0EE8"
+                  "url": "#",
+                  "color":"#25dac4"
+                },
+                "action2": {
+                  "text": {
+                    "text": "Learn More",
+                    "color": "#1E0E62"
                   },
-                  "url":"wwww.google.fr",
-                  "color":"#1E0EE8"
-               },
-               "subheadline":{
-                  "text":"By signing up, you agree to our Terms of Service",
-                  "color":"#1E0EE8"
-               }
+                  "url": "#",
+                  "color":"#00000000"
+                },
+                "subheadline": {
+                  "text": "By signing up, you agree to the Terms of Service",
+                  "color": "#15143966"
+                }
+              }
             }
-         }
-      },
+          },
       "content":[
          {
             "name":"Background Color",
@@ -352,7 +352,7 @@
                },
                "description":{
                   "text":"Startup Framework contains components and complex blocks which can easily be integrated into almost any design. All of the components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions.",
-                  "color":"#555555"
+                  "color":"#15143966"
                },
                "media":{
                   "link":"https://github.com/user-attachments/assets/23eebc90-9657-4c67-bb9c-b1880097d9b3",
@@ -362,57 +362,57 @@
                   {
                      "icon":{
                         "name":"code",
-                        "color":""
+                        "color":"#1E0E62"
                      },
                      "title":{
                         "text":"Retina Ready",
-                        "color":""
+                        "color":"#1E0E62"
                      },
                      "description":{
                         "text":"Startup Framework works fine on devices supporting Retina Display. Feel the clarity!",
-                        "color":""
+                        "color":"#15143966"
                      }
                   },
                   {
                      "icon":{
                         "name":"star",
-                        "color":""
+                        "color":"#1E0E62"
                      },
                      "title":{
                         "text":"Happy Customers",
-                        "color":""
+                        "color":"#1E0E62"
                      },
                      "description":{
                         "text":"We're super proud to share the fact that Startup has a whopping 97% customer satisfaction rate.",
-                        "color":""
+                        "color":"#15143966"
                      }
                   },
                   {
                      "icon":{
                         "name":"keyboard",
-                        "color":""
+                        "color":"#1E0E62"
                      },
                      "title":{
                         "text":"Feel Our Design",
-                        "color":""
+                        "color":"#1E0E62"
                      },
                      "description":{
                         "text":"Samples will show you the feeling on how to play around using the components in the website building process.",
-                        "color":""
+                        "color":"#15143966"
                      }
                   },
                   {
                      "icon":{
                         "name":"link",
-                        "color":""
+                        "color":"#1E0E62"
                      },
                      "title":{
                         "text":"Variety of Designs",
-                        "color":""
+                        "color":"#1E0E62"
                      },
                      "description":{
                         "text":"You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge in various combinations.",
-                        "color":""
+                        "color":"#15143966"
                      }
                   }
                ]
@@ -637,40 +637,40 @@
          "width":null,
          "height":null
       },
-      "default_data":{
-         "type":"MediaCard",
-         "properties":{
-            "backgroundColor":"#ffffff",
-            "content":{
-               "headline":{
-                  "text":"Our Vision",
-                  "color":"#707070"
-               },
-               "subheadline":{
-                  "text":"Transforming the Future",
-                  "color":"#4a7c81"
-               },
-               "description":{
-                  "text":"We're committed to creating innovative solutions that shape the future of technology and business.",
-                  "color":"#a08e8e"
-               },
-               "action":{
-                  "text":{
-                     "text":"Join Our Mission",
-                     "color":"#4a7c81"
+      "default_data": {
+            "type": "MediaCard",
+            "properties": {
+              "backgroundColor": "#ffffff",
+              "content": {
+                "headline": {
+                  "text": "Our Vision",
+                  "color": "#707070"
+                },
+                "subheadline": {
+                  "text": "Transforming the Future",
+                  "color": "#4a7c81"
+                },
+                "description": {
+                  "text": "We're committed to creating innovative solutions that shape the future of technology and business.",
+                  "color": "#a08e8e"
+                },
+                "action": {
+                  "text": {
+                    "text": "Join Our Mission",
+                    "color": "#4a7c81"
                   },
-                  "color":"#707070",
-                  "link":"/careers"
-               },
-               "media":{
-                  "link":"https://picsum.photos/1200/603",
-                  "type":"image",
-                  "size":"large",
-                  "mediaPosition":"right"
-               }
+                  "url": "https://www.google.tn",
+                  "color": ""
+                },
+                "media": {
+                  "link": "https://picsum.photos/1200/600",
+                  "type": "image",
+                  "size": "large",
+                  "mediaPosition": "right"
+                }
+              }
             }
-         }
-      },
+          },
       "content":[
          {
             "name":"Background Color",
@@ -699,15 +699,11 @@
          },
          {
             "name":"Image with Custom Position",
-            "type":"custom_size_position_media",
+            "type":"custom_position_media",
             "id":"content.media",
             "positions":[
                "right",
                "left"
-            ],
-            "sizes":[
-               "small",
-               "Large"
             ]
          }
       ],
@@ -722,33 +718,34 @@
          "height":null
       },
       "default_data":{
-         "type":"hero",
-         "properties":{
-            "backgroundColor":"#ffffff",
-            "content":{
-               "headline":{
-                  "text":"Welcome to Our Platform",
-                  "color":"#1E0EE8"
-               },
-               "subheadline":{
-                  "text":"Discover amazing features and boost your productivity",
-                  "color":"#1E0EE8"
-               },
-               "media":{
-                  "link":"https://picsum.photos/1200/604",
-                  "type":"image"
-               },
-               "action":{
-                  "text":{
-                     "text":"Get Started",
-                     "color":"#ffffff"
+            "type": "hero",
+            "properties": {
+              "backgroundColor": "#ffffff",
+              "content": {
+                "headline": {
+                  "text": "Welcome to Our Platform",
+                    "color": "#ffffff"
+                },
+                "subheadline": {
+                  "text": "Discover amazing features and boost your productivity",
+                    "color": "#ffffff"
+                },
+                "media": {
+                  "link": "https://picsum.photos/1200/600",
+                  "type": "image"
+                },
+                "action": {
+                  "text": {
+                    "text": "Get Started",
+                    "color": "#ffffff"
                   },
-                  "color":"",
-                  "link":"/signup"
-               }
+                  "url": "https://www.google.tn",
+                 "color": ""
+
+                }
+              }
             }
-         }
-      },
+          },
       "content":[
          {
             "name":"Headline Text",
@@ -1247,7 +1244,7 @@
                   {
                      "action":{
                         "icon":{
-                           "name":"facebook-square",
+                           "name":"facebookSquare",
                            "color":"#1E0E62"
                         },
                         "color":"#1E0E62",
