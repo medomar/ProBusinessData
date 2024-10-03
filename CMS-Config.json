@@ -1,8 +1,8 @@
 [
    {
       "id":"header_7",
-  "title": "Large Media and Two Call-to-Action Buttons",
-  "description": "A prominent header section featuring a headline, description, background image, two action buttons, and a subheadline.",
+      "title":"Large Media and Two Call-to-Action Buttons",
+      "description":"A prominent header section featuring a headline, description, background image, two action buttons, and a subheadline.",
       "frame":{
          "width":null,
          "height":null
@@ -10,7 +10,6 @@
       "default_data":{
          "type":"Header_7",
          "properties":{
-            "textColor":"#333333",
             "backgroundColor":"#ffffff",
             "content":{
                "headline":{
@@ -89,8 +88,8 @@
    },
    {
       "id":"feature_4",
-  "title": "Feature Section with Icons and Descriptions",
-  "description": "A section highlighting key features with a headline, subheadline, and a list of features, each with an icon, title, description, and action button.",
+      "title":"Feature Section with Icons and Descriptions",
+      "description":"A section highlighting key features with a headline, subheadline, and a list of features, each with an icon, title, description, and action button.",
       "frame":{
          "width":null,
          "height":null
@@ -98,77 +97,85 @@
       "default_data":{
          "type":"Feature_4",
          "properties":{
+            "backgroundColor":"#033102",
+            "media":{
+               "link":"https://github.com/user-attachments/assets/18a16cdc-2cb9-48ff-919b-c068f5fc935b",
+               "type":"image"
+            },
             "content":{
                "headline":{
                   "text":"Features",
-                  "color":"#1E0EE8"
+                  "color":"#FFFFFF"
                },
                "subheadline":{
                   "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
-                  "color":"#333333"
+                  "color":"#FFFFFF"
                },
                "features":[
                   {
                      "icon":{
                         "name":"Bolt",
-                        "color":"#333333"
+                        "color":"#FFFFFF"
                      },
                      "title":{
                         "text":"Easy to Use",
-                        "color":"#333333"
+                        "color":"#FFFFFF"
                      },
                      "description":{
                         "text":"To get started, you select the desired sample and base the entire website on it. It’s that simple!",
-                        "color":"#333333"
+                        "color":"#FFFFFF"
                      },
                      "action":{
                         "text":{
                            "text":"Learn More",
-                           "color":"#1E0EE8"
+                           "color":"#FFFFFF"
                         },
-                        "url":"www.google.fr"
+                        "url":"https://www.google.tn",
+                        "color":"#ff476d"
                      }
                   },
                   {
                      "icon":{
                         "name":"Random",
-                        "color":"#333333"
+                        "color":"#FFFFFF"
                      },
                      "title":{
                         "text":"Variety of Designs",
-                        "color":"#333333"
+                        "color":"#FFFFFF"
                      },
                      "description":{
                         "text":"You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.",
-                        "color":"#333333"
+                        "color":"#FFFFFF"
                      },
                      "action":{
                         "text":{
                            "text":"Learn More",
                            "color":"#FFFFFF"
                         },
-                        "url":"#"
+                        "url":"https://www.google.tn",
+                        "color":"#ff476d"
                      }
                   },
                   {
                      "icon":{
                         "name":"PlayCircle",
-                        "color":"#333333"
+                        "color":"#FFFFFF"
                      },
                      "title":{
                         "text":"Feel Our Design",
-                        "color":"#333333"
+                        "color":"#FFFFFF"
                      },
                      "description":{
                         "text":"Samples will show you the feeling on how to play around using the components in the website building process.",
-                        "color":"#333333"
+                        "color":"#FFFFFF"
                      },
                      "action":{
                         "text":{
                            "text":"Learn More",
                            "color":"#FFFFFF"
                         },
-                        "url":"#"
+                        "url":"https://www.google.tn",
+                        "color":"#ff476d"
                      }
                   }
                ]
@@ -225,8 +232,8 @@
    },
    {
       "id":"MultiUsefulComponents",
-  "title": "Multi-Purpose Components Section",
-  "description": "A section showcasing multiple useful components with a headline, image, description, and a list of features.",
+      "title":"Multi-Purpose Components Section",
+      "description":"A section showcasing multiple useful components with a headline, image, description, and a list of features.",
       "frame":{
          "width":null,
          "height":null
@@ -284,7 +291,6 @@
          }
       },
       "content":[
-
          {
             "name":"Background Color",
             "type":"color",
@@ -329,8 +335,8 @@
    },
    {
       "id":"BetterDesign",
-      "title":"BetterDesign",
-      "description":"BetterDesign",
+      "title":"Feature Section with Highlights and Image",
+      "description":"A section showcasing key features with a headline, description, image, and a list of features, each with an icon, title, and description.",
       "frame":{
          "width":null,
          "height":null
@@ -463,8 +469,8 @@
    },
    {
       "id":"Header_15",
-      "title":"Header_15",
-      "description":"Header_15",
+      "title":"Header Section with Call-to-Action",
+      "description":"A header section featuring a headline, subheadline, and a primary call-to-action button.",
       "frame":{
          "width":null,
          "height":null
@@ -518,99 +524,514 @@
       "link":null
    },
    {
-      "id":"Feature_22",
-      "title":"Feature_22",
-      "description":"Feature_22",
+      "id":"content_18",
+      "title":"Content Section with Features and Action Button",
+      "description":"A content section with a headline, subheadline, primary action button, and a list of features with titles and descriptions.",
       "frame":{
          "width":null,
          "height":null
       },
       "default_data":{
-  "type": "Feature_22",
-  "properties": {
-    "backgroundColor": "#ffffff",
-    "content": {
-      "headline": {
-        "text": "Many carefully crafted components for your business.",
-        "color": "#1E0E62"
+         "type":"Content_18",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Have Questions?",
+                  "color":"#1E0E62"
+               },
+               "subheadline":{
+                  "text":"We include great form options for your startup projects.",
+                  "color":"#1E0E62"
+               },
+               "action":{
+                  "text":{
+                     "text":"Get Help",
+                     "color":"#ffffff"
+                  },
+                  "link":"#"
+               },
+               "features":[
+                  {
+                     "title":{
+                        "text":"Easy to Use",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"Our components and blocks integrate easily into any design, allowing you to create numerous solutions.",
+                        "color":"#15143866"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Variety of Designs",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"Choose from a wide range of designs to suit your needs.",
+                        "color":"#15143866"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Feel Our Design",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"Experience the seamless integration of our components during the website building process.",
+                        "color":"#15143866"
+                     }
+                  }
+               ]
+            }
+         }
       },
-      "subheadline": {
-        "text": "We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
-        "color": "#15143966"
-      },
-      "action": {
-        "text": {
-          "text": "Get Started",
-          "color": "#ffffff"
-        },
-        "url": "#",
-        "color": "#25dac4"
-      },
-      "features": [
-        {
-          "icon": {
-            "name": "commenting",
-            "color": "#EBEAED"
-          },
-          "title": {
-            "text": "Based on Bootstrap 4",
-            "color": "#1E0E62"
-          },
-          "description": {
-            "text": "HTML layout is based on one of the most common and reliable frameworks – Bootstrap.",
-            "color": "#15143966"
-          }
-        },
-        {
-          "icon": {
-            "name": "html5",
-            "color": "#EBEAED"
-          },
-          "title": {
-            "text": "HTML5 & CSS3",
-            "color": "#1E0E62"
-          },
-          "description": {
-            "text": "We used only time-tested technologies for the best results.",
-            "color": "#15143966"
-          }
-        }
-      ],
-      "actions": [
-        {
-          "action": {
-          "icon": {
-            "name": "slack",
-            "color": "#EBEAED"
-          },
-          "color": "#15143966",
-          "url": "https://www.slack.com/"
-        },
-      },
+      "content":[
          {
-          "action": {
-          "icon": {
-            "name": "android",
-            "color": "#EBEAED"
-          },
-          "color": "#15143966",
-          "url": "https://www.android.com/"
-        },
+            "name":"Background Color",
+            "type":"color",
+            "id":"content.backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Action Button",
+            "type":"colored_string_action",
+            "id":"content.action"
+         },
+         {
+            "name":"Features List",
+            "type":"collection",
+            "id":"content.features",
+            "min":1,
+            "max":3,
+            "content":[
+               {
+                  "name":"Feature Title",
+                  "type":"colored_string",
+                  "id":"title"
+               },
+               {
+                  "name":"Feature Description",
+                  "type":"colored_string",
+                  "id":"description"
+               }
+            ]
+         }
+      ],
+      "link":null
+   },
+   {
+      "id":"mediaCard",
+      "title":"Media Card with Customizable Layout",
+      "description":"A media card component featuring a headline, subheadline, description, action button, and an image with customizable position and size.",
+      "frame":{
+         "width":null,
+         "height":null
       },
-       {
-          "action": {
-          "icon": {
-            "name": "windows",
-            "color": "#EBEAED"
-          },
-          "color": "#15143966",
-          "url": "https://www.windows.com/"
-        },
-      }
-      ]
-    }
-  }
-	},
+      "default_data":{
+         "type":"MediaCard",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Our Vision",
+                  "color":"#707070"
+               },
+               "subheadline":{
+                  "text":"Transforming the Future",
+                  "color":"#4a7c81"
+               },
+               "description":{
+                  "text":"We're committed to creating innovative solutions that shape the future of technology and business.",
+                  "color":"#a08e8e"
+               },
+               "action":{
+                  "text":{
+                     "text":"Join Our Mission",
+                     "color":"#4a7c81"
+                  },
+                  "color":"#707070",
+                  "link":"/careers"
+               },
+               "media":{
+                  "link":"https://picsum.photos/1200/603",
+                  "type":"image",
+                  "size":"large",
+                  "mediaPosition":"right"
+               }
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Description Text",
+            "type":"colored_string",
+            "id":"content.description"
+         },
+         {
+            "name":"Action Button",
+            "type":"colored_string_action",
+            "id":"content.action"
+         },
+         {
+            "name":"Image with Custom Position",
+            "type":"custom_position_media",
+            "id":"content.media",
+            "positions":[
+               "right",
+               "left"
+            ]
+         }
+      ],
+      "link":null
+   },
+   {
+      "id":"hero",
+      "title":"Hero Section with Background Image and Action Button",
+      "description":"A prominent hero section featuring a headline, subheadline, background image, and a primary action button.",
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"hero",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Welcome to Our Platform",
+                  "color":"#1E0EE8"
+               },
+               "subheadline":{
+                  "text":"Discover amazing features and boost your productivity",
+                  "color":"#1E0EE8"
+               },
+               "media":{
+                  "link":"https://picsum.photos/1200/604",
+                  "type":"image"
+               },
+               "action":{
+                  "text":{
+                     "text":"Get Started",
+                     "color":"#ffffff"
+                  },
+                  "color":"",
+                  "link":"/signup"
+               }
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Background Image",
+            "type":"media",
+            "id":"content.media"
+         },
+         {
+            "name":"Action Button",
+            "type":"colored_string_action",
+            "id":"content.action"
+         }
+      ],
+      "link":null
+   },
+   {
+      "id":"FeatureGrid",
+      "title":"Feature Grid with Images and Descriptions",
+      "description":"A grid layout displaying features with images and optional descriptions, customizable number of columns.",
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"FeatureGrid",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Our Key Features",
+                  "color":"#333333"
+               },
+               "subheadline":{
+                  "text":"Discover what makes us unique",
+                  "color":"#777777"
+               },
+               "features":[
+                  {
+                     "title":{
+                        "text":"Innovative Solutions",
+                        "color":"#000000"
+                     },
+                     "description":{
+                        "text":"We provide cutting-edge solutions to meet your needs.",
+                        "color":"#666666"
+                     },
+                     "icon":{
+                        "name":"lightbulb",
+                        "color":"#606be0"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Time-Saving Tools",
+                        "color":"#000000"
+                     },
+                     "description":{
+                        "text":"Our tools help you save time and focus on what matters.",
+                        "color":"#666666"
+                     },
+                     "icon":{
+                        "name":"clock",
+                        "color":"#606be0"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Team Collaboration",
+                        "color":"#000000"
+                     },
+                     "description":{
+                        "text":"Enhance teamwork with our collaboration features.",
+                        "color":"#666666"
+                     },
+                     "icon":{
+                        "name":"users",
+                        "color":"#606be0"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Secure Platform",
+                        "color":"#000000"
+                     },
+                     "description":{
+                        "text":"Your data is safe with our advanced security measures.",
+                        "color":"#666666"
+                     },
+                     "icon":{
+                        "name":"shieldAlt",
+                        "color":"#606be0"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Performance Tracking",
+                        "color":"#000000"
+                     },
+                     "description":{
+                        "text":"Monitor and improve your performance with ease.",
+                        "color":"#666666"
+                     },
+                     "icon":{
+                        "name":"chartLine",
+                        "color":"#606be0"
+                     },
+                     "action":{
+                        "text":{
+                           "text":"Learn More",
+                           "color":"#FFFFFF"
+                        },
+                        "url":"http://localhost:3000/test2",
+                        "color":""
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"24/7 Support",
+                        "color":"#000000"
+                     },
+                     "description":{
+                        "text":"Our support team is always ready to assist you.",
+                        "color":"#666666"
+                     },
+                     "icon":{
+                        "name":"headset",
+                        "color":"#606be0"
+                     },
+                     "action":{
+                        "text":{
+                           "text":"Get Support",
+                           "color":"#FFFFFF"
+                        },
+                        "url":"https://staging.hope-probusiness.com/defaultCompany",
+                        "color":""
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Features List",
+            "type":"collection",
+            "id":"content.features",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Feature Title",
+                  "type":"colored_string",
+                  "id":"title"
+               },
+               {
+                  "name":"Feature Description",
+                  "type":"colored_string",
+                  "id":"description"
+               },
+               {
+                  "name":"Icon",
+                  "type":"colored_icon",
+                  "id":"icon"
+               }
+            ]
+         }
+      ],
+      "link":null
+   },
+   {
+      "id":"Feature_22",
+      "title":"Feature Section with Main Action and Social Links",
+      "description":"A section featuring a headline, subheadline, a primary action button, a list of features, and additional action links.",
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"Feature_22",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Many carefully crafted components for your business.",
+                  "color":"#1E0E62"
+               },
+               "subheadline":{
+                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
+                  "color":"#15143966"
+               },
+               "action":{
+                  "text":{
+                     "text":"Get Started",
+                     "color":"#ffffff"
+                  },
+                  "url":"#",
+                  "color":"#25dac4"
+               },
+               "features":[
+                  {
+                     "icon":{
+                        "name":"commenting",
+                        "color":"#EBEAED"
+                     },
+                     "title":{
+                        "text":"Based on Bootstrap 4",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"HTML layout is based on one of the most common and reliable frameworks – Bootstrap.",
+                        "color":"#15143966"
+                     }
+                  },
+                  {
+                     "icon":{
+                        "name":"html5",
+                        "color":"#EBEAED"
+                     },
+                     "title":{
+                        "text":"HTML5 & CSS3",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"We used only time-tested technologies for the best results.",
+                        "color":"#15143966"
+                     }
+                  }
+               ],
+               "actions":[
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"slack",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.slack.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"android",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.android.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"windows",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.windows.com/"
+                     }
+                  }
+               ]
+            }
+         }
+      },
       "content":[
          {
             "name":"Background Color",
@@ -674,417 +1095,320 @@
       "link":null
    },
    {
-  "id": "content_18",
-  "title": "Content Section with Features and Action Button",
-  "description": "A content section with a headline, subheadline, primary action button, and a list of features with titles and descriptions.",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "default_data": {
-    "type": "Content_18",
-    "properties": {
-      "backgroundColor": "#ffffff",
-      "content": {
-        "headline": {
-          "text": "Have Questions?",
-          "color": "#1E0E62"
-        },
-        "subheadline": {
-          "text": "We include great form options for your startup projects.",
-          "color": "#1E0E62"
-        },
-        "action": {
-          "text": {
-            "text": "Get Help",
-            "color": "#ffffff"
-          },
-          "link": "#"
-        },
-        "features": [
-          {
-            "title": {
-              "text": "Easy to Use",
-              "color": "#1E0E62"
-            },
-            "description": {
-              "text": "Our components and blocks integrate easily into any design, allowing you to create numerous solutions.",
-              "color": "#15143866"
-            }
-          },
-          {
-            "title": {
-              "text": "Variety of Designs",
-              "color": "#1E0E62"
-            },
-            "description": {
-              "text": "Choose from a wide range of designs to suit your needs.",
-              "color": "#15143866"
-            }
-          },
-          {
-            "title": {
-              "text": "Feel Our Design",
-              "color": "#1E0E62"
-            },
-            "description": {
-              "text": "Experience the seamless integration of our components during the website building process.",
-              "color": "#15143866"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "content": [
-         {
-            "name":"Background Color",
-            "type":"color",
-            "id":"content.backgroundColor"
-         },
-    {
-      "name": "Headline Text",
-      "type": "colored_string",
-      "id": "content.headline"
-    },
-    {
-      "name": "Subheadline Text",
-      "type": "colored_string",
-      "id": "content.subheadline"
-    },
-    {
-      "name": "Action Button",
-      "type": "colored_string_action",
-      "id": "content.action"
-    },
-    {
-      "name": "Features List",
-      "type": "collection",
-      "id": "content.features",
-      "min": 1,
-      "max": 3,
-      "content": [
-        {
-          "name": "Feature Title",
-          "type": "colored_string",
-          "id": "title"
-        },
-        {
-          "name": "Feature Description",
-          "type": "colored_string",
-          "id": "description"
-        }
-      ]
-    }
-  ],
-  "link": null
-},
-   {
-  "id": "mediaCard",
-  "title": "Media Card with Customizable Layout",
-  "description": "A media card component featuring a headline, subheadline, description, action button, and an image with customizable position and size.",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "default_data":{
-    "type": "MediaCard",
-    "properties": {
-      "backgroundColor": "#ffffff",
-      "content": {
-        "headline": {
-          "text": "Our Vision",
-          "color": "#707070"
-        },
-        "subheadline": {
-          "text": "Transforming the Future",
-          "color": "#4a7c81"
-        },
-        "description": {
-          "text": "We're committed to creating innovative solutions that shape the future of technology and business.",
-          "color": "#a08e8e"
-        },
-        "action": {
-          "text": {
-            "text": "Join Our Mission",
-            "color": "#4a7c81"
-          },
-          "color": "#707070",
-          "link": "/careers"
-        },
-        "media": {
-          "link": "https://picsum.photos/1200/603",
-          "type": "image",
-          "size": "large",
-          "mediaPosition": "right"
-        }
-      }
-    }
-  },
-  "content": [
-         {
-            "name":"Background Color",
-            "type":"color",
-            "id":"backgroundColor"
-         },
-    {
-      "name": "Headline Text",
-      "type": "colored_string",
-      "id": "content.headline"
-    },
-    {
-      "name": "Subheadline Text",
-      "type": "colored_string",
-      "id": "content.subheadline"
-    },
-    {
-      "name": "Description Text",
-      "type": "colored_string",
-      "id": "content.description"
-    },
-    {
-      "name": "Action Button",
-      "type": "colored_string_action",
-      "id": "content.action"
-    },
-    {
-      "name": "Image with Custom Position",
-      "type": "custom_position_media",
-      "id": "content.media",
-      "positions": ["right", "left"]
-    }
-  ],
-  "link": null
-},
-   {
-  "id": "hero",
-  "title": "Hero Section with Background Image and Action Button",
-  "description": "A prominent hero section featuring a headline, subheadline, background image, and a primary action button.",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "default_data": {
-    "type": "hero",
-    "properties": {
-      "backgroundColor": "#ffffff",
-      "content": {
-        "headline": {
-          "text": "Welcome to Our Platform",
-          "color": "#1E0EE8"
-        },
-        "subheadline": {
-          "text": "Discover amazing features and boost your productivity",
-          "color": "#1E0EE8"
-        },
-        "media": {
-          "link": "https://picsum.photos/1200/604",
-          "type": "image"
-        },
-        "action": {
-          "text": {
-            "text": "Get Started",
-            "color": "#ffffff"
-          },
-          "color": "",
-          "link": "/signup"
-        }
-      }
-    }
-  },
-  "content": [
-    {
-      "name": "Headline Text",
-      "type": "colored_string",
-      "id": "content.headline"
-    },
-    {
-      "name": "Subheadline Text",
-      "type": "colored_string",
-      "id": "content.subheadline"
-    },
-    {
-      "name": "Background Image",
-      "type": "media",
-      "id": "content.media"
-    },
-    {
-      "name": "Action Button",
-      "type": "colored_string_action",
-      "id": "content.action"
-    }
-  ],
-  "link": null
-},
-   {
-  "id": "FeatureGrid",
-  "title": "Feature Grid with Images and Descriptions",
-  "description": "A grid layout displaying features with images and optional descriptions, customizable number of columns.",
-  "frame": {
-    "width": null,
-    "height": null
-  },
-  "default_data": {
-            "type": "FeatureGrid",
-            "properties": {
-              "backgroundColor": "#ffffff",
-              "content": {
-                "headline": {
-                  "text": "Our Key Features",
-                  "color": "#333333"
-                },
-                "subheadline": {
-                  "text": "Discover what makes us unique",
-                  "color": "#777777"
-                },
-                "features": [
+      "id":"contact_10",
+      "title":"Contact Section with Image and Social Media Links",
+      "description":"A contact section featuring a headline, subheadline (e.g., email address), an image, and social media icons with links.",
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"Contact_10",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"For any questions please mail us:",
+                  "color":"#1E0E62"
+               },
+               "subheadline":{
+                  "text":"info@designmodo.com",
+                  "color":"#482BE7"
+               },
+               "media":{
+                  "link":"https://github.com/user-attachments/assets/0008355a-1e8a-4d74-a484-6585068904a3",
+                  "type":"image"
+               },
+               "actions":[
                   {
-                    "title": {
-                      "text": "Innovative Solutions",
-                      "color": "#000000"
-                    },
-                    "description": {
-                      "text": "We provide cutting-edge solutions to meet your needs.",
-                      "color": "#666666"
-                    },
-                    "icon": {
-                      "name": "lightbulb",
-                      "color": "#606be0"
-                    }
+                     "action":{
+                        "icon":{
+                           "name":"twitter",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://twitter.com/"
+                     }
                   },
                   {
-                    "title": {
-                      "text": "Time-Saving Tools",
-                      "color": "#000000"
-                    },
-                    "description": {
-                      "text": "Our tools help you save time and focus on what matters.",
-                      "color": "#666666"
-                    },
-                    "icon": {
-                      "name": "clock",
-                      "color": "#606be0"
-                    }
+                     "action":{
+                        "icon":{
+                           "name":"facebookSquare",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.facebook.com/"
+                     }
                   },
                   {
-                    "title": {
-                      "text": "Team Collaboration",
-                      "color": "#000000"
-                    },
-                    "description": {
-                      "text": "Enhance teamwork with our collaboration features.",
-                      "color": "#666666"
-                    },
-                    "icon": {
-                      "name": "users",
-                      "color": "#606be0"
-                    }
+                     "action":{
+                        "icon":{
+                           "name":"pinterest",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.pinterest.com/"
+                     }
                   },
                   {
-                    "title": {
-                      "text": "Secure Platform",
-                      "color": "#000000"
-                    },
-                    "description": {
-                      "text": "Your data is safe with our advanced security measures.",
-                      "color": "#666666"
-                    },
-                    "icon": {
-                      "name": "shieldAlt",
-                      "color": "#606be0"
-                    }
+                     "action":{
+                        "icon":{
+                           "name":"behance",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.behance.com/"
+                     }
                   },
                   {
-                    "title": {
-                      "text": "Performance Tracking",
-                      "color": "#000000"
-                    },
-                    "description": {
-                      "text": "Monitor and improve your performance with ease.",
-                      "color": "#666666"
-                    },
-                    "icon": {
-                      "name": "chartLine",
-                      "color": "#606be0"
-                    },
-                    "action": {
-                      "text": {
-                        "text": "Learn More",
-                        "color": "#FFFFFF"
-                      },
-                      "url": "http://localhost:3000/test2",
-                       "color": ""
-
-                    }
-                  },
-                  {
-                    "title": {
-                      "text": "24/7 Support",
-                      "color": "#000000"
-                    },
-                    "description": {
-                      "text": "Our support team is always ready to assist you.",
-                      "color": "#666666"
-                    },
-                    "icon": {
-                      "name": "headset",
-                      "color": "#606be0"
-                    },
-                    "action": {
-                      "text": {
-                        "text": "Get Support",
-                        "color": "#FFFFFF"
-                      },
-                      "url": "https://staging.hope-probusiness.com/defaultCompany",
-                      "color": ""
-
-                    }
+                     "action":{
+                        "icon":{
+                           "name":"dribbble",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.dribbble.com/"
+                     }
                   }
-                ]
-              }
+               ]
             }
-          },
-  "content": [
+         }
+      },
+      "content":[
          {
             "name":"Background Color",
             "type":"color",
             "id":"backgroundColor"
          },
-    {
-      "name": "Headline Text",
-      "type": "colored_string",
-      "id": "content.headline"
-    },
-    {
-      "name": "Subheadline Text",
-      "type": "colored_string",
-      "id": "content.subheadline"
-    },
-    {
-      "name": "Features List",
-      "type": "collection",
-      "id": "content.features",
-      "min": 3,
-      "max": 3,
-      "content": [
-        {
-          "name": "Feature Title",
-          "type": "colored_string",
-          "id": "title"
-        },
-        {
-          "name": "Feature Description",
-          "type": "colored_string",
-          "id": "description"
-        },
-        {
-          "name": "Icon",
-          "type": "colored_icon",
-          "id": "icon"
-        }
-      ]
-    }
-  ],
-  "link": null
-}
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Media",
+            "type":"media",
+            "id":"content.media"
+         },
+         {
+            "name":"Action List",
+            "type":"collection",
+            "id":"content.actions",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Icon",
+                  "type":"colored_icon_action",
+                  "id":"action"
+               }
+            ]
+         }
+      ],
+      "link":null
+   },
+   {
+      "id":"callToAction",
+      "title":"Call-to-Action Section with Social Media Icons",
+      "description":"A section encouraging users to follow on social media, featuring a headline and a list of social media icons with links.",
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"CallToAction",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Follow Us",
+                  "color":"#1E0E62"
+               },
+               "actions":[
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"twitter",
+                           "color":"#1E0E62"
+                        },
+                        "color":"#1E0E62",
+                        "url":"https://twitter.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"facebook-square",
+                           "color":"#1E0E62"
+                        },
+                        "color":"#1E0E62",
+                        "url":"https://www.facebook.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"pinterest",
+                           "color":"#1E0E62"
+                        },
+                        "color":"#1E0E62",
+                        "url":"https://www.pinterest.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"instagram",
+                           "color":"#1E0E62"
+                        },
+                        "color":"#1E0E62",
+                        "url":"https://www.instagram.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"behance",
+                           "color":"#1E0E62"
+                        },
+                        "color":"#1E0E62",
+                        "url":"https://www.behance.net/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"dribbble",
+                           "color":"#1E0E62"
+                        },
+                        "color":"#1E0E62",
+                        "url":"https://dribbble.com/"
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Action List",
+            "type":"collection",
+            "id":"content.actions",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Icon",
+                  "type":"colored_icon_action",
+                  "id":"action"
+               }
+            ]
+         }
+      ],
+      "link":null
+   },
+   {
+      "id":"featureGrid_1",
+      "title":"Feature Grid with Images and Descriptions",
+      "description":"A grid layout displaying features with images and optional descriptions, customizable number of columns.",
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"featureGrid_1",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "columns":3,
+               "features":[
+                  {
+                     "description":{
+                        "text":"Our tools help you save time and focus on what matters.",
+                        "color":"#15143966"
+                     },
+                     "media":{
+                        "link":"https://picsum.photos/400/300",
+                        "type":"image"
+                     }
+                  },
+                  {
+                     "media":{
+                        "link":"https://picsum.photos/400/300",
+                        "type":"image"
+                     }
+                  },
+                  {
+                     "description":{
+                        "text":"Save money on design and code to focus on developing your business.",
+                        "color":"#15143966"
+                     },
+                     "media":{
+                        "link":"https://picsum.photos/400/300",
+                        "type":"image"
+                     }
+                  },
+                  {
+                     "media":{
+                        "link":"https://picsum.photos/400/300",
+                        "type":"image"
+                     }
+                  },
+                  {
+                     "description":{
+                        "text":"We include great form options for your startup projects.",
+                        "color":"#15143966"
+                     },
+                     "media":{
+                        "link":"https://picsum.photos/400/300",
+                        "type":"image"
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Feature List",
+            "type":"collection",
+            "id":"content.features",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Description",
+                  "type":"colored_string",
+                  "id":"content.description"
+               },
+               {
+                  "name":"Media",
+                  "type":"media",
+                  "id":"content.media"
+               }
+            ]
+         }
+      ],
+      "link":null
+   }
 ]
