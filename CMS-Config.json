@@ -37,8 +37,7 @@
                     "text": "Learn More",
                     "color": "#1E0E62"
                   },
-                  "url": "#",
-                  "color":"#00000000"
+                  "url": "#"
                 },
                 "subheadline": {
                   "text": "By signing up, you agree to the Terms of Service",
@@ -1332,58 +1331,47 @@
          "height":null
       },
       "default_data":{
-         "type":"featureGrid_1",
-         "properties":{
-            "backgroundColor":"#ffffff",
-            "content":{
-               "columns":3,
-               "features":[
+            "id": "featureGrid_1",
+            "type": "featureGrid_1",
+            "properties": {
+              "textColor": "#333333",
+              "backgroundColor": "#ffffff",
+              "content": {
+                "features": [
                   {
-                     "description":{
-                        "text":"Our tools help you save time and focus on what matters.",
-                        "color":"#15143966"
-                     },
-                     "media":{
-                        "link":"https://picsum.photos/400/300",
-                        "type":"image"
-                     }
+                    "description": {
+                      "text": "Our tools help you save time and focus on what matters.",
+                      "color": "#15143966"
+                    },
+                    "media": {
+                      "link": "https://github.com/user-attachments/assets/84c65038-3e52-4fac-a247-7fef53601aff",
+                      "type": "image"
+                    }
                   },
                   {
-                     "media":{
-                        "link":"https://picsum.photos/400/300",
-                        "type":"image"
-                     }
+                    "description": {
+                      "text": "Startups can save money on design and code and use those savings to develop the business.",
+                      "color": "#15143966"
+                    },
+                    "media": {
+                      "link": "https://github.com/user-attachments/assets/ee735c81-1939-42a3-9b8a-3d8fc910bf18",
+                      "type": "image"
+                    }
                   },
                   {
-                     "description":{
-                        "text":"Save money on design and code to focus on developing your business.",
-                        "color":"#15143966"
-                     },
-                     "media":{
-                        "link":"https://picsum.photos/400/300",
-                        "type":"image"
-                     }
-                  },
-                  {
-                     "media":{
-                        "link":"https://picsum.photos/400/300",
-                        "type":"image"
-                     }
-                  },
-                  {
-                     "description":{
-                        "text":"We include great form options for your startup projects.",
-                        "color":"#15143966"
-                     },
-                     "media":{
-                        "link":"https://picsum.photos/400/300",
-                        "type":"image"
-                     }
+                    "description": {
+                      "text": "Startup Framework includes great form options for your startup projects.",
+                      "color": "#15143966"
+                    },
+                    "media": {
+                      "link": "https://github.com/user-attachments/assets/8ff9a243-5b8e-44c3-9053-3571b4a72abb",
+                      "type": "image"
+                    }
                   }
-               ]
+                ]
+              }
             }
-         }
-      },
+          },
       "content":[
          {
             "name":"Background Color",
