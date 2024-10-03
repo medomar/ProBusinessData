@@ -699,11 +699,15 @@
          },
          {
             "name":"Image with Custom Position",
-            "type":"custom_position_media",
+            "type":"custom_size_position_media",
             "id":"content.media",
             "positions":[
                "right",
                "left"
+            ],
+            "sizes":[
+               "small",
+               "Large"
             ]
          }
       ],
