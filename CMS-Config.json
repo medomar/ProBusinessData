@@ -7,45 +7,45 @@
          "width":null,
          "height":null
       },
-      "default_data":    {
-            "type": "Header_7",
-            "properties": {
-              "backgroundColor": "#ffffff",
-              "content": {
-                "headline": {
-                  "text": "Great tool to boost your startup",
-                  "color": "#1E0E62"
-                },
-                "description": {
-                  "text": "We made it so beautiful and simple. It combines landings, pages, blogs, and shop screens. It is definitely the tool you need in your collection!",
-                  "color": "#15143966"
-                },
-                "media": {
-                  "link": "https://github.com/user-attachments/assets/38c4fdf6-f002-48de-baec-793fa2b9898e",
-                  "type": "image"
-                },
-                "action1": {
-                  "text": {
-                    "text": "Get Started",
-                    "color": "#ffffff"
+      "default_data":{
+         "type":"Header_7",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Great tool to boost your startup",
+                  "color":"#1E0E62"
+               },
+               "description":{
+                  "text":"We made it so beautiful and simple. It combines landings, pages, blogs, and shop screens. It is definitely the tool you need in your collection!",
+                  "color":"#15143966"
+               },
+               "media":{
+                  "link":"https://github.com/user-attachments/assets/38c4fdf6-f002-48de-baec-793fa2b9898e",
+                  "type":"image"
+               },
+               "action1":{
+                  "text":{
+                     "text":"Get Started",
+                     "color":"#ffffff"
                   },
-                  "url": "#",
+                  "url":"#",
                   "color":"#25dac4"
-                },
-                "action2": {
-                  "text": {
-                    "text": "Learn More",
-                    "color": "#1E0E62"
+               },
+               "action2":{
+                  "text":{
+                     "text":"Learn More",
+                     "color":"#1E0E62"
                   },
-                  "url": "#"
-                },
-                "subheadline": {
-                  "text": "By signing up, you agree to the Terms of Service",
-                  "color": "#15143966"
-                }
-              }
+                  "url":"#"
+               },
+               "subheadline":{
+                  "text":"By signing up, you agree to the Terms of Service",
+                  "color":"#15143966"
+               }
             }
-          },
+         }
+      },
       "content":[
          {
             "name":"Background Color",
@@ -636,40 +636,40 @@
          "width":null,
          "height":null
       },
-      "default_data": {
-            "type": "MediaCard",
-            "properties": {
-              "backgroundColor": "#ffffff",
-              "content": {
-                "headline": {
-                  "text": "Our Vision",
-                  "color": "#707070"
-                },
-                "subheadline": {
-                  "text": "Transforming the Future",
-                  "color": "#4a7c81"
-                },
-                "description": {
-                  "text": "We're committed to creating innovative solutions that shape the future of technology and business.",
-                  "color": "#a08e8e"
-                },
-                "action": {
-                  "text": {
-                    "text": "Join Our Mission",
-                    "color": "#4a7c81"
+      "default_data":{
+         "type":"MediaCard",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Our Vision",
+                  "color":"#707070"
+               },
+               "subheadline":{
+                  "text":"Transforming the Future",
+                  "color":"#4a7c81"
+               },
+               "description":{
+                  "text":"We're committed to creating innovative solutions that shape the future of technology and business.",
+                  "color":"#a08e8e"
+               },
+               "action":{
+                  "text":{
+                     "text":"Join Our Mission",
+                     "color":"#4a7c81"
                   },
-                  "url": "https://www.google.tn",
-                  "color": ""
-                },
-                "media": {
-                  "link": "https://picsum.photos/1200/600",
-                  "type": "image",
-                  "size": "large",
-                  "mediaPosition": "right"
-                }
-              }
+                  "url":"https://www.google.tn",
+                  "color":""
+               },
+               "media":{
+                  "link":"https://picsum.photos/1200/600",
+                  "type":"image",
+                  "size":"large",
+                  "mediaPosition":"right"
+               }
             }
-          },
+         }
+      },
       "content":[
          {
             "name":"Background Color",
@@ -698,11 +698,15 @@
          },
          {
             "name":"Image with Custom Position",
-            "type":"custom_position_media",
+            "type":"custom_size_position_media",
             "id":"content.media",
             "positions":[
                "right",
                "left"
+            ],
+            "sizes":[
+               "small",
+               "Large"
             ]
          }
       ],
@@ -717,34 +721,33 @@
          "height":null
       },
       "default_data":{
-            "type": "hero",
-            "properties": {
-              "backgroundColor": "#ffffff",
-              "content": {
-                "headline": {
-                  "text": "Welcome to Our Platform",
-                    "color": "#ffffff"
-                },
-                "subheadline": {
-                  "text": "Discover amazing features and boost your productivity",
-                    "color": "#ffffff"
-                },
-                "media": {
-                  "link": "https://picsum.photos/1200/600",
-                  "type": "image"
-                },
-                "action": {
-                  "text": {
-                    "text": "Get Started",
-                    "color": "#ffffff"
+         "type":"hero",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Welcome to Our Platform",
+                  "color":"#ffffff"
+               },
+               "subheadline":{
+                  "text":"Discover amazing features and boost your productivity",
+                  "color":"#ffffff"
+               },
+               "media":{
+                  "link":"https://picsum.photos/1200/600",
+                  "type":"image"
+               },
+               "action":{
+                  "text":{
+                     "text":"Get Started",
+                     "color":"#ffffff"
                   },
-                  "url": "https://www.google.tn",
-                 "color": ""
-
-                }
-              }
+                  "url":"https://www.google.tn",
+                  "color":""
+               }
             }
-          },
+         }
+      },
       "content":[
          {
             "name":"Headline Text",
@@ -1331,47 +1334,47 @@
          "height":null
       },
       "default_data":{
-            "id": "featureGrid_1",
-            "type": "featureGrid_1",
-            "properties": {
-              "textColor": "#333333",
-              "backgroundColor": "#ffffff",
-              "content": {
-                "features": [
+         "id":"featureGrid_1",
+         "type":"featureGrid_1",
+         "properties":{
+            "textColor":"#333333",
+            "backgroundColor":"#ffffff",
+            "content":{
+               "features":[
                   {
-                    "description": {
-                      "text": "Our tools help you save time and focus on what matters.",
-                      "color": "#15143966"
-                    },
-                    "media": {
-                      "link": "https://github.com/user-attachments/assets/84c65038-3e52-4fac-a247-7fef53601aff",
-                      "type": "image"
-                    }
+                     "description":{
+                        "text":"Our tools help you save time and focus on what matters.",
+                        "color":"#15143966"
+                     },
+                     "media":{
+                        "link":"https://github.com/user-attachments/assets/84c65038-3e52-4fac-a247-7fef53601aff",
+                        "type":"image"
+                     }
                   },
                   {
-                    "description": {
-                      "text": "Startups can save money on design and code and use those savings to develop the business.",
-                      "color": "#15143966"
-                    },
-                    "media": {
-                      "link": "https://github.com/user-attachments/assets/ee735c81-1939-42a3-9b8a-3d8fc910bf18",
-                      "type": "image"
-                    }
+                     "description":{
+                        "text":"Startups can save money on design and code and use those savings to develop the business.",
+                        "color":"#15143966"
+                     },
+                     "media":{
+                        "link":"https://github.com/user-attachments/assets/ee735c81-1939-42a3-9b8a-3d8fc910bf18",
+                        "type":"image"
+                     }
                   },
                   {
-                    "description": {
-                      "text": "Startup Framework includes great form options for your startup projects.",
-                      "color": "#15143966"
-                    },
-                    "media": {
-                      "link": "https://github.com/user-attachments/assets/8ff9a243-5b8e-44c3-9053-3571b4a72abb",
-                      "type": "image"
-                    }
+                     "description":{
+                        "text":"Startup Framework includes great form options for your startup projects.",
+                        "color":"#15143966"
+                     },
+                     "media":{
+                        "link":"https://github.com/user-attachments/assets/8ff9a243-5b8e-44c3-9053-3571b4a72abb",
+                        "type":"image"
+                     }
                   }
-                ]
-              }
+               ]
             }
-          },
+         }
+      },
       "content":[
          {
             "name":"Background Color",
