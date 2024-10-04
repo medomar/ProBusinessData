@@ -29,7 +29,7 @@
                      "text":"Get Started",
                      "color":"#ffffff"
                   },
-                  "url":"#",
+                  "url":"www.google.fr",
                   "color":"#25dac4"
                },
                "action2":{
@@ -37,7 +37,7 @@
                      "text":"Learn More",
                      "color":"#1E0E62"
                   },
-                  "url":"#"
+                  "url":"www.google.fr"
                },
                "subheadline":{
                   "text":"By signing up, you agree to the Terms of Service",
@@ -488,7 +488,7 @@
                   "color":"#15143966"
                },
                "action":{
-                  "url":"#",
+                  "url":"www.google.fr",
                   "color":"#e8397d",
                   "text":{
                      "text":"Create an Account",
@@ -548,7 +548,7 @@
                      "text":"Get Help",
                      "color":"#ffffff"
                   },
-                  "link":"#"
+                  "url":"www.google.fr"
                },
                "features":[
                   {
@@ -967,7 +967,7 @@
                      "text":"Get Started",
                      "color":"#ffffff"
                   },
-                  "url":"#",
+                  "url":"www.google.fr",
                   "color":"#25dac4"
                },
                "features":[
