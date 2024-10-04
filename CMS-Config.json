@@ -1334,10 +1334,8 @@
          "height":null
       },
       "default_data":{
-         "id":"featureGrid_1",
          "type":"featureGrid_1",
          "properties":{
-            "textColor":"#333333",
             "backgroundColor":"#ffffff",
             "content":{
                "features":[
@@ -1391,12 +1389,12 @@
                {
                   "name":"Description",
                   "type":"colored_string",
-                  "id":"content.description"
+                  "id":"description"
                },
                {
                   "name":"Media",
                   "type":"media",
-                  "id":"content.media"
+                  "id":"media"
                }
             ]
          }
