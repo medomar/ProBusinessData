@@ -50,7 +50,7 @@
          },
          {
             "name":"Subheadline Text",
-            "type":"colored_string",
+            "type":"colored_large_string",
             "id":"content.subheadline"
          },
          {
