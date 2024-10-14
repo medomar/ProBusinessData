@@ -186,7 +186,7 @@
          },
          {
             "name":"Subheadline Text",
-            "type":"colored_string",
+            "type":"colored_large_string",
             "id":"content.subheadline"
          },
          {
@@ -382,7 +382,7 @@
          },
          {
             "name":"Subheadline Text",
-            "type":"colored_string",
+            "type":"colored_large_string",
             "id":"content.subheadline"
          },
          {
@@ -399,7 +399,7 @@
                },
                {
                   "name":"Feature Description",
-                  "type":"colored_string",
+                  "type":"colored_large_string",
                   "id":"description"
                },
                {
@@ -476,12 +476,12 @@
          },
          {
             "name":"Subheadline Text",
-            "type":"colored_string",
+            "type":"colored_large_string",
             "id":"content.subheadline"
          },
          {
             "name":"Description Text",
-            "type":"colored_string",
+            "type":"colored_large_string",
             "id":"content.description"
          },
          {
@@ -593,7 +593,7 @@
          },
          {
             "name":"Subheadline Text",
-            "type":"colored_string",
+            "type":"colored_large_string",
             "id":"content.subheadline"
          },
          {
@@ -615,7 +615,7 @@
                },
                {
                   "name":"Feature Description",
-                  "type":"colored_string",
+                  "type":"colored_large_string",
                   "id":"description"
                }
             ]
@@ -679,7 +679,7 @@
          },
          {
             "name":"Subheadline Text",
-            "type":"colored_string",
+            "type":"colored_large_string",
             "id":"content.subheadline"
          },
          {
@@ -801,7 +801,7 @@
          },
          {
             "name":"Description Text",
-            "type":"colored_string",
+            "type":"colored_large_string",
             "id":"content.description"
          },
          {
@@ -828,7 +828,7 @@
                },
                {
                   "name":"Description",
-                  "type":"colored_string",
+                  "type":"colored_large_string",
                   "id":"description"
                }
             ]
@@ -952,7 +952,7 @@
          },
          {
             "name":"Subheadline Text",
-            "type":"colored_string",
+            "type":"colored_large_string",
             "id":"content.subheadline"
          },
          {
@@ -979,7 +979,7 @@
                },
                {
                   "name":"Feature Description",
-                  "type":"colored_string",
+                  "type":"colored_large_string",
                   "id":"description"
                },
                {
@@ -1077,7 +1077,7 @@
          },
          {
             "name":"Description Text",
-            "type":"colored_string",
+            "type":"colored_large_string",
             "id":"content.description"
          },
          {
@@ -1099,7 +1099,7 @@
                },
                {
                   "name":"Feature Description",
-                  "type":"colored_string",
+                  "type":"colored_large_string",
                   "id":"description"
                }
             ]
@@ -1177,7 +1177,7 @@
          },
          {
             "name":"Description Text",
-            "type":"colored_string",
+            "type":"colored_large_string",
             "id":"content.description"
          },
          {
@@ -1398,7 +1398,7 @@
             "content":[
                {
                   "name":"Description",
-                  "type":"colored_string",
+                  "type":"colored_large_string",
                   "id":"description"
                },
                {
@@ -1516,7 +1516,7 @@
          },
          {
             "name":"Subheadline Text",
-            "type":"colored_string",
+            "type":"colored_large_string",
             "id":"content.subheadline"
          },
          {
