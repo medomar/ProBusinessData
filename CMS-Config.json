@@ -1,5 +1,42 @@
 [
    {
+      "id":"html_text",
+      "title":"Html Text",
+      "detailed_description":"The Html Text component is designed to provide an engaging introduction to your platform. It features a full-width layout with a visually appealing background color and flexible content alignment. Key elements include a bold main title, a secondary subtitle, and a descriptive paragraph that outlines the platform's capabilities. The component includes a bullet-point list highlighting essential features, a call-to-action link for further exploration, and an illustrative image that visually represents the platform. Additionally, a blockquote offers a testimonial from a satisfied user, enhancing credibility. The component also contains a Frequently Asked Questions (FAQ) section with an interactive button to reveal answers, providing users with quick access to important information.",
+      "purpose_and_ideal_use_cases":"The main purpose of this component is to introduce visitors to your platform and provide them with an overview of its functionalities. It is ideal for homepage placements, landing pages, or introductory sections of any website. This component is most effective for tech companies, SaaS platforms, and service-oriented businesses looking to engage potential customers and inform them about their offerings. It is also suitable for educational websites and corporate sites that aim to present a professional image.",
+      "usage_recommendations":"To use this component effectively, ensure that the text is concise and engaging to capture user attention quickly. Use high-quality images that reflect your brand's identity. The FAQ section should address common user queries and enhance user experience. Ensure that the button links to relevant resources, and consider using animations for the FAQ toggle for a smoother interaction. Keep the design consistent with your overall branding to maintain visual coherence across the site.",
+      "example_usage":[
+         "A fitness application can utilize this component to welcome new users, highlighting its unique workout plans, success stories, and prompting users to download the app or subscribe for personalized training.",
+         "A travel agency can employ this section to invite users to explore travel packages, share testimonials from satisfied travelers, and offer links to blog posts featuring travel tips and destination guides.",
+         "A financial services firm may use this component to welcome clients, outline their service offerings, share success stories from satisfied customers, and direct users to schedule a consultation."
+      ],
+      "usage":[
+         "body"
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"html_text",
+         "properties":{
+            "content":{
+               "body":{
+                  "text":"<div class='cms-content' style='font-family: \"Arial\", sans-serif; color: #333; background-color: #f0f0f0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 20px;'><h1 style='color: #2E86C1; font-size: 36px; font-weight: bold;'>Welcome to Our Platform!</h1><h2 style='color: #117A65; font-size: 28px; font-weight: normal; margin-top: -10px;'>Your one-stop solution for managing content and customization</h2><p style='font-size: 18px; line-height: 1.6;'>Our platform allows you to create and manage beautiful pages with ease. Whether you're showcasing <strong style='color: #C0392B;'>products</strong>, <em style='color: #D35400;'>services</em>, or sharing <u style='color: #8E44AD;'>company information</u>, it's all possible with our easy-to-use content management system.</p><ul style='font-size: 18px; color: #2C3E50; list-style-type: disc; text-align: left; max-width: 400px;'><li>Easy customization</li><li>Multi-language support</li><li>AI-powered translation tools</li><li>Responsive design</li></ul><p style='font-size: 18px;'>Learn more about how our platform can help you grow your business <a href='https://example.com' target='_blank' style='color: #2980B9; text-decoration: underline;'>here</a>.</p><img src='https://picsum.photos/1200/600' alt='Platform overview' style='width: 100%; max-width: 600px; margin: 20px auto; display: block; border-radius: 10px;'/><blockquote style='background-color: #F7F9F9; padding: 15px; border-left: 5px solid #1ABC9C; margin-top: 20px;'><p style='font-size: 18px; color: #7F8C8D; font-style: italic;'>\"This platform has transformed the way we manage content!\" – A satisfied user</p></blockquote><h1 style='color: #2E86C1; font-size: 36px; font-weight: bold;'>Frequently Asked Questions</h1><h2 style='color: #117A65; font-size: 28px; font-weight: normal; margin-top: -10px;'>Click the question to reveal the answer</h2><button onclick='toggleFAQ()' style='background-color: #1ABC9C; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 18px; cursor: pointer; margin: 20px 0;'>What is the best way to use this platform?</button><div id='faq-answer' style='display: none; background-color: #F7F9F9; padding: 15px; border-left: 5px solid #2980B9; margin-top: 10px;'><p style='font-size: 18px; color: #7F8C8D;'>The best way to use this platform is to explore its diverse customization options, utilize multi-language support, and leverage AI-powered tools to streamline content management.</p></div><script>function toggleFAQ() { var answer = document.getElementById('faq-answer'); if (answer.style.display === 'none') { answer.style.display = 'block'; } else { answer.style.display = 'none'; } }</script></div>"
+               }
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Html Text",
+            "type":"html_String",
+            "id":"content.body"
+         }
+      ],
+      "link":""
+   },
+   {
       "id":"hero",
       "title":"Hero Section with Background Image and Action Button",
       "detailed_description":"This component is a visually prominent hero section, commonly used at the top of webpages to immediately engage users. It includes four primary elements: a background image that sets the visual theme, a bold headline that conveys the main message, a subheadline for supporting information, and a call-to-action button to guide user interaction. The background image typically spans the full width of the section, making it an eye-catching element. The headline and subheadline are text overlays on the image, carefully placed for maximum visibility. The action button, typically styled with a clear contrast, encourages users to take immediate action, such as clicking to learn more, make a purchase, or sign up for a service.",
