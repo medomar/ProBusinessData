@@ -1,0 +1,1581 @@
+[
+   {
+      "id":"html_text",
+      "title":"Html Text",
+      "detailed_description":"The Html Text component is designed to provide an engaging introduction to your platform. It features a full-width layout with a visually appealing background color and flexible content alignment. Key elements include a bold main title, a secondary subtitle, and a descriptive paragraph that outlines the platform's capabilities. The component includes a bullet-point list highlighting essential features, a call-to-action link for further exploration, and an illustrative image that visually represents the platform. Additionally, a blockquote offers a testimonial from a satisfied user, enhancing credibility. The component also contains a Frequently Asked Questions (FAQ) section with an interactive button to reveal answers, providing users with quick access to important information.",
+      "purpose_and_ideal_use_cases":"The main purpose of this component is to introduce visitors to your platform and provide them with an overview of its functionalities. It is ideal for homepage placements, landing pages, or introductory sections of any website. This component is most effective for tech companies, SaaS platforms, and service-oriented businesses looking to engage potential customers and inform them about their offerings. It is also suitable for educational websites and corporate sites that aim to present a professional image.",
+      "usage_recommendations":"To use this component effectively, ensure that the text is concise and engaging to capture user attention quickly. Use high-quality images that reflect your brand's identity. The FAQ section should address common user queries and enhance user experience. Ensure that the button links to relevant resources, and consider using animations for the FAQ toggle for a smoother interaction. Keep the design consistent with your overall branding to maintain visual coherence across the site.",
+      "example_usage":[
+         "A fitness application can utilize this component to welcome new users, highlighting its unique workout plans, success stories, and prompting users to download the app or subscribe for personalized training.",
+         "A travel agency can employ this section to invite users to explore travel packages, share testimonials from satisfied travelers, and offer links to blog posts featuring travel tips and destination guides.",
+         "A financial services firm may use this component to welcome clients, outline their service offerings, share success stories from satisfied customers, and direct users to schedule a consultation."
+      ],
+      "usage":[
+         "body"
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"html_text",
+         "properties":{
+            "content":{
+               "body":{
+                  "text":"<div class='cms-content' style='font-family: \"Arial\", sans-serif; color: #333; background-color: #f0f0f0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 20px;'><h1 style='color: #2E86C1; font-size: 36px; font-weight: bold;'>Welcome to Our Platform!</h1><h2 style='color: #117A65; font-size: 28px; font-weight: normal; margin-top: -10px;'>Your one-stop solution for managing content and customization</h2><p style='font-size: 18px; line-height: 1.6;'>Our platform allows you to create and manage beautiful pages with ease. Whether you're showcasing <strong style='color: #C0392B;'>products</strong>, <em style='color: #D35400;'>services</em>, or sharing <u style='color: #8E44AD;'>company information</u>, it's all possible with our easy-to-use content management system.</p><ul style='font-size: 18px; color: #2C3E50; list-style-type: disc; text-align: left; max-width: 400px;'><li>Easy customization</li><li>Multi-language support</li><li>AI-powered translation tools</li><li>Responsive design</li></ul><p style='font-size: 18px;'>Learn more about how our platform can help you grow your business <a href='https://example.com' target='_blank' style='color: #2980B9; text-decoration: underline;'>here</a>.</p><img src='https://picsum.photos/1200/600' alt='Platform overview' style='width: 100%; max-width: 600px; margin: 20px auto; display: block; border-radius: 10px;'/><blockquote style='background-color: #F7F9F9; padding: 15px; border-left: 5px solid #1ABC9C; margin-top: 20px;'><p style='font-size: 18px; color: #7F8C8D; font-style: italic;'>\"This platform has transformed the way we manage content!\" – A satisfied user</p></blockquote><h1 style='color: #2E86C1; font-size: 36px; font-weight: bold;'>Frequently Asked Questions</h1><h2 style='color: #117A65; font-size: 28px; font-weight: normal; margin-top: -10px;'>Click the question to reveal the answer</h2><button onclick='toggleFAQ()' style='background-color: #1ABC9C; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 18px; cursor: pointer; margin: 20px 0;'>What is the best way to use this platform?</button><div id='faq-answer' style='display: none; background-color: #F7F9F9; padding: 15px; border-left: 5px solid #2980B9; margin-top: 10px;'><p style='font-size: 18px; color: #7F8C8D;'>The best way to use this platform is to explore its diverse customization options, utilize multi-language support, and leverage AI-powered tools to streamline content management.</p></div><script>function toggleFAQ() { var answer = document.getElementById('faq-answer'); if (answer.style.display === 'none') { answer.style.display = 'block'; } else { answer.style.display = 'none'; } }</script></div>"
+               }
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Html Text",
+            "type":"html_String",
+            "id":"content.body"
+         }
+      ],
+      "link":""
+   },
+   {
+      "id":"hero",
+      "title":"Hero Section with Background Image and Action Button",
+      "detailed_description":"This component is a visually prominent hero section, commonly used at the top of webpages to immediately engage users. It includes four primary elements: a background image that sets the visual theme, a bold headline that conveys the main message, a subheadline for supporting information, and a call-to-action button to guide user interaction. The background image typically spans the full width of the section, making it an eye-catching element. The headline and subheadline are text overlays on the image, carefully placed for maximum visibility. The action button, typically styled with a clear contrast, encourages users to take immediate action, such as clicking to learn more, make a purchase, or sign up for a service.",
+      "purpose_and_ideal_use_cases":"The main purpose of this component is to create a strong visual introduction and direct users to engage with the site or product quickly. It is ideal for landing pages, homepage banners, product launch pages, and campaign microsites where capturing immediate attention is critical. This component works well in industries like technology, e-commerce, travel, SaaS, and any content-driven websites that rely on strong visuals and clear calls-to-action to convert users.",
+      "usage_recommendations":"To use this component effectively, the background image should be high-quality and relevant to the message or product being promoted. The headline should be brief but impactful, and the subheadline should provide necessary context. Make sure the action button is clearly visible and actionable, with a color that stands out against the background. This component works best in the header section of a webpage, as the hero component should be the first thing users see upon visiting. Adjust the image opacity or add an overlay if the text needs better contrast for readability.",
+      "example_usage":[
+         "A fintech startup could use this hero section with the headline 'Revolutionize Your Finances' and a subheadline 'All-in-one financial management tool for modern users'. The action button might read 'Get Started', and the background image could feature a sleek, professional visual of their platform in use.",
+         "A travel agency could use this component to promote vacation deals. The headline could be 'Discover Exotic Destinations' with a subheadline like 'Special offers for your next adventure'. The action button could be 'Book Now', and the background could show a tropical destination.",
+         "An e-commerce brand could showcase their new product line using this hero section with a headline 'Shop Our Latest Collection', subheadline 'Exclusive styles for the season', and the action button reading 'Shop Now'. The background image could display a lifestyle shot of their products in use."
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"hero",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Welcome to Our Platform",
+                  "color":"#ffffff"
+               },
+               "subheadline":{
+                  "text":"Discover amazing features and boost your productivity",
+                  "color":"#ffffff"
+               },
+               "media":{
+                  "link":"https://picsum.photos/1200/600",
+                  "type":"image"
+               },
+               "action":{
+                  "text":{
+                     "text":"Get Started",
+                     "color":"#ffffff"
+                  },
+                  "url":"https://www.google.tn",
+                  "color":""
+               }
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_large_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Background Image",
+            "type":"media",
+            "id":"content.media"
+         },
+         {
+            "name":"Action Button",
+            "type":"colored_string_action",
+            "id":"content.action"
+         }
+      ],
+      "usage":[
+         "header"
+      ],
+      "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=D204958F-4ECA-4E6A-A149-8F5E43117799"
+   },
+   {
+      "id":"Feature_22",
+      "title":"Feature Section with Main Action and Social Links",
+      "detailed_description":"The Feature Section with Main Action and Social Links is designed to showcase key features of a product or service in an engaging format. It consists of a headline and subheadline that introduce the product, a primary action button to drive user interaction, a list of features with icons and descriptions, and additional social media or external action links. The main elements of this component include: **Headline**, **Subheadline**, **Primary Action Button**, **Feature List**, and **Additional Action Links**.",
+      "purpose_and_ideal_use_cases":"The purpose of this component is to provide an organized and visually appealing way to present the benefits and key features of a product or service. It is ideal for product landing pages, SaaS platforms, and websites that need to showcase feature sets and encourage users to take action, such as signing up or starting a trial.",
+      "usage_recommendations":"To use this component effectively, ensure that the headline and subheadline are clear and concise. The features listed should represent the strongest selling points and be complemented by appropriate icons. The primary action button should stand out and lead to a conversion-focused page. The additional action links can include integrations with external tools or social platforms that support user engagement beyond the website.",
+      "example_usage":[
+         "A SaaS company showcasing its new productivity software with features such as 'Easy Collaboration' and 'Cross-Platform Support' highlighted with icons for Slack, Android, and Windows integration.",
+         "An e-commerce platform introducing its latest tools for developers with features like 'Built on Bootstrap' and 'HTML5 Support,' encouraging users to get started with a free trial."
+      ],
+      "usage":[
+         "body",
+         "single_page"
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"Feature_22",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Many carefully crafted components for your business.",
+                  "color":"#1E0E62"
+               },
+               "subheadline":{
+                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
+                  "color":"#15143966"
+               },
+               "action":{
+                  "text":{
+                     "text":"Get Started",
+                     "color":"#ffffff"
+                  },
+                  "url":"www.google.fr",
+                  "color":"#25dac4"
+               },
+               "features":[
+                  {
+                     "icon":{
+                        "name":"commenting",
+                        "color":"#EBEAED"
+                     },
+                     "title":{
+                        "text":"Based on Bootstrap 4",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"HTML layout is based on one of the most common and reliable frameworks – Bootstrap.",
+                        "color":"#15143966"
+                     }
+                  },
+                  {
+                     "icon":{
+                        "name":"html5",
+                        "color":"#EBEAED"
+                     },
+                     "title":{
+                        "text":"HTML5 & CSS3",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"We used only time-tested technologies for the best results.",
+                        "color":"#15143966"
+                     }
+                  }
+               ],
+               "actions":[
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"slack",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.slack.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"android",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.android.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"windows",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.windows.com/"
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_large_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Action Button",
+            "type":"colored_string_action",
+            "id":"content.action"
+         },
+         {
+            "name":"Features List",
+            "type":"collection",
+            "id":"content.features",
+            "min":2,
+            "max":2,
+            "content":[
+               {
+                  "name":"Icon",
+                  "type":"colored_icon",
+                  "id":"icon"
+               },
+               {
+                  "name":"Title",
+                  "type":"colored_string",
+                  "id":"title"
+               },
+               {
+                  "name":"Description",
+                  "type":"colored_string",
+                  "id":"description"
+               }
+            ]
+         },
+         {
+            "name":"Action List",
+            "type":"collection",
+            "id":"content.actions",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Icon",
+                  "type":"colored_icon_action",
+                  "id":"action"
+               }
+            ]
+         }
+      ],
+      "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=C6DC3D28-1A78-4C77-B2EB-37A5F85FA66C"
+   },
+   {
+      "id":"FeatureGrid",
+      "title":"Feature Grid with Images and Descriptions",
+      "description":"A grid layout displaying features with images and optional descriptions, customizable number of columns.",
+      "detailed_description":"The Feature Grid component is designed to display a grid of key features, each containing a title, description, and icon. This grid can have a customizable number of columns based on screen size or design needs. Each feature is arranged in a visually appealing, responsive layout, allowing for easy readability and quick scanning. Some features can also include an optional action button, which leads users to relevant pages or actions. The main elements of the component include a headline and subheadline at the top, followed by a series of feature blocks. Each block consists of an icon, title, and description. The layout is flexible and adjusts to different screen sizes, ensuring a smooth user experience.",
+      "purpose_and_ideal_use_cases":"The purpose of this component is to highlight multiple features or services in a concise, organized format. It works best on landing pages, product overview sections, or service introduction pages where users need to quickly grasp what the business or product offers. The grid layout is especially effective for tech companies, SaaS products, or any service-oriented industry that needs to showcase a variety of features or benefits. It can also be used on 'About Us' or 'Why Choose Us' pages to differentiate a company's offerings from competitors.",
+      "usage_recommendations":"To maximize the effectiveness of this component, ensure that the grid is not overloaded with too many features at once. Stick to 3-6 key features per grid to avoid overwhelming the user. Use distinct icons for each feature to provide quick visual cues, and ensure that descriptions are concise yet informative. If using action buttons, make sure the calls-to-action are clear and lead users to relevant, well-designed pages. Additionally, maintain a consistent color scheme that aligns with your brand identity for a cohesive look.",
+      "usage":[
+         "body",
+         "single_page"
+      ],
+      "example_usage":[
+         "A healthcare platform could use this component to showcase services such as 'Virtual Consultations,' 'Prescription Delivery,' and '24/7 Emergency Support.'",
+         "A real estate website might use this grid to highlight property features like 'Swimming Pool,' 'Gym Access,' and 'Nearby Schools,' allowing potential buyers to see the property's advantages at a glance.",
+         "An educational platform could leverage this component on their course overview page to emphasize features like 'Interactive Lessons,' 'Expert Tutors,' and 'Self-Paced Learning,' encouraging users to enroll."
+      ],
+      "default_data":{
+         "type":"FeatureGrid",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Our Key Features",
+                  "color":"#333333"
+               },
+               "subheadline":{
+                  "text":"Discover what makes us unique",
+                  "color":"#777777"
+               },
+               "features":[
+                  {
+                     "title":{
+                        "text":"Innovative Solutions",
+                        "color":"#000000"
+                     },
+                     "description":{
+                        "text":"We provide cutting-edge solutions to meet your needs.",
+                        "color":"#666666"
+                     },
+                     "icon":{
+                        "name":"lightbulb",
+                        "color":"#606be0"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Time-Saving Tools",
+                        "color":"#000000"
+                     },
+                     "description":{
+                        "text":"Our tools help you save time and focus on what matters.",
+                        "color":"#666666"
+                     },
+                     "icon":{
+                        "name":"clock",
+                        "color":"#606be0"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Team Collaboration",
+                        "color":"#000000"
+                     },
+                     "description":{
+                        "text":"Enhance teamwork with our collaboration features.",
+                        "color":"#666666"
+                     },
+                     "icon":{
+                        "name":"users",
+                        "color":"#606be0"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Secure Platform",
+                        "color":"#000000"
+                     },
+                     "description":{
+                        "text":"Your data is safe with our advanced security measures.",
+                        "color":"#666666"
+                     },
+                     "icon":{
+                        "name":"shieldAlt",
+                        "color":"#606be0"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Performance Tracking",
+                        "color":"#000000"
+                     },
+                     "description":{
+                        "text":"Monitor and improve your performance with ease.",
+                        "color":"#666666"
+                     },
+                     "icon":{
+                        "name":"chartLine",
+                        "color":"#606be0"
+                     },
+                     "action":{
+                        "text":{
+                           "text":"Learn More",
+                           "color":"#FFFFFF"
+                        },
+                        "url":"http://localhost:3000/test2",
+                        "color":""
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"24/7 Support",
+                        "color":"#000000"
+                     },
+                     "description":{
+                        "text":"Our support team is always ready to assist you.",
+                        "color":"#666666"
+                     },
+                     "icon":{
+                        "name":"headset",
+                        "color":"#606be0"
+                     },
+                     "action":{
+                        "text":{
+                           "text":"Get Support",
+                           "color":"#FFFFFF"
+                        },
+                        "url":"https://staging.hope-probusiness.com/defaultCompany",
+                        "color":""
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_large_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Features List",
+            "type":"collection",
+            "id":"content.features",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Feature Title",
+                  "type":"colored_string",
+                  "id":"title"
+               },
+               {
+                  "name":"Feature Description",
+                  "type":"colored_large_string",
+                  "id":"description"
+               },
+               {
+                  "name":"Icon",
+                  "type":"colored_icon",
+                  "id":"icon"
+               }
+            ]
+         }
+      ],
+      "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=D666B2F1-1A63-4CD2-83A4-1E9AD2F47D7D"
+   },
+   {
+      "id":"mediaCard",
+      "title":"Media Card with Customizable Layout",
+      "description":"A media card component featuring a headline, subheadline, description, action button, and an image with customizable position and size.",
+      "detailed_description":"The Media Card component is designed to present engaging visual and textual content in a structured format. It typically includes several key visual elements: a headline that grabs attention, a subheadline that provides additional context, and a descriptive paragraph elaborating on the main message. The action button encourages user interaction, directing visitors to take a specific action, such as signing up or learning more. Additionally, the media element (an image or video) can be positioned to the left or right, enhancing the layout flexibility while allowing for a harmonious balance between text and visuals. The customizable nature of this component allows for variations in color, positioning, and size, making it adaptable to different design aesthetics and branding requirements.",
+      "purpose_and_ideal_use_cases":"The main purpose of the Media Card is to effectively communicate key messages alongside visually appealing content. It is ideal for use in marketing landing pages, product showcases, or any section of a website where a clear message and visual impact are essential. This component is particularly effective in industries such as technology, e-commerce, education, and non-profit organizations, where highlighting a product, service, or mission statement is crucial.",
+      "usage_recommendations":"When using the Media Card, ensure that the headline is concise and attention-grabbing. The subheadline should provide additional context without overwhelming the main message. Keep the description brief yet informative, focusing on the key benefits or features. Utilize high-quality images that are relevant to the content and maintain a consistent color scheme to align with your branding. Position the media element thoughtfully to enhance the visual hierarchy without detracting from the text. This component works best in sections where visual engagement is key, such as hero sections or promotional areas.",
+      "usage":[
+         "header",
+         "body",
+         "single_page"
+      ],
+      "example_usage":[
+         "A tech startup showcases its innovative software solutions with a Media Card that includes a headline like 'Revolutionizing Your Workflow,' a subheadline emphasizing key features, and a prominent action button that says 'Get Started'.",
+         "An online retail store features a new collection with a Media Card highlighting 'Fall Fashion Trends', including a description of the collection's styles alongside an appealing image of the products, and a call-to-action button labeled 'Shop Now'.",
+         "A non-profit organization uses a Media Card on its donation page with a headline stating 'Make a Difference Today', followed by a subheadline describing the impact of donations, a supportive description, and an action button that encourages users to 'Donate Now'."
+      ],
+      "default_data":{
+         "type":"MediaCard",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Our Vision",
+                  "color":"#707070"
+               },
+               "subheadline":{
+                  "text":"Transforming the Future",
+                  "color":"#4a7c81"
+               },
+               "description":{
+                  "text":"We're committed to creating innovative solutions that shape the future of technology and business.",
+                  "color":"#a08e8e"
+               },
+               "action":{
+                  "text":{
+                     "text":"Join Our Mission",
+                     "color":"#4a7c81"
+                  },
+                  "url":"https://www.google.tn",
+                  "color":""
+               },
+               "media":{
+                  "link":"https://picsum.photos/1200/600",
+                  "type":"image",
+                  "size":"large",
+                  "mediaPosition":"right"
+               }
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_large_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Description Text",
+            "type":"colored_large_string",
+            "id":"content.description"
+         },
+         {
+            "name":"Action Button",
+            "type":"colored_string_action",
+            "id":"content.action"
+         },
+         {
+            "name":"Image with Custom Position",
+            "type":"custom_size_position_media",
+            "id":"content.media",
+            "positions":[
+               "right",
+               "left"
+            ],
+            "sizes":[
+               "small",
+               "Large"
+            ]
+         }
+      ],
+      "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=CDD19591-FB60-451C-9969-B316BCA595C1"
+   },
+   {
+      "id":"Content_18",
+      "title":"Content Section with Features and Action Button",
+      "detailed_description":"This component is designed to present key information about a product or service in an appealing way. It includes a headline that captures attention, a subheadline for additional context, and a primary action button that encourages user interaction. The features section highlights three distinct benefits or characteristics of the offering, each with a title and descriptive text explaining its value.",
+      "purpose_and_ideal_use_cases":"The 'Content Section with Features and Action Button' is ideal for websites looking to showcase specific features of their products or services. It is well-suited for SaaS platforms, e-commerce sites, and service-based businesses where clarity of benefits is crucial for conversion. This component can be effectively used on landing pages, product detail pages, or as part of a promotional campaign to capture user interest.",
+      "usage_recommendations":"Integrate this section towards the end of a landing page to summarize key selling points. Ensure that the action button directs users to a relevant page, such as a support section, product demo, or contact form. Colors and texts should harmonize with the overall brand aesthetic to maintain visual consistency.",
+      "example_usage":[
+         "On a tech startup website, this section could showcase features like 'Cutting-Edge Technology', '24/7 Customer Support', and 'Affordable Pricing', with a 'Get Help' button leading to a contact form for inquiries.",
+         "For a digital marketing agency, this section could highlight benefits such as 'Custom Strategies', 'Proven Results', and 'Expert Team', with an action button that directs potential clients to a free consultation booking page.",
+         "In a fitness app, this section could emphasize features like 'Personalized Workouts', 'Progress Tracking', and 'Community Support', encouraging users to click the 'Get Help' button to access user tutorials and guides.",
+         "On an online course platform, this section could present highlights such as 'Flexible Learning', 'Expert Instructors', and 'Certification', with a 'Get Help' button that takes users to a FAQs page for common inquiries."
+      ],
+      "usage":[
+         "body",
+         "single_page"
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"Content_18",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Have Questions?",
+                  "color":"#1E0E62"
+               },
+               "subheadline":{
+                  "text":"We include great form options for your startup projects.",
+                  "color":"#1E0E62"
+               },
+               "action":{
+                  "text":{
+                     "text":"Get Help",
+                     "color":"#ffffff"
+                  },
+                  "url":"www.google.fr"
+               },
+               "features":[
+                  {
+                     "title":{
+                        "text":"Easy to Use",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"Our components and blocks integrate easily into any design, allowing you to create numerous solutions.",
+                        "color":"#15143866"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Variety of Designs",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"Choose from a wide range of designs to suit your needs.",
+                        "color":"#15143866"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Feel Our Design",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"Experience the seamless integration of our components during the website building process.",
+                        "color":"#15143866"
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"content.backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_large_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Action Button",
+            "type":"colored_string_action",
+            "id":"content.action"
+         },
+         {
+            "name":"Features List",
+            "type":"collection",
+            "id":"content.features",
+            "min":1,
+            "max":3,
+            "content":[
+               {
+                  "name":"Feature Title",
+                  "type":"colored_string",
+                  "id":"title"
+               },
+               {
+                  "name":"Feature Description",
+                  "type":"colored_large_string",
+                  "id":"description"
+               }
+            ]
+         }
+      ],
+      "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=06358300-BACC-49B4-94F8-4F88C76CDE49"
+   },
+   {
+      "id":"Header_15",
+      "title":"Header Section with Call-to-Action",
+      "detailed_description":"This header section features a bold and clear design aimed at capturing the attention of website visitors. It includes three primary elements: a headline, a subheadline, and a call-to-action (CTA) button. The headline, displayed in a large, prominent font, introduces the main message or offering, using a high-contrast color to stand out. Below it, the subheadline provides additional context or a description in a slightly smaller, lighter-colored font. Finally, the CTA button is placed below the text elements, inviting the user to take immediate action with a strong color contrast for the button background and text.",
+      "purpose_and_ideal_use_cases":"The primary purpose of this component is to serve as an introductory section on landing pages, marketing websites, or any page where you need to quickly communicate your value proposition and prompt users to take action. It's ideal for SaaS companies, startup landing pages, personal portfolios, and product launch sites where a clear and compelling message is critical. The simplicity of the design also suits industries where direct, user-friendly engagement is important, such as tech, design, and digital marketing.",
+      "usage_recommendations":"To use this component effectively, ensure the headline is short but impactful, summarizing the main offering or message in a few words. The subheadline should clarify the value proposition or offer more detail without overwhelming the user with too much text. The CTA button should stand out visually with a vibrant color and concise text that prompts immediate action (e.g., 'Sign Up', 'Learn More', 'Get Started'). Use this component at the top of the page to engage users from the moment they land on your site.",
+      "example_usage":[
+         "A project management app: 'Effortless Collaboration' as the title, 'Our platform helps you manage projects efficiently with intuitive tools.' as the subheadline, and 'Try for Free' as the CTA button.",
+         "An online coaching service: 'Transform Your Life' as the title, 'Access personalized sessions with our expert coaches.' as the subheadline, and 'Book Your Session' as the CTA button.",
+         "An online store: 'Discover Our Exclusive Offers' as the title, 'Enjoy incredible discounts on your favorite products.' as the subheadline, and 'Shop Now' as the CTA button."
+      ],
+      "usage":[
+         "header",
+         "body"
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"Header_15",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Build Your Own Site like a Lego Constructor",
+                  "color":"#1E0E62"
+               },
+               "subheadline":{
+                  "text":"We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.",
+                  "color":"#15143966"
+               },
+               "action":{
+                  "url":"www.google.fr",
+                  "color":"#e8397d",
+                  "text":{
+                     "text":"Create an Account",
+                     "color":"#ffffff"
+                  }
+               }
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_large_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Action Button",
+            "type":"colored_string_action",
+            "id":"content.action"
+         }
+      ],
+      "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=9D501ED6-26E3-4ED9-B4C2-76F7087E6BB6"
+   },
+   {
+      "id":"BetterDesign",
+      "title":"Feature Section with Highlights and Image",
+      "detailed_description":"The 'BetterDesign' component is a visually captivating section created to highlight key features using a blend of text, imagery, and icons. It starts with a bold, eye-catching headline, followed by a short description that introduces the section's theme or objective. A central image is used to reinforce the visual appeal and content message. Below this image, four feature blocks are arranged in a grid format, each showcasing an icon, title, and brief description. Customizable colors and styles for the icons and text allow easy alignment with the overall branding. The component follows a clean, modern design aesthetic, making it adaptable to various webpage types. It can function as a standalone section or be integrated into larger layouts.",
+      "purpose_and_ideal_use_cases":"The primary goal of the 'BetterDesign' component is to succinctly communicate the key features or advantages of a product, service, or business in a visually engaging manner. This component works exceptionally well on landing pages, product highlights sections, and promotional areas of a site. Ideal for startups, tech companies, or creative agencies, it is effective at presenting key selling points in a design-centric format. It's especially useful for industries such as SaaS, e-commerce, and digital marketing, where showcasing features that engage users is essential.",
+      "usage_recommendations":"Ensure that the icons and colors align with your brand’s visual identity to maintain consistency across the website. Use concise descriptions to keep the content readable and clear. The image should be high-quality and relevant to the section’s content. Avoid using this component in text-heavy sections or where complex details need to be communicated. Its strength lies in distilling information into simple, key points. This component is best positioned near the top of a webpage (e.g., beneath a hero section) or as part of a landing page’s feature highlights.",
+      "example_usage":[
+         "An e-commerce platform: 'Shop the Latest Trends' as the headline, 'Discover new collections and exclusive deals on fashion, electronics, and more' as the subheadline, and 'Start Shopping' as the CTA button.",
+         "A fitness app: 'Get Fit, Stay Healthy' as the headline, 'Track your workouts, monitor your progress, and stay motivated with personalized plans' as the subheadline, and 'Join for Free' as the CTA button.",
+         "A nonprofit organization: 'Make a Difference Today' as the headline, 'Your support helps us provide resources and aid to communities in need' as the subheadline, and 'Donate Now' as the CTA button."
+      ],
+      "usage":[
+         "header",
+         "body",
+         "single_page"
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"BetterDesign",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Better design for your content",
+                  "color":"#1E0E62"
+               },
+               "description":{
+                  "text":"Startup Framework contains components and complex blocks which can easily be integrated into almost any design. All of the components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions.",
+                  "color":"#15143966"
+               },
+               "media":{
+                  "link":"https://github.com/user-attachments/assets/23eebc90-9657-4c67-bb9c-b1880097d9b3",
+                  "type":"image"
+               },
+               "features":[
+                  {
+                     "icon":{
+                        "name":"code",
+                        "color":"#1E0E62"
+                     },
+                     "title":{
+                        "text":"Retina Ready",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"Startup Framework works fine on devices supporting Retina Display. Feel the clarity!",
+                        "color":"#15143966"
+                     }
+                  },
+                  {
+                     "icon":{
+                        "name":"star",
+                        "color":"#1E0E62"
+                     },
+                     "title":{
+                        "text":"Happy Customers",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"We're super proud to share the fact that Startup has a whopping 97% customer satisfaction rate.",
+                        "color":"#15143966"
+                     }
+                  },
+                  {
+                     "icon":{
+                        "name":"keyboard",
+                        "color":"#1E0E62"
+                     },
+                     "title":{
+                        "text":"Feel Our Design",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"Samples will show you the feeling on how to play around using the components in the website building process.",
+                        "color":"#15143966"
+                     }
+                  },
+                  {
+                     "icon":{
+                        "name":"link",
+                        "color":"#1E0E62"
+                     },
+                     "title":{
+                        "text":"Variety of Designs",
+                        "color":"#1E0E62"
+                     },
+                     "description":{
+                        "text":"You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge in various combinations.",
+                        "color":"#15143966"
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Description Text",
+            "type":"colored_large_string",
+            "id":"content.description"
+         },
+         {
+            "name":"Image",
+            "type":"media",
+            "id":"content.media"
+         },
+         {
+            "name":"Features List",
+            "type":"collection",
+            "id":"content.features",
+            "min":4,
+            "max":4,
+            "content":[
+               {
+                  "name":"Icon",
+                  "type":"colored_icon",
+                  "id":"icon"
+               },
+               {
+                  "name":"Title",
+                  "type":"colored_string",
+                  "id":"title"
+               },
+               {
+                  "name":"Description",
+                  "type":"colored_large_string",
+                  "id":"description"
+               }
+            ]
+         }
+      ],
+      "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=C8FA0895-D70F-4E91-B60A-B2C95409828B"
+   },
+   {
+      "id":"feature_4",
+      "title":"Feature Section with Icons and Descriptions",
+      "detailed_description":"This component presents a section designed to highlight key features of a product or service. It starts with a prominent headline followed by a subheadline, both of which convey the overall value proposition. Below, the section lists individual features, each represented by an icon, a title, a brief description, and a call-to-action button. These elements are laid out in a grid, giving the section a clean, organized look. The background can be either a solid color or an image, depending on the design preference. Each icon visually supports the feature it represents, while the action button invites users to learn more or take further steps.",
+      "purpose_and_ideal_use_cases":"The primary purpose of this component is to provide a concise, visually appealing way to showcase the key features or benefits of a product or service. It works best on homepages, product pages, or marketing landing pages where it is crucial to communicate value propositions quickly and clearly. Ideal for SaaS companies, digital products, or any service-oriented businesses, this component is also effective in industries like tech, e-commerce, and creative services.",
+      "usage_recommendations":"For optimal use, ensure that each feature presented is clear and directly relevant to your target audience. Icons should be easily recognizable and aligned with the content they represent. The headline should grab the user's attention, while the subheadline provides supporting context. Use contrasting colors for the action buttons to ensure they stand out. It's also recommended to keep the feature descriptions brief and to the point, so users can quickly digest the information.",
+      "example_usage":[
+         "A fitness app could highlight features like 'Personalized Workouts', 'Nutrition Plans', and 'Progress Tracking' using icons for each, with buttons encouraging users to explore more or sign up for a free trial.",
+         "A financial services company could display core offerings such as 'Low-Interest Loans', 'Flexible Savings Accounts', and 'Investment Consulting', with icons and buttons guiding users to learn more or schedule a consultation.",
+         "A real estate platform could highlight features like 'Virtual Property Tours', 'Easy Mortgage Calculators', and 'Agent Support', with action buttons driving users to explore properties or get in touch with an agent."
+      ],
+      "usage":[
+         "header",
+         "body",
+         "single_page"
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"Feature_4",
+         "properties":{
+            "backgroundColor":"#033102",
+            "media":{
+               "link":"https://github.com/user-attachments/assets/18a16cdc-2cb9-48ff-919b-c068f5fc935b",
+               "type":"image"
+            },
+            "content":{
+               "headline":{
+                  "text":"Features",
+                  "color":"#FFFFFF"
+               },
+               "subheadline":{
+                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
+                  "color":"#FFFFFF"
+               },
+               "features":[
+                  {
+                     "icon":{
+                        "name":"Bolt",
+                        "color":"#FFFFFF"
+                     },
+                     "title":{
+                        "text":"Easy to Use",
+                        "color":"#FFFFFF"
+                     },
+                     "description":{
+                        "text":"To get started, you select the desired sample and base the entire website on it. It’s that simple!",
+                        "color":"#FFFFFF"
+                     },
+                     "action":{
+                        "text":{
+                           "text":"Learn More",
+                           "color":"#FFFFFF"
+                        },
+                        "url":"https://www.google.tn",
+                        "color":"#ff476d"
+                     }
+                  },
+                  {
+                     "icon":{
+                        "name":"Random",
+                        "color":"#FFFFFF"
+                     },
+                     "title":{
+                        "text":"Variety of Designs",
+                        "color":"#FFFFFF"
+                     },
+                     "description":{
+                        "text":"You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.",
+                        "color":"#FFFFFF"
+                     },
+                     "action":{
+                        "text":{
+                           "text":"Learn More",
+                           "color":"#FFFFFF"
+                        },
+                        "url":"https://www.google.tn",
+                        "color":"#ff476d"
+                     }
+                  },
+                  {
+                     "icon":{
+                        "name":"PlayCircle",
+                        "color":"#FFFFFF"
+                     },
+                     "title":{
+                        "text":"Feel Our Design",
+                        "color":"#FFFFFF"
+                     },
+                     "description":{
+                        "text":"Samples will show you the feeling on how to play around using the components in the website building process.",
+                        "color":"#FFFFFF"
+                     },
+                     "action":{
+                        "text":{
+                           "text":"Learn More",
+                           "color":"#FFFFFF"
+                        },
+                        "url":"https://www.google.tn",
+                        "color":"#ff476d"
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_large_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Background Image",
+            "type":"media",
+            "id":"content.media"
+         },
+         {
+            "name":"Features List",
+            "type":"collection",
+            "id":"content.features",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Feature Icon",
+                  "type":"colored_icon",
+                  "id":"icon"
+               },
+               {
+                  "name":"Feature Title",
+                  "type":"colored_string",
+                  "id":"title"
+               },
+               {
+                  "name":"Feature Description",
+                  "type":"colored_large_string",
+                  "id":"description"
+               },
+               {
+                  "name":"Feature Action Button",
+                  "type":"colored_string_action",
+                  "id":"action"
+               }
+            ]
+         }
+      ],
+      "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=6E5412CF-A1C2-40FA-A950-5B80E41B0DA5"
+   },
+   {
+      "id":"MultiUsefulComponents",
+      "title":"Multi-Purpose Components Section",
+      "detailed_description":"This component presents multiple features in a simple and effective layout. It combines a headline, a supporting description, an image (or visual media), and a list of key features or benefits, each presented with a title and description. The overall design is modern and professional, with each feature clearly separated for readability. The layout is responsive and adapts well to different screen sizes. The image typically sits alongside the list of features or can be centered depending on the design approach.",
+      "purpose_and_ideal_use_cases":"This component is best suited for sections where multiple product or service features need to be highlighted. It's ideal for landing pages, product detail pages, or service introductions where a clear, concise presentation of benefits is required. Common use cases include SaaS platforms, e-commerce sites, and technology service providers looking to showcase their top features or unique selling points.",
+      "usage_recommendations":"To get the most out of this component, ensure that the headline is bold and directly related to the features being displayed. The supporting description should add context without being overwhelming. The image should be of high quality and align with the message or features being discussed. For the list of features, use concise, impactful titles, and descriptions that explain the value clearly. Make sure that the layout remains balanced, especially in responsive formats, and that the text is legible with appropriate color contrast.",
+      "example_usage":[
+         "A tech startup promoting a new mobile app might use this component to list key features like 'Retina Ready', 'Responsive Layout', and 'Full Control', with an image of the app displayed on a smartphone screen.",
+         "An online course platform could use this section to highlight benefits such as 'Self-Paced Learning', 'Expert Instructors', and 'Certificate of Completion', accompanied by a visual of a learning dashboard.",
+         "A fashion e-commerce site might use this component to showcase features like 'Free Shipping', '24/7 Customer Support', and 'Sustainable Materials', with an image of a featured product."
+      ],
+      "usage":[
+         "header",
+         "body",
+         "single_page"
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"MultiUsefulComponents",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Multi Useful Components",
+                  "color":"#1E0E62"
+               },
+               "media":{
+                  "link":"https://github.com/user-attachments/assets/a68ecbee-c388-4834-b1cc-635cade21901",
+                  "type":"image"
+               },
+               "description":{
+                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
+                  "color":"#15143966"
+               },
+               "features":[
+                  {
+                     "title":{
+                        "text":"Retina Ready",
+                        "color":"#1e0d62"
+                     },
+                     "description":{
+                        "text":"Description of Retina Ready.",
+                        "color":"#15143966"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Responsive Layout",
+                        "color":"#1e0d62"
+                     },
+                     "description":{
+                        "text":"Of course we haven't forgotten about the responsive layout. Full mobile support for Startup Framework works fine on devices supporting Retina Display.",
+                        "color":"#15143966"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Full Control",
+                        "color":"#1e0d62"
+                     },
+                     "description":{
+                        "text":"Easily change and tweak your content when you need to, however you want. No more third-party vendor lock-in. Startup Framework works fine on devices supporting Retina Display.",
+                        "color":"#15143966"
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Description Text",
+            "type":"colored_large_string",
+            "id":"content.description"
+         },
+         {
+            "name":"Image",
+            "type":"media",
+            "id":"content.media"
+         },
+         {
+            "name":"Features List",
+            "type":"collection",
+            "id":"content.features",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Feature Title",
+                  "type":"colored_string",
+                  "id":"title"
+               },
+               {
+                  "name":"Feature Description",
+                  "type":"colored_large_string",
+                  "id":"description"
+               }
+            ]
+         }
+      ],
+      "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=F94377CC-2793-4734-961C-F8454CBF9330"
+   },
+   {
+      "id":"header_7",
+      "title":"Large Media and Two Call-to-Action Buttons",
+      "detailed_description":"This component features a prominent header section designed to make an immediate visual impact. The layout is divided into two distinct sections: on the left, a block of text containing a headline, subheadline, description, and two action buttons. On the right, a large background image or media asset is displayed, typically of a product or person, to draw the user's attention. The headline acts as the main focus, usually large and bold, followed by a subheadline in a smaller font. Beneath the subheadline, a short description explains the purpose of the section or highlights key information. The two action buttons, often styled differently (e.g., one filled and one outlined), encourage users to take action such as signing up, learning more, or purchasing a product.",
+      "purpose_and_ideal_use_cases":"The primary purpose of this component is to capture user attention with a high-impact visual and clear, engaging calls-to-action. It's ideal for landing pages, homepage introductions, product launches, or marketing pages where you need to quickly convey value and drive conversions. This component works well in industries like SaaS, tech startups, e-commerce, and creative services where strong visuals and clear calls to action are crucial to user engagement.",
+      "usage_recommendations":"To use this component effectively, make sure that the image or media used is of high quality and relevant to the message you want to convey. The headline should be concise but impactful, while the subheadline and description should provide just enough information to generate interest without overwhelming the user. It's important to ensure the action buttons are clear and actionable, with contrasting colors to stand out. The alignment of the text and buttons should be balanced with the image to create a cohesive design. Testing different headlines and button text can improve conversion rates.",
+      "example_usage":[
+         "A tech startup offering an AI-powered productivity tool could use this component on their landing page. The headline could read 'Boost Your Team's Productivity with AI', the description could explain key features, and the action buttons might include 'Get Started' and 'Learn More'. The image could be a sleek representation of the tool in action.",
+         "An e-commerce platform selling eco-friendly fashion could use this component to showcase a new clothing line. The headline might say 'Sustainable Fashion for a Greener Future', with buttons like 'Shop Now' and 'Discover the Collection'. The background image would show a model wearing their products in a natural setting.",
+         "A marketing agency could implement this component to introduce their services, with the headline 'Creative Marketing Solutions for Growing Brands', a short description highlighting their key services, and buttons for 'Request a Quote' and 'Explore Our Work'. The background image could be a dynamic, colorful graphic or a successful campaign example."
+      ],
+      "usage":[
+         "header"
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"Header_7",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Great tool to boost your startup",
+                  "color":"#1E0E62"
+               },
+               "description":{
+                  "text":"We made it so beautiful and simple. It combines landings, pages, blogs, and shop screens. It is definitely the tool you need in your collection!",
+                  "color":"#15143966"
+               },
+               "media":{
+                  "link":"https://github.com/user-attachments/assets/38c4fdf6-f002-48de-baec-793fa2b9898e",
+                  "type":"image"
+               },
+               "action1":{
+                  "text":{
+                     "text":"Get Started",
+                     "color":"#ffffff"
+                  },
+                  "url":"www.google.fr",
+                  "color":"#25dac4"
+               },
+               "action2":{
+                  "text":{
+                     "text":"Learn More",
+                     "color":"#1E0E62"
+                  },
+                  "url":"www.google.fr"
+               },
+               "subheadline":{
+                  "text":"By signing up, you agree to the Terms of Service",
+                  "color":"#15143966"
+               }
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Description Text",
+            "type":"colored_large_string",
+            "id":"content.description"
+         },
+         {
+            "name":"Background Image",
+            "type":"media",
+            "id":"content.media"
+         },
+         {
+            "name":"Primary Action Button",
+            "type":"colored_string_action",
+            "id":"content.action1"
+         },
+         {
+            "name":"Secondary Action Button",
+            "type":"colored_string_action",
+            "id":"content.action2"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_string",
+            "id":"content.subheadline"
+         }
+      ],
+      "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=52D0B4F7-C8FF-42EB-AC2D-AD1D71AD670A"
+   },
+   {
+      "id":"callToAction",
+      "title":"Call-to-Action Section with Social Media Icons",
+      "detailed_description":"The Call-to-Action Section with Social Media Icons is designed to encourage user engagement and interaction through various social media platforms. The section features a central headline to grab attention and is followed by a neatly arranged set of recognizable social media icons. These icons serve as clickable links, providing easy access to different social media platforms.\n- **Headline**: Positioned at the top, the headline serves as a call-to-action, encouraging users to follow or engage with the brand on social media.\n- **Social Media Icons**: Below the headline, a row of icons for platforms such as Twitter, Facebook, Instagram, Pinterest, Behance, and Dribbble is displayed. Each icon is clickable and linked to the respective social media page. The design is responsive, ensuring that the layout adjusts seamlessly on different devices, while the color scheme can be customized to match the brand's visual identity.",
+      "purpose_and_ideal_use_cases":"The primary goal of this component is to boost social media engagement by offering users easy access to the brand's social media channels. It is especially effective in areas where users are prompted to take action, such as landing pages, website footers, or as part of dedicated social media sections. The component is ideal for industries such as e-commerce, digital marketing, content creation, and creative agencies.",
+      "usage_recommendations":"For optimal results, place this component in visible areas like the footer or near interaction points (e.g., after blog posts). Customize the headline to be relevant and actionable, ensuring social media links are active and lead to managed accounts. Brands can also customize icon colors to align with their visual identity.",
+      "example_usage":[
+         "A fashion blog using the headline 'Stay Connected with Us' alongside Instagram, Pinterest, and Twitter icons, encouraging readers to follow for updates.",
+         "An online store featuring 'Follow Us for Exclusive Deals' with Facebook, Instagram, and Twitter icons for promotions.",
+         "A creative portfolio website with 'See Our Latest Projects' and icons for Behance, Dribbble, and Instagram to showcase design work."
+      ],
+      "usage":[
+         "footer"
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"CallToAction",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"Follow Us",
+                  "color":"#1E0E62"
+               },
+               "actions":[
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"twitter",
+                           "color":"#1E0E62"
+                        },
+                        "color":"#1E0E62",
+                        "url":"https://twitter.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"facebookSquare",
+                           "color":"#1E0E62"
+                        },
+                        "color":"#1E0E62",
+                        "url":"https://www.facebook.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"pinterest",
+                           "color":"#1E0E62"
+                        },
+                        "color":"#1E0E62",
+                        "url":"https://www.pinterest.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"instagram",
+                           "color":"#1E0E62"
+                        },
+                        "color":"#1E0E62",
+                        "url":"https://www.instagram.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"behance",
+                           "color":"#1E0E62"
+                        },
+                        "color":"#1E0E62",
+                        "url":"https://www.behance.net/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"dribbble",
+                           "color":"#1E0E62"
+                        },
+                        "color":"#1E0E62",
+                        "url":"https://dribbble.com/"
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Action List",
+            "type":"collection",
+            "id":"content.actions",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Icon",
+                  "type":"colored_icon_action",
+                  "id":"action"
+               }
+            ]
+         }
+      ],
+      "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=A84A1CE7-E338-4AD3-AF8B-1F0B51A16CC8"
+   },
+   {
+      "id":"featureGrid_1",
+      "title":"Feature Grid with Images and Descriptions",
+      "detailed_description":"This component presents a visually appealing grid layout featuring three distinct features, each represented by an image and a description. The layout allows for customizable backgrounds and is designed to effectively communicate the benefits of a product or service. Each feature consists of a media element (image) and a descriptive text, enhancing user engagement.",
+      "purpose_and_ideal_use_cases":"The main purpose of this component is to highlight key features of a product or service in a clear and organized manner. It is particularly effective on landing pages, product showcase pages, and services pages. This component is ideal for technology startups, SaaS companies, and any businesses looking to promote multiple features or services simultaneously.",
+      "usage_recommendations":"Ensure that the images used for the media elements are high-quality and relevant to the descriptions provided. Maintain consistency in the style and color scheme to align with the overall design of the webpage. Consider using concise and impactful descriptions to effectively convey the value of each feature.",
+      "example_usage":[
+         "A project management tool: 'Effortless Collaboration' as the description, with an image showing team members working together.",
+         "A web development service: 'Custom Solutions' as the description, with an image of a developer coding on a laptop.",
+         "An online learning platform: 'Learn at Your Own Pace' as the description, with an image of a student studying at home."
+      ],
+      "usage":[
+         "header",
+         "body",
+         "single_page"
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"featureGrid_1",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "features":[
+                  {
+                     "description":{
+                        "text":"Our tools help you save time and focus on what matters.",
+                        "color":"#15143966"
+                     },
+                     "media":{
+                        "link":"https://github.com/user-attachments/assets/84c65038-3e52-4fac-a247-7fef53601aff",
+                        "type":"image"
+                     }
+                  },
+                  {
+                     "description":{
+                        "text":"Startups can save money on design and code and use those savings to develop the business.",
+                        "color":"#15143966"
+                     },
+                     "media":{
+                        "link":"https://github.com/user-attachments/assets/ee735c81-1939-42a3-9b8a-3d8fc910bf18",
+                        "type":"image"
+                     }
+                  },
+                  {
+                     "description":{
+                        "text":"Startup Framework includes great form options for your startup projects.",
+                        "color":"#15143966"
+                     },
+                     "media":{
+                        "link":"https://github.com/user-attachments/assets/8ff9a243-5b8e-44c3-9053-3571b4a72abb",
+                        "type":"image"
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Feature List",
+            "type":"collection",
+            "id":"content.features",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Description",
+                  "type":"colored_large_string",
+                  "id":"description"
+               },
+               {
+                  "name":"Media",
+                  "type":"media",
+                  "id":"media"
+               }
+            ]
+         }
+      ],
+      "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=E3EA0DAB-09EA-4285-9664-A912234D4219"
+   },
+   {
+      "id":"contact_10",
+      "title":"Contact Section with Image and Social Media Links",
+      "detailed_description":"This component is a contact section designed to display a headline, subheadline (usually an email address), an image, and a set of social media icons with links. The visual layout consists of a centrally placed image at the top, followed by a headline with customizable text and color, and a subheadline typically used to showcase an email. Below the subheadline, several social media icons are displayed, each styled with a custom color and linked to respective social media profiles. This component uses customizable colors for each element, providing flexibility to match the overall theme of the website.",
+      "purpose_and_ideal_use_cases":"The primary purpose of this component is to provide users with contact information and direct access to social media profiles. It is ideal for websites that want to encourage user engagement via email or social platforms. This section works best on 'Contact Us' pages, in the footer of a website, or as a call-to-action block on portfolio and business websites. It suits industries such as digital agencies, design studios, personal portfolios, and e-commerce sites, where building relationships with users through various channels is important.",
+      "usage_recommendations":"For best results, use this component at the bottom of a webpage or in the contact section. Ensure that the email and social media links are accurate and functional. Use professional or branded icons for social media links to maintain a cohesive look. Choose color schemes that contrast well with the website background to enhance readability and visual appeal.",
+      "example_usage":[
+         "A portfolio website for a graphic designer could use this component to display contact information and social media links such as Behance, Dribbble, and Instagram.",
+         "A digital marketing agency could use it in the footer of their site to list their main contact email and links to their social platforms like Twitter, Facebook, and LinkedIn.",
+         "An e-commerce website could place this component on their 'Contact Us' page to allow customers to easily reach out via email or follow the brand on social media for updates."
+      ],
+      "usage":[
+         "footer",
+         "body",
+         "single_page"
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"Contact_10",
+         "properties":{
+            "backgroundColor":"#ffffff",
+            "content":{
+               "headline":{
+                  "text":"For any questions please mail us:",
+                  "color":"#1E0E62"
+               },
+               "subheadline":{
+                  "text":"info@designmodo.com",
+                  "color":"#482BE7"
+               },
+               "media":{
+                  "link":"https://github.com/user-attachments/assets/0008355a-1e8a-4d74-a484-6585068904a3",
+                  "type":"image"
+               },
+               "actions":[
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"twitter",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://twitter.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"facebookSquare",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.facebook.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"pinterest",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.pinterest.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"behance",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.behance.com/"
+                     }
+                  },
+                  {
+                     "action":{
+                        "icon":{
+                           "name":"dribbble",
+                           "color":"#EBEAED"
+                        },
+                        "color":"#15143966",
+                        "url":"https://www.dribbble.com/"
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Subheadline Text",
+            "type":"colored_large_string",
+            "id":"content.subheadline"
+         },
+         {
+            "name":"Media",
+            "type":"media",
+            "id":"content.media"
+         },
+         {
+            "name":"Action List",
+            "type":"collection",
+            "id":"content.actions",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Icon",
+                  "type":"colored_icon_action",
+                  "id":"action"
+               }
+            ]
+         }
+      ],
+      "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=277F1021-2841-4662-8B4A-3128E73B0C0E"
+   }
+]
