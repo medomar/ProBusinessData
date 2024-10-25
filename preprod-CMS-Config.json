@@ -27,7 +27,6 @@
             }
          }
       },
-      "ai_instruction":"You are required to generate the `default_data` for the component, customized based on the company and section details provided. Follow these guidelines carefully:\n\n1. **HTML Content Encoding**:\n   - Encode the HTML content in `default_data.properties.content.body.text` using base64 encoding.\n   - Ensure the base64 string is valid and contains **no whitespace, newlines, quotes, or escape characters**.\n   - Verify that decoding the base64 string yields the correct HTML content.\n\n2. **HTML Content Requirements**:\n   - **Customization**: Fully customize the content based on the provided company and section details.\n   - **Dark and Light Mode Support**:\n     - Use CSS media queries like `@media (prefers-color-scheme: dark)` to support both modes.\n     - Adjust text and background colors for readability in both modes.\n   - **Content Centering**:\n     - Wrap all content in a `<div>` with a class (e.g., `class=\"content-wrapper\"`).\n     - Center the content using CSS styles:\n       - `margin-left: auto;`\n       - `margin-right: auto;`\n       - `max-width: 800px;` (or desired width)\n       - `text-align: center;`\n     - For vertical centering (if needed), use flexbox:\n       - `display: flex;`\n       - `flex-direction: column;`\n       - `justify-content: center;`\n       - `height: 100%;`\n   - **Feature List**:\n     - Include an unordered `<ul>` or ordered `<ol>` list with at least **three** `<li>` items.\n     - Highlight key features, benefits, or information relevant to the company and section.\n     - Use inline CSS to customize text styles (e.g., `font-size`, `color`, `font-weight`).\n   - **HTML Standards**:\n     - Use clean, valid HTML5 with proper semantics (e.g., `<header>`, `<section>`, `<h1>`, `<p>`).\n     - Include CSS styles within a `<style>` tag in the HTML content or as inline styles.\n   - **Self-Contained**:\n     - Do **not** include external CSS, JavaScript files, or dependencies.\n     - Ensure the HTML renders correctly on its own without external resources.\n   - **Readability and Aesthetics**:\n     - Choose fonts and sizes for optimal readability.\n     - Use appropriate line heights and spacing.\n     - Select color schemes that align with the company's branding and are accessible.\n   - **Accessibility**:\n     - Ensure sufficient color contrast between text and background.\n\n3. **Content Restrictions**:\n   - Do **not** include images, multimedia content, JavaScript code, or event handlers.\n   - Avoid complex layouts requiring external resources.\n\n4. **Output Format**:\n   - Return **only** the JSON data in the following format:\n\n     ```json\n     {\n       \"default_data\": {\n         \"type\": \"html_text\",\n         \"properties\": {\n           \"content\": {\n             \"body\": {\n               \"text\": \"<BASE64_ENCODED_HTML_STRING>\"\n             }\n           }\n         }\n       }\n     }\n     ```\n\n   - Replace `<BASE64_ENCODED_HTML_STRING>` with the actual base64-encoded HTML content.\n   - Ensure the JSON is valid and correctly formatted.\n   - Do **not** include any additional text, explanations, or examples in your response.",
       "content":[
          {
             "name":"Html Text",
@@ -55,15 +54,12 @@
       "default_data":{
          "type":"hero",
          "properties":{
-            "backgroundColor":"#ffffff",
             "content":{
                "headline":{
-                  "text":"Welcome to Our Platform",
-                  "color":"#ffffff"
+                  "text":"Welcome to Our Platform"
                },
                "subheadline":{
-                  "text":"Discover amazing features and boost your productivity",
-                  "color":"#ffffff"
+                  "text":"Discover amazing features and boost your productivity"
                },
                "media":{
                   "link":"https://picsum.photos/1200/600",
@@ -71,11 +67,9 @@
                },
                "action":{
                   "text":{
-                     "text":"Get Started",
-                     "color":"#ffffff"
+                     "text":"Get Started"
                   },
-                  "url":"https://www.google.tn",
-                  "color":""
+                  "url":"https://www.google.tn"
                }
             }
          }
@@ -128,51 +122,40 @@
       "default_data":{
          "type":"Feature_22",
          "properties":{
-            "backgroundColor":"#ffffff",
             "content":{
                "headline":{
-                  "text":"Many carefully crafted components for your business.",
-                  "color":"#1E0E62"
+                  "text":"Many carefully crafted components for your business."
                },
                "subheadline":{
-                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
-                  "color":"#15143966"
+                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily."
                },
                "action":{
                   "text":{
-                     "text":"Get Started",
-                     "color":"#ffffff"
+                     "text":"Get Started"
                   },
-                  "url":"www.google.fr",
-                  "color":"#25dac4"
+                  "url":"www.google.fr"
                },
                "features":[
                   {
                      "icon":{
-                        "name":"commenting",
-                        "color":"#EBEAED"
+                        "name":"commenting"
                      },
                      "title":{
-                        "text":"Based on Bootstrap 4",
-                        "color":"#1E0E62"
+                        "text":"Based on Bootstrap 4"
                      },
                      "description":{
-                        "text":"HTML layout is based on one of the most common and reliable frameworks – Bootstrap.",
-                        "color":"#15143966"
+                        "text":"HTML layout is based on one of the most common and reliable frameworks – Bootstrap."
                      }
                   },
                   {
                      "icon":{
-                        "name":"html5",
-                        "color":"#EBEAED"
+                        "name":"html5"
                      },
                      "title":{
-                        "text":"HTML5 & CSS3",
-                        "color":"#1E0E62"
+                        "text":"HTML5 & CSS3"
                      },
                      "description":{
-                        "text":"We used only time-tested technologies for the best results.",
-                        "color":"#15143966"
+                        "text":"We used only time-tested technologies for the best results."
                      }
                   }
                ],
@@ -180,30 +163,24 @@
                   {
                      "action":{
                         "icon":{
-                           "name":"slack",
-                           "color":"#EBEAED"
+                           "name":"slack"
                         },
-                        "color":"#15143966",
                         "url":"https://www.slack.com/"
                      }
                   },
                   {
                      "action":{
                         "icon":{
-                           "name":"android",
-                           "color":"#EBEAED"
+                           "name":"android"
                         },
-                        "color":"#15143966",
                         "url":"https://www.android.com/"
                      }
                   },
                   {
                      "action":{
                         "icon":{
-                           "name":"windows",
-                           "color":"#EBEAED"
+                           "name":"windows"
                         },
-                        "color":"#15143966",
                         "url":"https://www.windows.com/"
                      }
                   }
@@ -292,115 +269,90 @@
       "default_data":{
          "type":"FeatureGrid",
          "properties":{
-            "backgroundColor":"#ffffff",
             "content":{
                "headline":{
-                  "text":"Our Key Features",
-                  "color":"#333333"
+                  "text":"Our Key Features"
                },
                "subheadline":{
-                  "text":"Discover what makes us unique",
-                  "color":"#777777"
+                  "text":"Discover what makes us unique"
                },
                "features":[
                   {
                      "title":{
-                        "text":"Innovative Solutions",
-                        "color":"#000000"
+                        "text":"Innovative Solutions"
                      },
                      "description":{
-                        "text":"We provide cutting-edge solutions to meet your needs.",
-                        "color":"#666666"
+                        "text":"We provide cutting-edge solutions to meet your needs."
                      },
                      "icon":{
-                        "name":"lightbulb",
-                        "color":"#606be0"
+                        "name":"lightbulb"
                      }
                   },
                   {
                      "title":{
-                        "text":"Time-Saving Tools",
-                        "color":"#000000"
+                        "text":"Time-Saving Tools"
                      },
                      "description":{
-                        "text":"Our tools help you save time and focus on what matters.",
-                        "color":"#666666"
+                        "text":"Our tools help you save time and focus on what matters."
                      },
                      "icon":{
-                        "name":"clock",
-                        "color":"#606be0"
+                        "name":"clock"
                      }
                   },
                   {
                      "title":{
-                        "text":"Team Collaboration",
-                        "color":"#000000"
+                        "text":"Team Collaboration"
                      },
                      "description":{
-                        "text":"Enhance teamwork with our collaboration features.",
-                        "color":"#666666"
+                        "text":"Enhance teamwork with our collaboration features."
                      },
                      "icon":{
-                        "name":"users",
-                        "color":"#606be0"
+                        "name":"users"
                      }
                   },
                   {
                      "title":{
-                        "text":"Secure Platform",
-                        "color":"#000000"
+                        "text":"Secure Platform"
                      },
                      "description":{
-                        "text":"Your data is safe with our advanced security measures.",
-                        "color":"#666666"
+                        "text":"Your data is safe with our advanced security measures."
                      },
                      "icon":{
-                        "name":"shieldAlt",
-                        "color":"#606be0"
+                        "name":"shieldAlt"
                      }
                   },
                   {
                      "title":{
-                        "text":"Performance Tracking",
-                        "color":"#000000"
+                        "text":"Performance Tracking"
                      },
                      "description":{
-                        "text":"Monitor and improve your performance with ease.",
-                        "color":"#666666"
+                        "text":"Monitor and improve your performance with ease."
                      },
                      "icon":{
-                        "name":"chartLine",
-                        "color":"#606be0"
+                        "name":"chartLine"
                      },
                      "action":{
                         "text":{
-                           "text":"Learn More",
-                           "color":"#FFFFFF"
+                           "text":"Learn More"
                         },
-                        "url":"http://localhost:3000/test2",
-                        "color":""
+                        "url":"http://localhost:3000/test2"
                      }
                   },
                   {
                      "title":{
-                        "text":"24/7 Support",
-                        "color":"#000000"
+                        "text":"24/7 Support"
                      },
                      "description":{
-                        "text":"Our support team is always ready to assist you.",
-                        "color":"#666666"
+                        "text":"Our support team is always ready to assist you."
                      },
                      "icon":{
-                        "name":"headset",
-                        "color":"#606be0"
+                        "name":"headset"
                      },
                      "action":{
                         "text":{
-                           "text":"Get Support",
-                           "color":"#FFFFFF"
+                           "text":"Get Support"
                         },
-                        "url":"https://staging.hope-probusiness.com/defaultCompany",
-                        "color":""
+                        "url":"https://staging.hope-probusiness.com/defaultCompany"
                      }
                   }
                ]
@@ -470,27 +422,21 @@
       "default_data":{
          "type":"MediaCard",
          "properties":{
-            "backgroundColor":"#ffffff",
             "content":{
                "headline":{
-                  "text":"Our Vision",
-                  "color":"#707070"
+                  "text":"Our Vision"
                },
                "subheadline":{
-                  "text":"Transforming the Future",
-                  "color":"#4a7c81"
+                  "text":"Transforming the Future"
                },
                "description":{
-                  "text":"We're committed to creating innovative solutions that shape the future of technology and business.",
-                  "color":"#a08e8e"
+                  "text":"We're committed to creating innovative solutions that shape the future of technology and business."
                },
                "action":{
                   "text":{
-                     "text":"Join Our Mission",
-                     "color":"#4a7c81"
+                     "text":"Join Our Mission"
                   },
-                  "url":"https://www.google.tn",
-                  "color":""
+                  "url":"https://www.google.tn"
                },
                "media":{
                   "link":"https://picsum.photos/1200/600",
@@ -566,52 +512,42 @@
       "default_data":{
          "type":"Content_18",
          "properties":{
-            "backgroundColor":"#ffffff",
             "content":{
                "headline":{
-                  "text":"Have Questions?",
-                  "color":"#1E0E62"
+                  "text":"Have Questions?"
                },
                "subheadline":{
-                  "text":"We include great form options for your startup projects.",
-                  "color":"#1E0E62"
+                  "text":"We include great form options for your startup projects."
                },
                "action":{
                   "text":{
-                     "text":"Get Help",
-                     "color":"#ffffff"
+                     "text":"Get Help"
                   },
                   "url":"www.google.fr"
                },
                "features":[
                   {
                      "title":{
-                        "text":"Easy to Use",
-                        "color":"#1E0E62"
+                        "text":"Easy to Use"
                      },
                      "description":{
-                        "text":"Our components and blocks integrate easily into any design, allowing you to create numerous solutions.",
-                        "color":"#15143866"
+                        "text":"Our components and blocks integrate easily into any design, allowing you to create numerous solutions."
                      }
                   },
                   {
                      "title":{
-                        "text":"Variety of Designs",
-                        "color":"#1E0E62"
+                        "text":"Variety of Designs"
                      },
                      "description":{
-                        "text":"Choose from a wide range of designs to suit your needs.",
-                        "color":"#15143866"
+                        "text":"Choose from a wide range of designs to suit your needs."
                      }
                   },
                   {
                      "title":{
-                        "text":"Feel Our Design",
-                        "color":"#1E0E62"
+                        "text":"Feel Our Design"
                      },
                      "description":{
-                        "text":"Experience the seamless integration of our components during the website building process.",
-                        "color":"#15143866"
+                        "text":"Experience the seamless integration of our components during the website building process."
                      }
                   }
                ]
@@ -683,22 +619,17 @@
       "default_data":{
          "type":"Header_15",
          "properties":{
-            "backgroundColor":"#ffffff",
             "content":{
                "headline":{
-                  "text":"Build Your Own Site like a Lego Constructor",
-                  "color":"#1E0E62"
+                  "text":"Build Your Own Site like a Lego Constructor"
                },
                "subheadline":{
-                  "text":"We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.",
-                  "color":"#15143966"
+                  "text":"We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily."
                },
                "action":{
                   "url":"www.google.fr",
-                  "color":"#e8397d",
                   "text":{
-                     "text":"Create an Account",
-                     "color":"#ffffff"
+                     "text":"Create an Account"
                   }
                }
             }
@@ -751,15 +682,12 @@
       "default_data":{
          "type":"BetterDesign",
          "properties":{
-            "backgroundColor":"#ffffff",
             "content":{
                "headline":{
-                  "text":"Better design for your content",
-                  "color":"#1E0E62"
+                  "text":"Better design for your content"
                },
                "description":{
-                  "text":"Startup Framework contains components and complex blocks which can easily be integrated into almost any design. All of the components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions.",
-                  "color":"#15143966"
+                  "text":"Startup Framework contains components and complex blocks which can easily be integrated into almost any design. All of the components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions."
                },
                "media":{
                   "link":"https://github.com/user-attachments/assets/23eebc90-9657-4c67-bb9c-b1880097d9b3",
@@ -768,58 +696,46 @@
                "features":[
                   {
                      "icon":{
-                        "name":"code",
-                        "color":"#1E0E62"
+                        "name":"code"
                      },
                      "title":{
-                        "text":"Retina Ready",
-                        "color":"#1E0E62"
+                        "text":"Retina Ready"
                      },
                      "description":{
-                        "text":"Startup Framework works fine on devices supporting Retina Display. Feel the clarity!",
-                        "color":"#15143966"
+                        "text":"Startup Framework works fine on devices supporting Retina Display. Feel the clarity!"
                      }
                   },
                   {
                      "icon":{
-                        "name":"star",
-                        "color":"#1E0E62"
+                        "name":"star"
                      },
                      "title":{
-                        "text":"Happy Customers",
-                        "color":"#1E0E62"
+                        "text":"Happy Customers"
                      },
                      "description":{
-                        "text":"We're super proud to share the fact that Startup has a whopping 97% customer satisfaction rate.",
-                        "color":"#15143966"
+                        "text":"We're super proud to share the fact that Startup has a whopping 97% customer satisfaction rate."
                      }
                   },
                   {
                      "icon":{
-                        "name":"keyboard",
-                        "color":"#1E0E62"
+                        "name":"keyboard"
                      },
                      "title":{
-                        "text":"Feel Our Design",
-                        "color":"#1E0E62"
+                        "text":"Feel Our Design"
                      },
                      "description":{
-                        "text":"Samples will show you the feeling on how to play around using the components in the website building process.",
-                        "color":"#15143966"
+                        "text":"Samples will show you the feeling on how to play around using the components in the website building process."
                      }
                   },
                   {
                      "icon":{
-                        "name":"link",
-                        "color":"#1E0E62"
+                        "name":"link"
                      },
                      "title":{
-                        "text":"Variety of Designs",
-                        "color":"#1E0E62"
+                        "text":"Variety of Designs"
                      },
                      "description":{
-                        "text":"You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge in various combinations.",
-                        "color":"#15143966"
+                        "text":"You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge in various combinations."
                      }
                   }
                ]
@@ -897,85 +813,67 @@
       "default_data":{
          "type":"Feature_4",
          "properties":{
-            "backgroundColor":"#033102",
             "media":{
                "link":"https://github.com/user-attachments/assets/18a16cdc-2cb9-48ff-919b-c068f5fc935b",
                "type":"image"
             },
             "content":{
                "headline":{
-                  "text":"Features",
-                  "color":"#FFFFFF"
+                  "text":"Features"
                },
                "subheadline":{
-                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
-                  "color":"#FFFFFF"
+                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily."
                },
                "features":[
                   {
                      "icon":{
-                        "name":"Bolt",
-                        "color":"#FFFFFF"
+                        "name":"Bolt"
                      },
                      "title":{
-                        "text":"Easy to Use",
-                        "color":"#FFFFFF"
+                        "text":"Easy to Use"
                      },
                      "description":{
-                        "text":"To get started, you select the desired sample and base the entire website on it. It’s that simple!",
-                        "color":"#FFFFFF"
+                        "text":"To get started, you select the desired sample and base the entire website on it. It’s that simple!"
                      },
                      "action":{
                         "text":{
-                           "text":"Learn More",
-                           "color":"#FFFFFF"
+                           "text":"Learn More"
                         },
-                        "url":"https://www.google.tn",
-                        "color":"#ff476d"
+                        "url":"https://www.google.tn"
                      }
                   },
                   {
                      "icon":{
-                        "name":"Random",
-                        "color":"#FFFFFF"
+                        "name":"Random"
                      },
                      "title":{
-                        "text":"Variety of Designs",
-                        "color":"#FFFFFF"
+                        "text":"Variety of Designs"
                      },
                      "description":{
-                        "text":"You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations.",
-                        "color":"#FFFFFF"
+                        "text":"You can decide whether to create your site using UI Kit blocks or samples. The blocks can merge together in various combinations."
                      },
                      "action":{
                         "text":{
-                           "text":"Learn More",
-                           "color":"#FFFFFF"
+                           "text":"Learn More"
                         },
-                        "url":"https://www.google.tn",
-                        "color":"#ff476d"
+                        "url":"https://www.google.tn"
                      }
                   },
                   {
                      "icon":{
-                        "name":"PlayCircle",
-                        "color":"#FFFFFF"
+                        "name":"PlayCircle"
                      },
                      "title":{
-                        "text":"Feel Our Design",
-                        "color":"#FFFFFF"
+                        "text":"Feel Our Design"
                      },
                      "description":{
-                        "text":"Samples will show you the feeling on how to play around using the components in the website building process.",
-                        "color":"#FFFFFF"
+                        "text":"Samples will show you the feeling on how to play around using the components in the website building process."
                      },
                      "action":{
                         "text":{
-                           "text":"Learn More",
-                           "color":"#FFFFFF"
+                           "text":"Learn More"
                         },
-                        "url":"https://www.google.tn",
-                        "color":"#ff476d"
+                        "url":"https://www.google.tn"
                      }
                   }
                ]
@@ -1053,49 +951,40 @@
       "default_data":{
          "type":"MultiUsefulComponents",
          "properties":{
-            "backgroundColor":"#ffffff",
             "content":{
                "headline":{
-                  "text":"Multi Useful Components",
-                  "color":"#1E0E62"
+                  "text":"Multi Useful Components"
                },
                "media":{
                   "link":"https://github.com/user-attachments/assets/a68ecbee-c388-4834-b1cc-635cade21901",
                   "type":"image"
                },
                "description":{
-                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily.",
-                  "color":"#15143966"
+                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily."
                },
                "features":[
                   {
                      "title":{
-                        "text":"Retina Ready",
-                        "color":"#1e0d62"
+                        "text":"Retina Ready"
                      },
                      "description":{
-                        "text":"Description of Retina Ready.",
-                        "color":"#15143966"
+                        "text":"Description of Retina Ready."
                      }
                   },
                   {
                      "title":{
-                        "text":"Responsive Layout",
-                        "color":"#1e0d62"
+                        "text":"Responsive Layout"
                      },
                      "description":{
-                        "text":"Of course we haven't forgotten about the responsive layout. Full mobile support for Startup Framework works fine on devices supporting Retina Display.",
-                        "color":"#15143966"
+                        "text":"Of course we haven't forgotten about the responsive layout. Full mobile support for Startup Framework works fine on devices supporting Retina Display."
                      }
                   },
                   {
                      "title":{
-                        "text":"Full Control",
-                        "color":"#1e0d62"
+                        "text":"Full Control"
                      },
                      "description":{
-                        "text":"Easily change and tweak your content when you need to, however you want. No more third-party vendor lock-in. Startup Framework works fine on devices supporting Retina Display.",
-                        "color":"#15143966"
+                        "text":"Easily change and tweak your content when you need to, however you want. No more third-party vendor lock-in. Startup Framework works fine on devices supporting Retina Display."
                      }
                   }
                ]
@@ -1166,15 +1055,12 @@
       "default_data":{
          "type":"Header_7",
          "properties":{
-            "backgroundColor":"#ffffff",
             "content":{
                "headline":{
-                  "text":"Great tool to boost your startup",
-                  "color":"#1E0E62"
+                  "text":"Great tool to boost your startup"
                },
                "description":{
-                  "text":"We made it so beautiful and simple. It combines landings, pages, blogs, and shop screens. It is definitely the tool you need in your collection!",
-                  "color":"#15143966"
+                  "text":"We made it so beautiful and simple. It combines landings, pages, blogs, and shop screens. It is definitely the tool you need in your collection!"
                },
                "media":{
                   "link":"https://github.com/user-attachments/assets/38c4fdf6-f002-48de-baec-793fa2b9898e",
@@ -1182,22 +1068,18 @@
                },
                "action1":{
                   "text":{
-                     "text":"Get Started",
-                     "color":"#ffffff"
+                     "text":"Get Started"
                   },
-                  "url":"www.google.fr",
-                  "color":"#25dac4"
+                  "url":"www.google.fr"
                },
                "action2":{
                   "text":{
-                     "text":"Learn More",
-                     "color":"#1E0E62"
+                     "text":"Learn More"
                   },
                   "url":"www.google.fr"
                },
                "subheadline":{
-                  "text":"By signing up, you agree to the Terms of Service",
-                  "color":"#15143966"
+                  "text":"By signing up, you agree to the Terms of Service"
                }
             }
          }
@@ -1262,70 +1144,56 @@
       "default_data":{
          "type":"CallToAction",
          "properties":{
-            "backgroundColor":"#ffffff",
             "content":{
                "headline":{
-                  "text":"Follow Us",
-                  "color":"#1E0E62"
+                  "text":"Follow Us"
                },
                "actions":[
                   {
                      "action":{
                         "icon":{
-                           "name":"twitter",
-                           "color":"#1E0E62"
+                           "name":"twitter"
                         },
-                        "color":"#1E0E62",
                         "url":"https://twitter.com/"
                      }
                   },
                   {
                      "action":{
                         "icon":{
-                           "name":"facebookSquare",
-                           "color":"#1E0E62"
+                           "name":"facebookSquare"
                         },
-                        "color":"#1E0E62",
                         "url":"https://www.facebook.com/"
                      }
                   },
                   {
                      "action":{
                         "icon":{
-                           "name":"pinterest",
-                           "color":"#1E0E62"
+                           "name":"pinterest"
                         },
-                        "color":"#1E0E62",
                         "url":"https://www.pinterest.com/"
                      }
                   },
                   {
                      "action":{
                         "icon":{
-                           "name":"instagram",
-                           "color":"#1E0E62"
+                           "name":"instagram"
                         },
-                        "color":"#1E0E62",
                         "url":"https://www.instagram.com/"
                      }
                   },
                   {
                      "action":{
                         "icon":{
-                           "name":"behance",
-                           "color":"#1E0E62"
+                           "name":"behance"
                         },
-                        "color":"#1E0E62",
                         "url":"https://www.behance.net/"
                      }
                   },
                   {
                      "action":{
                         "icon":{
-                           "name":"dribbble",
-                           "color":"#1E0E62"
+                           "name":"dribbble"
                         },
-                        "color":"#1E0E62",
                         "url":"https://dribbble.com/"
                      }
                   }
@@ -1384,13 +1252,11 @@
       "default_data":{
          "type":"featureGrid_1",
          "properties":{
-            "backgroundColor":"#ffffff",
             "content":{
                "features":[
                   {
                      "description":{
-                        "text":"Our tools help you save time and focus on what matters.",
-                        "color":"#15143966"
+                        "text":"Our tools help you save time and focus on what matters."
                      },
                      "media":{
                         "link":"https://github.com/user-attachments/assets/84c65038-3e52-4fac-a247-7fef53601aff",
@@ -1399,8 +1265,7 @@
                   },
                   {
                      "description":{
-                        "text":"Startups can save money on design and code and use those savings to develop the business.",
-                        "color":"#15143966"
+                        "text":"Startups can save money on design and code and use those savings to develop the business."
                      },
                      "media":{
                         "link":"https://github.com/user-attachments/assets/ee735c81-1939-42a3-9b8a-3d8fc910bf18",
@@ -1409,8 +1274,7 @@
                   },
                   {
                      "description":{
-                        "text":"Startup Framework includes great form options for your startup projects.",
-                        "color":"#15143966"
+                        "text":"Startup Framework includes great form options for your startup projects."
                      },
                      "media":{
                         "link":"https://github.com/user-attachments/assets/8ff9a243-5b8e-44c3-9053-3571b4a72abb",
@@ -1472,15 +1336,12 @@
       "default_data":{
          "type":"Contact_10",
          "properties":{
-            "backgroundColor":"#ffffff",
             "content":{
                "headline":{
-                  "text":"For any questions please mail us:",
-                  "color":"#1E0E62"
+                  "text":"For any questions please mail us:"
                },
                "subheadline":{
-                  "text":"info@designmodo.com",
-                  "color":"#482BE7"
+                  "text":"info@designmodo.com"
                },
                "media":{
                   "link":"https://github.com/user-attachments/assets/0008355a-1e8a-4d74-a484-6585068904a3",
@@ -1490,50 +1351,40 @@
                   {
                      "action":{
                         "icon":{
-                           "name":"twitter",
-                           "color":"#EBEAED"
+                           "name":"twitter"
                         },
-                        "color":"#15143966",
                         "url":"https://twitter.com/"
                      }
                   },
                   {
                      "action":{
                         "icon":{
-                           "name":"facebookSquare",
-                           "color":"#EBEAED"
+                           "name":"facebookSquare"
                         },
-                        "color":"#15143966",
                         "url":"https://www.facebook.com/"
                      }
                   },
                   {
                      "action":{
                         "icon":{
-                           "name":"pinterest",
-                           "color":"#EBEAED"
+                           "name":"pinterest"
                         },
-                        "color":"#15143966",
                         "url":"https://www.pinterest.com/"
                      }
                   },
                   {
                      "action":{
                         "icon":{
-                           "name":"behance",
-                           "color":"#EBEAED"
+                           "name":"behance"
                         },
-                        "color":"#15143966",
                         "url":"https://www.behance.com/"
                      }
                   },
                   {
                      "action":{
                         "icon":{
-                           "name":"dribbble",
-                           "color":"#EBEAED"
+                           "name":"dribbble"
                         },
-                        "color":"#15143966",
                         "url":"https://www.dribbble.com/"
                      }
                   }
