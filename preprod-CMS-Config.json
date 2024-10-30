@@ -1,5 +1,167 @@
 [
    {
+      "id":"small_media_card_collection",
+      "title":"Small Media Card Collection with Scrollable Cards and Interactive Features",
+      "detailed_description":"The Small Media Card Collection component is designed to display a series of user-interactive cards in a horizontally scrollable layout. Key elements include a headline introducing the topic or category, visual cards showcasing different features or content, and scroll buttons for easy navigation. Each card can feature a title, background image, optional footer text, and action links for further exploration. This component is ideal for presenting multiple content items in a visually engaging and navigable format, such as case studies, research highlights, products, or services.",
+      "purpose_and_ideal_use_cases":"The primary goal of this component is to allow users to explore various content items without overwhelming the interface. It's perfect for pages that need to showcase multiple highlights, services, or product previews. This component works especially well in industries like technology, healthcare, education, or any sector that relies on presenting rich information, multimedia, or research insights.",
+      "usage_recommendations":"To effectively use this component, cards should be visually appealing and provide useful information or calls to action. The card background images should be high quality and thematically consistent with the content being showcased. The component's headline should clearly reflect the overall topic, while each card can include a brief description or action link. Scroll buttons should be easy to locate and accessible, encouraging user interaction with the content. This component is best placed in a dedicated section where users can quickly browse multiple content items.",
+      "example_usage":[
+         "A university website could use this component to showcase various research papers or projects from different departments, with each card linking to a detailed page about a specific research project.",
+         "A digital marketing agency might display case studies of past client campaigns, each card featuring a client logo, a brief description, and a link to the full case study.",
+         "An art gallery could use the Small Media Card Collection to highlight featured artists or exhibitions, with each card showing artwork, a brief bio, and a link to purchase or view more details."
+      ],
+      "usage":[
+         "header",
+         "body",
+         "single_page"
+      ],
+      "frame":{
+         "width":null,
+         "height":null
+      },
+      "default_data":{
+         "type":"small_media_card_collection",
+         "properties":{
+            "backgroundColor":"#FFFFFF",
+            "content":{
+               "headline":{
+                  "text":"Featured Content",
+                  "color":"#000000"
+               },
+               "features":[
+                  {
+                     "title":{
+                        "color":"#FFFFFF",
+                        "text":"Research. Sep 12, 2024"
+                     },
+                     "media":{
+                        "link":"https://images.unsplash.com/photo-1508737027454-e6454ef45afd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YnVyZ2VyfGVufDB8fDB8fHww",
+                        "type":"image"
+                     },
+                     "footer":{
+                        "color":"#FFFFFF",
+                        "text":"Learning to reason with LLMS"
+                     },
+                     "action":{
+                        "url":"https://www.google.com"
+                     }
+                  },
+                  {
+                     "title":{
+                        "color":"#FFFFFF",
+                        "text":"Research. Sep 12, 2024"
+                     },
+                     "media":{
+                        "link":"https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D",
+                        "type":"image"
+                     },
+                     "footer":{
+                        "color":"#FFFFFF",
+                        "text":"Learning to reason with LLMS"
+                     },
+                     "action":{
+                        "url":"https://www.google.com"
+                     }
+                  },
+                  {
+                     "title":{
+                        "color":"#FFFFFF",
+                        "text":"Research. Sep 12, 2024"
+                     },
+                     "media":{
+                        "link":"https://images.unsplash.com/photo-1516100882582-96c3a05fe590?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGFzdGF8ZW58MHx8MHx8fDA%3D",
+                        "type":"image"
+                     },
+                     "footer":{
+                        "color":"#FFFFFF",
+                        "text":"Learning to reason with LLMS"
+                     },
+                     "action":{
+                        "url":"https://www.google.com"
+                     }
+                  },
+                  {
+                     "title":{
+                        "color":"#FFFFFF",
+                        "text":"Research. Sep 12, 2024"
+                     },
+                     "media":{
+                        "link":"https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFzYWduYXxlbnwwfHwwfHx8MA%3D%3D",
+                        "type":"image"
+                     },
+                     "footer":{
+                        "color":"#FFFFFF",
+                        "text":"Learning to reason with LLMS"
+                     },
+                     "action":{
+                        "url":"https://www.google.com"
+                     }
+                  },
+                  {
+                     "title":{
+                        "color":"#FFFFFF",
+                        "text":"Research. Sep 12, 2024"
+                     },
+                     "media":{
+                        "link":"https://images.unsplash.com/photo-1509722747041-616f39b57569?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNhbmR3aWNofGVufDB8fDB8fHww",
+                        "type":"image"
+                     },
+                     "footer":{
+                        "color":"#FFFFFF",
+                        "text":"Learning to reason with LLMS"
+                     },
+                     "action":{
+                        "url":"https://www.google.com"
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Features List",
+            "type":"collection",
+            "id":"content.features",
+            "min":3,
+            "max":3,
+            "content":[
+               {
+                  "name":"Feature Text",
+                  "type":"colored_string",
+                  "id":"title"
+               },
+               {
+                  "name":"Footer Text",
+                  "type":"colored_string",
+                  "id":"footer"
+               },
+               {
+                  "name":"Media",
+                  "type":"media",
+                  "id":"media"
+               },
+               {
+                  "name":"Action",
+                  "type":"action",
+                  "id":"action"
+               }
+            ]
+         }
+      ],
+      "link":""
+   },
+   {
       "id":"html_text",
       "title":"Html Text",
       "detailed_description":"The Html Text component is designed to provide an engaging introduction to your platform. It features a full-width layout with a visually appealing background color and flexible content alignment. Key elements include a bold main title, a secondary subtitle, and a descriptive paragraph that outlines the platform's capabilities. The component includes a bullet-point list highlighting essential features, a call-to-action link for further exploration, and an illustrative image that visually represents the platform. Additionally, a blockquote offers a testimonial from a satisfied user, enhancing credibility. The component also contains a Frequently Asked Questions (FAQ) section with an interactive button to reveal answers, providing users with quick access to important information.",
