@@ -2,13 +2,13 @@
    {
       "id":"large_hero",
       "title":"Large Hero Section with Media and Call-to-Action",
-      "detailed_description":"The Large Hero component is a visually impactful section typically placed at the top of a page. It includes a full-width background image, a headline, a subheadline, and a prominent call-to-action button. The image or media acts as the backdrop for the text content, making the section suitable for homepage intros, promotional banners, or key message presentations. This hero section allows for the customization of text, media, and action links, offering flexibility to fit various brand identities and messaging needs.",
-      "purpose_and_ideal_use_cases":"The Large Hero component is ideal for grabbing the attention of visitors immediately upon landing on a page. It works best as an introductory or promotional section at the top of homepages, landing pages, or any page where a strong visual and textual message needs to be conveyed. This component is commonly used across industries such as eCommerce, technology, hospitality, or any brand that wants to showcase a key message, product, or service prominently.",
-      "usage_recommendations":"To make the best use of this component, ensure the background media (image or video) is high resolution and relevant to the messaging. The headline should be short and attention-grabbing, while the subheadline provides additional context. The call-to-action button should be clearly visible and linked to an important next step (e.g., sign up, explore more, or purchase). Ensure that the text contrasts well with the background to maintain readability.",
+      "detailed_description":"The Large Hero component is a prominent section designed to capture the user’s attention instantly upon visiting a page. It features a full-width background media (image or video) that serves as a captivating backdrop for a headline, subheadline, and a call-to-action (CTA) button. The content overlay allows customization of the text and action link, making this component adaptable to diverse branding and communication needs. Ideal for homepage introductions, promotional banners, or any high-impact messaging, it combines striking visuals with concise, purposeful text to encourage user engagement.",
+      "purpose_and_ideal_use_cases":"This component is perfect for creating an immediate visual impact and directing user focus to a primary message or action. It is best suited as an opening section on homepages, landing pages, or any area where a strong visual introduction is essential. Ideal use cases include product launches, campaign promotions, key announcements, and feature highlights. The Large Hero component is widely used in industries such as eCommerce, technology, travel, education, and hospitality, where visual appeal and clear messaging are important.",
+      "usage_recommendations":"To maximize the effectiveness of this component, use a high-quality, relevant image or video that aligns with the message. The headline should be concise and attention-grabbing, while the subheadline provides supporting information. The CTA button should have a clear purpose, linking to a critical next step such as 'Learn More', 'Sign Up', or 'Shop Now'. Ensure that text colors contrast well with the background to maintain readability. An overlay or adjusted image opacity can enhance text clarity against busy backgrounds.",
       "example_usage":[
-         "A technology company could use this component to introduce their latest product launch, with a headline describing the product and a background image of the product in use.",
-         "An online course platform might use the hero section to promote new courses, with a compelling headline and a 'Get Started' button that links to a course catalog.",
-         "A restaurant website might use this section to showcase signature dishes with high-quality images and a call-to-action button leading to an online reservation system."
+         "A technology company could utilize this hero section to highlight a new product with a headline describing its core feature, a background image showcasing the product in action, and a 'Get Started' button that links to the product page.",
+         "An online learning platform could use this component to promote new courses with a headline like 'Expand Your Skills', a subheadline describing available courses, and a CTA linking to the course catalog.",
+         "A hospitality website might showcase scenic images with this hero section, encouraging users to 'Book Your Stay' or 'Explore Destinations'. The CTA button could lead to a reservation or booking page."
       ],
       "usage":[
          "header",
@@ -26,18 +26,20 @@
                   "text":"Discover amazing features and boost your productivity"
                },
                "media":{
-                  "link":"https://img.freepik.com/photos-gratuite/pizza-savoureuse-proximite-ingredients_23-2147772080.jpg?t=st=1729688313~exp=1729691913~hmac=ab9916272f839a3ba194be9f8ea48bc4ac6cc0f22facb4454cfe4636050d4046&w=1800",
+                  "link":"https://picsum.photos/1200/622",
                   "type":"image"
                },
                "action":{
                   "text":{
-                     "text":"Get Started"
+                     "text":"Get Started",
+                     "color":"#000000"
                   },
                   "url":"https://www.google.tn"
                }
             }
          }
       },
+      "aiInstruction":"When implementing this component, select a high-quality background image or video relevant to the user’s industry and message. Adjust the image opacity or add a soft overlay to enhance text visibility if necessary. The headline should be concise, ideally between 3-5 impactful words, summarizing the core value or offering. The subheadline should provide context or supporting details in a smaller font size. Ensure that the CTA button is clearly visible and styled with a contrasting color that aligns with brand guidelines. Configure the CTA text according to the intended user action, such as 'Learn More', 'Get Started', or 'Sign Up'.",
       "content":[
          {
             "name":"Headline Text",
@@ -65,9 +67,9 @@
    {
       "id":"hero",
       "title":"Hero Section with Background Image and Action Button",
-      "detailed_description":"This component is a visually prominent hero section, commonly used at the top of webpages to immediately engage users. It includes four primary elements: a background image that sets the visual theme, a bold headline that conveys the main message, a subheadline for supporting information, and a call-to-action button to guide user interaction. The background image typically spans the full width of the section, making it an eye-catching element. The headline and subheadline are text overlays on the image, carefully placed for maximum visibility. The action button, typically styled with a clear contrast, encourages users to take immediate action, such as clicking to learn more, make a purchase, or sign up for a service.",
-      "purpose_and_ideal_use_cases":"The main purpose of this component is to create a strong visual introduction and direct users to engage with the site or product quickly. It is ideal for landing pages, homepage banners, product launch pages, and campaign microsites where capturing immediate attention is critical. This component works well in industries like technology, e-commerce, travel, SaaS, and any content-driven websites that rely on strong visuals and clear calls-to-action to convert users.",
-      "usage_recommendations":"To use this component effectively, the background image should be high-quality and relevant to the message or product being promoted. The headline should be brief but impactful, and the subheadline should provide necessary context. Make sure the action button is clearly visible and actionable, with a color that stands out against the background. This component works best in the header section of a webpage, as the hero component should be the first thing users see upon visiting. Adjust the image opacity or add an overlay if the text needs better contrast for readability.",
+      "detailed_description":"This component serves as a visually engaging hero section, usually located at the top of webpages to capture the user’s attention immediately. It comprises a full-width background image that sets the visual tone, a bold headline to communicate the main message, a subheadline to add supporting context, and a prominent call-to-action button to encourage user interaction. The text elements (headline and subheadline) overlay the background image, positioned strategically to ensure readability and impact. The action button is styled to stand out, often using contrasting colors, to prompt users to take a specific action, such as learning more, signing up, or making a purchase.",
+      "purpose_and_ideal_use_cases":"This component is designed to create an impactful first impression and direct users toward key actions quickly. It’s ideal for homepage headers, product launch banners, campaign landing pages, and other high-visibility sections where immediate engagement is essential. Recommended for industries like technology, e-commerce, travel, SaaS, and media platforms where strong visuals and clear calls-to-action are central to user conversion.",
+      "usage_recommendations":"To optimize this component, use a high-resolution background image relevant to the message or product. Keep the headline concise but impactful, with a subheadline that provides context or additional information. Ensure that the action button is prominently visible, with a color that contrasts against the background for easy identification. For text readability, consider adding a color overlay to the image or adjusting its opacity. This hero component is best placed in the header of a webpage to ensure it’s the first element users interact with upon arrival.",
       "example_usage":[
          "A fintech startup could use this hero section with the headline 'Revolutionize Your Finances' and a subheadline 'All-in-one financial management tool for modern users'. The action button might read 'Get Started', and the background image could feature a sleek, professional visual of their platform in use.",
          "A travel agency could use this component to promote vacation deals. The headline could be 'Discover Exotic Destinations' with a subheadline like 'Special offers for your next adventure'. The action button could be 'Book Now', and the background could show a tropical destination.",
@@ -96,6 +98,7 @@
             }
          }
       },
+      "aiInstruction":"When generating this component, select a visually engaging background image relevant to the user’s product or service. Adjust image opacity or add a subtle overlay if needed to enhance text readability. For the headline, aim for a strong, concise message, ideally 3-5 words, that summarizes the core value proposition. Use a subheadline to provide supporting context. The call-to-action button should be clearly visible and accessible, with text like 'Get Started' or 'Learn More' based on the intended action. Ensure button styling contrasts against the background for easy visibility.",
       "content":[
          {
             "name":"Headline Text",
@@ -126,13 +129,13 @@
    {
       "id":"small_media_card_collection",
       "title":"Small Media Card Collection with Scrollable Cards and Interactive Features",
-      "detailed_description":"The Small Media Card Collection component is designed to display a series of user-interactive cards in a horizontally scrollable layout. Key elements include a headline introducing the topic or category, visual cards showcasing different features or content, and scroll buttons for easy navigation. Each card can feature a title, background image, optional footer text, and action links for further exploration. This component is ideal for presenting multiple content items in a visually engaging and navigable format, such as case studies, research highlights, products, or services.",
-      "purpose_and_ideal_use_cases":"The primary goal of this component is to allow users to explore various content items without overwhelming the interface. It's perfect for pages that need to showcase multiple highlights, services, or product previews. This component works especially well in industries like technology, healthcare, education, or any sector that relies on presenting rich information, multimedia, or research insights.",
-      "usage_recommendations":"To effectively use this component, cards should be visually appealing and provide useful information or calls to action. The card background images should be high quality and thematically consistent with the content being showcased. The component's headline should clearly reflect the overall topic, while each card can include a brief description or action link. Scroll buttons should be easy to locate and accessible, encouraging user interaction with the content. This component is best placed in a dedicated section where users can quickly browse multiple content items.",
+      "detailed_description":"The Small Media Card Collection component is designed to showcase multiple content items within a horizontally scrollable interface. Each card can contain a background image, a title, optional footer text, and a link for further exploration, making it ideal for visually engaging content displays. Users can scroll through the cards to view additional items, and navigation arrows may be provided for ease of interaction. This component is highly adaptable, suitable for content previews such as research highlights, case studies, product teasers, or service offerings.",
+      "purpose_and_ideal_use_cases":"This component is best suited for pages that need to present a large quantity of visual information in a compact, user-friendly format. Ideal for use in industries like technology, education, healthcare, and arts, where various content categories or items need to be highlighted without overwhelming the viewer. Common use cases include displaying product lines, showcasing research articles, highlighting portfolio pieces, or previewing featured blog posts.",
+      "usage_recommendations":"Ensure each card has a high-quality background image that aligns with the content theme. Headlines should concisely convey the key message or topic of the card. Use the footer text for brief descriptions or supporting details. Keep navigation intuitive by ensuring the scroll buttons are visible and easy to use. This component is typically positioned within a dedicated section of the page, allowing users to browse through the cards to discover more content.",
       "example_usage":[
-         "A university website could use this component to showcase various research papers or projects from different departments, with each card linking to a detailed page about a specific research project.",
-         "A digital marketing agency might display case studies of past client campaigns, each card featuring a client logo, a brief description, and a link to the full case study.",
-         "An art gallery could use the Small Media Card Collection to highlight featured artists or exhibitions, with each card showing artwork, a brief bio, and a link to purchase or view more details."
+         "A university website could use this component to highlight recent research projects, with each card representing a project from different departments, linking to detailed descriptions.",
+         "A digital marketing agency could showcase case studies for past campaigns, with each card showing a client logo, a short description, and a link to a full case study.",
+         "An art gallery might use this to feature individual artists or collections, each card displaying a sample artwork and linking to additional details or purchase options."
       ],
       "usage":[
          "header",
@@ -226,6 +229,7 @@
             }
          }
       },
+      "aiInstruction":"For this component, dynamically generate a series of scrollable media cards based on the specified content category. Choose high-quality images that resonate with the topic or items being displayed. Limit the title to a brief, informative text that conveys the card’s purpose. Add footer text when applicable to provide additional context or descriptions. Ensure that each card has a functional link in the action field for further exploration. Navigation buttons should be accessible and prominent, allowing users to easily scroll through the collection. Tailor the number of cards to fit the viewport or user preferences.",
       "content":[
          {
             "name":"Background Color",
@@ -270,12 +274,12 @@
    {
       "id":"Feature_22",
       "title":"Feature Section with Main Action and Social Links",
-      "detailed_description":"The Feature Section with Main Action and Social Links is designed to showcase key features of a product or service in an engaging format. It consists of a headline and subheadline that introduce the product, a primary action button to drive user interaction, a list of features with icons and descriptions, and additional social media or external action links. The main elements of this component include: **Headline**, **Subheadline**, **Primary Action Button**, **Feature List**, and **Additional Action Links**.",
-      "purpose_and_ideal_use_cases":"The purpose of this component is to provide an organized and visually appealing way to present the benefits and key features of a product or service. It is ideal for product landing pages, SaaS platforms, and websites that need to showcase feature sets and encourage users to take action, such as signing up or starting a trial.",
-      "usage_recommendations":"To use this component effectively, ensure that the headline and subheadline are clear and concise. The features listed should represent the strongest selling points and be complemented by appropriate icons. The primary action button should stand out and lead to a conversion-focused page. The additional action links can include integrations with external tools or social platforms that support user engagement beyond the website.",
+      "detailed_description":"The Feature Section with Main Action and Social Links component is designed to effectively present the main features and benefits of a product or service in an organized, visually engaging format. It includes a headline and subheadline to introduce the product, a primary call-to-action button to encourage user engagement, a feature list with icons and descriptions to highlight key selling points, and a set of additional links for social media or external integrations. The main structure of this component includes: **Headline**, **Subheadline**, **Primary Action Button**, **Feature List** (each feature with an icon, title, and description), and **Additional Action Links** for external platforms or integrations.",
+      "purpose_and_ideal_use_cases":"This component is ideal for product landing pages, SaaS platforms, and websites that aim to showcase a concise set of benefits or features, leading users toward a specific action like signing up or starting a trial. It’s especially useful for businesses seeking to highlight unique selling points and provide quick, accessible links to relevant social media or third-party integrations.",
+      "usage_recommendations":"For optimal usage, keep the headline and subheadline concise and focused on the core value proposition. Select feature icons that visually reinforce the message, and ensure each feature description is clear and to the point. The primary action button should be prominently styled to guide users to a conversion-focused page, such as a sign-up or demo. Social links and additional icons should be relevant to the brand and support user engagement outside of the website.",
       "example_usage":[
-         "A SaaS company showcasing its new productivity software with features such as 'Easy Collaboration' and 'Cross-Platform Support' highlighted with icons for Slack, Android, and Windows integration.",
-         "An e-commerce platform introducing its latest tools for developers with features like 'Built on Bootstrap' and 'HTML5 Support,' encouraging users to get started with a free trial."
+         "A SaaS company showcasing its new productivity software, with features like 'Easy Collaboration' and 'Cross-Platform Support' using icons for Slack, Android, and Windows integration.",
+         "An e-commerce platform introducing its latest tools for developers, highlighting features such as 'Built on Bootstrap' and 'HTML5 Support' with a 'Get Started' button for a free trial."
       ],
       "usage":[
          "body",
@@ -295,7 +299,7 @@
                   "text":{
                      "text":"Get Started"
                   },
-                  "url":"www.google.fr"
+                  "url":"https://www.google.fr"
                },
                "features":[
                   {
@@ -350,6 +354,7 @@
             }
          }
       },
+      "aiInstruction":"When configuring this component, use a headline and subheadline that summarize the product’s main benefits in a compelling way. Populate the feature list with 2-4 key selling points, each paired with an icon that visually represents the feature. Ensure each feature description is concise and complements the main value proposition. Style the primary action button to be visually distinct and guide users toward an important action (e.g., 'Get Started', 'Learn More'). Add relevant social or external links with recognizable icons to facilitate further engagement on platforms such as Slack, Android, or Windows if applicable to the brand’s ecosystem.",
       "content":[
          {
             "name":"Background Color",
@@ -410,19 +415,19 @@
    },
    {
       "id":"FeatureGrid",
-      "title":"Feature Grid with Images and Descriptions",
-      "description":"A grid layout displaying features with images and optional descriptions, customizable number of columns.",
-      "detailed_description":"The Feature Grid component is designed to display a grid of key features, each containing a title, description, and icon. This grid can have a customizable number of columns based on screen size or design needs. Each feature is arranged in a visually appealing, responsive layout, allowing for easy readability and quick scanning. Some features can also include an optional action button, which leads users to relevant pages or actions. The main elements of the component include a headline and subheadline at the top, followed by a series of feature blocks. Each block consists of an icon, title, and description. The layout is flexible and adjusts to different screen sizes, ensuring a smooth user experience.",
-      "purpose_and_ideal_use_cases":"The purpose of this component is to highlight multiple features or services in a concise, organized format. It works best on landing pages, product overview sections, or service introduction pages where users need to quickly grasp what the business or product offers. The grid layout is especially effective for tech companies, SaaS products, or any service-oriented industry that needs to showcase a variety of features or benefits. It can also be used on 'About Us' or 'Why Choose Us' pages to differentiate a company's offerings from competitors.",
-      "usage_recommendations":"To maximize the effectiveness of this component, ensure that the grid is not overloaded with too many features at once. Stick to 3-6 key features per grid to avoid overwhelming the user. Use distinct icons for each feature to provide quick visual cues, and ensure that descriptions are concise yet informative. If using action buttons, make sure the calls-to-action are clear and lead users to relevant, well-designed pages. Additionally, maintain a consistent color scheme that aligns with your brand identity for a cohesive look.",
+      "title":"Feature Grid with Icons and Descriptions",
+      "description":"A grid layout that presents a collection of features with icons, titles, and descriptions, supporting a customizable number of columns.",
+      "detailed_description":"The Feature Grid component is structured to display a grid of essential features or services, each represented by a title, description, and icon. This layout allows customization of the number of columns, adjusting to screen sizes or design requirements. Each feature is showcased in a clear, organized block, with optional action buttons leading to further information. The component begins with a headline and subheadline, followed by the feature grid, where each feature block contains a title, description, and icon. The responsive grid layout ensures an intuitive and accessible user experience across devices.",
+      "purpose_and_ideal_use_cases":"This component is designed to highlight a set of core features or services in a well-organized and visually accessible manner. It is ideal for landing pages, product feature sections, or service overview pages where users need a quick understanding of a business's offerings. Suitable for industries like technology, healthcare, education, and SaaS, this component enables clear communication of benefits, differentiating the company or product in a competitive market. Additionally, it works well on 'About Us' pages to emphasize company strengths or values.",
+      "usage_recommendations":"To effectively use this component, keep the number of features manageable—3 to 6 items per grid to avoid clutter. Use distinct icons for each feature to create visual variety, and keep descriptions concise and informative. Action buttons, if included, should have clear calls-to-action, guiding users to relevant pages. Maintain a consistent style and color scheme that aligns with the brand for a cohesive presentation. Consider adjusting column count based on screen size for an optimized user experience.",
       "usage":[
          "body",
          "single_page"
       ],
       "example_usage":[
-         "A healthcare platform could use this component to showcase services such as 'Virtual Consultations,' 'Prescription Delivery,' and '24/7 Emergency Support.'",
-         "A real estate website might use this grid to highlight property features like 'Swimming Pool,' 'Gym Access,' and 'Nearby Schools,' allowing potential buyers to see the property's advantages at a glance.",
-         "An educational platform could leverage this component on their course overview page to emphasize features like 'Interactive Lessons,' 'Expert Tutors,' and 'Self-Paced Learning,' encouraging users to enroll."
+         "A healthcare platform might use this component to showcase services like 'Virtual Consultations,' 'Prescription Delivery,' and '24/7 Emergency Support.'",
+         "A real estate website could use this grid to highlight property amenities such as 'Swimming Pool,' 'Gym Access,' and 'Nearby Schools,' helping potential buyers understand the property's features.",
+         "An educational platform could use this component on their course overview page to feature 'Interactive Lessons,' 'Expert Tutors,' and 'Self-Paced Learning,' encouraging user engagement."
       ],
       "default_data":{
          "type":"FeatureGrid",
@@ -517,6 +522,7 @@
             }
          }
       },
+      "aiInstruction":"When setting up this component, select 3 to 6 core features that represent the main benefits or services. Choose icons that visually reinforce each feature, and keep the descriptions brief and to the point. If available, include action buttons with clear calls-to-action, leading users to relevant sections or additional details. Adjust the number of columns based on screen size (e.g., 3 columns on desktops, 2 on tablets, 1 on mobile) to ensure optimal readability. Ensure the color scheme aligns with the brand’s look and feel for a unified presentation.",
       "content":[
          {
             "name":"Background Color",
@@ -562,18 +568,18 @@
       "id":"mediaCard",
       "title":"Media Card with Customizable Layout",
       "description":"A media card component featuring a headline, subheadline, description, action button, and an image with customizable position and size.",
-      "detailed_description":"The Media Card component is designed to present engaging visual and textual content in a structured format. It typically includes several key visual elements: a headline that grabs attention, a subheadline that provides additional context, and a descriptive paragraph elaborating on the main message. The action button encourages user interaction, directing visitors to take a specific action, such as signing up or learning more. Additionally, the media element (an image or video) can be positioned to the left or right, enhancing the layout flexibility while allowing for a harmonious balance between text and visuals. The customizable nature of this component allows for variations in color, positioning, and size, making it adaptable to different design aesthetics and branding requirements.",
-      "purpose_and_ideal_use_cases":"The main purpose of the Media Card is to effectively communicate key messages alongside visually appealing content. It is ideal for use in marketing landing pages, product showcases, or any section of a website where a clear message and visual impact are essential. This component is particularly effective in industries such as technology, e-commerce, education, and non-profit organizations, where highlighting a product, service, or mission statement is crucial.",
-      "usage_recommendations":"When using the Media Card, ensure that the headline is concise and attention-grabbing. The subheadline should provide additional context without overwhelming the main message. Keep the description brief yet informative, focusing on the key benefits or features. Utilize high-quality images that are relevant to the content and maintain a consistent color scheme to align with your branding. Position the media element thoughtfully to enhance the visual hierarchy without detracting from the text. This component works best in sections where visual engagement is key, such as hero sections or promotional areas.",
+      "detailed_description":"The Media Card component is designed to present visually engaging content in a structured and flexible layout. It includes a primary headline to capture attention, a subheadline for context, a descriptive paragraph to elaborate on the main message, and a prominent action button to encourage user engagement. The media element (image or video) can be positioned to either the left or right of the text, allowing for dynamic layout options. This component offers customization in terms of color scheme, media size, and positioning, making it adaptable to different design requirements. It is well-suited for sections that need a balance of visuals and text to communicate a message effectively.",
+      "purpose_and_ideal_use_cases":"The primary purpose of the Media Card is to convey key messages alongside an appealing visual element, making it ideal for landing pages, marketing sections, or product introductions. It is especially useful for industries that rely on a strong visual narrative, such as technology, e-commerce, education, and non-profits. The component can effectively highlight product features, organizational values, or promotional messages, and is well-suited for hero sections or introductory areas of a website.",
+      "usage_recommendations":"For effective use, ensure that the headline is impactful and aligns with the brand’s tone. The subheadline should enhance the main message without overshadowing it. Keep the description concise, focusing on essential information or benefits. Use high-quality, relevant media to support the message visually. Position the media element (left or right) based on visual flow and the layout of surrounding content. Consistent colors and styles will ensure a cohesive look, reinforcing the brand’s visual identity. This component works best in sections requiring both visual engagement and informative content.",
       "usage":[
          "header",
          "body",
          "single_page"
       ],
       "example_usage":[
-         "A tech startup showcases its innovative software solutions with a Media Card that includes a headline like 'Revolutionizing Your Workflow,' a subheadline emphasizing key features, and a prominent action button that says 'Get Started'.",
-         "An online retail store features a new collection with a Media Card highlighting 'Fall Fashion Trends', including a description of the collection's styles alongside an appealing image of the products, and a call-to-action button labeled 'Shop Now'.",
-         "A non-profit organization uses a Media Card on its donation page with a headline stating 'Make a Difference Today', followed by a subheadline describing the impact of donations, a supportive description, and an action button that encourages users to 'Donate Now'."
+         "A tech startup showcases its innovative software solutions with a Media Card titled 'Revolutionizing Your Workflow,' accompanied by a description of key features and an action button labeled 'Get Started'.",
+         "An online retail store introduces a new product line with a Media Card labeled 'Explore Fall Trends', with a description highlighting unique styles, an image of the collection, and a 'Shop Now' button.",
+         "A non-profit organization uses a Media Card on its donation page with a headline 'Join Our Mission', followed by a message about the impact of contributions, and a 'Donate Now' button."
       ],
       "default_data":{
          "type":"MediaCard",
@@ -603,6 +609,7 @@
             }
          }
       },
+      "aiInstruction":"When generating this component, select a headline that encapsulates the core message. Use a concise subheadline for additional context. Choose a brief description that highlights key details or benefits. Position the media element (image or video) on either the left or right, depending on page layout and design preferences. Ensure the image is high quality and relevant. Style the action button prominently to encourage interaction, with clear text that aligns with the intended action (e.g., 'Join Our Mission', 'Learn More'). Adjust color schemes and font sizes to maintain brand consistency and readability.",
       "content":[
          {
             "name":"Background Color",
@@ -648,14 +655,14 @@
    {
       "id":"Content_18",
       "title":"Content Section with Features and Action Button",
-      "detailed_description":"This component is designed to present key information about a product or service in an appealing way. It includes a headline that captures attention, a subheadline for additional context, and a primary action button that encourages user interaction. The features section highlights three distinct benefits or characteristics of the offering, each with a title and descriptive text explaining its value.",
-      "purpose_and_ideal_use_cases":"The 'Content Section with Features and Action Button' is ideal for websites looking to showcase specific features of their products or services. It is well-suited for SaaS platforms, e-commerce sites, and service-based businesses where clarity of benefits is crucial for conversion. This component can be effectively used on landing pages, product detail pages, or as part of a promotional campaign to capture user interest.",
-      "usage_recommendations":"Integrate this section towards the end of a landing page to summarize key selling points. Ensure that the action button directs users to a relevant page, such as a support section, product demo, or contact form. Colors and texts should harmonize with the overall brand aesthetic to maintain visual consistency.",
+      "detailed_description":"This component is crafted to showcase the core features of a product or service in a visually structured way. It includes a primary headline to capture the user's attention, a subheadline for additional context, and a key action button to drive engagement. The features section highlights three specific benefits or attributes, each represented by a title and accompanying description to explain its value. This layout is designed to provide a clear, concise overview of the offering’s strengths, encouraging users to take action.",
+      "purpose_and_ideal_use_cases":"The Content Section with Features and Action Button is ideal for pages where highlighting the key benefits of a product or service is critical to driving user engagement. Suitable for SaaS platforms, e-commerce sites, and service-based businesses, this component can be used effectively on landing pages, product detail pages, or as a summary section on promotional pages. It is particularly useful for summarizing value propositions that may assist in user decision-making or conversion.",
+      "usage_recommendations":"Position this section towards the conclusion of a landing page to reinforce the key benefits and motivate users to engage further. Ensure that the action button is linked to a relevant follow-up page, such as a support section, product demo, or inquiry form. Select colors and fonts that align with the brand’s design guidelines for a cohesive look and feel. Feature titles and descriptions should be concise yet informative, emphasizing the most attractive aspects of the product or service.",
       "example_usage":[
-         "On a tech startup website, this section could showcase features like 'Cutting-Edge Technology', '24/7 Customer Support', and 'Affordable Pricing', with a 'Get Help' button leading to a contact form for inquiries.",
-         "For a digital marketing agency, this section could highlight benefits such as 'Custom Strategies', 'Proven Results', and 'Expert Team', with an action button that directs potential clients to a free consultation booking page.",
-         "In a fitness app, this section could emphasize features like 'Personalized Workouts', 'Progress Tracking', and 'Community Support', encouraging users to click the 'Get Help' button to access user tutorials and guides.",
-         "On an online course platform, this section could present highlights such as 'Flexible Learning', 'Expert Instructors', and 'Certification', with a 'Get Help' button that takes users to a FAQs page for common inquiries."
+         "On a tech startup website, this section could highlight features like 'Cutting-Edge Technology', '24/7 Customer Support', and 'Affordable Pricing', with a 'Get Help' button leading to a contact form for inquiries.",
+         "A digital marketing agency might use this section to feature 'Custom Strategies', 'Proven Results', and 'Expert Team', with an action button that directs potential clients to a consultation booking page.",
+         "For a fitness app, this section could showcase benefits like 'Personalized Workouts', 'Progress Tracking', and 'Community Support', with a 'Get Help' button linking to user tutorials and guides.",
+         "An online course platform might use this section to present 'Flexible Learning', 'Expert Instructors', and 'Certification Options', with a 'Get Help' button that directs users to a FAQs page."
       ],
       "usage":[
          "body",
@@ -675,7 +682,7 @@
                   "text":{
                      "text":"Get Help"
                   },
-                  "url":"www.google.fr"
+                  "url":"https://www.google.fr"
                },
                "features":[
                   {
@@ -706,6 +713,7 @@
             }
          }
       },
+      "aiInstruction":"When configuring this component, use a clear and engaging headline that resonates with the target audience's needs. The subheadline should offer a brief summary or additional context for the headline. For each feature, select titles that highlight the most attractive benefits, accompanied by concise descriptions. Position the action button prominently and ensure it leads to a helpful or conversion-focused page (e.g., 'Get Help' should link to a support or contact form). Align colors, font styles, and spacings with the brand's aesthetic to ensure visual consistency across the page.",
       "content":[
          {
             "name":"Background Color",
@@ -750,13 +758,13 @@
    {
       "id":"Header_15",
       "title":"Header Section with Call-to-Action",
-      "detailed_description":"This header section features a bold and clear design aimed at capturing the attention of website visitors. It includes three primary elements: a headline, a subheadline, and a call-to-action (CTA) button. The headline, displayed in a large, prominent font, introduces the main message or offering, using a high-contrast color to stand out. Below it, the subheadline provides additional context or a description in a slightly smaller, lighter-colored font. Finally, the CTA button is placed below the text elements, inviting the user to take immediate action with a strong color contrast for the button background and text.",
-      "purpose_and_ideal_use_cases":"The primary purpose of this component is to serve as an introductory section on landing pages, marketing websites, or any page where you need to quickly communicate your value proposition and prompt users to take action. It's ideal for SaaS companies, startup landing pages, personal portfolios, and product launch sites where a clear and compelling message is critical. The simplicity of the design also suits industries where direct, user-friendly engagement is important, such as tech, design, and digital marketing.",
-      "usage_recommendations":"To use this component effectively, ensure the headline is short but impactful, summarizing the main offering or message in a few words. The subheadline should clarify the value proposition or offer more detail without overwhelming the user with too much text. The CTA button should stand out visually with a vibrant color and concise text that prompts immediate action (e.g., 'Sign Up', 'Learn More', 'Get Started'). Use this component at the top of the page to engage users from the moment they land on your site.",
+      "detailed_description":"This header section features a bold, clear design aimed at capturing visitor attention immediately. It includes a headline, a subheadline, and a call-to-action (CTA) button. The headline is large and prominent, designed to convey the main message or offering in a high-contrast color for maximum visibility. Below it, the subheadline provides supporting information, using a slightly smaller and lighter-colored font to maintain hierarchy. The CTA button, positioned below the text, invites users to take immediate action and is styled with a contrasting color to ensure it stands out.",
+      "purpose_and_ideal_use_cases":"The primary purpose of this component is to introduce the main value proposition or service at the top of a landing or homepage, prompting users to take immediate action. This header is ideal for SaaS platforms, digital product launches, startup websites, personal portfolios, and any other pages where communicating a clear, compelling message upfront is essential. It is particularly suited for industries like tech, design, and digital marketing, where direct engagement is crucial.",
+      "usage_recommendations":"To maximize effectiveness, keep the headline concise but impactful, capturing the essence of the offering in a few words. Use the subheadline to provide context or highlight the benefits without overloading with text. The CTA button should be visually distinct, using vibrant colors and actionable text (e.g., 'Create an Account', 'Learn More', 'Get Started') that aligns with the desired user interaction. Place this component at the top of the page to engage users as soon as they land on the site.",
       "example_usage":[
-         "A project management app: 'Effortless Collaboration' as the title, 'Our platform helps you manage projects efficiently with intuitive tools.' as the subheadline, and 'Try for Free' as the CTA button.",
-         "An online coaching service: 'Transform Your Life' as the title, 'Access personalized sessions with our expert coaches.' as the subheadline, and 'Book Your Session' as the CTA button.",
-         "An online store: 'Discover Our Exclusive Offers' as the title, 'Enjoy incredible discounts on your favorite products.' as the subheadline, and 'Shop Now' as the CTA button."
+         "A project management app might use 'Effortless Collaboration' as the title, 'Our platform helps you manage projects efficiently with intuitive tools.' as the subheadline, and 'Try for Free' as the CTA button.",
+         "An online coaching service could use 'Transform Your Life' as the title, 'Access personalized sessions with our expert coaches.' as the subheadline, and 'Book Your Session' as the CTA button.",
+         "An e-commerce site might use 'Discover Our Exclusive Offers' as the title, 'Enjoy incredible discounts on your favorite products.' as the subheadline, and 'Shop Now' as the CTA button."
       ],
       "usage":[
          "header",
@@ -770,10 +778,10 @@
                   "text":"Build Your Own Site like a Lego Constructor"
                },
                "subheadline":{
-                  "text":"We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily."
+                  "text":"We have created a new product that will help designers, developers, and companies create websites for their startups quickly and easily."
                },
                "action":{
-                  "url":"www.google.fr",
+                  "url":"https://www.google.fr",
                   "text":{
                      "text":"Create an Account"
                   }
@@ -781,6 +789,7 @@
             }
          }
       },
+      "aiInstruction":"When generating this component, choose a headline that succinctly conveys the main value or unique aspect of the product or service. The subheadline should provide a brief but supportive description that complements the headline. Style the CTA button to be visually prominent with a vibrant color, and select actionable text that aligns with the desired next step (e.g., 'Create an Account', 'Sign Up', 'Learn More'). Ensure color contrast among headline, subheadline, and CTA for clear visual hierarchy, and align the overall design with brand aesthetics for consistency.",
       "content":[
          {
             "name":"Background Color",
@@ -884,6 +893,7 @@
             }
          }
       },
+      "aiInstruction":"When generating this component, select an impactful headline that conveys the main value proposition or theme. Include a concise description that introduces the overall message of the section. Use high-quality, relevant imagery for the central image element to enhance visual engagement. For the feature blocks, provide up to four icons with corresponding titles and brief descriptions to highlight key benefits. Align icons and text with the brand’s color scheme for consistency. Position this component at a prominent location on the page, ideally after a hero section or as a key feature section on a landing page.",
       "content":[
          {
             "name":"Background Color",
@@ -1016,6 +1026,7 @@
             }
          }
       },
+      "aiInstruction":"For this component, ensure that the headline and subheadline clearly communicate the main value proposition. Choose icons that visually align with each feature, and keep the descriptions concise to improve readability. The background can be customized with either a color or image to match the brand aesthetic. Position the call-to-action buttons prominently with a color that contrasts the background to encourage user interaction. Arrange features in a grid layout and ensure spacing for easy readability. Place this component near the top of the page, preferably in a section where users can quickly understand key benefits.",
       "content":[
          {
             "name":"Headline Text",
@@ -1098,7 +1109,7 @@
                         "text":"Retina Ready"
                      },
                      "description":{
-                        "text":"Description of Retina Ready."
+                        "text":"Supports high-resolution displays for a clear and vibrant user experience."
                      }
                   },
                   {
@@ -1106,7 +1117,7 @@
                         "text":"Responsive Layout"
                      },
                      "description":{
-                        "text":"Of course we haven't forgotten about the responsive layout. Full mobile support for Startup Framework works fine on devices supporting Retina Display."
+                        "text":"Ensures full mobile support and smooth functionality across devices."
                      }
                   },
                   {
@@ -1114,13 +1125,14 @@
                         "text":"Full Control"
                      },
                      "description":{
-                        "text":"Easily change and tweak your content when you need to, however you want. No more third-party vendor lock-in. Startup Framework works fine on devices supporting Retina Display."
+                        "text":"Gives you complete freedom to customize content as needed, without restrictions."
                      }
                   }
                ]
             }
          }
       },
+      "aiInstruction":"When generating this component, position the image and feature list side-by-side for a balanced layout. Customize the headline to be bold and concise, clearly relating to the key features. Use brief, direct descriptions for each feature to improve readability. Ensure the section maintains visual balance across different screen sizes, adjusting the image size or feature alignment as needed. Apply a high-quality image that aligns with the intended message or brand aesthetics, and keep feature titles prominent with distinct icons or symbols that represent each feature.",
       "content":[
          {
             "name":"Background Color",
@@ -1208,6 +1220,7 @@
             }
          }
       },
+      "aiInstruction":"When generating this component, ensure the headline is bold and large to grab attention. Align the subheadline and description text below the headline, maintaining brevity to avoid overwhelming the viewer. The action buttons should have clear, engaging labels, with one button styled as primary (filled) and the other as secondary (outlined). Position the media (image) on the right side, using a high-quality, relevant image to visually support the message. Optimize the layout for responsiveness, ensuring the image and text remain balanced across different screen sizes. Adjust button colors to match the brand's theme for visual coherence.",
       "content":[
          {
             "name":"Background Color",
@@ -1250,13 +1263,13 @@
    {
       "id":"callToAction",
       "title":"Call-to-Action Section with Social Media Icons",
-      "detailed_description":"The Call-to-Action Section with Social Media Icons is designed to encourage user engagement and interaction through various social media platforms. The section features a central headline to grab attention and is followed by a neatly arranged set of recognizable social media icons. These icons serve as clickable links, providing easy access to different social media platforms.\n- **Headline**: Positioned at the top, the headline serves as a call-to-action, encouraging users to follow or engage with the brand on social media.\n- **Social Media Icons**: Below the headline, a row of icons for platforms such as Twitter, Facebook, Instagram, Pinterest, Behance, and Dribbble is displayed. Each icon is clickable and linked to the respective social media page. The design is responsive, ensuring that the layout adjusts seamlessly on different devices, while the color scheme can be customized to match the brand's visual identity.",
-      "purpose_and_ideal_use_cases":"The primary goal of this component is to boost social media engagement by offering users easy access to the brand's social media channels. It is especially effective in areas where users are prompted to take action, such as landing pages, website footers, or as part of dedicated social media sections. The component is ideal for industries such as e-commerce, digital marketing, content creation, and creative agencies.",
-      "usage_recommendations":"For optimal results, place this component in visible areas like the footer or near interaction points (e.g., after blog posts). Customize the headline to be relevant and actionable, ensuring social media links are active and lead to managed accounts. Brands can also customize icon colors to align with their visual identity.",
+      "detailed_description":"The Call-to-Action Section with Social Media Icons is designed to encourage user engagement and interaction through various social media platforms. This section features a prominent headline inviting users to follow or engage with the brand on social media. Below the headline, a row of recognizable social media icons is arranged neatly, each icon serving as a clickable link that provides easy access to the respective social media page.\n\n- **Headline**: Positioned at the top, the headline captures user attention, encouraging them to connect with the brand across social platforms.\n- **Social Media Icons**: Below the headline, the icons for platforms such as Twitter, Facebook, Instagram, Pinterest, Behance, and Dribbble are displayed. Each icon is clickable and links directly to the associated social media page. The design is responsive, ensuring seamless layout adjustments on different devices, while the color scheme can be customized to align with the brand's visual identity.",
+      "purpose_and_ideal_use_cases":"The primary purpose of this component is to increase social media engagement by providing users with quick access to the brand's social media channels. It is especially effective on landing pages, website footers, or as part of dedicated social media sections where users are prompted to take action. This component is ideal for industries like e-commerce, digital marketing, content creation, and creative agencies.",
+      "usage_recommendations":"For best results, place this component in visible areas like the footer or near other interaction points (e.g., after blog posts or product pages). Customize the headline to be relevant and actionable, ensuring social media links are active and direct to official brand accounts. Brands can also adjust the icon colors to fit their visual identity.",
       "example_usage":[
-         "A fashion blog using the headline 'Stay Connected with Us' alongside Instagram, Pinterest, and Twitter icons, encouraging readers to follow for updates.",
-         "An online store featuring 'Follow Us for Exclusive Deals' with Facebook, Instagram, and Twitter icons for promotions.",
-         "A creative portfolio website with 'See Our Latest Projects' and icons for Behance, Dribbble, and Instagram to showcase design work."
+         "A fashion blog with the headline 'Stay Connected with Us' and icons for Instagram, Pinterest, and Twitter, encouraging readers to follow for updates.",
+         "An online store featuring 'Follow Us for Exclusive Deals' with Facebook, Instagram, and Twitter icons to engage users in promotions.",
+         "A creative portfolio website using 'See Our Latest Projects' with icons for Behance, Dribbble, and Instagram to showcase design work."
       ],
       "usage":[
          "footer"
@@ -1321,6 +1334,7 @@
             }
          }
       },
+      "aiInstruction":"When generating this component, ensure the headline is prominently displayed to attract attention. Display the social media icons in a row under the headline, evenly spaced for visual balance. Each icon should link to the respective social media URL provided, ensuring accessibility and usability across devices. If customizing, match the icon color scheme to the brand's identity to maintain consistency. Icons should be large enough to be easily clickable, especially on mobile. Ensure responsiveness so that the component layout adapts seamlessly across various screen sizes.",
       "content":[
          {
             "name":"Background Color",
@@ -1350,13 +1364,13 @@
    {
       "id":"featureGrid_1",
       "title":"Feature Grid with Images and Descriptions",
-      "detailed_description":"This component presents a visually appealing grid layout featuring three distinct features, each represented by an image and a description. The layout allows for customizable backgrounds and is designed to effectively communicate the benefits of a product or service. Each feature consists of a media element (image) and a descriptive text, enhancing user engagement.",
-      "purpose_and_ideal_use_cases":"The main purpose of this component is to highlight key features of a product or service in a clear and organized manner. It is particularly effective on landing pages, product showcase pages, and services pages. This component is ideal for technology startups, SaaS companies, and any businesses looking to promote multiple features or services simultaneously.",
-      "usage_recommendations":"Ensure that the images used for the media elements are high-quality and relevant to the descriptions provided. Maintain consistency in the style and color scheme to align with the overall design of the webpage. Consider using concise and impactful descriptions to effectively convey the value of each feature.",
+      "detailed_description":"This component presents a visually appealing grid layout featuring three distinct features, each represented by an image and a descriptive text. It allows for a clear presentation of multiple product or service benefits, making it ideal for highlighting key attributes of a brand. Each feature consists of a media element (image) and a brief description that provides context and relevance. The layout supports customization in terms of background and color scheme to match brand identity.",
+      "purpose_and_ideal_use_cases":"The main purpose of this component is to showcase multiple features or benefits of a product or service in a concise and organized way. It is especially effective for landing pages, product or service introduction sections, and feature overview pages. This component is suitable for technology startups, SaaS providers, and service-oriented businesses looking to communicate several value propositions simultaneously in a visually engaging format.",
+      "usage_recommendations":"For optimal use, ensure that the images used for each media element are high-quality, visually appealing, and relevant to the accompanying description. Maintain consistency in style, color scheme, and overall design to align with the webpage's look and feel. Use concise, impactful descriptions that effectively convey the feature's value without overcrowding the layout. This component works well as part of an introductory section or as a feature summary mid-page.",
       "example_usage":[
-         "A project management tool: 'Effortless Collaboration' as the description, with an image showing team members working together.",
-         "A web development service: 'Custom Solutions' as the description, with an image of a developer coding on a laptop.",
-         "An online learning platform: 'Learn at Your Own Pace' as the description, with an image of a student studying at home."
+         "A project management tool featuring 'Effortless Collaboration' with an image of team members working together.",
+         "A web development service showcasing 'Custom Solutions' with an image of a developer coding on a laptop.",
+         "An online learning platform highlighting 'Learn at Your Own Pace' with an image of a student studying independently."
       ],
       "usage":[
          "header",
@@ -1399,6 +1413,7 @@
             }
          }
       },
+      "aiInstruction":"When generating this component, display each feature in a three-column grid layout with consistent spacing between items. Each feature should include an image (media) on top with rounded corners, followed by a description below. Ensure the images are visually engaging and align with the provided descriptions. The overall layout should be responsive, adjusting to two columns on tablet-sized screens and a single column on mobile. Customize the color scheme to match the brand's visual style, and keep the descriptions concise to maintain readability.",
       "content":[
          {
             "name":"Background Color",
@@ -1428,13 +1443,13 @@
    {
       "id":"contact_10",
       "title":"Contact Section with Image and Social Media Links",
-      "detailed_description":"This component is a contact section designed to display a headline, subheadline (usually an email address), an image, and a set of social media icons with links. The visual layout consists of a centrally placed image at the top, followed by a headline with customizable text and color, and a subheadline typically used to showcase an email. Below the subheadline, several social media icons are displayed, each styled with a custom color and linked to respective social media profiles. This component uses customizable colors for each element, providing flexibility to match the overall theme of the website.",
-      "purpose_and_ideal_use_cases":"The primary purpose of this component is to provide users with contact information and direct access to social media profiles. It is ideal for websites that want to encourage user engagement via email or social platforms. This section works best on 'Contact Us' pages, in the footer of a website, or as a call-to-action block on portfolio and business websites. It suits industries such as digital agencies, design studios, personal portfolios, and e-commerce sites, where building relationships with users through various channels is important.",
-      "usage_recommendations":"For best results, use this component at the bottom of a webpage or in the contact section. Ensure that the email and social media links are accurate and functional. Use professional or branded icons for social media links to maintain a cohesive look. Choose color schemes that contrast well with the website background to enhance readability and visual appeal.",
+      "detailed_description":"This component is a contact section designed to prominently display a headline, subheadline (typically an email address for direct inquiries), an optional brand image, and a row of social media icons with links. The layout starts with a top-centered image, followed by a headline with customizable text and color, then an email or alternative contact method as the subheadline. Below this, a set of social media icons is arranged, each icon linked to a respective social media profile, encouraging user engagement through various channels. This component provides flexibility with customizable colors for each element to align with the brand's aesthetic.",
+      "purpose_and_ideal_use_cases":"The primary purpose of this component is to facilitate user contact and foster social media engagement. It's particularly effective on 'Contact Us' pages, in footers, or as a dedicated contact block on portfolios and business websites. This component is ideal for digital agencies, creative portfolios, personal brands, and e-commerce sites, where direct communication and social media presence are key to user relationships.",
+      "usage_recommendations":"For optimal use, place this component in high-visibility areas such as the footer or dedicated contact sections. Ensure all links (email and social media) are active and correct. Use high-quality, branded social media icons to maintain a professional appearance. Choose color schemes that provide sufficient contrast with the background for readability and visual appeal.",
       "example_usage":[
-         "A portfolio website for a graphic designer could use this component to display contact information and social media links such as Behance, Dribbble, and Instagram.",
-         "A digital marketing agency could use it in the footer of their site to list their main contact email and links to their social platforms like Twitter, Facebook, and LinkedIn.",
-         "An e-commerce website could place this component on their 'Contact Us' page to allow customers to easily reach out via email or follow the brand on social media for updates."
+         "A graphic designer's portfolio website displaying contact information with social links to Behance, Dribbble, and Instagram.",
+         "A digital marketing agency using this component in their footer to list a contact email and links to Twitter, Facebook, and LinkedIn profiles.",
+         "An e-commerce brand placing this on a 'Contact Us' page, allowing customers to reach out via email or connect on social media for updates and support."
       ],
       "usage":[
          "footer",
@@ -1500,6 +1515,7 @@
             }
          }
       },
+      "aiInstruction":"When generating this component, ensure the headline and email are prominently displayed. Position the social media icons below, evenly spaced and linked correctly to the provided URLs. Use icons that match the brand's visual style (e.g., monochrome or color-coded), and adjust colors to enhance readability against the background. The image at the top can be customized or replaced with a company logo, ensuring it aligns visually with the rest of the component. Ensure responsiveness, with icons and text resizing appropriately on smaller screens.",
       "content":[
          {
             "name":"Background Color",
@@ -1567,6 +1583,7 @@
             "id":"content.body"
          }
       ],
-      "link":""
+      "link":"",
+      "aiInstruction":"This component requires some development skills to customize effectively. It is recommended for users with HTML knowledge or to be used externally by the AI assistant. Ensure that HTML tags and inline styles are correctly formatted. If assisting a user without development skills, guide them on using predefined templates or minimal customizations to achieve their desired outcome."
    }
 ]
