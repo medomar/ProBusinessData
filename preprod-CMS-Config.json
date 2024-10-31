@@ -1,6 +1,6 @@
 [
    {
-      "id":"largeHero",
+      "id":"large_hero",
       "title":"Large Hero Section with Media and Call-to-Action",
       "detailed_description":"The Large Hero component is a visually impactful section typically placed at the top of a page. It includes a full-width background image, a headline, a subheadline, and a prominent call-to-action button. The image or media acts as the backdrop for the text content, making the section suitable for homepage intros, promotional banners, or key message presentations. This hero section allows for the customization of text, media, and action links, offering flexibility to fit various brand identities and messaging needs.",
       "purpose_and_ideal_use_cases":"The Large Hero component is ideal for grabbing the attention of visitors immediately upon landing on a page. It works best as an introductory or promotional section at the top of homepages, landing pages, or any page where a strong visual and textual message needs to be conveyed. This component is commonly used across industries such as eCommerce, technology, hospitality, or any brand that wants to showcase a key message, product, or service prominently.",
