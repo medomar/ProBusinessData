@@ -1,199 +1,63 @@
 [
    {
-      "id":"small_media_card_collection",
-      "title":"Small Media Card Collection with Scrollable Cards and Interactive Features",
-      "detailed_description":"The Small Media Card Collection component is designed to display a series of user-interactive cards in a horizontally scrollable layout. Key elements include a headline introducing the topic or category, visual cards showcasing different features or content, and scroll buttons for easy navigation. Each card can feature a title, background image, optional footer text, and action links for further exploration. This component is ideal for presenting multiple content items in a visually engaging and navigable format, such as case studies, research highlights, products, or services.",
-      "purpose_and_ideal_use_cases":"The primary goal of this component is to allow users to explore various content items without overwhelming the interface. It's perfect for pages that need to showcase multiple highlights, services, or product previews. This component works especially well in industries like technology, healthcare, education, or any sector that relies on presenting rich information, multimedia, or research insights.",
-      "usage_recommendations":"To effectively use this component, cards should be visually appealing and provide useful information or calls to action. The card background images should be high quality and thematically consistent with the content being showcased. The component's headline should clearly reflect the overall topic, while each card can include a brief description or action link. Scroll buttons should be easy to locate and accessible, encouraging user interaction with the content. This component is best placed in a dedicated section where users can quickly browse multiple content items.",
+      "id":"largeHero",
+      "title":"Large Hero Section with Media and Call-to-Action",
+      "detailed_description":"The Large Hero component is a visually impactful section typically placed at the top of a page. It includes a full-width background image, a headline, a subheadline, and a prominent call-to-action button. The image or media acts as the backdrop for the text content, making the section suitable for homepage intros, promotional banners, or key message presentations. This hero section allows for the customization of text, media, and action links, offering flexibility to fit various brand identities and messaging needs.",
+      "purpose_and_ideal_use_cases":"The Large Hero component is ideal for grabbing the attention of visitors immediately upon landing on a page. It works best as an introductory or promotional section at the top of homepages, landing pages, or any page where a strong visual and textual message needs to be conveyed. This component is commonly used across industries such as eCommerce, technology, hospitality, or any brand that wants to showcase a key message, product, or service prominently.",
+      "usage_recommendations":"To make the best use of this component, ensure the background media (image or video) is high resolution and relevant to the messaging. The headline should be short and attention-grabbing, while the subheadline provides additional context. The call-to-action button should be clearly visible and linked to an important next step (e.g., sign up, explore more, or purchase). Ensure that the text contrasts well with the background to maintain readability.",
       "example_usage":[
-         "A university website could use this component to showcase various research papers or projects from different departments, with each card linking to a detailed page about a specific research project.",
-         "A digital marketing agency might display case studies of past client campaigns, each card featuring a client logo, a brief description, and a link to the full case study.",
-         "An art gallery could use the Small Media Card Collection to highlight featured artists or exhibitions, with each card showing artwork, a brief bio, and a link to purchase or view more details."
+         "A technology company could use this component to introduce their latest product launch, with a headline describing the product and a background image of the product in use.",
+         "An online course platform might use the hero section to promote new courses, with a compelling headline and a 'Get Started' button that links to a course catalog.",
+         "A restaurant website might use this section to showcase signature dishes with high-quality images and a call-to-action button leading to an online reservation system."
       ],
       "usage":[
          "header",
          "body",
          "single_page"
       ],
-      "frame":{
-         "width":null,
-         "height":null
-      },
       "default_data":{
-         "type":"small_media_card_collection",
+         "type":"large_hero",
          "properties":{
-            "backgroundColor":"#FFFFFF",
             "content":{
                "headline":{
-                  "text":"Featured Content",
-                  "color":"#000000"
+                  "text":"Welcome to Our Platform"
                },
-               "features":[
-                  {
-                     "title":{
-                        "color":"#FFFFFF",
-                        "text":"Research. Sep 12, 2024"
-                     },
-                     "media":{
-                        "link":"https://images.unsplash.com/photo-1508737027454-e6454ef45afd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YnVyZ2VyfGVufDB8fDB8fHww",
-                        "type":"image"
-                     },
-                     "footer":{
-                        "color":"#FFFFFF",
-                        "text":"Learning to reason with LLMS"
-                     },
-                     "action":{
-                        "url":"https://www.google.com"
-                     }
+               "subheadline":{
+                  "text":"Discover amazing features and boost your productivity"
+               },
+               "media":{
+                  "link":"https://img.freepik.com/photos-gratuite/pizza-savoureuse-proximite-ingredients_23-2147772080.jpg?t=st=1729688313~exp=1729691913~hmac=ab9916272f839a3ba194be9f8ea48bc4ac6cc0f22facb4454cfe4636050d4046&w=1800",
+                  "type":"image"
+               },
+               "action":{
+                  "text":{
+                     "text":"Get Started"
                   },
-                  {
-                     "title":{
-                        "color":"#FFFFFF",
-                        "text":"Research. Sep 12, 2024"
-                     },
-                     "media":{
-                        "link":"https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D",
-                        "type":"image"
-                     },
-                     "footer":{
-                        "color":"#FFFFFF",
-                        "text":"Learning to reason with LLMS"
-                     },
-                     "action":{
-                        "url":"https://www.google.com"
-                     }
-                  },
-                  {
-                     "title":{
-                        "color":"#FFFFFF",
-                        "text":"Research. Sep 12, 2024"
-                     },
-                     "media":{
-                        "link":"https://images.unsplash.com/photo-1516100882582-96c3a05fe590?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGFzdGF8ZW58MHx8MHx8fDA%3D",
-                        "type":"image"
-                     },
-                     "footer":{
-                        "color":"#FFFFFF",
-                        "text":"Learning to reason with LLMS"
-                     },
-                     "action":{
-                        "url":"https://www.google.com"
-                     }
-                  },
-                  {
-                     "title":{
-                        "color":"#FFFFFF",
-                        "text":"Research. Sep 12, 2024"
-                     },
-                     "media":{
-                        "link":"https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFzYWduYXxlbnwwfHwwfHx8MA%3D%3D",
-                        "type":"image"
-                     },
-                     "footer":{
-                        "color":"#FFFFFF",
-                        "text":"Learning to reason with LLMS"
-                     },
-                     "action":{
-                        "url":"https://www.google.com"
-                     }
-                  },
-                  {
-                     "title":{
-                        "color":"#FFFFFF",
-                        "text":"Research. Sep 12, 2024"
-                     },
-                     "media":{
-                        "link":"https://images.unsplash.com/photo-1509722747041-616f39b57569?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNhbmR3aWNofGVufDB8fDB8fHww",
-                        "type":"image"
-                     },
-                     "footer":{
-                        "color":"#FFFFFF",
-                        "text":"Learning to reason with LLMS"
-                     },
-                     "action":{
-                        "url":"https://www.google.com"
-                     }
-                  }
-               ]
+                  "url":"https://www.google.tn"
+               }
             }
          }
       },
       "content":[
-         {
-            "name":"Background Color",
-            "type":"color",
-            "id":"backgroundColor"
-         },
          {
             "name":"Headline Text",
             "type":"colored_string",
             "id":"content.headline"
          },
          {
-            "name":"Features List",
-            "type":"collection",
-            "id":"content.features",
-            "min":3,
-            "max":3,
-            "content":[
-               {
-                  "name":"Feature Text",
-                  "type":"colored_string",
-                  "id":"title"
-               },
-               {
-                  "name":"Footer Text",
-                  "type":"colored_string",
-                  "id":"footer"
-               },
-               {
-                  "name":"Media",
-                  "type":"media",
-                  "id":"media"
-               },
-               {
-                  "name":"Action",
-                  "type":"action",
-                  "id":"action"
-               }
-            ]
-         }
-      ],
-      "link":""
-   },
-   {
-      "id":"html_text",
-      "title":"Html Text",
-      "detailed_description":"The Html Text component is designed to provide an engaging introduction to your platform. It features a full-width layout with a visually appealing background color and flexible content alignment. Key elements include a bold main title, a secondary subtitle, and a descriptive paragraph that outlines the platform's capabilities. The component includes a bullet-point list highlighting essential features, a call-to-action link for further exploration, and an illustrative image that visually represents the platform. Additionally, a blockquote offers a testimonial from a satisfied user, enhancing credibility. The component also contains a Frequently Asked Questions (FAQ) section with an interactive button to reveal answers, providing users with quick access to important information.",
-      "purpose_and_ideal_use_cases":"The main purpose of this component is to introduce visitors to your platform and provide them with an overview of its functionalities. It is ideal for homepage placements, landing pages, or introductory sections of any website. This component is most effective for tech companies, SaaS platforms, and service-oriented businesses looking to engage potential customers and inform them about their offerings. It is also suitable for educational websites and corporate sites that aim to present a professional image.",
-      "usage_recommendations":"To use this component effectively, ensure that the text is concise and engaging to capture user attention quickly. Use high-quality images that reflect your brand's identity. The FAQ section should address common user queries and enhance user experience. Ensure that the button links to relevant resources, and consider using animations for the FAQ toggle for a smoother interaction. Keep the design consistent with your overall branding to maintain visual coherence across the site.",
-      "example_usage":[
-         "A fitness application can utilize this component to welcome new users, highlighting its unique workout plans, success stories, and prompting users to download the app or subscribe for personalized training.",
-         "A travel agency can employ this section to invite users to explore travel packages, share testimonials from satisfied travelers, and offer links to blog posts featuring travel tips and destination guides.",
-         "A financial services firm may use this component to welcome clients, outline their service offerings, share success stories from satisfied customers, and direct users to schedule a consultation."
-      ],
-      "usage":[
-         "body"
-      ],
-      "frame":{
-         "width":null,
-         "height":null
-      },
-      "default_data":{
-         "type":"html_text",
-         "properties":{
-            "content":{
-               "body":{
-                  "text":"<div style='font-family: Arial, sans-serif; color: #333;'><h1 style='font-size: 24px;'>Customizable HTML Text</h1><p>You can modify this text by editing the HTML directly. Change the font, size, color, and more to match your brand's style.</p><ul><li>Easy to use</li><li>Flexible text and layout options</li><li>Supports HTML tags like <strong>bold</strong>, <em>italic</em>, and <u>underline</u></li></ul></div>"
-               }
-            }
-         }
-      },
-      "content":[
+            "name":"Subheadline Text",
+            "type":"colored_large_string",
+            "id":"content.subheadline"
+         },
          {
-            "name":"Html Text",
-            "type":"html_String",
-            "id":"content.body"
+            "name":"Background Image",
+            "type":"media",
+            "id":"content.media"
+         },
+         {
+            "name":"Action Button",
+            "type":"colored_string_action",
+            "id":"content.action"
          }
       ],
       "link":""
@@ -209,10 +73,6 @@
          "A travel agency could use this component to promote vacation deals. The headline could be 'Discover Exotic Destinations' with a subheadline like 'Special offers for your next adventure'. The action button could be 'Book Now', and the background could show a tropical destination.",
          "An e-commerce brand could showcase their new product line using this hero section with a headline 'Shop Our Latest Collection', subheadline 'Exclusive styles for the season', and the action button reading 'Shop Now'. The background image could display a lifestyle shot of their products in use."
       ],
-      "frame":{
-         "width":null,
-         "height":null
-      },
       "default_data":{
          "type":"hero",
          "properties":{
@@ -264,6 +124,150 @@
       "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=D204958F-4ECA-4E6A-A149-8F5E43117799"
    },
    {
+      "id":"small_media_card_collection",
+      "title":"Small Media Card Collection with Scrollable Cards and Interactive Features",
+      "detailed_description":"The Small Media Card Collection component is designed to display a series of user-interactive cards in a horizontally scrollable layout. Key elements include a headline introducing the topic or category, visual cards showcasing different features or content, and scroll buttons for easy navigation. Each card can feature a title, background image, optional footer text, and action links for further exploration. This component is ideal for presenting multiple content items in a visually engaging and navigable format, such as case studies, research highlights, products, or services.",
+      "purpose_and_ideal_use_cases":"The primary goal of this component is to allow users to explore various content items without overwhelming the interface. It's perfect for pages that need to showcase multiple highlights, services, or product previews. This component works especially well in industries like technology, healthcare, education, or any sector that relies on presenting rich information, multimedia, or research insights.",
+      "usage_recommendations":"To effectively use this component, cards should be visually appealing and provide useful information or calls to action. The card background images should be high quality and thematically consistent with the content being showcased. The component's headline should clearly reflect the overall topic, while each card can include a brief description or action link. Scroll buttons should be easy to locate and accessible, encouraging user interaction with the content. This component is best placed in a dedicated section where users can quickly browse multiple content items.",
+      "example_usage":[
+         "A university website could use this component to showcase various research papers or projects from different departments, with each card linking to a detailed page about a specific research project.",
+         "A digital marketing agency might display case studies of past client campaigns, each card featuring a client logo, a brief description, and a link to the full case study.",
+         "An art gallery could use the Small Media Card Collection to highlight featured artists or exhibitions, with each card showing artwork, a brief bio, and a link to purchase or view more details."
+      ],
+      "usage":[
+         "header",
+         "body",
+         "single_page"
+      ],
+      "default_data":{
+         "type":"small_media_card_collection",
+         "properties":{
+            "content":{
+               "headline":{
+                  "text":"Featured Content"
+               },
+               "features":[
+                  {
+                     "title":{
+                        "text":"Research. Sep 12, 2024"
+                     },
+                     "media":{
+                        "link":"https://images.unsplash.com/photo-1508737027454-e6454ef45afd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YnVyZ2VyfGVufDB8fDB8fHww",
+                        "type":"image"
+                     },
+                     "footer":{
+                        "text":"Learning to reason with LLMS"
+                     },
+                     "action":{
+                        "url":"https://www.google.com"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Research. Sep 12, 2024"
+                     },
+                     "media":{
+                        "link":"https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8fDA%3D",
+                        "type":"image"
+                     },
+                     "footer":{
+                        "text":"Learning to reason with LLMS"
+                     },
+                     "action":{
+                        "url":"https://www.google.com"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Research. Sep 12, 2024"
+                     },
+                     "media":{
+                        "link":"https://images.unsplash.com/photo-1516100882582-96c3a05fe590?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGFzdGF8ZW58MHx8MHx8fDA%3D",
+                        "type":"image"
+                     },
+                     "footer":{
+                        "text":"Learning to reason with LLMS"
+                     },
+                     "action":{
+                        "url":"https://www.google.com"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Research. Sep 12, 2024"
+                     },
+                     "media":{
+                        "link":"https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFzYWduYXxlbnwwfHwwfHx8MA%3D%3D",
+                        "type":"image"
+                     },
+                     "footer":{
+                        "text":"Learning to reason with LLMS"
+                     },
+                     "action":{
+                        "url":"https://www.google.com"
+                     }
+                  },
+                  {
+                     "title":{
+                        "text":"Research. Sep 12, 2024"
+                     },
+                     "media":{
+                        "link":"https://images.unsplash.com/photo-1509722747041-616f39b57569?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNhbmR3aWNofGVufDB8fDB8fHww",
+                        "type":"image"
+                     },
+                     "footer":{
+                        "text":"Learning to reason with LLMS"
+                     },
+                     "action":{
+                        "url":"https://www.google.com"
+                     }
+                  }
+               ]
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Background Color",
+            "type":"color",
+            "id":"backgroundColor"
+         },
+         {
+            "name":"Headline Text",
+            "type":"colored_string",
+            "id":"content.headline"
+         },
+         {
+            "name":"Features List",
+            "type":"collection",
+            "id":"content.features",
+            "content":[
+               {
+                  "name":"Feature Text",
+                  "type":"colored_string",
+                  "id":"title"
+               },
+               {
+                  "name":"Footer Text",
+                  "type":"colored_string",
+                  "id":"footer"
+               },
+               {
+                  "name":"Media",
+                  "type":"media",
+                  "id":"media"
+               },
+               {
+                  "name":"Action",
+                  "type":"action",
+                  "id":"action"
+               }
+            ]
+         }
+      ],
+      "link":""
+   },
+   {
       "id":"Feature_22",
       "title":"Feature Section with Main Action and Social Links",
       "detailed_description":"The Feature Section with Main Action and Social Links is designed to showcase key features of a product or service in an engaging format. It consists of a headline and subheadline that introduce the product, a primary action button to drive user interaction, a list of features with icons and descriptions, and additional social media or external action links. The main elements of this component include: **Headline**, **Subheadline**, **Primary Action Button**, **Feature List**, and **Additional Action Links**.",
@@ -277,10 +281,6 @@
          "body",
          "single_page"
       ],
-      "frame":{
-         "width":null,
-         "height":null
-      },
       "default_data":{
          "type":"Feature_22",
          "properties":{
@@ -375,8 +375,6 @@
             "name":"Features List",
             "type":"collection",
             "id":"content.features",
-            "min":2,
-            "max":2,
             "content":[
                {
                   "name":"Icon",
@@ -399,8 +397,6 @@
             "name":"Action List",
             "type":"collection",
             "id":"content.actions",
-            "min":3,
-            "max":3,
             "content":[
                {
                   "name":"Icon",
@@ -541,8 +537,6 @@
             "name":"Features List",
             "type":"collection",
             "id":"content.features",
-            "min":3,
-            "max":3,
             "content":[
                {
                   "name":"Feature Title",
@@ -667,10 +661,6 @@
          "body",
          "single_page"
       ],
-      "frame":{
-         "width":null,
-         "height":null
-      },
       "default_data":{
          "type":"Content_18",
          "properties":{
@@ -741,8 +731,6 @@
             "name":"Features List",
             "type":"collection",
             "id":"content.features",
-            "min":1,
-            "max":3,
             "content":[
                {
                   "name":"Feature Title",
@@ -774,10 +762,6 @@
          "header",
          "body"
       ],
-      "frame":{
-         "width":null,
-         "height":null
-      },
       "default_data":{
          "type":"Header_15",
          "properties":{
@@ -837,10 +821,6 @@
          "body",
          "single_page"
       ],
-      "frame":{
-         "width":null,
-         "height":null
-      },
       "default_data":{
          "type":"BetterDesign",
          "properties":{
@@ -929,8 +909,6 @@
             "name":"Features List",
             "type":"collection",
             "id":"content.features",
-            "min":4,
-            "max":4,
             "content":[
                {
                   "name":"Icon",
@@ -968,10 +946,6 @@
          "body",
          "single_page"
       ],
-      "frame":{
-         "width":null,
-         "height":null
-      },
       "default_data":{
          "type":"Feature_4",
          "properties":{
@@ -1062,8 +1036,6 @@
             "name":"Features List",
             "type":"collection",
             "id":"content.features",
-            "min":3,
-            "max":3,
             "content":[
                {
                   "name":"Feature Icon",
@@ -1106,10 +1078,6 @@
          "body",
          "single_page"
       ],
-      "frame":{
-         "width":null,
-         "height":null
-      },
       "default_data":{
          "type":"MultiUsefulComponents",
          "properties":{
@@ -1178,8 +1146,6 @@
             "name":"Features List",
             "type":"collection",
             "id":"content.features",
-            "min":3,
-            "max":3,
             "content":[
                {
                   "name":"Feature Title",
@@ -1210,10 +1176,6 @@
       "usage":[
          "header"
       ],
-      "frame":{
-         "width":null,
-         "height":null
-      },
       "default_data":{
          "type":"Header_7",
          "properties":{
@@ -1299,10 +1261,6 @@
       "usage":[
          "footer"
       ],
-      "frame":{
-         "width":null,
-         "height":null
-      },
       "default_data":{
          "type":"CallToAction",
          "properties":{
@@ -1378,8 +1336,6 @@
             "name":"Action List",
             "type":"collection",
             "id":"content.actions",
-            "min":3,
-            "max":3,
             "content":[
                {
                   "name":"Icon",
@@ -1407,10 +1363,6 @@
          "body",
          "single_page"
       ],
-      "frame":{
-         "width":null,
-         "height":null
-      },
       "default_data":{
          "type":"featureGrid_1",
          "properties":{
@@ -1457,8 +1409,6 @@
             "name":"Feature List",
             "type":"collection",
             "id":"content.features",
-            "min":3,
-            "max":3,
             "content":[
                {
                   "name":"Description",
@@ -1491,10 +1441,6 @@
          "body",
          "single_page"
       ],
-      "frame":{
-         "width":null,
-         "height":null
-      },
       "default_data":{
          "type":"Contact_10",
          "properties":{
@@ -1579,8 +1525,6 @@
             "name":"Action List",
             "type":"collection",
             "id":"content.actions",
-            "min":3,
-            "max":3,
             "content":[
                {
                   "name":"Icon",
@@ -1591,5 +1535,38 @@
          }
       ],
       "link":"https://staging.hope-probusiness.com/1BE324BC-0D0B-44AD-B4BD-4EF0E353EB8C?templateId=277F1021-2841-4662-8B4A-3128E73B0C0E"
+   },
+   {
+      "id":"html_text",
+      "title":"Html Text",
+      "detailed_description":"The Html Text component is designed to provide an engaging introduction to your platform. It features a full-width layout with a visually appealing background color and flexible content alignment. Key elements include a bold main title, a secondary subtitle, and a descriptive paragraph that outlines the platform's capabilities. The component includes a bullet-point list highlighting essential features, a call-to-action link for further exploration, and an illustrative image that visually represents the platform. Additionally, a blockquote offers a testimonial from a satisfied user, enhancing credibility. The component also contains a Frequently Asked Questions (FAQ) section with an interactive button to reveal answers, providing users with quick access to important information.",
+      "purpose_and_ideal_use_cases":"The main purpose of this component is to introduce visitors to your platform and provide them with an overview of its functionalities. It is ideal for homepage placements, landing pages, or introductory sections of any website. This component is most effective for tech companies, SaaS platforms, and service-oriented businesses looking to engage potential customers and inform them about their offerings. It is also suitable for educational websites and corporate sites that aim to present a professional image.",
+      "usage_recommendations":"To use this component effectively, ensure that the text is concise and engaging to capture user attention quickly. Use high-quality images that reflect your brand's identity. The FAQ section should address common user queries and enhance user experience. Ensure that the button links to relevant resources, and consider using animations for the FAQ toggle for a smoother interaction. Keep the design consistent with your overall branding to maintain visual coherence across the site.",
+      "example_usage":[
+         "A fitness application can utilize this component to welcome new users, highlighting its unique workout plans, success stories, and prompting users to download the app or subscribe for personalized training.",
+         "A travel agency can employ this section to invite users to explore travel packages, share testimonials from satisfied travelers, and offer links to blog posts featuring travel tips and destination guides.",
+         "A financial services firm may use this component to welcome clients, outline their service offerings, share success stories from satisfied customers, and direct users to schedule a consultation."
+      ],
+      "usage":[
+         "body"
+      ],
+      "default_data":{
+         "type":"html_text",
+         "properties":{
+            "content":{
+               "body":{
+                  "text":"<div style='font-family: Arial, sans-serif; color: #333;'><h1 style='font-size: 24px;'>Customizable HTML Text</h1><p>You can modify this text by editing the HTML directly. Change the font, size, color, and more to match your brand's style.</p><ul><li>Easy to use</li><li>Flexible text and layout options</li><li>Supports HTML tags like <strong>bold</strong>, <em>italic</em>, and <u>underline</u></li></ul></div>"
+               }
+            }
+         }
+      },
+      "content":[
+         {
+            "name":"Html Text",
+            "type":"html_String",
+            "id":"content.body"
+         }
+      ],
+      "link":""
    }
 ]
