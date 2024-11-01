@@ -1,5 +1,54 @@
 [
    {
+      "id":"text",
+      "title":"Text Component",
+      "detailed_description":"The Text component is a versatile, standalone element designed to display customizable text content with a variety of styling options. It allows users to specify font style, alignment, and color, making it suitable for prominent text sections like headers, subheaders, or call-to-action text.",
+      "purpose_and_ideal_use_cases":"Ideal for displaying standalone text content that requires emphasis, such as headlines, introductory text, or any key information. This component is typically used in hero sections, promotional banners, or any areas requiring impactful text presentation.",
+      "usage_recommendations":"Use this component to create text that stands out within a section. Pair it with a complementary background or overlay for better visibility. Configure font variant and alignment for optimal readability, especially when used in headers or call-to-action sections.",
+      "example_usage":[
+         "A technology company could use this component in a hero section to highlight a new product with a bold headline and a 'Get Started' button linking to the product page.",
+         "An online learning platform could display a headline like 'Expand Your Skills' and a subheadline describing new courses, with a CTA linking to the course catalog.",
+         "A hospitality website might use this component to encourage users to 'Book Your Stay' with scenic images in the background, linking to a reservation page."
+      ],
+      "usage":[
+         "header",
+         "body",
+         "single_page"
+      ],
+      "default_data":{
+         "type":"text",
+         "properties":{
+            "content":{
+               "variant":"largeTitle",
+               "align":"center",
+               "text":{
+                  "text":"Titre principal",
+                  "color":"#2d2d2d"
+               }
+            }
+         }
+      },
+      "aiInstruction":"When generating this component, configure the text by selecting a font variant and alignment that suits the intended purpose. Available variants include: 'largeTitle', 'title', 'title2', 'title3', 'headline', 'subheadline', 'body', 'callout', 'footnote', 'caption', 'caption2', as well as their bold counterparts ('largeTitleBold', 'titleBold', etc.). Choose alignment from 'left', 'center', or 'right' based on the desired layout and text length. Additionally, customize the text color for readability and aesthetic appeal. This component is intended as standalone text where the font, color, and position are fully configurable by the user to create a cohesive design within any section.",
+      "aiInstruction":"When generating this component, choose a headline text that conveys the main message or value of the page. Ensure that the text style, alignment, and color match the surrounding design context for optimal readability. Select a font size based on the component's placement, using larger sizes for hero or header sections. If a background image is included, adjust text color and opacity to maintain visibility. Set alignment to center or left based on the text length and intended layout. Provide options to add a subheadline or call-to-action if necessary.",
+      "content":[
+         {
+            "name":"Text",
+            "type":"colored_large_string",
+            "id":"content.text",
+            "positions":[
+               "right",
+               "center",
+               "left"
+            ],
+            "variant":[
+               "small",
+               "Large"
+            ]
+         }
+      ],
+      "link":""
+   },
+   {
       "id":"large_hero",
       "title":"Large Hero Section with Media and Call-to-Action",
       "detailed_description":"The Large Hero component is a prominent section designed to capture the user’s attention instantly upon visiting a page. It features a full-width background media (image or video) that serves as a captivating backdrop for a headline, subheadline, and a call-to-action (CTA) button. The content overlay allows customization of the text and action link, making this component adaptable to diverse branding and communication needs. Ideal for homepage introductions, promotional banners, or any high-impact messaging, it combines striking visuals with concise, purposeful text to encourage user engagement.",
