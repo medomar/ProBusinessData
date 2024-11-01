@@ -35,15 +35,8 @@
             "name":"Text",
             "type":"colored_large_string",
             "id":"content.text",
-            "positions":[
-               "right",
-               "center",
-               "left"
-            ],
-            "variant":[
-               "small",
-               "Large"
-            ]
+            "isPositionActive": true,
+            "isVariantActive": true
          }
       ],
       "link":""
