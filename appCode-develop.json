@@ -1,18 +1,21 @@
 [
     {
         "code": "3310",
+        "name": "Company Test 1",
         "startDate": "2024-12-01",
         "endDate": "2024-12-31",
         "tokens": 1000
     },
     {
         "code": "PROMO2024",
+        "name": "Company Test 2",
         "startDate": "2024-12-10",
         "endDate": "2025-01-10",
         "tokens": 500
     },
     {
         "code": "NEWYEAR",
+        "name": "Company Test 3",
         "startDate": "2025-01-01",
         "endDate": "2025-02-01",
         "tokens": 1500
