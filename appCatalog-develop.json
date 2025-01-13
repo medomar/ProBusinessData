@@ -1,0 +1,52 @@
+[
+  {
+    "id": "catalog_1",
+    "name": "Catalog 1",
+    "url": "https://www.zalando.fr/"
+  },
+  {
+    "id": "catalog_2",
+    "name": "Catalog 2",
+    "url": "https://www.amazon.fr/"
+  },
+  {
+    "id": "catalog_3",
+    "name": "Catalog 3",
+    "url": "https://shopee.com/"
+  },
+  {
+    "id": "catalog_4",
+    "name": "Catalog 4",
+    "url": "https://www.aliexpress.com/"
+  },
+  {
+    "id": "catalog_5",
+    "name": "Catalog 5",
+    "url": "https://www.ebay.com/"
+  },
+  {
+    "id": "catalog_6",
+    "name": "Catalog 6",
+    "url": "https://www.etsy.com/"
+  },
+  {
+    "id": "catalog_7",
+    "name": "Catalog 7",
+    "url": "https://www.target.com/"
+  },
+  {
+    "id": "catalog_8",
+    "name": "Catalog 8",
+    "url": "https://www.walmart.com/"
+  },
+  {
+    "id": "catalog_9",
+    "name": "Catalog 9",
+    "url": "https://www.apple.com/"
+  },
+  {
+    "id": "catalog_10",
+    "name": "Catalog 10",
+    "url": "https://www.bestbuy.com/"
+  }
+]
