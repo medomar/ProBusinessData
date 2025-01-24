@@ -1,0 +1,17 @@
+[
+  {
+    "id": "catalog_1",
+    "name": "Catalog 1",
+    "url": "https://staging.hope-probusiness.com/catalog?companyId=B99959BC-571F-4CCF-93DB-43D4631FE142&productPage=1&productPer=10&tagPage=1&tagPer=10"
+  },
+  {
+    "id": "catalog_2",
+    "name": "Catalog 2",
+    "url": "https://staging.hope-probusiness.com/catalog?companyId=52C39A41-D3A2-4944-A30B-EE73C1AA75EC&productPage=1&productPer=10&tagPage=1&tagPer=10"
+  },
+  {
+    "id": "catalog_3",
+    "name": "Catalog 3",
+    "url": "https://staging.hope-probusiness.com/catalog?companyId=23C588C4-4990-4B1A-9E70-37107FC59FAC&productPage=1&productPer=10&tagPage=1&tagPer=10"
+  }
+]
