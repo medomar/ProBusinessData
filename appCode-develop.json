@@ -22,5 +22,23 @@
         "endDate": "2025-02-01",
         "numberOfCompany": 2,
         "tokens": 1500
+    },
+    {
+        "code": "Test",
+        "name": "Test",
+        "startDate": "2025-02-01",
+        "endDate": "2027-02-01",
+        "numberOfCompany": 1,
+        "tokens": 1500,
+        "workFlow": {
+            "type": "1",
+            "Company Name": "El Grotte",
+            "SubCompanys": [
+                {
+                    "name": "Economat",
+                    "type": "distributionCenter"
+                }
+            ]
+        }
     }
 ]
