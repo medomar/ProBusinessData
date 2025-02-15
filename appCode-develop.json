@@ -1,29 +1,5 @@
 [
     {
-        "code": "3310",
-        "name": "Company Test 1",
-        "startDate": "2024-12-01",
-        "endDate": "2024-12-31",
-        "numberOfCompany": 10,
-        "tokens": 1000
-    },
-    {
-        "code": "PROMO2024",
-        "name": "Company Test 2",
-        "startDate": "2024-12-10",
-        "endDate": "2025-01-10",
-        "numberOfCompany": 2,
-        "tokens": 500
-    },
-    {
-        "code": "NEWYEAR",
-        "name": "Company Test 3",
-        "startDate": "2025-01-01",
-        "endDate": "2025-02-01",
-        "numberOfCompany": 2,
-        "tokens": 1500
-    },
-    {
         "code": "Test",
         "name": "Test",
         "startDate": "2025-02-01",
@@ -32,8 +8,10 @@
         "tokens": 1500,
         "workFlow": {
             "type": "1",
-            "Company Name": "El Grotte",
-            "SubCompanys": [
+            "company_name": "El Grotte",
+            "identifier": "8F2A6A36-3F8E-42E1-9DC8-6C0E0F4D9C1B",
+            "public_identifier": "C5E8F3B7-92C4-4C8F-AD78-3C1D5F6E8A2B",
+            "sub_companys": [
                 {
                     "name": "Economat",
                     "type": "distributionCenter"
