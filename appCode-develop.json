@@ -1,21 +1,23 @@
-{
-  "code": "Test",
-  "name": "Test",
-  "startDate": "2025-02-01",
-  "endDate": "2027-02-01",
-  "numberOfCompany": 1,
-  "tokens": 1500,
-  "workFlow": {
-    "type": "1",
-    "company_name": "El Grotte",
-    "identifier": "8F2A6A36-3F8E-42E1-9DC8-6C0E0F4D9C1B",
-    "public_identifier": "C5E8F3B7-92C4-4C8F-AD78-3C1D5F6E8A2B",
-    "sub_companys": [
-      {
-        "identifier": "3D7E5B1C-8D44-4F3F-BC9A-1C8E3D9F7A2B",
-        "name": "Economat",
-        "type": "distributionCenter"
-      }
-    ]
-  }
-}
+[
+    {
+        "code": "Test",
+        "name": "Test",
+        "startDate": "2025-02-01",
+        "endDate": "2027-02-01",
+        "numberOfCompany": 1,
+        "tokens": 1500,
+        "workFlow": {
+            "type": "1",
+            "company_name": "El Grotte",
+            "identifier": "8F2A6A36-3F8E-42E1-9DC8-6C0E0F4D9C1B",
+            "public_identifier": "C5E8F3B7-92C4-4C8F-AD78-3C1D5F6E8A2B",
+            "sub_companys": [
+                {
+                    "identifier": "3D7E5B1C-8D44-4F3F-BC9A-1C8E3D9F7A2B",
+                    "name": "Economat",
+                    "type": "distributionCenter"
+                }
+            ]
+        }
+    }
+]
