@@ -16,6 +16,36 @@
                     "identifier": "3D7E5B1C-8D44-4F3F-BC9A-1C8E3D9F7A2B",
                     "name": "Economat",
                     "type": "distributionCenter"
+                },
+                {
+                    "identifier": "E2B8D1F9-3C4A-4D6A-AFAE-57ED6E3C1B29",
+                    "name": "Kitchen",
+                    "type": "kitchen"
+                },
+                {
+                    "identifier": "7F1B2A58-9C30-4AAB-8C27-1EF657F5B532",
+                    "name": "Pizzaria",
+                    "type": "pizzaria"
+                },
+                {
+                    "identifier": "0D2C9A6B-5E4F-45F8-A2B9-C0E73A16D8E2",
+                    "name": "Comptoir",
+                    "type": "comptoir"
+                },
+                {
+                    "identifier": "1F7C9E0D-5B8A-4A2C-9C4E-2F1A3D7E5C4B",
+                    "name": "Creperie",
+                    "type": "creperie"
+                },
+                {
+                    "identifier": "5A3B7F8C-2D9E-4C1A-8B0F-3D7E5A1B2C3D",
+                    "name": "Chicha",
+                    "type": "chicha"
+                },
+                {
+                    "identifier": "9C1F2B3A-4E5D-6A7B-8C9D-0E1F2A3B4C5D",
+                    "name": "Patteserie",
+                    "type": "patteserie"
                 }
             ]
         }
