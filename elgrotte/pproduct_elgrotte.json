@@ -1488,5 +1488,241 @@
     "CODE ARTICLE": "01160026",
     "ARTICLES": "POISSON DE JOUR",
     "QUANTITE": "MASSE"
+  },
+  {
+    "CODE ARTICLE": "02020001",
+    "ARTICLES": "COCA BOITE"
+  },
+  {
+    "CODE ARTICLE": "02020002",
+    "ARTICLES": "BOGA BOITE"
+  },
+  {
+    "CODE ARTICLE": "02020003",
+    "ARTICLES": "FANTA BOITE"
+  },
+  {
+    "CODE ARTICLE": "02020004",
+    "ARTICLES": "APLA BOITE"
+  },
+  {
+    "CODE ARTICLE": "02020005",
+    "ARTICLES": "ORANGINA BOITE"
+  },
+  {
+    "CODE ARTICLE": "02020006",
+    "ARTICLES": "COCA ZERO BOITE"
+  },
+  {
+    "CODE ARTICLE": "02020007",
+    "ARTICLES": "SCHWEPPES TONIC"
+  },
+  {
+    "CODE ARTICLE": "02020008",
+    "ARTICLES": "SHARK BOITE"
+  },
+  {
+    "CODE ARTICLE": "02020009",
+    "ARTICLES": "BOGA 0,5L"
+  },
+  {
+    "CODE ARTICLE": "02020010",
+    "ARTICLES": "BOGA 33CL PLASTIQUE"
+  },
+  {
+    "CODE ARTICLE": "0002",
+    "ARTICLES": "LES EAUX MENERALES"
+  },
+  {
+    "CODE ARTICLE": "02020001",
+    "ARTICLES": "SAFIA 90 cl"
+  },
+  {
+    "CODE ARTICLE": "02020002",
+    "ARTICLES": "EAUX  1L"
+  },
+  {
+    "CODE ARTICLE": "02020003",
+    "ARTICLES": "EAUX 0,5L"
+  },
+  {
+    "CODE ARTICLE": "02020004",
+    "ARTICLES": "EAUX 1,5L"
+  },
+  {
+    "CODE ARTICLE": "02020005",
+    "ARTICLES": "EAUX 2L"
+  },
+  {
+    "CODE ARTICLE": "02020006",
+    "ARTICLES": "EAUX BONBONNE 19L"
+  },
+  {
+    "CODE ARTICLE": "02020007",
+    "ARTICLES": "GARCI 1L"
+  },
+  {
+    "CODE ARTICLE": "02020008",
+    "ARTICLES": "GARCI 90CL"
+  },
+  {
+    "CODE ARTICLE": "02030001",
+    "ARTICLES": "CITRONADE"
+  },
+  {
+    "CODE ARTICLE": "0003",
+    "ARTICLES": "LES JUS"
+  },
+  {
+    "CODE ARTICLE": "02030002",
+    "ARTICLES": "JUS  DIVERS1L"
+  },
+  {
+    "CODE ARTICLE": "02030003",
+    "ARTICLES": "JUS KIWI 5L"
+  },
+  {
+    "CODE ARTICLE": "02030004",
+    "ARTICLES": "JUS DE FRAISE 5L"
+  },
+  {
+    "CODE ARTICLE": "02030005",
+    "ARTICLES": "JUS DE BANANNE 5L"
+  },
+  {
+    "CODE ARTICLE": "02030006",
+    "ARTICLES": "JUS DE FRUITS 5L"
+  },
+  {
+    "CODE ARTICLE": "0004",
+    "ARTICLES": "LES PUREES & SIROPS"
+  },
+  {
+    "CODE ARTICLE": "CODE ARTICLE",
+    "ARTICLES": "ARTICLES"
+  },
+  {
+    "CODE ARTICLE": "02040001",
+    "ARTICLES": "PUREE ANANAS"
+  },
+  {
+    "CODE ARTICLE": "02040002",
+    "ARTICLES": "PUREE MANGUE"
+  },
+  {
+    "CODE ARTICLE": "02040003",
+    "ARTICLES": "PUREE PECHE"
+  },
+  {
+    "CODE ARTICLE": "02040004",
+    "ARTICLES": "PUREE POMME"
+  },
+  {
+    "CODE ARTICLE": "02040005",
+    "ARTICLES": "PUREE FRAISE"
+  },
+  {
+    "CODE ARTICLE": "02040006",
+    "ARTICLES": "PUREE KIWI"
+  },
+  {
+    "CODE ARTICLE": "02040007",
+    "ARTICLES": "PUREE BANANNE"
+  },
+  {
+    "CODE ARTICLE": "02040008",
+    "ARTICLES": "PUREE FRUITS ROUGE"
+  },
+  {
+    "CODE ARTICLE": "02040009",
+    "ARTICLES": "PUREE NOIX DE COCO"
+  },
+  {
+    "CODE ARTICLE": "02040010",
+    "ARTICLES": "PUREE MYRTILLE"
+  },
+  {
+    "CODE ARTICLE": "02040011",
+    "ARTICLES": "PUREE LITCHII"
+  },
+  {
+    "CODE ARTICLE": "02040012",
+    "ARTICLES": "PUREE FRUITS DE PASSION"
+  },
+  {
+    "CODE ARTICLE": "02040013",
+    "ARTICLES": "SIROP MOJITO"
+  },
+  {
+    "CODE ARTICLE": "02040014",
+    "ARTICLES": "SIROP CARAMEL"
+  },
+  {
+    "CODE ARTICLE": "02040015",
+    "ARTICLES": "SIROP VANILLE"
+  },
+  {
+    "CODE ARTICLE": "02040016",
+    "ARTICLES": "SIROP NOISETTE"
+  },
+  {
+    "CODE ARTICLE": "02040017",
+    "ARTICLES": "SIROP PECHE"
+  },
+  {
+    "CODE ARTICLE": "02040017",
+    "ARTICLES": "SIROP MELON"
+  },
+  {
+    "CODE ARTICLE": "CODE ARTICLE",
+    "ARTICLES": "ARTICLES"
+  },
+  {
+    "CODE ARTICLE": "02040018",
+    "ARTICLES": "SIROP ANANAS"
+  },
+  {
+    "CODE ARTICLE": "02040019",
+    "ARTICLES": "SIROP NOIX DE COCO"
+  },
+  {
+    "CODE ARTICLE": "02040020",
+    "ARTICLES": "SIROP CURACAO BLEU"
+  },
+  {
+    "CODE ARTICLE": "02040021",
+    "ARTICLES": "SIROP MENHTE"
+  },
+  {
+    "CODE ARTICLE": "02040022",
+    "ARTICLES": "SIROP GRENADINE"
+  },
+  {
+    "CODE ARTICLE": "0003",
+    "ARTICLES": "DROGUERIE"
+  },
+  {
+    "CODE ARTICLE": "0001",
+    "ARTICLES": "TOMBAC"
+  },
+  {
+    "CODE ARTICLE": "03010001",
+    "ARTICLES": "TOMBAC LOVE"
+  },
+  {
+    "CODE ARTICLE": "03010002",
+    "ARTICLES": "TOMBAC MENTHE"
+  },
+  {
+    "CODE ARTICLE": "03010003",
+    "ARTICLES": "TOMBAC RAISIN MENTHE"
+  },
+  {
+    "CODE ARTICLE": "03010004",
+    "ARTICLES": "TOMBAC CHIKH MANI"
+  },
+  {
+    "CODE ARTICLE": "03010005",
+    "ARTICLES": "TOMBAC POMME"
   }
 ]
