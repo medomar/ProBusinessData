@@ -1,0 +1,112 @@
+[
+  {
+    "code": "ELGROTTE-001",
+    "name": "El Grotte",
+    "startDate": "2025-02-01",
+    "endDate": "2027-02-01",
+    "numberOfCompany": 1,
+    "tokens": 1500,
+    "workFlow": {
+      "type": "1",
+      "company_name": "El Grotte",
+      "identifier": "e6b7d3f8-4f5b-4f6a-a7e3-2a3f6d8b9c0d",
+      "public_identifier": "f7a8b9c0-d1e2-4f3a-b4c5-d6e7f8a9b0c1",
+      "config": {
+        "pProductCollection": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/elgrotte/pproduct_elgrotte.json",
+        "supplierCollection": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/elgrotte/suppliers.json"
+      },
+      "sub_companys": [
+        {
+          "identifier": "a1b2c3d4-e5f6-4a1b-9c3d-1234567890ab",
+          "name": "Economat",
+          "type": "distributionCenter"
+        },
+        {
+          "identifier": "b1c2d3e4-f5a6-4b1c-8d3e-234567890abc",
+          "name": "Kitchen",
+          "type": "kitchen"
+        },
+        {
+          "identifier": "c1d2e3f4-a5b6-4c1d-7e3f-34567890abcd",
+          "name": "Pizzaria",
+          "type": "pizzaria"
+        },
+        {
+          "identifier": "d1e2f3a4-b5c6-4d1e-6f3a-4567890abcde",
+          "name": "Comptoir",
+          "type": "comptoir"
+        },
+        {
+          "identifier": "e1f2a3b4-c5d6-4e1f-5a3b-567890abcdef",
+          "name": "Creperie",
+          "type": "creperie"
+        },
+        {
+          "identifier": "f1a2b3c4-d5e6-4f1a-4b3c-67890abcdef1",
+          "name": "Chicha",
+          "type": "chicha"
+        },
+        {
+          "identifier": "a2b3c4d5-e6f7-4a2b-3c4d-7890abcdef12",
+          "name": "Patteserie",
+          "type": "patteserie"
+        }
+      ]
+    }
+  },
+  {
+    "code": "APPLE-DEV-001",
+    "name": "Apple Developer",
+    "startDate": "2025-02-01",
+    "endDate": "2027-02-01",
+    "numberOfCompany": 1,
+    "tokens": 1500,
+    "workFlow": {
+      "type": "1",
+      "company_name": "Apple Developer Team",
+      "identifier": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+      "public_identifier": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+      "config": {
+          "pProductCollection": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/elgrotte/pproduct_elgrotte.json",
+          "supplierCollection": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/elgrotte/suppliers.json"
+        },
+      "sub_companys": [
+        {
+          "identifier": "abcd1234-ef56-4a78-b9c0-1234567890ab",
+          "name": "Economat",
+          "type": "distributionCenter"
+        },
+        {
+          "identifier": "bcde2345-f167-4b89-c0d1-234567890abc",
+          "name": "Kitchen",
+          "type": "kitchen"
+        },
+        {
+          "identifier": "cdef3456-a278-4c9a-d0e2-34567890abcd",
+          "name": "Pizzaria",
+          "type": "pizzaria"
+        },
+        {
+          "identifier": "defa4567-b389-4d0b-e1f3-4567890abcde",
+          "name": "Comptoir",
+          "type": "comptoir"
+        },
+        {
+          "identifier": "efab5678-c49a-4e1c-f204-567890abcdef",
+          "name": "Creperie",
+          "type": "creperie"
+        },
+        {
+          "identifier": "fabc6789-d5ab-4f2d-0105-67890abcdef1",
+          "name": "Chicha",
+          "type": "chicha"
+        },
+        {
+          "identifier": "abcd7890-e6bc-4f3e-1216-7890abcdef12",
+          "name": "Patteserie",
+          "type": "patteserie"
+        }
+      ]
+    }
+  }
+]
