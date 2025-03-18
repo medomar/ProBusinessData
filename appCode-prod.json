@@ -12,8 +12,8 @@
       "identifier": "e6b7d3f8-4f5b-4f6a-a7e3-2a3f6d8b9c0d",
       "public_identifier": "f7a8b9c0-d1e2-4f3a-b4c5-d6e7f8a9b0c1",
       "config": {
-        "pProductCollection": "",
-        "supplierCollection": ""
+        "pProductCollection": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/elgrotte/pproduct_elgrotte.json",
+        "supplierCollection": "https://raw.githubusercontent.com/medomar/ProBusinessData/main/elgrotte/suppliers.json"
       },
       "sub_companys": [
         {
