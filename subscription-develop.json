@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Subscription 1",
+    "price": {
+      "value": 35,
+      "currency": "euro"
+    },
+    "link": "www.google.fr",
+    "type": "amount"
+  },
+  {
+    "title": "Subscription 2",
+    "price": {
+      "value": 45,
+      "currency": "euro"
+    },
+    "link": "www.example2.fr",
+    "type": "amount"
+  },
+  {
+    "title": "Subscription 3",
+    "price": {
+      "value": 55,
+      "currency": "euro"
+    },
+    "link": "www.example3.fr",
+    "type": "amount"
+  }
+]
