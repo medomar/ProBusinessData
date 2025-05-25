@@ -15,7 +15,43 @@
         "pProductCollection": "",
         "supplierCollection": ""
       },
-      "sub_companys": []
+      "sub_companys": [
+        {
+          "identifier": "a1b2c3d4-e5f6-4a1b-9c3d-1234567890ab",
+          "name": "Economat",
+          "type": "distributionCenter"
+        },
+        {
+          "identifier": "b1c2d3e4-f5a6-4b1c-8d3e-234567890abc",
+          "name": "Kitchen",
+          "type": "kitchen"
+        },
+        {
+          "identifier": "c1d2e3f4-a5b6-4c1d-7e3f-34567890abcd",
+          "name": "Pizzaria",
+          "type": "pizzaria"
+        },
+        {
+          "identifier": "d1e2f3a4-b5c6-4d1e-6f3a-4567890abcde",
+          "name": "Comptoir",
+          "type": "comptoir"
+        },
+        {
+          "identifier": "e1f2a3b4-c5d6-4e1f-5a3b-567890abcdef",
+          "name": "Creperie",
+          "type": "creperie"
+        },
+        {
+          "identifier": "f1a2b3c4-d5e6-4f1a-4b3c-67890abcdef1",
+          "name": "Chicha",
+          "type": "chicha"
+        },
+        {
+          "identifier": "a2b3c4d5-e6f7-4a2b-3c4d-7890abcdef12",
+          "name": "Patteserie",
+          "type": "patteserie"
+        }
+      ]
     }
   },
   {
