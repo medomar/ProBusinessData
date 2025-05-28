@@ -1,0 +1,43 @@
+[
+  {
+    "workflow": "personnelManagement",
+    "steps": [
+      {
+        "title": "1. Add a New Worker",
+        "description": "Tap the '+' icon and fill in basic worker info like full name, CIN, and job title.",
+        "imageURL": "https://probusinessfilespreprod.s3.eu-north-1.amazonaws.com/tutorials/newWorker-ezgif.com-speed.gif",
+        "layoutHint": "imageTop"
+      },
+      {
+        "title": "2. Add Login Credentials",
+        "description": "You can assign credentials like username and password to allow worker access.",
+        "imageURL": "https://probusinessfilespreprod.s3.eu-north-1.amazonaws.com/tutorials/credentials-ezgif.com-video-to-gif-converter.gif",
+        "layoutHint": "imageTop"
+      },
+      {
+        "title": "3. Set Working Days",
+        "description": "Keep track of total working days for the worker. Tap 'Update Working Days' to modify.",
+        "imageURL": "https://probusinessfilespreprod.s3.eu-north-1.amazonaws.com/tutorials/addWorkingDays-ezgif.com-speed.gif",
+        "layoutHint": "imageTop"
+      },
+      {
+        "title": "4. Manage Worker Payments",
+        "description": "View, add, or edit salary or advance payments for the selected worker.",
+        "imageURL": "https://probusinessfilespreprod.s3.eu-north-1.amazonaws.com/tutorials/payments-ezgif.com-speed.gif",
+        "layoutHint": "imageTop"
+      },
+      {
+        "title": "5. Force Upload Public Data",
+        "description": "Push worker payment data immediately to public dashboard",
+        "imageURL": "https://probusinessfilespreprod.s3.eu-north-1.amazonaws.com/tutorials/forceUploadData-ezgif.com-speed.gif",
+        "layoutHint": "imageTop"
+      },
+      {
+        "title": "6. View Existing Workers",
+        "description": "See all active personnel in your company. Tap to view or edit any worker.",
+        "imageURL": "https://probusinessfilespreprod.s3.eu-north-1.amazonaws.com/tutorials/workersList-ezgif.com-speed.gif",
+        "layoutHint": "imageTop"
+      }
+    ]
+  }
+]
