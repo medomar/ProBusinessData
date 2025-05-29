@@ -6,7 +6,8 @@
         "title": "1. Add a New Worker",
         "description": "Tap the '+' icon and fill in basic worker info like full name, CIN, and job title.",
         "imageURL": "https://probusinessfilespreprod.s3.eu-north-1.amazonaws.com/tutorials/newWorker-ezgif.com-speed.gif",
-        "layoutHint": "imageTop"
+        "layoutHint": "imageTop",
+        "duration": 15.0
       },
       {
         "title": "2. Add Login Credentials",
