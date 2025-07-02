@@ -1,0 +1,56 @@
+[
+  {
+    "workflow": "personnelManagement",
+    "steps": [
+      {
+        "title": "1. Add a New Worker",
+        "titleKey": "tutorial.personnelManagement.step1.title",
+        "description": "Tap the '+' icon and fill in basic worker info like full name, CIN, and job title.",
+        "descriptionKey": "tutorial.personnelManagement.step1.description",
+        "imageURL": "https://probusinessfilespreprod.s3.eu-north-1.amazonaws.com/tutorials/newWorker-ezgif.com-speed.gif",
+        "layoutHint": "imageTop",
+        "duration": 15.0
+      },
+      {
+        "title": "2. Add Login Credentials",
+        "titleKey": "tutorial.personnelManagement.step2.title",
+        "description": "You can assign credentials like username and password to allow worker access.",
+        "descriptionKey": "tutorial.personnelManagement.step2.description",
+        "imageURL": "https://probusinessfilespreprod.s3.eu-north-1.amazonaws.com/tutorials/credentials-ezgif.com-video-to-gif-converter.gif",
+        "layoutHint": "imageTop"
+      },
+      {
+        "title": "3. Set Working Days",
+        "titleKey": "tutorial.personnelManagement.step3.title",
+        "description": "Keep track of total working days for the worker. Tap 'Update Working Days' to modify.",
+        "descriptionKey": "tutorial.personnelManagement.step3.description",
+        "imageURL": "https://probusinessfilespreprod.s3.eu-north-1.amazonaws.com/tutorials/addWorkingDays-ezgif.com-speed.gif",
+        "layoutHint": "imageTop"
+      },
+      {
+        "title": "4. Manage Worker Payments",
+        "titleKey": "tutorial.personnelManagement.step4.title",
+        "description": "View, add, or edit salary or advance payments for the selected worker.",
+        "descriptionKey": "tutorial.personnelManagement.step4.description",
+        "imageURL": "https://probusinessfilespreprod.s3.eu-north-1.amazonaws.com/tutorials/payments-ezgif.com-speed.gif",
+        "layoutHint": "imageTop"
+      },
+      {
+        "title": "5. Force Upload Public Data",
+        "titleKey": "tutorial.personnelManagement.step5.title",
+        "description": "Push worker payment data immediately to public dashboard",
+        "descriptionKey": "tutorial.personnelManagement.step5.description",
+        "imageURL": "https://probusinessfilespreprod.s3.eu-north-1.amazonaws.com/tutorials/forceUploadData-ezgif.com-speed.gif",
+        "layoutHint": "imageTop"
+      },
+      {
+        "title": "6. View Existing Workers",
+        "titleKey": "tutorial.personnelManagement.step6.title",
+        "description": "See all active personnel in your company. Tap to view or edit any worker.",
+        "descriptionKey": "tutorial.personnelManagement.step6.description",
+        "imageURL": "https://probusinessfilespreprod.s3.eu-north-1.amazonaws.com/tutorials/workersList-ezgif.com-speed.gif",
+        "layoutHint": "imageTop"
+      }
+    ]
+  }
+]
