@@ -22,34 +22,39 @@
           "type": "distributionCenter"
         },
         {
+          "identifier": "4e2f3a1b-6c5d-7e8f-9a0b-1c2d3e4f5a7b",
+          "name": "Debou",
+          "type": "distributionCenter"
+        },
+        {
           "identifier": "5f6a7b8c-9d0e-1f2a-3b4c-5d6e7f8a9b0c",
-          "name": "Kitchen",
-          "type": "kitchen"
+          "name": "Cuisine centrale ",
+          "type": "sellingCenter"
         },
         {
           "identifier": "6a7b8c9d-0e1f-2a3b-4c5d-6e7f8a9b0c1d",
           "name": "Pizzaria",
-          "type": "pizzaria"
+          "type": "sellingCenter"
         },
         {
           "identifier": "7b8c9d0e-1f2a-3b4c-5d6e-7f8a9b0c1d2e",
           "name": "Comptoir",
-          "type": "comptoir"
+          "type": "sellingCenter"
         },
         {
           "identifier": "8c9d0e1f-2a3b-4c5d-6e7f-8a9b0c1d2e3f",
           "name": "Creperie",
-          "type": "creperie"
+          "type": "sellingCenter"
         },
         {
           "identifier": "9d0e1f2a-3b4c-5d6e-7f8a-9b0c1d2e3f4a",
           "name": "Chicha",
-          "type": "chicha"
+          "type": "sellingCenter"
         },
         {
           "identifier": "0e1f2a3b-4c5d-6e7f-8a9b-0c1d2e3f4a5b",
           "name": "Patteserie",
-          "type": "patteserie"
+          "type": "sellingCenter"
         }
       ]
     }
