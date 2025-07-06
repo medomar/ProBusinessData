@@ -76,42 +76,47 @@
         "supplierCollection": ""
       },
       "sub_companys": [
-        {
-          "identifier": "a6660376-be72-4a8f-a8b5-01c1f3adce51",
-          "name": "Economat",
-          "type": "distributionCenter"
-        },
-        {
-          "identifier": "ccbfd2f8-3cae-45cb-a56c-929ca722a57d",
-          "name": "Kitchen",
-          "type": "kitchen"
-        },
-        {
-          "identifier": "50c76474-0c45-4de9-8f86-a3855fae67e0",
-          "name": "Pizzaria",
-          "type": "pizzaria"
-        },
-        {
-          "identifier": "bcdce5b2-03ad-4854-8eea-91d9767917bc",
-          "name": "Comptoir",
-          "type": "comptoir"
-        },
-        {
-          "identifier": "30ae3c27-024b-42ea-958b-6d3f6b6614ff",
-          "name": "Creperie",
-          "type": "creperie"
-        },
-        {
-          "identifier": "a158946d-b7e0-4507-87b4-557c139b01a9",
-          "name": "Chicha",
-          "type": "chicha"
-        },
-        {
-          "identifier": "b0095809-8121-4e4f-9fd1-c791416424ed",
-          "name": "Patteserie",
-          "type": "patteserie"
-        }
-      ]
+          {
+            "identifier": "a1b2c3d4-e5f6-4a1b-9c3d-1234567890ab",
+            "name": "Economat",
+            "type": "distributionCenter"
+          },
+          {
+            "identifier": "4e2f3a1b-6c5d-7e8f-9a0b-1c2d3e4f5a7c",
+            "name": "Debou",
+            "type": "distributionCenter"
+          },
+          {
+            "identifier": "b1c2d3e4-f5a6-4b1c-8d3e-234567890abc",
+            "name": "Kitchen",
+            "type": "sellingCenter"
+          },
+          {
+            "identifier": "c1d2e3f4-a5b6-4c1d-7e3f-34567890abcd",
+            "name": "Pizzaria",
+            "type": "sellingCenter"
+          },
+          {
+            "identifier": "d1e2f3a4-b5c6-4d1e-6f3a-4567890abcde",
+            "name": "Comptoir",
+            "type": "sellingCenter"
+          },
+          {
+            "identifier": "e1f2a3b4-c5d6-4e1f-5a3b-567890abcdef",
+            "name": "Creperie",
+            "type": "sellingCenter"
+          },
+          {
+            "identifier": "f1a2b3c4-d5e6-4f1a-4b3c-67890abcdef1",
+            "name": "Chicha",
+            "type": "sellingCenter"
+          },
+          {
+            "identifier": "a2b3c4d5-e6f7-4a2b-3c4d-7890abcdef12",
+            "name": "Patteserie",
+            "type": "sellingCenter"
+          }
+        ]
     }
   }
 
