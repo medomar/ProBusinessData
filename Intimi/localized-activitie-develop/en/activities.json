@@ -523,5 +523,12 @@
     "category": "Romantic",
     "icon": "☀️",
     "description": "Move to where the morning light hits the bed and make love in that golden spot."
+  }, 
+  {
+    "id": "a76",
+    "title": "Sunbeam Position",
+    "category": "Romantic",
+    "icon": "☀️",
+    "description": "NEW TEST OF THE LIST"
   }
 ]
