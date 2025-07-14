@@ -1,7 +1,7 @@
 {
   "minimumVersion": "1.0.1",
   "currentVersion": "1.0.1",
-  "forceUpdate": true,
+  "forceUpdate": false,
   "updateTitle": "New Update Available! 🎉",
   "updateMessage": "We've added exciting new features to enhance your Intimi experience. Update now to explore together!",
   "appStoreURL": "https://apps.apple.com/app/intimi/id123456789",
