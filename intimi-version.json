@@ -1,0 +1,14 @@
+{
+  "minimumVersion": "1.0.0",
+  "currentVersion": "1.0.1",
+  "forceUpdate": false,
+  "updateTitle": "New Update Available! 🎉",
+  "updateMessage": "We've added exciting new features to enhance your Intimi experience. Update now to explore together!",
+  "appStoreURL": "https://apps.apple.com/app/intimi/id123456789",
+  "features": [
+    "New intimate activities added",
+    "Improved partner matching",
+    "Beautiful new animations",
+    "Bug fixes and performance improvements"
+  ]
+}
