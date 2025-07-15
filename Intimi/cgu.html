@@ -1,12 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Use</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Intimi - Terms of Use</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, #FFE5EC 0%, #FFEDF5 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(255, 182, 193, 0.3);
+      padding: 40px;
+      max-width: 700px;
+      width: 100%;
+    }
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 20px;
+      background: linear-gradient(135deg, #FF69B4, #FFB6C1);
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+    .language-toggle {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+    .language-toggle button {
+      padding: 10px 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: #fce4ec;
+      color: #333;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .language-toggle button:hover {
+      background-color: #FF69B4;
+      color: white;
+    }
+    .lang { display: none; }
+    #ar { direction: rtl; }
+    .content p, .content h3 {
+      margin-bottom: 16px;
+      color: #444;
+      line-height: 1.6;
+    }
+    .content h3 {
+      font-size: 18px;
+      margin-top: 20px;
+      color: #222;
+    }
+  </style>
+  <script>
+    function showLang(id) {
+      document.querySelectorAll('.lang').forEach(el => el.style.display = 'none');
+      document.getElementById(id).style.display = 'block';
+    }
+  </script>
 </head>
-<body>
+<body onload="showLang('en')">
+  <div class="container">
+    <div class="logo">💕</div>
     <h1>Terms of Use</h1>
-    <p>This is the terms of use for the Intimi application. Replace this text with your actual CGU content.</p>
+    <div class="language-toggle">
+      <button onclick="showLang('en')">English</button>
+      <button onclick="showLang('fr')">Français</button>
+      <button onclick="showLang('ar')">العربية</button>
+    </div>
+
+    <div id="en" class="lang content">
+      <p>By using Intimi you agree to these terms. Intimi is intended for consenting adults who wish to explore their relationship respectfully. You are responsible for any content you share with your partner.</p>
+      <p>We provide the service "as is" and may modify or discontinue it at any time. Your use must comply with applicable laws. You may close your account at any time.</p>
+      <p>These terms are governed by the laws applicable in your country of residence.</p>
+    </div>
+
+    <div id="fr" class="lang content">
+      <p>En utilisant Intimi, vous acceptez les présentes conditions. Intimi s’adresse aux adultes consentants souhaitant explorer leur relation de manière respectueuse. Vous êtes responsable des contenus partagés avec votre partenaire.</p>
+      <p>Le service est fourni « en l’état » et peut être modifié ou interrompu à tout moment. Votre utilisation doit respecter la législation en vigueur. Vous pouvez fermer votre compte quand vous le souhaitez.</p>
+      <p>Les présentes conditions sont soumises aux lois applicables dans votre pays de résidence.</p>
+    </div>
+
+    <div id="ar" class="lang content">
+      <p>باستخدامك لتطبيق Intimi، فإنك توافق على هذه الشروط. يخص Intimi البالغين الراغبين في استكشاف علاقتهم باحترام. أنت مسؤول عن أي محتوى تشاركه مع شريكك.</p>
+      <p>نقدّم الخدمة كما هي وقد نقوم بتعديلها أو إيقافها في أي وقت. يجب أن يكون استخدامك متوافقًا مع القوانين السارية. يمكنك إغلاق حسابك في أي وقت.</p>
+      <p>تخضع هذه الشروط للقوانين المعمول بها في بلد إقامتك.</p>
+    </div>
+  </div>
 </body>
 </html>
