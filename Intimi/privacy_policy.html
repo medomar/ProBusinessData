@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Intimi - Privacy Policy</title>
+  <style>
+    /* Same styles as previous pages */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, #FFE5EC 0%, #FFEDF5 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(255, 182, 193, 0.3);
+      padding: 40px;
+      max-width: 700px;
+      width: 100%;
+    }
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 20px;
+      background: linear-gradient(135deg, #FF69B4, #FFB6C1);
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+    .language-toggle {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+    .language-toggle button {
+      padding: 10px 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: #fce4ec;
+      color: #333;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .language-toggle button:hover {
+      background-color: #FF69B4;
+      color: white;
+    }
+    .lang { display: none; }
+    #ar { direction: rtl; }
+    .content p {
+      margin-bottom: 16px;
+      color: #444;
+      line-height: 1.6;
+    }
+  </style>
+  <script>
+    function showLang(id) {
+      document.querySelectorAll('.lang').forEach(el => el.style.display = 'none');
+      document.getElementById(id).style.display = 'block';
+    }
+  </script>
 </head>
-<body>
+<body onload="showLang('en')">
+  <div class="container">
+    <div class="logo">💕</div>
     <h1>Privacy Policy</h1>
-    <p>This page describes how Intimi collects and uses your data. Replace this placeholder with your actual privacy policy.</p>
+    <div class="language-toggle">
+      <button onclick="showLang('en')">English</button>
+      <button onclick="showLang('fr')">Français</button>
+      <button onclick="showLang('ar')">العربية</button>
+    </div>
+
+    <div id="en" class="lang content">
+      <p>Intimi collects only the nickname you choose and optional preferences you provide. This information helps suggest mutual activities with your partner. We do not use ads or tracking technologies.</p>
+      <p>Your data is stored securely and shared only with the partner you link in the app. You may delete your account at any time from the settings screen or by contacting us.</p>
+    </div>
+
+    <div id="fr" class="lang content">
+      <p>Intimi ne collecte que le pseudonyme choisi et les préférences facultatives que vous renseignez. Ces données servent à suggérer des activités communes avec votre partenaire. Aucune publicité ni suivi n’est effectué.</p>
+      <p>Vos informations sont conservées en toute sécurité et uniquement partagées avec le partenaire que vous liez dans l’application. Vous pouvez supprimer votre compte à tout moment depuis les réglages ou en nous contactant.</p>
+    </div>
+
+    <div id="ar" class="lang content">
+      <p>يقوم Intimi بجمع اللقب الذي تختاره وبعض التفضيلات الاختيارية فقط. تُستخدم هذه المعلومات لاقتراح أنشطة مشتركة مع شريكك. لا توجد إعلانات أو تقنيات تتبُّع.</p>
+      <p>يتم حفظ بياناتك بأمان ولا تُشارك إلا مع الشريك الذي تربطه بالتطبيق. يمكنك حذف حسابك في أي وقت من الإعدادات أو عبر مراسلتنا.</p>
+    </div>
+  </div>
 </body>
 </html>
