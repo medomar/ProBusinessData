@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-02",
+  "communicationStyles": [
+    {
+      "id": "direct",
+      "label": "Direct",
+      "description": "I communicate clearly and straightforwardly"
+    },
+    {
+      "id": "indirect",
+      "label": "Indirect",
+      "description": "I prefer subtle hints and implications"
+    },
+    {
+      "id": "expressive",
+      "label": "Expressive",
+      "description": "I openly share my emotions and feelings"
+    },
+    {
+      "id": "reserved",
+      "label": "Reserved",
+      "description": "I keep my thoughts more private"
+    }
+  ],
+  "conflictResolutionStyles": [
+    {
+      "id": "avoidant",
+      "label": "Avoid",
+      "description": "I prefer to step back and cool down first"
+    },
+    {
+      "id": "collaborative",
+      "label": "Collaborate",
+      "description": "I want to work through it together immediately"
+    }
+  ]
+}

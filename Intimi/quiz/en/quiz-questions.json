@@ -1,0 +1,266 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-02",
+  "questions": [
+    {
+      "id": 1,
+      "text": "I feel most loved when my partner...",
+      "options": [
+        {
+          "text": "Tells me they love me and appreciate me",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Spends quality time with me without distractions",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Gives me thoughtful gifts",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Does helpful things for me",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "Hugs, kisses, or holds my hand",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "What makes me feel closest to my partner?",
+      "options": [
+        {
+          "text": "Having deep conversations",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Doing activities together",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Receiving compliments",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Getting help with tasks",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "Physical affection",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "I feel appreciated when...",
+      "options": [
+        {
+          "text": "My partner helps me with my responsibilities",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "My partner listens to me",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "I receive a meaningful gift",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "We spend uninterrupted time together",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "We show physical affection",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "A perfect day with my partner includes...",
+      "options": [
+        {
+          "text": "Adventuring together somewhere new",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Receiving a surprise gift",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Hearing words of encouragement",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Getting help with something I've been putting off",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "Lots of cuddling and physical touch",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "What hurts me most?",
+      "options": [
+        {
+          "text": "Critical or harsh words",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Not spending enough time together",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Forgetting special occasions",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Not helping when I need it",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "Lack of physical affection",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "I feel secure in my relationship when...",
+      "options": [
+        {
+          "text": "We're physically close",
+          "languageId": "physical_touch"
+        },
+        {
+          "text": "My partner tells me I matter to them",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "We do things together regularly",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "I receive thoughtful surprises",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "My partner helps me when I'm overwhelmed",
+          "languageId": "acts_of_service"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "The best gift my partner could give me is...",
+      "options": [
+        {
+          "text": "Something they know I've wanted",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Their undivided attention",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Words of love and appreciation",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Help with something I've been dreading",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "A long, warm embrace",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "I feel disconnected when...",
+      "options": [
+        {
+          "text": "We don't spend meaningful time together",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "There's little physical affection",
+          "languageId": "physical_touch"
+        },
+        {
+          "text": "I don't hear affirming words",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "They don't remember important dates",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "They don't help me when I need it",
+          "languageId": "acts_of_service"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "What makes me feel most valued?",
+      "options": [
+        {
+          "text": "When my partner does things to make my life easier",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "When I receive a thoughtful gift",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "When my partner holds me close",
+          "languageId": "physical_touch"
+        },
+        {
+          "text": "When my partner tells me I'm important",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "When we have quality conversations",
+          "languageId": "quality_time"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "The most meaningful way to show love is...",
+      "options": [
+        {
+          "text": "Giving meaningful gifts that show you care",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Spending focused time together",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Helping with daily tasks",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "Speaking words of love and encouragement",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Physical closeness and touch",
+          "languageId": "physical_touch"
+        }
+      ]
+    }
+  ]
+}
