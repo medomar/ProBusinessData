@@ -1,0 +1,270 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-09",
+  "questions": [
+    {
+      "id": 1,
+      "text": "أشعر بالحب أكثر عندما يقوم شريكي بـ...",
+      "options": [
+        {
+          "text": "يخبرني أنه يحبني ويقدرني",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "يقضي وقتًا ممي
+
+زًا معي دون تشتيت",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "يقدم لي هدايا مدروسة",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "يقوم بأشياء مفيدة لي",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "يعانقني أو يقبلني أو يمسك يدي",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "ما الذي يجعلني أشعر بالقرب من شريكي؟",
+      "options": [
+        {
+          "text": "إجراء محادثات عميقة",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "القيام بأنشطة معًا",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "تلقي الثناء",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "الحصول على المساعدة في المهام",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "المودة الجسدية",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "أشعر بالتقدير عندما...",
+      "options": [
+        {
+          "text": "يساعدني شريكي في مسؤولياتي",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "يستمع إلي شريكي",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "أحصل على هدية ذات معنى",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "نقضي وقتًا معًا دون مقاطعة",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "نظهر المودة الجسدية",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "يوم مثالي مع شريكي يتضمن...",
+      "options": [
+        {
+          "text": "المغامرة معًا في مكان جديد",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "تلقي هدية مفاجئة",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "سماع كلمات التشجيع",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "الحصول على المساعدة في شيء كنت أؤجله",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "الكثير من العناق واللمس الجسدي",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "ما الذي يؤلمني أكثر؟",
+      "options": [
+        {
+          "text": "الكلمات الجارحة أو القاسية",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "عدم قضاء وقت كافٍ معًا",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "نسيان المناسبات الخاصة",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "عدم المساعدة عندما أحتاج إليها",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "نقص المودة الجسدية",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "أشعر بالأمان في علاقتي عندما...",
+      "options": [
+        {
+          "text": "نكون قريبين جسديًا",
+          "languageId": "physical_touch"
+        },
+        {
+          "text": "يخبرني شريكي أنني مهم بالنسبة له",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "نقوم بأشياء معًا بانتظام",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "أحصل على مفاجآت مدروسة",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "يساعدني شريكي عندما أشعر بالإرهاق",
+          "languageId": "acts_of_service"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "أفضل هدية يمكن أن يقدمها لي شريكي هي...",
+      "options": [
+        {
+          "text": "شيء يعرف أنني أردته",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "اهتمامه الكامل",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "كلمات الحب والتقدير",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "المساعدة في شيء كنت أخشاه",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "عناق طويل ودافئ",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "أشعر بالانفصال عندما...",
+      "options": [
+        {
+          "text": "لا نقضي وقتًا ذا مغزى معًا",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "هناك القليل من المودة الجسدية",
+          "languageId": "physical_touch"
+        },
+        {
+          "text": "لا أسمع كلمات مطمئنة",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "لا يتذكر التواريخ المهمة",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "لا يساعدني عندما أحتاج إليه",
+          "languageId": "acts_of_service"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "ما الذي يجعلني أشعر بالتقدير أكثر؟",
+      "options": [
+        {
+          "text": "عندما يقوم شريكي بأشياء لتسهيل حياتي",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "عندما أحصل على هدية مدروسة",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "عندما يحتضنني شريكي",
+          "languageId": "physical_touch"
+        },
+        {
+          "text": "عندما يخبرني شريكي أنني مهم",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "عندما نجري محادثات ممي
+
+زة",
+          "languageId": "quality_time"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "الطريقة الأكثر معنى لإظهار الحب هي...",
+      "options": [
+        {
+          "text": "تقديم هدايا ذات معنى تظهر اهتمامك",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "قضاء وقت مركز معًا",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "المساعدة في المهام اليومية",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "التحدث بكلمات الحب والتشجيع",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "القرب الجسدي واللمس",
+          "languageId": "physical_touch"
+        }
+      ]
+    }
+  ]
+}

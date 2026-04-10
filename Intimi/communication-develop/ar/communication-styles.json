@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-09",
+  "communicationStyles": [
+    {
+      "id": "direct",
+      "label": "مباشر",
+      "description": "أتواصل بوضوح ومباشرة"
+    },
+    {
+      "id": "indirect",
+      "label": "غير مباشر",
+      "description": "أفضل التلميحات الدقيقة والإشارات"
+    },
+    {
+      "id": "expressive",
+      "label": "معبّر",
+      "description": "أشارك مشاعري وأحاسيسي بصراحة"
+    },
+    {
+      "id": "reserved",
+      "label": "متحفظ",
+      "description": "أحتفظ بأفكاري بشكل أكثر خصوصية"
+    }
+  ],
+  "conflictResolutionStyles": [
+    {
+      "id": "avoidant",
+      "label": "تجنب",
+      "description": "أفضل التراجع والهدوء أولاً"
+    },
+    {
+      "id": "collaborative",
+      "label": "تعاون",
+      "description": "أريد حل الأمور معًا على الفور"
+    }
+  ]
+}

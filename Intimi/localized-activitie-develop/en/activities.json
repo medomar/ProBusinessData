@@ -1,534 +1,352 @@
 [
   {
-    "id": "a1",
-    "title": "Cuddling",
-    "category": "Sensory",
-    "icon": "🧸",
-    "description": "Hold each other closely under a blanket and enjoy quiet physical closeness."
+    "id": "deep_conversation",
+    "title": "Deep Conversation Night",
+    "category": "Communication",
+    "icon": "💬",
+    "description": "Set aside dedicated time for an uninterrupted conversation about your dreams, fears, or life goals"
   },
   {
-    "id": "a2",
-    "title": "Sensual Massage",
-    "category": "Physical",
-    "icon": "💆‍♀️",
-    "description": "Give your partner a slow, relaxing massage with oils and soft touches."
-  },
-  {
-    "id": "a3",
-    "title": "Slow Dancing",
-    "category": "Playful",
-    "icon": "🕺",
-    "description": "Put on soft music and dance slowly in the living room, barefoot and close."
-  },
-  {
-    "id": "a4",
-    "title": "Spooning",
-    "category": "Position",
-    "icon": "🥄",
-    "description": "Enjoy close body contact by spooning in bed, awake or drifting to sleep."
-  },
-  {
-    "id": "a5",
-    "title": "Shower Together",
-    "category": "Setting",
-    "icon": "🚿",
-    "description": "Take a warm shower together, wash each other's hair, and enjoy the intimacy."
-  },
-  {
-    "id": "a6",
-    "title": "Blindfold Play",
-    "category": "Kinky",
-    "icon": "🕶️",
-    "description": "Take turns blindfolding each other to heighten the senses and build anticipation."
-  },
-  {
-    "id": "a7",
-    "title": "Feather Teasing",
-    "category": "Sensory",
-    "icon": "🪶",
-    "description": "Use a feather or soft object to tease and gently touch your partner’s skin."
-  },
-  {
-    "id": "a8",
-    "title": "Candle Wax Play",
-    "category": "Kinky",
-    "icon": "🕯️",
-    "description": "Drip warm wax (from body-safe candles) on each other for playful, spicy sensation."
-  },
-  {
-    "id": "a9",
-    "title": "Roleplay Scenario",
-    "category": "Fantasy",
-    "icon": "🎭",
-    "description": "Pretend to be different characters and create playful, imaginative stories together."
-  },
-  {
-    "id": "a10",
-    "title": "Bath for Two",
-    "category": "Setting",
-    "icon": "🛁",
-    "description": "Take a romantic bubble bath with candles, soft music, and maybe a glass of wine."
-  },
-  {
-    "id": "a11",
-    "title": "Love Letter Exchange",
-    "category": "Emotional",
-    "icon": "💌",
-    "description": "Write and read heartfelt letters to each other to deepen your connection."
-  },
-  {
-    "id": "a12",
-    "title": "Morning Intimacy",
-    "category": "Timing",
-    "icon": "☀️",
-    "description": "Wake up slowly together and enjoy some early light touches and closeness."
-  },
-  {
-    "id": "a13",
-    "title": "Evening Strip Tease",
-    "category": "Playful",
-    "icon": "👠",
-    "description": "Put on soft music and perform a slow, teasing strip for your partner."
-  },
-  {
-    "id": "a14",
-    "title": "Edible Body Paint",
-    "category": "Kinky",
-    "icon": "🍫",
-    "description": "Use flavored body paint or whipped cream to turn your partner into dessert."
-  },
-  {
-    "id": "a15",
-    "title": "Outdoor Makeout",
-    "category": "Adventurous",
-    "icon": "🌲",
-    "description": "Find a discreet outdoor place and share a long, passionate kiss under the stars."
-  },
-  {
-    "id": "a16",
-    "title": "Tickle Game",
-    "category": "Playful",
-    "icon": "😜",
-    "description": "Gently tickle each other and let it lead to laughs, wriggles, and closeness."
-  },
-  {
-    "id": "a17",
-    "title": "Intimacy Talk",
-    "category": "Emotional",
-    "icon": "🧠",
-    "description": "Talk openly about what you love or fantasize about trying with each other."
-  },
-  {
-    "id": "a18",
-    "title": "Partner Stretching",
-    "category": "Physical",
-    "icon": "🤸‍♀️",
-    "description": "Do partner yoga or help each other stretch, focusing on gentle physical connection."
-  },
-  {
-    "id": "a19",
-    "title": "Pillow Fortress",
-    "category": "Playful",
-    "icon": "🛏️",
-    "description": "Build a pillow fort, watch a movie, and end with some cozy cuddles or more."
-  },
-  {
-    "id": "a20",
-    "title": "Mirror Play",
-    "category": "Kinky",
-    "icon": "🪞",
-    "description": "Use a mirror during intimacy to enhance self-awareness and visual stimulation."
-  },
-  {
-    "id": "a21",
-    "title": "Underwear Surprise",
-    "category": "Flirty",
-    "icon": "🩲",
-    "description": "Wear new or daring underwear and let your partner discover it."
-  },
-  {
-    "id": "a22",
-    "title": "Ice Cube Play",
-    "category": "Sensory",
-    "icon": "🧊",
-    "description": "Use ice cubes gently on each other's skin to awaken sensations."
-  },
-  {
-    "id": "a23",
-    "title": "Secret Dare",
-    "category": "Game",
-    "icon": "🎯",
-    "description": "Dare each other to do intimate or playful things through notes or messages."
-  },
-  {
-    "id": "a24",
-    "title": "Slow Strip Together",
-    "category": "Playful",
-    "icon": "🩳",
-    "description": "Undress each other slowly with eye contact and giggles."
-  },
-  {
-    "id": "a25",
-    "title": "Passionate Kissing",
-    "category": "Emotional",
-    "icon": "💋",
-    "description": "Spend time exploring different kinds of kisses with focus and intention."
-  },
-  {
-    "id": "a26",
-    "title": "Massage with Music",
-    "category": "Physical",
-    "icon": "🎶",
-    "description": "Create a relaxing playlist and massage each other with oils or lotions."
-  },
-  {
-    "id": "a27",
-    "title": "Silent Intimacy",
-    "category": "Emotional",
-    "icon": "🤫",
-    "description": "Share a moment of quiet eye contact and physical closeness without words."
-  },
-  {
-    "id": "a28",
-    "title": "Fantasy Storytelling",
-    "category": "Imaginative",
-    "icon": "📖",
-    "description": "Take turns telling an erotic or romantic story out loud to each other."
-  },
-  {
-    "id": "a29",
-    "title": "Tied Hands",
-    "category": "Kinky",
-    "icon": "🪢",
-    "description": "Use soft restraints or scarves to play with power and trust gently."
-  },
-  {
-    "id": "a30",
-    "title": "Compliment Game",
-    "category": "Emotional",
-    "icon": "💗",
-    "description": "Exchange genuine compliments and affirmations before getting physical."
-  },
-  {
-    "id": "a31",
-    "title": "Back Tracing",
-    "category": "Sensory",
-    "icon": "🌬️",
-    "description": "Use fingers to trace letters or drawings on each other’s back slowly."
-  },
-  {
-    "id": "a32",
-    "title": "Dimmed Room Play",
-    "category": "Setting",
-    "icon": "🕯️",
-    "description": "Set the room with soft lights or candles to create a more sensual vibe."
-  },
-  {
-    "id": "a33",
-    "title": "Body Worship",
-    "category": "Emotional",
+    "id": "gratitude_exchange",
+    "title": "Gratitude Exchange",
+    "category": "Communication",
     "icon": "🙏",
-    "description": "Verbally admire your partner’s body and kiss each part you mention."
+    "description": "Share three things you're grateful for about each other and why they matter to you"
   },
   {
-    "id": "a34",
-    "title": "Try a New Position",
-    "category": "Adventurous",
-    "icon": "🔄",
-    "description": "Explore something new from a position guide or app together."
+    "id": "dream_planning",
+    "title": "Dream Planning Session",
+    "category": "Future Building",
+    "icon": "✨",
+    "description": "Talk about your future dreams together - where you want to travel, live, or what you want to achieve"
   },
   {
-    "id": "a35",
-    "title": "Use a Toy Together",
-    "category": "Kinky",
-    "icon": "🧸",
-    "description": "Introduce a new bedroom toy and explore it together with curiosity."
-  },
-  {
-    "id": "a36",
-    "title": "Bedroom Picnic",
-    "category": "Setting",
-    "icon": "🍓",
-    "description": "Set up a simple picnic on the bed with snacks, drinks, and cuddles."
-  },
-  {
-    "id": "a37",
-    "title": "Love Song Duet",
-    "category": "Playful",
-    "icon": "🎤",
-    "description": "Sing or lip-sync a romantic duet — even better if you film it."
-  },
-  {
-    "id": "a38",
-    "title": "Mimic Each Other",
-    "category": "Game",
-    "icon": "🧍‍♀️🧍‍♂️",
-    "description": "Take turns imitating each other’s gestures or phrases in a cute way."
-  },
-  {
-    "id": "a39",
-    "title": "In the Mirror",
-    "category": "Setting",
-    "icon": "🪞",
-    "description": "Try activities in front of a mirror to boost confidence and connection."
-  },
-  {
-    "id": "a40",
-    "title": "Dress Up for Bed",
-    "category": "Flirty",
-    "icon": "👗",
-    "description": "Wear something unusual or fancy to bed to surprise your partner."
-  },
-  {
-    "id": "a41",
-    "title": "The Breath Game",
-    "category": "Emotional",
-    "icon": "🌬️",
-    "description": "Match your breathing with your partner while cuddling or making love."
-  },
-  {
-    "id": "a42",
-    "title": "Take Turns Leading",
-    "category": "Kinky",
-    "icon": "🎮",
-    "description": "Decide who leads and follows — let go of control and switch roles."
-  },
-  {
-    "id": "a43",
-    "title": "Countdown Tease",
-    "category": "Game",
-    "icon": "⏱️",
-    "description": "Set a timer for foreplay — no climax allowed before it rings!"
-  },
-  {
-    "id": "a44",
-    "title": "Silent Touch",
-    "category": "Sensory",
-    "icon": "🤲",
-    "description": "Explore each other with your hands in silence — no talking."
-  },
-  {
-    "id": "a45",
-    "title": "Kiss Every Inch",
-    "category": "Physical",
-    "icon": "👄",
-    "description": "Take turns kissing every part of your partner from head to toe."
-  },
-  {
-    "id": "a46",
-    "title": "Love Dice",
-    "category": "Game",
-    "icon": "🎲",
-    "description": "Roll a dice where each number corresponds to a fun challenge."
-  },
-  {
-    "id": "a47",
-    "title": "Favorite Memory Replay",
-    "category": "Emotional",
+    "id": "memory_lane",
+    "title": "Memory Lane Walk",
+    "category": "Connection",
     "icon": "📸",
-    "description": "Recreate your favorite romantic moment or date from the past."
+    "description": "Look through old photos together and share favorite memories from your relationship"
   },
   {
-    "id": "a48",
-    "title": "Nude Drawing",
-    "category": "Playful",
+    "id": "cook_together",
+    "title": "Cook a New Recipe Together",
+    "category": "Quality Time",
+    "icon": "👨‍🍳",
+    "description": "Choose a recipe neither of you has tried and cook it together from scratch"
+  },
+  {
+    "id": "stargazing",
+    "title": "Stargazing Night",
+    "category": "Romance",
+    "icon": "⭐",
+    "description": "Find a quiet spot, lie down, and talk while watching the stars"
+  },
+  {
+    "id": "question_game",
+    "title": "36 Questions Game",
+    "category": "Communication",
+    "icon": "❓",
+    "description": "Take turns asking each other meaningful questions to deepen your connection"
+  },
+  {
+    "id": "handwritten_letter",
+    "title": "Write Love Letters",
+    "category": "Romance",
+    "icon": "✉️",
+    "description": "Write handwritten letters to each other expressing your feelings and appreciation"
+  },
+  {
+    "id": "picnic_date",
+    "title": "Sunset Picnic",
+    "category": "Quality Time",
+    "icon": "🧺",
+    "description": "Pack a picnic basket and watch the sunset together at a scenic location"
+  },
+  {
+    "id": "dance_class",
+    "title": "Learn to Dance",
+    "category": "Fun Activity",
+    "icon": "💃",
+    "description": "Take a dance class together or watch tutorials and practice at home"
+  },
+  {
+    "id": "museum_visit",
+    "title": "Museum or Art Gallery Visit",
+    "category": "Cultural",
     "icon": "🎨",
-    "description": "Draw each other (clothed or nude) — make it flirty, not perfect!"
+    "description": "Visit a museum or art gallery and discuss what you see and feel"
   },
   {
-    "id": "a49",
-    "title": "Shared Fantasy Night",
-    "category": "Imaginative",
-    "icon": "🌌",
-    "description": "Explore a fantasy you both like in a safe and consensual way."
+    "id": "hiking_adventure",
+    "title": "Nature Hike",
+    "category": "Adventure",
+    "icon": "🥾",
+    "description": "Go on a hike together and enjoy nature while talking and connecting"
   },
   {
-    "id": "a50",
-    "title": "Secret Touch in Public",
-    "category": "Flirty",
-    "icon": "🫣",
-    "description": "Give each other subtle, flirty touches when no one is watching."
+    "id": "book_club",
+    "title": "Couples Book Club",
+    "category": "Intellectual",
+    "icon": "📚",
+    "description": "Read the same book and discuss it together, sharing your thoughts and perspectives"
   },
   {
-    "id": "a51",
-    "title": "Mirror Strip Game",
-    "category": "Kinky",
-    "icon": "🪞",
-    "description": "Take turns stripping in front of a mirror, maintaining eye contact with each other throughout."
+    "id": "volunteer_together",
+    "title": "Volunteer Together",
+    "category": "Giving Back",
+    "icon": "🤝",
+    "description": "Find a cause you both care about and volunteer together"
   },
   {
-    "id": "a52",
-    "title": "Hotel Roleplay",
-    "category": "Fantasy",
-    "icon": "🏨",
-    "description": "Pretend you’re strangers meeting at a hotel for a secret night of passion."
+    "id": "morning_ritual",
+    "title": "Morning Coffee Ritual",
+    "category": "Daily Connection",
+    "icon": "☕",
+    "description": "Wake up 15 minutes early to have coffee/tea together and talk about your day ahead"
   },
   {
-    "id": "a53",
-    "title": "Overstimulation Challenge",
-    "category": "Kinky",
-    "icon": "⚡️",
-    "description": "Explore continuous pleasure and teasing until one begs for a break — set safe words first."
+    "id": "playlist_exchange",
+    "title": "Create Playlists for Each Other",
+    "category": "Creative",
+    "icon": "🎵",
+    "description": "Make playlists of songs that remind you of each other and listen together"
   },
   {
-    "id": "a54",
-    "title": "Moonlit Dance",
-    "category": "Romantic",
-    "icon": "🌙",
-    "description": "Dance under the moonlight, even if it’s just outside your home or on a balcony."
+    "id": "game_night",
+    "title": "Board Game Night",
+    "category": "Fun Activity",
+    "icon": "🎲",
+    "description": "Play board games or card games together - competitive or cooperative"
   },
   {
-    "id": "a55",
-    "title": "100 Kisses Challenge",
-    "category": "Emotional",
-    "icon": "💋",
-    "description": "Try to give each other 100 kisses all over the body — count together, laugh together."
+    "id": "farmers_market",
+    "title": "Farmers Market Visit",
+    "category": "Quality Time",
+    "icon": "🍓",
+    "description": "Visit a local farmers market together and pick out fresh ingredients for a meal"
   },
   {
-    "id": "a56",
-    "title": "Future Fantasy",
-    "category": "Imaginative",
-    "icon": "🌠",
-    "description": "Lie together and imagine your ideal future life, trips, kids, fantasies — speak freely."
+    "id": "photo_challenge",
+    "title": "Photo Challenge",
+    "category": "Creative",
+    "icon": "📷",
+    "description": "Take turns being the photographer and model, capturing fun and meaningful moments"
   },
   {
-    "id": "a57",
-    "title": "Lotus Position",
-    "category": "Position",
-    "icon": "🪷",
-    "description": "Sit facing each other cross-legged, legs wrapped, and connect with deep eye contact."
-  },
-  {
-    "id": "a58",
-    "title": "Chair Ride",
-    "category": "Position",
-    "icon": "🪑",
-    "description": "Use a sturdy chair for seated intimacy — adds closeness and a change of angle."
-  },
-  {
-    "id": "a59",
-    "title": "Stand and Slide",
-    "category": "Position",
-    "icon": "🚿",
-    "description": "Stand in the shower, holding on to each other, letting water heighten sensations."
-  },
-  {
-    "id": "a60",
-    "title": "Strip Poker or Uno",
-    "category": "Game",
-    "icon": "🃏",
-    "description": "Play a card game with a sexy twist — each loss means losing a piece of clothing."
-  },
-  {
-    "id": "a61",
-    "title": "Dress Me Dirty",
-    "category": "Flirty",
-    "icon": "👙",
-    "description": "Pick out the sexiest outfit you want your partner to wear — and undress them later."
-  },
-  {
-    "id": "a62",
-    "title": "Call Me",
-    "category": "Fantasy",
-    "icon": "📱",
-    "description": "Send each other spicy voice notes or sexy texts during the day to build anticipation."
-  },
-  {
-    "id": "a63",
-    "title": "Temperature Play",
-    "category": "Sensory",
-    "icon": "🌡️",
-    "description": "Alternate between warm and cold sensations using heated oil or ice for stimulation."
-  },
-  {
-    "id": "a64",
-    "title": "Erotic Audio Night",
-    "category": "Imaginative",
-    "icon": "🎧",
-    "description": "Listen to erotic or romantic audio stories together and let them inspire your night."
-  },
-  {
-    "id": "a65",
-    "title": "Body Map Discovery",
-    "category": "Sensory",
-    "icon": "🗺️",
-    "description": "Explore each other's bodies blindfolded, mapping out new sensitive or favorite zones."
-  },
-  {
-    "id": "a66",
-    "title": "Lazy Spooning",
-    "category": "Position",
-    "icon": "🛌",
-    "description": "Stay spooned under the covers and let intimacy happen naturally from behind."
-  },
-  {
-    "id": "a67",
-    "title": "Face-to-Face Wakeup",
-    "category": "Position",
-    "icon": "🌞",
-    "description": "Lie on your sides, face-to-face, and enjoy morning breath kisses and slow connection."
-  },
-  {
-    "id": "a68",
-    "title": "Morning Cowgirl",
-    "category": "Position",
-    "icon": "🐎",
-    "description": "One partner lies back while the other takes the lead — gentle, playful, and cozy."
-  },
-  {
-    "id": "a69",
-    "title": "Under-the-Covers Surprise",
-    "category": "Timing",
-    "icon": "🫣",
-    "description": "Wake your partner up with gentle caresses under the blanket — no words needed."
-  },
-  {
-    "id": "a70",
-    "title": "Bed Edge Stretch",
-    "category": "Physical",
+    "id": "meditation_together",
+    "title": "Couples Meditation",
+    "category": "Wellness",
     "icon": "🧘",
-    "description": "One lies on the edge of the bed while the other kneels or stands — lazy but intense."
+    "description": "Practice meditation or breathing exercises together to connect mindfully"
   },
   {
-    "id": "a71",
-    "title": "Missionary with a View",
-    "category": "Romantic",
+    "id": "movie_marathon",
+    "title": "Movie Marathon",
+    "category": "Relaxation",
+    "icon": "🎬",
+    "description": "Pick a movie series or theme and have a cozy movie marathon with snacks"
+  },
+  {
+    "id": "language_learning",
+    "title": "Learn a Language Together",
+    "category": "Intellectual",
+    "icon": "🗣️",
+    "description": "Start learning a new language together using an app or videos"
+  },
+  {
+    "id": "budget_planning",
+    "title": "Financial Goal Planning",
+    "category": "Future Building",
+    "icon": "💰",
+    "description": "Sit down together and discuss your financial goals and dreams for the future"
+  },
+  {
+    "id": "podcast_discussion",
+    "title": "Podcast & Discussion",
+    "category": "Intellectual",
+    "icon": "🎙️",
+    "description": "Listen to a podcast episode together and discuss your thoughts afterward"
+  },
+  {
+    "id": "breakfast_in_bed",
+    "title": "Surprise Breakfast in Bed",
+    "category": "Romance",
+    "icon": "🥞",
+    "description": "Wake up early and surprise your partner with their favorite breakfast"
+  },
+  {
+    "id": "bike_ride",
+    "title": "Scenic Bike Ride",
+    "category": "Adventure",
+    "icon": "🚴",
+    "description": "Go on a bike ride together exploring new neighborhoods or scenic routes"
+  },
+  {
+    "id": "goals_vision_board",
+    "title": "Create a Vision Board",
+    "category": "Future Building",
+    "icon": "🎯",
+    "description": "Make a vision board together with your shared goals and dreams for the future"
+  },
+  {
+    "id": "spa_night",
+    "title": "At-Home Spa Night",
+    "category": "Relaxation",
+    "icon": "🛁",
+    "description": "Create a relaxing spa experience at home with face masks, candles, and massage"
+  },
+  {
+    "id": "karaoke_night",
+    "title": "Karaoke Night",
+    "category": "Fun Activity",
+    "icon": "🎤",
+    "description": "Have a karaoke session at home or go to a karaoke bar and sing together"
+  },
+  {
+    "id": "workshop_class",
+    "title": "Take a Workshop Together",
+    "category": "Learning",
+    "icon": "🎓",
+    "description": "Sign up for a pottery, painting, or cooking workshop and learn something new together"
+  },
+  {
+    "id": "device_free_evening",
+    "title": "Device-Free Evening",
+    "category": "Connection",
+    "icon": "📵",
+    "description": "Put away all devices for an evening and focus completely on each other"
+  },
+  {
+    "id": "sunrise_watching",
+    "title": "Watch the Sunrise",
+    "category": "Romance",
     "icon": "🌅",
-    "description": "Open the blinds, let morning light in, and enjoy each other with deep eye contact."
+    "description": "Wake up early together and watch the sunrise while having meaningful conversation"
   },
   {
-    "id": "a72",
-    "title": "Sleepy Straddle",
-    "category": "Position",
-    "icon": "🦋",
-    "description": "Climb over your sleepy partner and slowly straddle them — soft touches only at first."
+    "id": "appreciation_jar",
+    "title": "Start an Appreciation Jar",
+    "category": "Communication",
+    "icon": "💝",
+    "description": "Write notes about what you appreciate about each other and put them in a jar to read later"
   },
   {
-    "id": "a73",
-    "title": "Half-Awake Foreplay",
-    "category": "Timing",
-    "icon": "⏰",
-    "description": "Touch and explore each other gently before either of you fully wakes up."
+    "id": "trivia_night",
+    "title": "Trivia Challenge",
+    "category": "Fun Activity",
+    "icon": "🧠",
+    "description": "Test your knowledge with trivia games about each other or general topics"
   },
   {
-    "id": "a74",
-    "title": "Morning Breath Play",
-    "category": "Playful",
-    "icon": "😮‍💨",
-    "description": "Make fun of each other’s morning breath with laughter, then kiss anyway."
+    "id": "couples_yoga",
+    "title": "Partner Yoga Session",
+    "category": "Wellness",
+    "icon": "🧘‍♀️",
+    "description": "Try partner yoga poses together to build trust and physical connection"
   },
   {
-    "id": "a75",
-    "title": "Sunbeam Position",
-    "category": "Romantic",
-    "icon": "☀️",
-    "description": "Move to where the morning light hits the bed and make love in that golden spot."
-  }, 
+    "id": "handmade_gift",
+    "title": "Make Handmade Gifts",
+    "category": "Creative",
+    "icon": "🎁",
+    "description": "Create handmade gifts for each other - crafts, art, or something meaningful"
+  },
   {
-    "id": "a76",
-    "title": "Sunbeam Position",
-    "category": "Romantic",
-    "icon": "☀️",
-    "description": "NEW TEST OF THE LIST"
+    "id": "comedy_show",
+    "title": "Comedy Show or Stand-up",
+    "category": "Entertainment",
+    "icon": "😂",
+    "description": "Watch a comedy show or stand-up special together and laugh"
+  },
+  {
+    "id": "plant_together",
+    "title": "Plant a Garden Together",
+    "category": "Nature",
+    "icon": "🌱",
+    "description": "Plant flowers, herbs, or vegetables together and watch them grow"
+  },
+  {
+    "id": "childhood_stories",
+    "title": "Share Childhood Stories",
+    "category": "Communication",
+    "icon": "👶",
+    "description": "Take turns sharing stories from your childhood and looking at old photos"
+  },
+  {
+    "id": "bucket_list",
+    "title": "Create a Bucket List",
+    "category": "Future Building",
+    "icon": "📝",
+    "description": "Make a relationship bucket list of experiences you want to have together"
+  },
+  {
+    "id": "themed_dinner",
+    "title": "Themed Dinner Night",
+    "category": "Quality Time",
+    "icon": "🍽️",
+    "description": "Pick a country or theme and create a full dinner experience around it"
+  },
+  {
+    "id": "couples_journal",
+    "title": "Start a Couples Journal",
+    "category": "Communication",
+    "icon": "📔",
+    "description": "Keep a shared journal where you both write thoughts, memories, and messages"
+  },
+  {
+    "id": "scavenger_hunt",
+    "title": "Create a Scavenger Hunt",
+    "category": "Fun Activity",
+    "icon": "🔍",
+    "description": "Design a scavenger hunt for your partner with clues leading to meaningful places or items"
+  },
+  {
+    "id": "wine_tasting",
+    "title": "Wine or Tea Tasting",
+    "category": "Quality Time",
+    "icon": "🍷",
+    "description": "Have a tasting experience at home or visit a local winery or tea house"
+  },
+  {
+    "id": "relationship_check_in",
+    "title": "Relationship Check-In",
+    "category": "Communication",
+    "icon": "💞",
+    "description": "Have an honest conversation about your relationship - what's working and what needs attention"
+  },
+  {
+    "id": "outdoor_concert",
+    "title": "Outdoor Concert or Music Event",
+    "category": "Entertainment",
+    "icon": "🎶",
+    "description": "Attend an outdoor concert, music festival, or live music event together"
+  },
+  {
+    "id": "recreate_first_date",
+    "title": "Recreate Your First Date",
+    "category": "Romance",
+    "icon": "💕",
+    "description": "Go back to where you had your first date and recreate the experience"
+  },
+  {
+    "id": "diy_project",
+    "title": "DIY Home Project",
+    "category": "Creative",
+    "icon": "🔨",
+    "description": "Work on a DIY project together to improve your living space"
+  },
+  {
+    "id": "campfire_stories",
+    "title": "Campfire Night",
+    "category": "Adventure",
+    "icon": "🔥",
+    "description": "Build a campfire (or use candles) and share stories, roast marshmallows, and connect"
+  },
+  {
+    "id": "values_discussion",
+    "title": "Discuss Your Values",
+    "category": "Communication",
+    "icon": "💭",
+    "description": "Talk about your core values and what matters most to each of you in life"
   }
 ]
