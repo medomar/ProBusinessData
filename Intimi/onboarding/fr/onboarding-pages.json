@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-09",
+  "pages": [
+    {
+      "id": 1,
+      "title": "Bienvenue sur Intimi",
+      "description": "Restez connecté avec votre partenaire grâce à des conversations quotidiennes",
+      "lottieName": "intro1",
+      "emoji": "💕"
+    },
+    {
+      "id": 2,
+      "title": "Conversations Significatives",
+      "description": "Recevez une question réfléchie chaque jour. Parfait pour susciter de vraies connexions.",
+      "lottieName": "intro2",
+      "emoji": "💬"
+    },
+    {
+      "id": 3,
+      "title": "Privé et Sûr",
+      "description": "Vos conversations vous appartiennent. Pas de suivi, pas de publicités, juste vous deux.",
+      "lottieName": "intro3",
+      "emoji": "🔒"
+    }
+  ]
+}

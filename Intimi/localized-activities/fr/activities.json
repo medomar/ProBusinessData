@@ -1,527 +1,352 @@
 [
   {
-    "id": "a1",
-    "title": "Câlins",
-    "category": "Sensoriel",
-    "icon": "🧸",
-    "description": "Serrez-vous l'un contre l'autre sous une couverture et profitez d'une douce proximité."
+    "id": "deep_conversation",
+    "title": "Soirée Conversation Profonde",
+    "category": "Communication",
+    "icon": "💬",
+    "description": "Consacrez du temps pour une conversation ininterrompue sur vos rêves, vos peurs ou vos objectifs de vie"
   },
   {
-    "id": "a2",
-    "title": "Massage sensuel",
-    "category": "Physique",
-    "icon": "💆‍♀️",
-    "description": "Faites à votre partenaire un massage lent et relaxant avec des huiles et des caresses douces."
-  },
-  {
-    "id": "a3",
-    "title": "Danse lente",
-    "category": "Ludique",
-    "icon": "🕺",
-    "description": "Mettez une musique douce et dansez lentement dans le salon, pieds nus et enlacés."
-  },
-  {
-    "id": "a4",
-    "title": "Câlin en cuillère",
-    "category": "Position",
-    "icon": "🥄",
-    "description": "Savourez le contact rapproché en vous blottissant l'un contre l'autre dans le lit."
-  },
-  {
-    "id": "a5",
-    "title": "Douche à deux",
-    "category": "Cadre",
-    "icon": "🚿",
-    "description": "Prenez une douche chaude ensemble, lavez-vous les cheveux et profitez de l'intimité."
-  },
-  {
-    "id": "a6",
-    "title": "Jeu du bandeau",
-    "category": "Coquin",
-    "icon": "🕶️",
-    "description": "Bandez-vous les yeux à tour de rôle pour intensifier les sens et l'anticipation."
-  },
-  {
-    "id": "a7",
-    "title": "Chatouilles de plume",
-    "category": "Sensoriel",
-    "icon": "🪶",
-    "description": "Utilisez une plume ou un objet doux pour effleurer la peau de votre partenaire."
-  },
-  {
-    "id": "a8",
-    "title": "Jeu de cire",
-    "category": "Coquin",
-    "icon": "🕯️",
-    "description": "Faites couler de la cire tiède (bougies adaptées) pour une sensation épicée et ludique."
-  },
-  {
-    "id": "a9",
-    "title": "Scénario de jeu de rôles",
-    "category": "Fantaisie",
-    "icon": "🎭",
-    "description": "Incarnez d'autres personnages et inventez des histoires imaginatives ensemble."
-  },
-  {
-    "id": "a10",
-    "title": "Bain pour deux",
-    "category": "Cadre",
-    "icon": "🛁",
-    "description": "Prenez un bain moussant romantique avec bougies, musique douce et peut-être un verre de vin."
-  },
-  {
-    "id": "a11",
-    "title": "Échange de lettres d'amour",
-    "category": "Émotionnel",
-    "icon": "💌",
-    "description": "Écrivez et lisez des lettres touchantes pour renforcer votre lien."
-  },
-  {
-    "id": "a12",
-    "title": "Intimité matinale",
-    "category": "Moment",
-    "icon": "☀️",
-    "description": "Réveillez-vous doucement et profitez de légères caresses dès le matin."
-  },
-  {
-    "id": "a13",
-    "title": "Strip-tease du soir",
-    "category": "Ludique",
-    "icon": "👠",
-    "description": "Mettez une musique douce et faites un strip-tease lent et aguicheur pour votre partenaire."
-  },
-  {
-    "id": "a14",
-    "title": "Peinture comestible",
-    "category": "Coquin",
-    "icon": "🍫",
-    "description": "Utilisez de la peinture corporelle ou de la crème fouettée pour transformer votre partenaire en dessert."
-  },
-  {
-    "id": "a15",
-    "title": "Baiser en plein air",
-    "category": "Aventureux",
-    "icon": "🌲",
-    "description": "Trouvez un endroit discret dehors et partagez un long baiser passionné sous les étoiles."
-  },
-  {
-    "id": "a16",
-    "title": "Jeu de chatouilles",
-    "category": "Ludique",
-    "icon": "😜",
-    "description": "Chatouillez-vous doucement pour des rires et un rapprochement assuré."
-  },
-  {
-    "id": "a17",
-    "title": "Discussion intime",
-    "category": "Émotionnel",
-    "icon": "🧠",
-    "description": "Parlez ouvertement de ce que vous aimez ou aimeriez essayer ensemble."
-  },
-  {
-    "id": "a18",
-    "title": "Étirements à deux",
-    "category": "Physique",
-    "icon": "🤸‍♀️",
-    "description": "Faites du yoga en duo ou aidez-vous à vous étirer en douceur."
-  },
-  {
-    "id": "a19",
-    "title": "Forteresse d'oreillers",
-    "category": "Ludique",
-    "icon": "🛏️",
-    "description": "Construisez un fort d'oreillers, regardez un film et terminez par des câlins."
-  },
-  {
-    "id": "a20",
-    "title": "Jeu du miroir",
-    "category": "Coquin",
-    "icon": "🪞",
-    "description": "Utilisez un miroir pendant l'intimité pour plus de conscience de soi et de stimulation visuelle."
-  },
-  {
-    "id": "a21",
-    "title": "Surprise lingerie",
-    "category": "Séduction",
-    "icon": "🩲",
-    "description": "Portez une lingerie nouvelle ou osée et laissez votre partenaire la découvrir."
-  },
-  {
-    "id": "a22",
-    "title": "Jeu de glaçons",
-    "category": "Sensoriel",
-    "icon": "🧊",
-    "description": "Faites glisser doucement des glaçons sur la peau de votre partenaire pour éveiller les sensations."
-  },
-  {
-    "id": "a23",
-    "title": "Défi secret",
-    "category": "Jeu",
-    "icon": "🎯",
-    "description": "Osez-vous mutuellement avec des petits défis coquins par notes ou messages."
-  },
-  {
-    "id": "a24",
-    "title": "Déshabillage lent",
-    "category": "Ludique",
-    "icon": "🩳",
-    "description": "Déshabillez-vous l'un l'autre lentement en vous regardant dans les yeux."
-  },
-  {
-    "id": "a25",
-    "title": "Baisers passionnés",
-    "category": "Émotionnel",
-    "icon": "💋",
-    "description": "Explorez différentes sortes de baisers avec attention et intention."
-  },
-  {
-    "id": "a26",
-    "title": "Massage en musique",
-    "category": "Physique",
-    "icon": "🎶",
-    "description": "Créez une playlist relaxante et massez-vous avec des huiles ou des lotions."
-  },
-  {
-    "id": "a27",
-    "title": "Intimité silencieuse",
-    "category": "Émotionnel",
-    "icon": "🤫",
-    "description": "Partagez un moment de regard et de proximité sans parler."
-  },
-  {
-    "id": "a28",
-    "title": "Conte fantaisiste",
-    "category": "Imaginatif",
-    "icon": "📖",
-    "description": "Racontez tour à tour une histoire érotique ou romantique."
-  },
-  {
-    "id": "a29",
-    "title": "Mains liées",
-    "category": "Coquin",
-    "icon": "🪢",
-    "description": "Utilisez des liens doux ou des foulards pour jouer délicatement avec le pouvoir et la confiance."
-  },
-  {
-    "id": "a30",
-    "title": "Jeu des compliments",
-    "category": "Émotionnel",
-    "icon": "💗",
-    "description": "Échangez des compliments sincères avant de passer aux choses sérieuses."
-  },
-  {
-    "id": "a31",
-    "title": "Traçage dans le dos",
-    "category": "Sensoriel",
-    "icon": "🌬️",
-    "description": "Dessinez ou écrivez doucement sur le dos de votre partenaire avec vos doigts."
-  },
-  {
-    "id": "a32",
-    "title": "Ambiance tamisée",
-    "category": "Cadre",
-    "icon": "🕯️",
-    "description": "Installez une lumière douce ou des bougies pour une atmosphère plus sensuelle."
-  },
-  {
-    "id": "a33",
-    "title": "Adoration du corps",
-    "category": "Émotionnel",
+    "id": "gratitude_exchange",
+    "title": "Échange de Gratitude",
+    "category": "Communication",
     "icon": "🙏",
-    "description": "Célébrez verbalement le corps de votre partenaire en embrassant chaque partie nommée."
+    "description": "Partagez trois choses pour lesquelles vous êtes reconnaissant envers l'autre et pourquoi elles comptent pour vous"
   },
   {
-    "id": "a34",
-    "title": "Nouvelle position",
-    "category": "Aventureux",
-    "icon": "🔄",
-    "description": "Essayez ensemble une position trouvée dans un guide ou une application."
+    "id": "dream_planning",
+    "title": "Session de Planification des Rêves",
+    "category": "Construire l'Avenir",
+    "icon": "✨",
+    "description": "Parlez de vos rêves futurs ensemble - où vous voulez voyager, vivre ou ce que vous voulez accomplir"
   },
   {
-    "id": "a35",
-    "title": "Jouet à deux",
-    "category": "Coquin",
-    "icon": "🧸",
-    "description": "Introduisez un nouveau jouet intime et explorez-le ensemble avec curiosité."
-  },
-  {
-    "id": "a36",
-    "title": "Pique-nique au lit",
-    "category": "Cadre",
-    "icon": "🍓",
-    "description": "Préparez un petit pique-nique sur le lit avec collations, boissons et câlins."
-  },
-  {
-    "id": "a37",
-    "title": "Duo amoureux",
-    "category": "Ludique",
-    "icon": "🎤",
-    "description": "Chantez ou mimez en duo une chanson romantique — pourquoi pas en vidéo."
-  },
-  {
-    "id": "a38",
-    "title": "Mimer l'autre",
-    "category": "Jeu",
-    "icon": "🧍‍♀️🧍‍♂️",
-    "description": "Imitez tour à tour les gestes ou expressions de l'autre de façon amusante."
-  },
-  {
-    "id": "a39",
-    "title": "Devant le miroir",
-    "category": "Cadre",
-    "icon": "🪞",
-    "description": "Essayez des activités face au miroir pour gagner en confiance et connexion."
-  },
-  {
-    "id": "a40",
-    "title": "Tenue spéciale au lit",
-    "category": "Séduction",
-    "icon": "👗",
-    "description": "Portez quelque chose d'inhabituel ou d'élégant au lit pour surprendre votre partenaire."
-  },
-  {
-    "id": "a41",
-    "title": "Jeu du souffle",
-    "category": "Émotionnel",
-    "icon": "🌬️",
-    "description": "Synchronisez votre respiration en vous câlinant ou en faisant l'amour."
-  },
-  {
-    "id": "a42",
-    "title": "Changer de rôle",
-    "category": "Coquin",
-    "icon": "🎮",
-    "description": "Décidez qui mène puis inversez — lâchez prise et alternez les rôles."
-  },
-  {
-    "id": "a43",
-    "title": "Compte à rebours taquin",
-    "category": "Jeu",
-    "icon": "⏱️",
-    "description": "Réglez un minuteur pour les préliminaires — pas d'orgasme avant la sonnerie !"
-  },
-  {
-    "id": "a44",
-    "title": "Toucher silencieux",
-    "category": "Sensoriel",
-    "icon": "🤲",
-    "description": "Explorez-vous avec les mains en silence, sans parler."
-  },
-  {
-    "id": "a45",
-    "title": "Embrasser chaque parcelle",
-    "category": "Physique",
-    "icon": "👄",
-    "description": "Embrassez tour à tour chaque partie du corps de votre partenaire de la tête aux pieds."
-  },
-  {
-    "id": "a46",
-    "title": "Dés de l'amour",
-    "category": "Jeu",
-    "icon": "🎲",
-    "description": "Lancez un dé où chaque numéro correspond à un défi amusant."
-  },
-  {
-    "id": "a47",
-    "title": "Souvenir préféré",
-    "category": "Émotionnel",
+    "id": "memory_lane",
+    "title": "Promenade dans les Souvenirs",
+    "category": "Connexion",
     "icon": "📸",
-    "description": "Recréez votre moment ou rendez-vous romantique préféré."
+    "description": "Regardez ensemble de vieilles photos et partagez vos souvenirs préférés de votre relation"
   },
   {
-    "id": "a48",
-    "title": "Dessin nu",
-    "category": "Ludique",
+    "id": "cook_together",
+    "title": "Cuisiner une Nouvelle Recette Ensemble",
+    "category": "Temps de Qualité",
+    "icon": "👨‍🍳",
+    "description": "Choisissez une recette qu'aucun de vous n'a essayée et cuisinez-la ensemble de A à Z"
+  },
+  {
+    "id": "stargazing",
+    "title": "Soirée d'Observation des Étoiles",
+    "category": "Romance",
+    "icon": "⭐",
+    "description": "Trouvez un endroit calme, allongez-vous et discutez en regardant les étoiles"
+  },
+  {
+    "id": "question_game",
+    "title": "Jeu des 36 Questions",
+    "category": "Communication",
+    "icon": "❓",
+    "description": "Posez-vous à tour de rôle des questions significatives pour approfondir votre connexion"
+  },
+  {
+    "id": "handwritten_letter",
+    "title": "Écrire des Lettres d'Amour",
+    "category": "Romance",
+    "icon": "✉️",
+    "description": "Écrivez des lettres manuscrites l'un à l'autre exprimant vos sentiments et votre appréciation"
+  },
+  {
+    "id": "picnic_date",
+    "title": "Pique-nique au Coucher du Soleil",
+    "category": "Temps de Qualité",
+    "icon": "🧺",
+    "description": "Préparez un panier pique-nique et regardez le coucher du soleil ensemble dans un endroit pittoresque"
+  },
+  {
+    "id": "dance_class",
+    "title": "Apprendre à Danser",
+    "category": "Activité Amusante",
+    "icon": "💃",
+    "description": "Prenez un cours de danse ensemble ou regardez des tutoriels et pratiquez à la maison"
+  },
+  {
+    "id": "museum_visit",
+    "title": "Visite de Musée ou Galerie d'Art",
+    "category": "Culturel",
     "icon": "🎨",
-    "description": "Dessinez-vous l'un l'autre (habillés ou nus) — en mode coquin, pas besoin d'être parfait."
+    "description": "Visitez un musée ou une galerie d'art et discutez de ce que vous voyez et ressentez"
   },
   {
-    "id": "a49",
-    "title": "Nuit de fantasmes partagés",
-    "category": "Imaginatif",
-    "icon": "🌌",
-    "description": "Explorez ensemble un fantasme qui vous plaît, en toute sécurité."
+    "id": "hiking_adventure",
+    "title": "Randonnée Nature",
+    "category": "Aventure",
+    "icon": "🥾",
+    "description": "Faites une randonnée ensemble et profitez de la nature en discutant et en vous connectant"
   },
   {
-    "id": "a50",
-    "title": "Toucher discret en public",
-    "category": "Séduction",
-    "icon": "🫣",
-    "description": "Échangez des caresses coquines en toute discrétion lorsque personne ne regarde."
+    "id": "book_club",
+    "title": "Club de Lecture pour Couples",
+    "category": "Intellectuel",
+    "icon": "📚",
+    "description": "Lisez le même livre et discutez-en ensemble, en partageant vos pensées et perspectives"
   },
   {
-    "id": "a51",
-    "title": "Strip devant le miroir",
-    "category": "Coquin",
-    "icon": "🪞",
-    "description": "Déshabillez-vous tour à tour devant un miroir en gardant le contact visuel."
+    "id": "volunteer_together",
+    "title": "Faire du Bénévolat Ensemble",
+    "category": "Donner en Retour",
+    "icon": "🤝",
+    "description": "Trouvez une cause qui vous tient à cœur à tous les deux et faites du bénévolat ensemble"
   },
   {
-    "id": "a52",
-    "title": "Jeu de rôle à l'hôtel",
-    "category": "Fantaisie",
-    "icon": "🏨",
-    "description": "Faites comme si vous étiez des inconnus se retrouvant à l'hôtel pour une nuit secrète."
+    "id": "morning_ritual",
+    "title": "Rituel du Café Matinal",
+    "category": "Connexion Quotidienne",
+    "icon": "☕",
+    "description": "Réveillez-vous 15 minutes plus tôt pour prendre un café/thé ensemble et parler de votre journée à venir"
   },
   {
-    "id": "a53",
-    "title": "Défi de surstimulation",
-    "category": "Coquin",
-    "icon": "⚡️",
-    "description": "Jouez avec le plaisir continu et les taquineries jusqu'à ce que l'un demande une pause — établissez un mot de sécurité."
+    "id": "playlist_exchange",
+    "title": "Créer des Playlists l'un pour l'Autre",
+    "category": "Créatif",
+    "icon": "🎵",
+    "description": "Créez des playlists de chansons qui vous rappellent l'un l'autre et écoutez ensemble"
   },
   {
-    "id": "a54",
-    "title": "Danse au clair de lune",
-    "category": "Romantique",
-    "icon": "🌙",
-    "description": "Dansez sous la lune, même juste devant chez vous ou sur un balcon."
+    "id": "game_night",
+    "title": "Soirée Jeux de Société",
+    "category": "Activité Amusante",
+    "icon": "🎲",
+    "description": "Jouez à des jeux de société ou de cartes ensemble - compétitifs ou coopératifs"
   },
   {
-    "id": "a55",
-    "title": "Défi des 100 baisers",
-    "category": "Émotionnel",
-    "icon": "💋",
-    "description": "Essayez de vous donner 100 baisers sur tout le corps — comptez et riez ensemble."
+    "id": "farmers_market",
+    "title": "Visite du Marché Fermier",
+    "category": "Temps de Qualité",
+    "icon": "🍓",
+    "description": "Visitez un marché fermier local ensemble et choisissez des ingrédients frais pour un repas"
   },
   {
-    "id": "a56",
-    "title": "Fantaisie future",
-    "category": "Imaginatif",
-    "icon": "🌠",
-    "description": "Allongez-vous ensemble et imaginez votre vie idéale, voyages, enfants, fantasmes — parlez librement."
+    "id": "photo_challenge",
+    "title": "Défi Photo",
+    "category": "Créatif",
+    "icon": "📷",
+    "description": "Alternez entre le photographe et le modèle, capturant des moments amusants et significatifs"
   },
   {
-    "id": "a57",
-    "title": "Position du lotus",
-    "category": "Position",
-    "icon": "🪷",
-    "description": "Asseyez-vous face à face, jambes croisées et enlacées, en vous regardant profondément."
-  },
-  {
-    "id": "a58",
-    "title": "Balade en chaise",
-    "category": "Position",
-    "icon": "🪑",
-    "description": "Utilisez une chaise solide pour une intimité assise — plus proche et un angle différent."
-  },
-  {
-    "id": "a59",
-    "title": "Debout sous la douche",
-    "category": "Position",
-    "icon": "🚿",
-    "description": "Restez debout dans la douche en vous tenant l'un l'autre pendant que l'eau amplifie les sensations."
-  },
-  {
-    "id": "a60",
-    "title": "Strip poker ou Uno",
-    "category": "Jeu",
-    "icon": "🃏",
-    "description": "Jouez aux cartes avec une touche sexy — chaque défaite fait enlever un vêtement."
-  },
-  {
-    "id": "a61",
-    "title": "Habille-moi sexy",
-    "category": "Séduction",
-    "icon": "👙",
-    "description": "Choisissez la tenue la plus sexy pour votre partenaire — à retirer plus tard."
-  },
-  {
-    "id": "a62",
-    "title": "Appelle-moi",
-    "category": "Fantaisie",
-    "icon": "📱",
-    "description": "Envoyez-vous des messages ou notes vocales torrides dans la journée pour faire monter le désir."
-  },
-  {
-    "id": "a63",
-    "title": "Jeu des températures",
-    "category": "Sensoriel",
-    "icon": "🌡️",
-    "description": "Alternez sensations chaudes et froides avec huile chauffée ou glace."
-  },
-  {
-    "id": "a64",
-    "title": "Soirée audio érotique",
-    "category": "Imaginatif",
-    "icon": "🎧",
-    "description": "Écoutez ensemble des histoires audio érotiques ou romantiques pour inspirer votre nuit."
-  },
-  {
-    "id": "a65",
-    "title": "Carte du corps",
-    "category": "Sensoriel",
-    "icon": "🗺️",
-    "description": "Explorez le corps de l'autre les yeux bandés, en découvrant de nouvelles zones sensibles."
-  },
-  {
-    "id": "a66",
-    "title": "Câlin paresseux",
-    "category": "Position",
-    "icon": "🛌",
-    "description": "Restez enlacés sous la couette et laissez l'intimité venir naturellement par derrière."
-  },
-  {
-    "id": "a67",
-    "title": "Réveil face à face",
-    "category": "Position",
-    "icon": "🌞",
-    "description": "Allongez-vous côte à côte, face à face, pour des baisers matinaux et une connexion lente."
-  },
-  {
-    "id": "a68",
-    "title": "Cowgirl du matin",
-    "category": "Position",
-    "icon": "🐎",
-    "description": "L'un reste allongé pendant que l'autre mène doucement la danse."
-  },
-  {
-    "id": "a69",
-    "title": "Surprise sous la couette",
-    "category": "Moment",
-    "icon": "🫣",
-    "description": "Réveillez votre partenaire avec de tendres caresses sous la couverture, sans un mot."
-  },
-  {
-    "id": "a70",
-    "title": "Étirement au bord du lit",
-    "category": "Physique",
+    "id": "meditation_together",
+    "title": "Méditation de Couple",
+    "category": "Bien-être",
     "icon": "🧘",
-    "description": "L'un est allongé au bord du lit pendant que l'autre se met à genoux ou debout — paresseux mais intense."
+    "description": "Pratiquez la méditation ou des exercices de respiration ensemble pour vous connecter en pleine conscience"
   },
   {
-    "id": "a71",
-    "title": "Missionnaire avec vue",
-    "category": "Romantique",
+    "id": "movie_marathon",
+    "title": "Marathon de Films",
+    "category": "Détente",
+    "icon": "🎬",
+    "description": "Choisissez une série de films ou un thème et faites un marathon de films confortable avec des collations"
+  },
+  {
+    "id": "language_learning",
+    "title": "Apprendre une Langue Ensemble",
+    "category": "Intellectuel",
+    "icon": "🗣️",
+    "description": "Commencez à apprendre une nouvelle langue ensemble en utilisant une application ou des vidéos"
+  },
+  {
+    "id": "budget_planning",
+    "title": "Planification des Objectifs Financiers",
+    "category": "Construire l'Avenir",
+    "icon": "💰",
+    "description": "Asseyez-vous ensemble et discutez de vos objectifs financiers et de vos rêves pour l'avenir"
+  },
+  {
+    "id": "podcast_discussion",
+    "title": "Podcast et Discussion",
+    "category": "Intellectuel",
+    "icon": "🎙️",
+    "description": "Écoutez un épisode de podcast ensemble et discutez de vos pensées par la suite"
+  },
+  {
+    "id": "breakfast_in_bed",
+    "title": "Petit-déjeuner Surprise au Lit",
+    "category": "Romance",
+    "icon": "🥞",
+    "description": "Réveillez-vous tôt et surprenez votre partenaire avec son petit-déjeuner préféré"
+  },
+  {
+    "id": "bike_ride",
+    "title": "Balade à Vélo Pittoresque",
+    "category": "Aventure",
+    "icon": "🚴",
+    "description": "Faites une balade à vélo ensemble en explorant de nouveaux quartiers ou des routes pittoresques"
+  },
+  {
+    "id": "goals_vision_board",
+    "title": "Créer un Tableau de Vision",
+    "category": "Construire l'Avenir",
+    "icon": "🎯",
+    "description": "Créez un tableau de vision ensemble avec vos objectifs et rêves partagés pour l'avenir"
+  },
+  {
+    "id": "spa_night",
+    "title": "Soirée Spa à la Maison",
+    "category": "Détente",
+    "icon": "🛁",
+    "description": "Créez une expérience spa relaxante à la maison avec des masques, des bougies et des massages"
+  },
+  {
+    "id": "karaoke_night",
+    "title": "Soirée Karaoké",
+    "category": "Activité Amusante",
+    "icon": "🎤",
+    "description": "Faites une session de karaoké à la maison ou allez dans un bar karaoké et chantez ensemble"
+  },
+  {
+    "id": "workshop_class",
+    "title": "Suivre un Atelier Ensemble",
+    "category": "Apprentissage",
+    "icon": "🎓",
+    "description": "Inscrivez-vous à un atelier de poterie, de peinture ou de cuisine et apprenez quelque chose de nouveau ensemble"
+  },
+  {
+    "id": "device_free_evening",
+    "title": "Soirée Sans Écrans",
+    "category": "Connexion",
+    "icon": "📵",
+    "description": "Rangez tous les appareils pour une soirée et concentrez-vous complètement l'un sur l'autre"
+  },
+  {
+    "id": "sunrise_watching",
+    "title": "Regarder le Lever du Soleil",
+    "category": "Romance",
     "icon": "🌅",
-    "description": "Ouvrez les rideaux, laissez entrer la lumière du matin et savourez-vous en vous regardant."
+    "description": "Réveillez-vous tôt ensemble et regardez le lever du soleil en ayant une conversation significative"
   },
   {
-    "id": "a72",
-    "title": "Enjambée endormie",
-    "category": "Position",
-    "icon": "🦋",
-    "description": "Enjambez doucement votre partenaire encore endormi pour le chevaucher tendrement."
+    "id": "appreciation_jar",
+    "title": "Commencer un Bocal d'Appréciation",
+    "category": "Communication",
+    "icon": "💝",
+    "description": "Écrivez des notes sur ce que vous appréciez l'un chez l'autre et mettez-les dans un bocal à lire plus tard"
   },
   {
-    "id": "a73",
-    "title": "Préliminaires à demi réveillés",
-    "category": "Moment",
-    "icon": "⏰",
-    "description": "Explorez-vous doucement avant d'être tout à fait réveillés."
+    "id": "trivia_night",
+    "title": "Défi Trivia",
+    "category": "Activité Amusante",
+    "icon": "🧠",
+    "description": "Testez vos connaissances avec des jeux de trivia l'un sur l'autre ou sur des sujets généraux"
   },
   {
-    "id": "a74",
-    "title": "Jeu d'haleine matinale",
-    "category": "Ludique",
-    "icon": "😮‍💨",
-    "description": "Taquinez-vous sur votre haleine du matin en riant, puis embrassez-vous."
+    "id": "couples_yoga",
+    "title": "Session de Yoga en Couple",
+    "category": "Bien-être",
+    "icon": "🧘‍♀️",
+    "description": "Essayez des poses de yoga en couple ensemble pour renforcer la confiance et la connexion physique"
   },
   {
-    "id": "a75",
-    "title": "Position rayon de soleil",
-    "category": "Romantique",
-    "icon": "☀️",
-    "description": "Déplacez-vous là où la lumière du matin touche le lit et faites l'amour dans ce point doré."
+    "id": "handmade_gift",
+    "title": "Créer des Cadeaux Faits Main",
+    "category": "Créatif",
+    "icon": "🎁",
+    "description": "Créez des cadeaux faits main l'un pour l'autre - artisanat, art ou quelque chose de significatif"
+  },
+  {
+    "id": "comedy_show",
+    "title": "Spectacle de Comédie ou Stand-up",
+    "category": "Divertissement",
+    "icon": "😂",
+    "description": "Regardez un spectacle de comédie ou de stand-up ensemble et riez"
+  },
+  {
+    "id": "plant_together",
+    "title": "Planter un Jardin Ensemble",
+    "category": "Nature",
+    "icon": "🌱",
+    "description": "Plantez des fleurs, des herbes ou des légumes ensemble et regardez-les grandir"
+  },
+  {
+    "id": "childhood_stories",
+    "title": "Partager des Histoires d'Enfance",
+    "category": "Communication",
+    "icon": "👶",
+    "description": "Racontez à tour de rôle des histoires de votre enfance et regardez de vieilles photos"
+  },
+  {
+    "id": "bucket_list",
+    "title": "Créer une Liste de Souhaits",
+    "category": "Construire l'Avenir",
+    "icon": "📝",
+    "description": "Créez une liste de souhaits de couple des expériences que vous voulez vivre ensemble"
+  },
+  {
+    "id": "themed_dinner",
+    "title": "Soirée Dîner à Thème",
+    "category": "Temps de Qualité",
+    "icon": "🍽️",
+    "description": "Choisissez un pays ou un thème et créez une expérience de dîner complète autour de cela"
+  },
+  {
+    "id": "couples_journal",
+    "title": "Commencer un Journal de Couple",
+    "category": "Communication",
+    "icon": "📔",
+    "description": "Tenez un journal partagé où vous écrivez tous les deux vos pensées, souvenirs et messages"
+  },
+  {
+    "id": "scavenger_hunt",
+    "title": "Créer une Chasse au Trésor",
+    "category": "Activité Amusante",
+    "icon": "🔍",
+    "description": "Concevez une chasse au trésor pour votre partenaire avec des indices menant à des lieux ou objets significatifs"
+  },
+  {
+    "id": "wine_tasting",
+    "title": "Dégustation de Vin ou de Thé",
+    "category": "Temps de Qualité",
+    "icon": "🍷",
+    "description": "Faites une expérience de dégustation à la maison ou visitez un vignoble ou un salon de thé local"
+  },
+  {
+    "id": "relationship_check_in",
+    "title": "Bilan de Relation",
+    "category": "Communication",
+    "icon": "💞",
+    "description": "Ayez une conversation honnête sur votre relation - ce qui fonctionne et ce qui nécessite de l'attention"
+  },
+  {
+    "id": "outdoor_concert",
+    "title": "Concert en Plein Air ou Événement Musical",
+    "category": "Divertissement",
+    "icon": "🎶",
+    "description": "Assistez à un concert en plein air, un festival de musique ou un événement de musique live ensemble"
+  },
+  {
+    "id": "recreate_first_date",
+    "title": "Recréer Votre Premier Rendez-vous",
+    "category": "Romance",
+    "icon": "💕",
+    "description": "Retournez à l'endroit où vous avez eu votre premier rendez-vous et recréez l'expérience"
+  },
+  {
+    "id": "diy_project",
+    "title": "Projet DIY pour la Maison",
+    "category": "Créatif",
+    "icon": "🔨",
+    "description": "Travaillez sur un projet DIY ensemble pour améliorer votre espace de vie"
+  },
+  {
+    "id": "campfire_stories",
+    "title": "Soirée Feu de Camp",
+    "category": "Aventure",
+    "icon": "🔥",
+    "description": "Faites un feu de camp (ou utilisez des bougies) et partagez des histoires, faites griller des guimauves et connectez-vous"
+  },
+  {
+    "id": "values_discussion",
+    "title": "Discuter de Vos Valeurs",
+    "category": "Communication",
+    "icon": "💭",
+    "description": "Parlez de vos valeurs fondamentales et de ce qui compte le plus pour chacun de vous dans la vie"
   }
 ]

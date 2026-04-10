@@ -1,0 +1,266 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-09",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Je me sens le plus aimé(e) quand mon partenaire...",
+      "options": [
+        {
+          "text": "Me dit qu'il/elle m'aime et m'apprécie",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Passe du temps de qualité avec moi sans distraction",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "M'offre des cadeaux réfléchis",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Fait des choses utiles pour moi",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "Me fait un câlin, m'embrasse ou me tient la main",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Qu'est-ce qui me fait me sentir proche de mon partenaire ?",
+      "options": [
+        {
+          "text": "Avoir des conversations profondes",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Faire des activités ensemble",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Recevoir des compliments",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Obtenir de l'aide pour les tâches",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "L'affection physique",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Je me sens apprécié(e) quand...",
+      "options": [
+        {
+          "text": "Mon partenaire m'aide avec mes responsabilités",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "Mon partenaire m'écoute",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Je reçois un cadeau significatif",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Nous passons du temps ensemble sans interruption",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Nous montrons de l'affection physique",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Une journée parfaite avec mon partenaire inclurait...",
+      "options": [
+        {
+          "text": "Une aventure ensemble dans un nouvel endroit",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Recevoir un cadeau surprise",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Entendre des mots d'encouragement",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Obtenir de l'aide pour quelque chose que je reporte",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "Beaucoup de câlins et de contact physique",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Qu'est-ce qui me blesse le plus ?",
+      "options": [
+        {
+          "text": "Les mots blessants ou durs",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Ne pas passer assez de temps ensemble",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Oublier les occasions spéciales",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Ne pas aider quand j'en ai besoin",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "Le manque d'affection physique",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Je me sens en sécurité dans ma relation quand...",
+      "options": [
+        {
+          "text": "Nous sommes physiquement proches",
+          "languageId": "physical_touch"
+        },
+        {
+          "text": "Mon partenaire me dit que je suis important(e) pour lui/elle",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Nous faisons des choses ensemble régulièrement",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Je reçois des surprises réfléchies",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Mon partenaire m'aide quand je me sens dépassé(e)",
+          "languageId": "acts_of_service"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Le meilleur cadeau que mon partenaire puisse me faire est...",
+      "options": [
+        {
+          "text": "Quelque chose qu'il/elle sait que je voulais",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Son attention complète",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Des mots d'amour et d'appréciation",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "De l'aide pour quelque chose que je redoutais",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "Un câlin long et chaleureux",
+          "languageId": "physical_touch"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Je me sens déconnecté(e) quand...",
+      "options": [
+        {
+          "text": "Nous ne passons pas de temps significatif ensemble",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Il y a peu d'affection physique",
+          "languageId": "physical_touch"
+        },
+        {
+          "text": "Je n'entends pas de mots rassurants",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Il/elle n'oublie pas les dates importantes",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Il/elle ne m'aide pas quand j'en ai besoin",
+          "languageId": "acts_of_service"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Qu'est-ce qui me fait me sentir le plus apprécié(e) ?",
+      "options": [
+        {
+          "text": "Quand mon partenaire fait des choses pour faciliter ma vie",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "Quand je reçois un cadeau réfléchi",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Quand mon partenaire me fait un câlin",
+          "languageId": "physical_touch"
+        },
+        {
+          "text": "Quand mon partenaire me dit que je suis important(e)",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "Quand nous avons des conversations significatives",
+          "languageId": "quality_time"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "La façon la plus significative de montrer l'amour est...",
+      "options": [
+        {
+          "text": "Offrir des cadeaux significatifs qui montrent l'attention",
+          "languageId": "receiving_gifts"
+        },
+        {
+          "text": "Passer du temps concentré ensemble",
+          "languageId": "quality_time"
+        },
+        {
+          "text": "Aider avec les tâches quotidiennes",
+          "languageId": "acts_of_service"
+        },
+        {
+          "text": "Dire des mots d'amour et d'encouragement",
+          "languageId": "words_of_affirmation"
+        },
+        {
+          "text": "La proximité physique et le toucher",
+          "languageId": "physical_touch"
+        }
+      ]
+    }
+  ]
+}

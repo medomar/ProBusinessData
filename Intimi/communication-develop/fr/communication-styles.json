@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-09",
+  "communicationStyles": [
+    {
+      "id": "direct",
+      "label": "Direct",
+      "description": "Je communique clairement et directement"
+    },
+    {
+      "id": "indirect",
+      "label": "Indirect",
+      "description": "Je préfère les allusions subtiles et les implications"
+    },
+    {
+      "id": "expressive",
+      "label": "Expressif",
+      "description": "Je partage ouvertement mes émotions et mes sentiments"
+    },
+    {
+      "id": "reserved",
+      "label": "Réservé",
+      "description": "Je garde mes pensées plus privées"
+    }
+  ],
+  "conflictResolutionStyles": [
+    {
+      "id": "avoidant",
+      "label": "Éviter",
+      "description": "Je préfère prendre du recul et me calmer d'abord"
+    },
+    {
+      "id": "collaborative",
+      "label": "Collaborer",
+      "description": "Je veux résoudre le problème ensemble immédiatement"
+    }
+  ]
+}
